@@ -49,7 +49,7 @@
     <term><parameter>var</parameter></term>
     <listitem>
      <simpara>
-      La variable à stocker. Les chaines et les entiers sont stockés tel quels,
+      La variable à stocker. Les chaînes et les entiers sont stockés tel quels,
       les autres types sont sérialisés.
      </simpara>
     </listitem>

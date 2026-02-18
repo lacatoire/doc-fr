@@ -83,7 +83,7 @@
 ]]>
     </programlisting>
    </informalexample>
-   La fonction <function>preg_quote</function> peut être utilisée pour échapper une chaine 
+   La fonction <function>preg_quote</function> peut être utilisée pour échapper une chaîne 
    et l'utiliser dans un motif. Son second paramètre optionnel sert à spécifier le délimiteur
    qui doit être échappé.
   </para>
@@ -1612,13 +1612,13 @@
      Localiser un ensemble d'alternatives. Par exemple, le motif
      <literal>cat(aract|erpillar|)</literal> trouve un des mots "cat",
      "cataract", ou "caterpillar". Sans les parenthèses, cela trouverait
-     "cataract", "erpillar" ou la chaine vide.
+     "cataract", "erpillar" ou la chaîne vide.
     </para>
    </listitem>
    <listitem>
     <para>
      Cela configure le sous-masque comme capturant. Lorsque tout le motif
-     correspond, la portion de la sous-chaine qui correspond au sous-masque
+     correspond, la portion de la sous-chaîne qui correspond au sous-masque
      est passé à l'appelant grâce à l'argument <emphasis>ovector</emphasis>
      de <function>pcre_exec</function>. Les parenthèses ouvrantes sont comptées
      depuis la gauche vers la droite (commençant à 1) jusqu'à obtenir le nombre
@@ -1690,7 +1690,7 @@
    les sous groupes dans une expression régulière. Normalement, chacun recevra son
    propre nombre de références arrière même si seulement un d'entre eux ne peut
    correspondre. Pour éviter cela, la syntaxe <literal>(?|</literal> permet d'autoriser
-   les nombres dupliqués. Soit l'expression ci-après utilisée avec la chaine
+   les nombres dupliqués. Soit l'expression ci-après utilisée avec la chaîne
    <literal>Sunday</literal>:
   </para>
 
