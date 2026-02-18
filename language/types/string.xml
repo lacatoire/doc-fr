@@ -5,7 +5,7 @@
  <title>Chaînes</title>
 
  <para>
-  Une <type>chaîne</type> est une série de caractères, où un caractère est
+  Une <type>string</type> est une série de caractères, où un caractère est
   le même qu'un octet. Cela signifie que PHP ne prend en charge qu'un ensemble
   de 256 caractères, et n'offre donc pas de prise en charge native de l'Unicode. Voir
   <link linkend="language.types.string.details">les détails du type chaîne</link>.
@@ -13,7 +13,7 @@
 
  <note>
   <simpara>
-   Sur les versions 32 bits, une <type>chaîne</type> peut être aussi grande que 2 Go
+   Sur les versions 32 bits, une <type>string</type> peut être aussi grande que 2 Go
    (2147483647 octets maximum)
   </simpara>
  </note>
@@ -22,7 +22,7 @@
   <title>Syntaxe</title>
 
   <para>
-   Une <type>chaîne</type> littérale peut être spécifiée de quatre manières différentes :
+   Une <type>string</type> littérale peut être spécifiée de quatre manières différentes :
   </para>
 
   <itemizedlist>
@@ -52,7 +52,7 @@
    <title>Entre guillemets simples</title>
 
    <para>
-    La manière la plus simple de spécifier une <type>chaîne</type> est de l'encadrer de guillemets
+    La manière la plus simple de spécifier une <type>string</type> est de l'encadrer de guillemets
     simples (le caractère <literal>'</literal>).
    </para>
 
@@ -71,7 +71,7 @@
      et <link linkend="language.types.string.syntax.heredoc">syntaxes heredoc</link>,
      les <link linkend="language.variables">variables</link> et les séquences d'échappement
      pour les caractères spéciaux <emphasis>ne</emphasis> seront <emphasis>pas</emphasis> étendues
-     lorsqu'elles se trouvent dans des <type>chaînes</type> entre guillemets simples.
+     lorsqu'elles se trouvent dans des <type>string</type>s entre guillemets simples.
     </simpara>
    </note>
 
@@ -111,7 +111,7 @@ echo 'Les variables ne $s\'étendent pas $non plus', PHP_EOL;
    <title>Entre guillemets doubles</title>
 
    <para>
-    Si la <type>chaîne</type> est encadrée de guillemets doubles (<literal>"</literal>), PHP interprétera
+    Si la <type>string</type> est encadrée de guillemets doubles (<literal>"</literal>), PHP interprétera
     les séquences d'échappement suivantes pour les caractères spéciaux :
    </para>
 
@@ -191,12 +191,12 @@ echo 'Les variables ne $s\'étendent pas $non plus', PHP_EOL;
     </tgroup>
    </table>
 <para>
-    Comme pour les <type>chaînes</type> entre guillemets simples, échapper tout autre caractère
+    Comme pour les <type>string</type>s entre guillemets simples, échapper tout autre caractère
     entraînera également l'impression de l'antislash.
 </para>
 
 <para>
-    La caractéristique la plus importante des <type>chaînes</type> entre guillemets doubles est le fait
+    La caractéristique la plus importante des <type>string</type>s entre guillemets doubles est le fait
     que les noms de variables seront étendus. Voir
     <link linkend="language.types.string.parsing">l'interpolation de chaînes</link> pour
     plus de détails.
@@ -207,9 +207,9 @@ echo 'Les variables ne $s\'étendent pas $non plus', PHP_EOL;
    <title>Heredoc</title>
 
    <simpara>
-    Une troisième manière de délimiter les <type>chaînes</type> est la syntaxe heredoc :
+    Une troisième manière de délimiter les <type>string</type>s est la syntaxe heredoc :
     <literal>&lt;&lt;&lt;</literal>. Après cet opérateur, un identifiant est
-    fourni, puis une nouvelle ligne. La <type>chaîne</type> elle-même suit, puis
+    fourni, puis une nouvelle ligne. La <type>string</type> elle-même suit, puis
     le même identifiant à nouveau pour fermer la citation.
    </simpara>
 
@@ -672,7 +672,7 @@ EOT;
    <title>Interpolation de chaînes</title>
 
    <simpara>
-    Lorsqu'une <type>chaîne</type> est spécifiée entre guillemets doubles ou avec heredoc,
+    Lorsqu'une <type>string</type> est spécifiée entre guillemets doubles ou avec heredoc,
     des <link linkend="language.variables">variables</link> peuvent être substituées à l'intérieur.
    </simpara>
 
@@ -680,7 +680,7 @@ EOT;
     Il existe deux types de syntaxe : une
     <link linkend="language.types.string.parsing.basic">de base</link> et une
     <link linkend="language.types.string.parsing.advanced">avancée</link>.
-    La syntaxe de base est la plus courante et la plus pratique. Elle offre un moyen d'incorporer une variable, une valeur <type>tableau</type> ou une propriété <type>objet</type> dans une <type>chaîne</type> avec un minimum d'effort.
+    La syntaxe de base est la plus courante et la plus pratique. Elle offre un moyen d'incorporer une variable, une valeur <type>array</type> ou une propriété <type>object</type> dans une <type>string</type> avec un minimum d'effort.
    </simpara>
 
    <sect4 xml:id="language.types.string.parsing.basic">
@@ -893,9 +893,9 @@ Changer le caractère à l'indice -3 en o donne strong.
     <simpara>
      Toute variable scalaire, élément de tableau ou propriété d'objet
      (<modifier>statique</modifier> ou non) avec une représentation
-     <type>chaîne</type> peut être incluse via cette syntaxe.
+     <type>string</type> peut être incluse via cette syntaxe.
      L'expression est écrite de la même manière que celle qui apparaîtrait en dehors de la
-     <type>chaîne</type>, puis entourée de <literal>{</literal> et
+     <type>string</type>, puis entourée de <literal>{</literal> et
      <literal>}</literal>. Étant donné que <literal>{</literal> ne peut pas être échappé, cette
      syntaxe ne sera reconnue que lorsque le <literal>$</literal> suit immédiatement le
      <literal>{</literal>. Utilisez <literal>{\$</literal> pour obtenir un
@@ -976,11 +976,11 @@ echo "C:\\directory\\{$great}.txt";
    <title>Accès et modification de chaîne par caractère</title>
 
    <para>
-    Les caractères dans les <type>chaînes</type> peuvent être accédés et modifiés en
+    Les caractères dans les <type>string</type>s peuvent être accédés et modifiés en
     spécifiant l'offset basé sur zéro du caractère souhaité après la
-    <type>chaîne</type> à l'aide de crochets <type>array</type>, comme dans
-    <varname>$str[42]</varname>. Pensez à une <type>chaîne</type> comme à un
-    <type>tableau</type> de caractères à cette fin. Les fonctions
+    <type>string</type> à l'aide de crochets <type>array</type>, comme dans
+    <varname>$str[42]</varname>. Pensez à une <type>string</type> comme à un
+    <type>array</type> de caractères à cette fin. Les fonctions
     <function>substr</function> et <function>substr_replace</function>
     peuvent être utilisées lorsque vous souhaitez extraire ou remplacer plus d'un caractère.
    </para>
@@ -997,7 +997,7 @@ echo "C:\\directory\\{$great}.txt";
 
    <note>
     <simpara>
-     Avant PHP 8.0.0, les <type>chaînes</type> pouvaient également être accédées en utilisant des accolades, comme dans
+     Avant PHP 8.0.0, les <type>string</type>s pouvaient également être accédées en utilisant des accolades, comme dans
      <varname>$str{42}</varname>, pour le même objectif.
      Cette syntaxe de accolades a été dépréciée depuis PHP 7.4.0 et n'est plus prise en charge depuis PHP 8.0.0.
     </simpara>
@@ -1132,14 +1132,14 @@ string(1) "b"
   <title>Fonctions et opérateurs utiles</title>
 
   <para>
-   Les <type>chaînes</type> peuvent être concaténées à l'aide de l'opérateur '.' (point). Notez
+   Les <type>string</type>s peuvent être concaténées à l'aide de l'opérateur '.' (point). Notez
    que l'opérateur '+' (addition) ne fonctionnera <emphasis>pas</emphasis> pour cela.
    Consultez <link linkend="language.operators.string">les opérateurs de chaîne</link> pour
    plus d'informations.
   </para>
 
   <para>
-   Il existe plusieurs fonctions utiles pour la manipulation des <type>chaînes</type>.
+   Il existe plusieurs fonctions utiles pour la manipulation des <type>string</type>s.
   </para>
 
   <simpara>
@@ -1164,27 +1164,27 @@ string(1) "b"
   <title>Conversion en chaîne</title>
 
   <para>
-   Une valeur peut être convertie en <type>chaîne</type> à l'aide du
+   Une valeur peut être convertie en <type>string</type> à l'aide du
    cast <literal>(string)</literal> ou de la fonction <function>strval</function>.
-   La conversion en <type>chaîne</type> est effectuée automatiquement dans le contexte d'une
-   expression où une <type>chaîne</type> est nécessaire. Cela se produit lors de l'utilisation des
+   La conversion en <type>string</type> est effectuée automatiquement dans le contexte d'une
+   expression où une <type>string</type> est nécessaire. Cela se produit lors de l'utilisation des
    fonctions <function>echo</function> ou <function>print</function>, ou lorsque
-   une variable est comparée à une <type>chaîne</type>. Les sections sur
+   une variable est comparée à une <type>string</type>. Les sections sur
    <link linkend="language.types">Types</link> et
    <link linkend="language.types.type-juggling">Type Juggling</link> clarifieront
    ce qui suit. Voir également la fonction <function>settype</function>.
   </para>
 
   <para>
-   Une valeur <type>bool</type> &true; est convertie en la <type>chaîne</type>
+   Une valeur <type>bool</type> &true; est convertie en la <type>string</type>
    <literal>"1"</literal>. La <type>bool</type> &false; est convertie en
    <literal>""</literal> (la chaîne vide). Cela permet une conversion aller-retour entre
-   les valeurs <type>bool</type> et <type>chaîne</type>.
+   les valeurs <type>bool</type> et <type>string</type>.
   </para>
 
   <para>
    Un <type>int</type> ou <type>float</type> est converti en une
-   <type>chaîne</type> représentant le nombre textuellement (y compris la
+   <type>string</type> représentant le nombre textuellement (y compris la
    partie exponentielle pour les <type>float</type>). Les nombres à virgule flottante peuvent être
    convertis à l'aide de la notation exponentielle (<literal>4.1E+6</literal>).
   </para>
@@ -1199,26 +1199,26 @@ string(1) "b"
   </note>
 
   <para>
-   Les <type>tableaux</type> sont toujours convertis en la <type>chaîne</type>
+   Les <type>array</type>s sont toujours convertis en la <type>string</type>
    <literal>"Array"</literal>; de ce fait, <function>echo</function> et
    <function>print</function> ne peuvent pas à eux seuls afficher le contenu d'un
-   <type>tableau</type>. Pour afficher un seul élément, utilisez une construction telle que
+   <type>array</type>. Pour afficher un seul élément, utilisez une construction telle que
    <literal>echo $arr['foo']</literal>. Consultez ci-dessous des conseils sur la visualisation de tout le contenu.
   </para>
 
   <para>
-   Afin de convertir des <type>objets</type> en <type>chaînes</type>, la méthode magique
+   Afin de convertir des <type>object</type>s en <type>string</type>s, la méthode magique
    <link linkend="language.oop5.magic">__toString</link> doit être utilisée.
   </para>
 
   <para>
-   Les <type>ressources</type> sont toujours converties en <type>chaînes</type> avec la
+   Les <type>resource</type>s sont toujours converties en <type>string</type>s avec la
    structure <literal>"Resource id #1"</literal>, où <literal>1</literal>
-   est le numéro de ressource attribué au <type>ressource</type> par PHP à
+   est le numéro de ressource attribué à la <type>resource</type> par PHP à
    l'exécution. Bien que la structure exacte de cette chaîne ne doive pas être considérée comme
    fiable et soit sujette à changement, elle sera toujours unique pour une ressource donnée
    pendant la durée d'exécution d'un script (c'est-à-dire une requête Web ou un processus CLI)
-   et ne sera pas réutilisée. Pour obtenir le type d'une <type>ressource</type>, utilisez
+   et ne sera pas réutilisée. Pour obtenir le type d'une <type>resource</type>, utilisez
    la fonction <function>get_resource_type</function>.
   </para>
 
@@ -1227,15 +1227,15 @@ string(1) "b"
   </para>
 
   <para>
-   Comme indiqué ci-dessus, convertir directement un <type>tableau</type>,
-   un <type>objet</type> ou une <type>ressource</type> en <type>chaîne</type> ne fournit
+   Comme indiqué ci-dessus, convertir directement un <type>array</type>,
+   un <type>object</type> ou une <type>resource</type> en <type>string</type> ne fournit
    pas d'informations utiles sur la valeur au-delà de son type. Consultez les fonctions
    <function>print_r</function> et <function>var_dump</function> pour
    des moyens plus efficaces d'inspecter le contenu de ces types.
   </para>
 
   <para>
-   La plupart des valeurs PHP peuvent également être converties en <type>chaînes</type> pour un stockage permanent.
+   La plupart des valeurs PHP peuvent également être converties en <type>string</type>s pour un stockage permanent.
    Cette méthode est appelée sérialisation et est effectuée par la fonction
    <function>serialize</function>.
   </para>
@@ -1246,7 +1246,7 @@ string(1) "b"
   <title>Détails du type chaîne</title>
 
   <para>
-   La <type>chaîne</type> en PHP est implémentée comme un tableau d'octets et un
+   La <type>string</type> en PHP est implémentée comme un tableau d'octets et un
    entier indiquant la longueur du tampon. Elle n'a aucune information sur la façon
    dont ces octets se traduisent en caractères, laissant cette tâche au programmeur.
    Il n'y a pas de limitations sur les valeurs que la chaîne peut être composée ; en
