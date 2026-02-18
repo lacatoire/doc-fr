@@ -291,7 +291,7 @@
        sont supportées pour définir les <emphasis>constantes</emphasis> de
        classes et les propriétés.
        Note : Les valeurs heredoc doivent suivre les mêmes règles que les
-       &string; entouré de guillemet double (e.g. pas de variable au sein).
+       chaînes entourées de guillemets doubles (e.g. pas de variable au sein).
       </entry>
      </row>
      <row>

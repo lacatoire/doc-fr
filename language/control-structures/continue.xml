@@ -14,7 +14,7 @@
  <note>
   <simpara>
    En PHP, la structure
-   <link linkend="control-structures.switch"><literal>switch</literal></link>
+   <link linkend="control-structures.switch">switch</link>
    est considérée comme une boucle par <literal>continue</literal>.
    <literal>continue</literal> se comporte comme <literal>break</literal>
    (lorsque aucun argument n'est passé) mais émettra un avertissement, car il

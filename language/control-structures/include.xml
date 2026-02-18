@@ -185,9 +185,10 @@ include 'http://www.example.com/file.php?foo=1&bar=2';
   <function>file</function> pour des informations relatives.
  </para>
  <simpara>
-  Gestion du retour : <literal>include</literal> retourne &false; en cas
+  Gestion du retour : <literal>include</literal> retourne
+  <literal>FALSE</literal> en cas
   d'erreur et émet un avertissement. Les inclusions avec succès, y compris si
-  elles sont écrasées par le fichier inclus, retourne
+  elles sont écrasées par le fichier inclus, retournent
   <literal>1</literal>. Il est possible d'exécuter la structure
   de langage <function>return</function> à l'intérieur d'un fichier
   inclus afin de déterminer le processus dans ce fichier, et retourner
@@ -262,7 +263,7 @@ echo $bar; // affiche 1
   </example>
  </para>
  <simpara>
-  <literal>$bar</literal> a la valeur de &one; car
+  <literal>$bar</literal> a la valeur <literal>1</literal> car
   l'inclusion était réussie. Notez la différence entre les deux
   exemples ci-dessus. Le premier utilise la commande
   <function>return</function>
