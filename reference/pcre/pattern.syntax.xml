@@ -1464,7 +1464,7 @@
    Référez-vous au <link xlink:href="&url.pcre.man;">manuel PCRE(3)</link> pour plus de détails.
   </para>
   <para>
-   Les propriétés des caractères Unicode peuvent apparaitre à l'intérieur d'une
+   Les propriétés des caractères Unicode peuvent apparaître à l'intérieur d'une
    classe de caractère. Ils ne peuvent pas faire partie d'une étendue.
    Le caractère moins (tiret) après une classe de caractère Unicode satisfera littéralement.
    Essayer de terminer une étendue avec une propriété de caractère Unicode résultera en un avertissement.
@@ -2390,7 +2390,7 @@
   <title>Commentaires</title>
   <para>
    La séquence <literal>(?#</literal> marque le début d'un commentaire,
-   qui se termine à la prochaine parenthèse fermante. Les
+   qui se termine à la prochaîne parenthèse fermante. Les
    parenthèses imbriquées ne sont pas autorisées. Les
    caractères entre ces délimiteurs ne jouent alors aucun rôle
    dans le masque.
@@ -2400,7 +2400,7 @@
    est activée, les caractères dièses
    <literal>#</literal> non protégés en dehors d'une classe de
    caractères introduisent un commentaire qui continuera jusqu'à
-   la prochaine ligne dans le masque.
+   la prochaîne ligne dans le masque.
   </para>
   <para>
    <example>
