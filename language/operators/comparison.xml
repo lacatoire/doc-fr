@@ -84,7 +84,7 @@
      <entry>$a &lt;=&gt; $b</entry>
      <entry>Combiné</entry>
      <entry>
-      Un &integer; inférieur, égal ou supérieur à zéro lorsque
+      Un <type>int</type> inférieur, égal ou supérieur à zéro lorsque
       <varname>$a</varname> est inférieur, égal, ou supérieur à
       <varname>$b</varname> respectivement.
      </entry>
@@ -245,12 +245,8 @@ echo $a <=> $b, ' '; // 1
               linkend="language.oop5.object-comparison">Comparaison d'objet</link></entry>
     </row>
     <row>
-     <entry>
-      &string;, &resource;, &integer; ou &float;
-     </entry>
-     <entry>
-      &string;, &resource;, &integer; ou &float;
-     </entry>
+     <entry><type>string</type>, <type>resource</type>, <type>int</type> ou <type>float</type></entry>
+     <entry><type>string</type>, <type>resource</type>, <type>int</type> ou <type>float</type></entry>
      <entry>
       Transforme les chaînes de caractères et les ressources en nombres
      </entry>
@@ -267,12 +263,12 @@ echo $a <=> $b, ' '; // 1
     <row>
      <entry><type>object</type></entry>
      <entry>N'importe quoi</entry>
-     <entry>L'<type>objet</type> est toujours plus grand</entry>
+     <entry>L'<type>object</type> est toujours plus grand</entry>
     </row>
     <row>
      <entry><type>array</type></entry>
      <entry>N'importe quoi</entry>
-     <entry>Le <type>tableau</type> est toujours plus grand</entry>
+     <entry>Le <type>array</type> est toujours plus grand</entry>
     </row>
    </tbody>
   </tgroup>

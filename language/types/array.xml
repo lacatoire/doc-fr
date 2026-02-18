@@ -86,7 +86,7 @@ $array2 = [
    
    <para xml:id="language.types.array.key-casts">
     La clé <replaceable>key</replaceable> peut être soit un <type>int</type>,
-    soit une &string;. La valeur <replaceable>value</replaceable> peut être
+    soit une <type>string</type>. La valeur <replaceable>value</replaceable> peut être
     de n'importe quel type.
    </para>
    
@@ -460,7 +460,7 @@ var_dump($secondElement);
    <note>
     <para>
      Faire référence à un tableau à la sortie d'une fonction ou d'une méthode 
-     d'une valeur scalaire qui n'est pas une &string; génère &null;.
+     d'une valeur scalaire qui n'est pas une <type>string</type> génère &null;.
      Antérieur à PHP 7.4.0, ceci ne générait pas de message d'erreur.
      À partir de PHP 7.4.0, ceci émet une <constant>E_NOTICE</constant> ;
      À partir de PHP 8.0.0, ceci émet une <constant>E_WARNING</constant>.
@@ -1058,7 +1058,8 @@ $error_descriptions[8] = "This is just an informal notice";
   <title>Conversion en un tableau</title>
 
   <para>
-   Pour tous les types &integer;, &float;, &string;, &boolean; et &resource;,
+   Pour tous les types <type>int</type>, <type>float</type>,
+   <type>string</type>, <type>bool</type> et <type>resource</type>,
    le fait de convertir une valeur en un tableau résulte en un tableau contenant
    un seul élément dont l'indexe vaut zéro et la valeur, une valeur scalaire convertie.
    En d'autres termes, <code>(array) $scalarValue</code> est exactement la

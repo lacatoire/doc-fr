@@ -7,7 +7,7 @@
  <title>Les entiers</title>
 
  <simpara>
-  Un &integer; est un nombre appartenant à l'ensemble
+  Un <type>int</type> est un nombre appartenant à l'ensemble
   &#8484; = {..., -2, -1, 0, 1, 2, ...}.
  </simpara>
 
@@ -26,10 +26,10 @@
   <title>Syntaxe</title>
 
   <simpara>
-   Les &integer;s peuvent être spécifiés en notation décimale (base 10), hexadécimale
+   Les <type>int</type>s peuvent être spécifiés en notation décimale (base 10), hexadécimale
    (base 16), octale (base 8), ou binaire (base 2).
    L'<link linkend="language.operators.arithmetic">opérateur de négation</link>
-   peut être utilisé pour désigner un &integer; négatif.
+   peut être utilisé pour désigner un <type>int</type> négatif.
   </simpara>
 
   <para>
@@ -62,7 +62,7 @@ $a = 1_234_567; // un nombre décimal (à partir de PHP 7.4.0)
   </example>
 
   <para>
-   Formellement, la structure d'un <type>entier</type> littéral est à partir de PHP 8.1.0
+   Formellement, la structure d'un <type>int</type> littéral est à partir de PHP 8.1.0
    (auparavant, les préfixes octaux <literal>0o</literal> ou <literal>0O</literal>
    n'étaient pas autorisés, et avant PHP 7.4.0, les underscores n'étaient pas autorisés.
   </para>
@@ -88,12 +88,12 @@ integer     : decimal
   </informalexample>
 
   <para>
-   La taille d'un &integer; est dépendante de la plate-forme, cependant,
+   La taille d'un <type>int</type> est dépendante de la plate-forme, cependant,
    une valeur maximale d'environ 2 milliards est habituelle (cela correspond
    à 32 bits signés). Les plateformes 64-bit ont habituellement une valeur
    maximale d'environ 9E18.
-   PHP ne supporte pas les &integer;s non-signés.
-   La taille d'un &integer; peut être déterminée en utilisant la constante
+   PHP ne supporte pas les <type>int</type>s non-signés.
+   La taille d'un <type>int</type> peut être déterminée en utilisant la constante
    <constant>PHP_INT_SIZE</constant>, la valeur maximale, en utilisant
    la constante <constant>PHP_INT_MAX</constant>,
    et la valeur minimale en utilisant la constante
@@ -105,9 +105,9 @@ integer     : decimal
   <title>Débordement d'entier</title>
 
   <para>
-   Si PHP rencontre un nombre supérieur au maximal d'un &integer;, il sera
-   interprété comme un &float;. De la même façon, une opération qui résulte en
-   un nombre en dehors de l'intervalles du type &integer; retournera un &float;.
+   Si PHP rencontre un nombre supérieur au maximal d'un <type>int</type>, il sera
+   interprété comme un <type>float</type>. De la même façon, une opération qui résulte en
+   un nombre en dehors de l'intervalles du type <type>int</type> retournera un <type>float</type>.
   </para>
 
   <example>
@@ -130,10 +130,10 @@ var_dump(PHP_INT_MAX + 1);       // 32-bit system: float(2147483648)
   <title>Division d'entier</title>
   
   <para>
-   Il n'y a pas d'opérateur de division d'&integer; en PHP, pour accomplir ceci
+   Il n'y a pas d'opérateur de division d'<type>int</type> en PHP, pour accomplir ceci
    utiliser la fonction <function>intdiv</function>.
-   <literal>1/2</literal> produit le &float; (<literal>0.5</literal>).
-   La valeur peut être transtypé en un &integer; pour l'arrondir vers zéro, ou
+   <literal>1/2</literal> produit le <type>float</type> <literal>0.5</literal>.
+   La valeur peut être transtypé en un <type>int</type> pour l'arrondir vers zéro, ou
    en utilisant la fonction <function>round</function> pour avoir un contrôle
    plus fin sur la façon dont l'arrondi est exécuté.
   </para>
@@ -156,18 +156,18 @@ var_dump(round(25/7));  // float(4)
   <title>Conversion en entier</title>
 
   <simpara>
-   Pour convertir explicitement une valeur en un &integer;, utiliser
+   Pour convertir explicitement une valeur en un <type>int</type>, utiliser
    le mot-clé <literal>(int)</literal>.
    Cependant, dans la plupart des cas, ce mot-clé n'est pas nécessaire
    vu qu'une valeur sera automatiquement convertie si un opérateur, une
-   fonction ou une structure de contrôle demande un &integer; en guise
-   d'argument. Une valeur peut également être convertie en un &integer;
+   fonction ou une structure de contrôle demande un <type>int</type> en guise
+   d'argument. Une valeur peut également être convertie en un <type>int</type>
    en utilisant la fonction <function>intval</function>.
   </simpara>
   
   <simpara>
-   Si une &resource; est convertie vers un &integer;, alors
-   le résultat sera l'identifiant unique de la &resource; assigné 
+   Si une <type>resource</type> est convertie vers un <type>int</type>, alors
+   le résultat sera l'identifiant unique de la <type>resource</type> assigné
    par PHP à l'exécution.
   </simpara>
 
@@ -191,7 +191,7 @@ var_dump(round(25/7));  // float(4)
    </title> 
 
    <simpara>
-    Lors de la conversion d'un &float; en &integer;, le nombre est arrondi
+    Lors de la conversion d'un <type>float</type> en <type>int</type>, le nombre est arrondi
     <emphasis>vers zéro</emphasis>.
     À partir de PHP 8.1.0, une notification de dépréciation est émise lors de la
     conversion implicite d'un &float; non-intégral en &integer; perdant en précision.
@@ -217,11 +217,11 @@ var_dump(intval(8.1)); // 8 dans les deux cas
     </programlisting>
    </example>
    <para>
-    Si le nombre à virgule flottante est au-delà des limites des &integer;s (habituellement,
+    Si le nombre à virgule flottante est au-delà des limites des <type>int</type>s (habituellement,
     <literal>+/- 2.15e+9 = 2^31</literal> sur les plate-formes 32-bit et
     <literal>+/- 9.22e+18 = 2^63</literal> sur les plate-formes 64-bit),
-    le résultat sera indéfini, sachant que le &float; n'a pas une précision
-    suffisante pour donner un résultat &integer; exact.
+    le résultat sera indéfini, sachant que le <type>float</type> n'a pas une précision
+    suffisante pour donner un résultat <type>int</type> exact.
     Aucune alerte n'est émise lorsque ce comportement survient !
    </para>
 
@@ -234,7 +234,7 @@ var_dump(intval(8.1)); // 8 dans les deux cas
 
    <warning>
     <para>
-     Ne convertissez jamais une fraction inconnue en un &integer;, ceci peut
+     Ne convertissez jamais une fraction inconnue en un <type>int</type>, ceci peut
      engendrer des résultats inattendus.
     </para>
 
@@ -279,7 +279,7 @@ echo (int) ( (0.1+0.7) * 10 ); // Affiche 7 !
 
    <caution>
     <simpara>
-     Le comportement de la conversion en &integer; est indéfini depuis les autres types.
+     Le comportement de la conversion en <type>int</type> est indéfini depuis les autres types.
      Ne rapporter <emphasis>aucun</emphasis> comportement observé, sachant qu'ils peuvent
      changer sans avertissement.
     </simpara>

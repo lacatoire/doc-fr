@@ -8,10 +8,10 @@
  <title>Les ressources</title>
 
  <para>
-  Une &resource; est une variable spéciale, contenant une référence vers une
+  Une <type>resource</type> est une variable spéciale, contenant une référence vers une
   ressource externe. Les ressources sont créées et utilisées par des fonctions
   spéciales. Voir l'<link linkend="resource">appendice</link> pour une liste
-  de toutes ces fonctions ainsi que les types de &resource; correspondants.
+  de toutes ces fonctions ainsi que les types de <type>resource</type> correspondants.
  </para>
 
  <para>
@@ -22,8 +22,8 @@
   <title>Conversion en ressource</title>
 
   <para>
-   Sachant qu'une &resource; représente un fichier ouvert, une connexion
-   à une base de données, une image, etc., la conversion en une ressource
+   Sachant qu'une <type>resource</type> représente un fichier ouvert, une connexion
+   à une base de données, une image, etc., la conversion en une <type>resource</type>
    n'a pas de sens.
   </para>
  </sect2>
@@ -33,7 +33,7 @@
 
   <para>
    Grâce au système de compteur de référence qui fait partie du Zend Engine,
-   une &resource; qui n'a plus aucune référence est détectée automatiquement
+   une <type>resource</type> qui n'a plus aucune référence est détectée automatiquement
    et est libérée par le ramasse-miettes. Pour cette raison, il est rarement
    nécessaire de libérer la mémoire manuellement.
   </para>
