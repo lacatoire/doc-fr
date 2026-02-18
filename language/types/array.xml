@@ -484,7 +484,7 @@ var_dump($secondElement);
    <synopsis>
 $arr[<replaceable>clé</replaceable>] = <replaceable>valeur</replaceable>;
 $arr[] = <replaceable>valeur</replaceable>;
-// <replaceable>clé</replaceable> peut être un &integer; ou une &string;
+// <replaceable>clé</replaceable> peut être un <type>int</type> ou une <type>string</type>
 // <replaceable>valeur</replaceable> peut être n'importe quel type</synopsis>
 
    <para>

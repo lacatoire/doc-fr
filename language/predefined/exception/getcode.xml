@@ -26,7 +26,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne le code de l'exception, sous la forme d'un &integer; dans
+   Retourne le code de l'exception, sous la forme d'un <type>int</type> dans
    la classe <classname>Exception</classname> mais aussi sous la forme
    d'un autre type de données dans les classes héritant de
    <classname>Exception</classname> (par exemple, sous la forme

@@ -26,7 +26,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne le code de l'exception en tant que &integer; dans
+   Retourne le code de l'exception en tant que <type>int</type> dans
    <classname>Exception</classname> mais éventuellement sous un autre type
    dans les descendants de <classname>Exception</classname>
    (par exemple &string; dans <classname>PDOException</classname>).

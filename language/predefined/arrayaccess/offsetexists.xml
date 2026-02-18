@@ -54,7 +54,7 @@
   </para>
   <note>
    <para>
-    La valeur retournée sera transtypée en &boolean; si une valeur non booléenne 
+    La valeur retournée sera transtypée en <type>bool</type> si une valeur non booléenne
     est retournée.
    </para>
   </note>

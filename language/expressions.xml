@@ -53,9 +53,9 @@ function foo ()
  <simpara>
   Bien sûr, les valeurs en PHP n'ont pas à être des
   valeurs numériques, comme c'est souvent le cas. PHP supporte quatre
-  types de variables scalaires : les valeurs entières (&integer;), les nombres
+  types de variables scalaires : les valeurs entières (<type>int</type>), les nombres
   à virgule flottante (<type>float</type>), les chaînes de caractères
-  (&string;) et les booléens (<type>bool</type>).
+  (<type>string</type>) et les booléens (<type>bool</type>).
   (une variable scalaire est une variable que vous ne pouvez pas scinder en
   morceaux, au contraire des tableaux par exemple). PHP supporte aussi deux
   types composés : les tableaux et les objets. Chacun de ces types

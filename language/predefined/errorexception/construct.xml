@@ -51,7 +51,7 @@
       </para>
       <note>
        <para>
-        Bien que la gravité puisse être n'importe quelle valeur &integer;, il est prévu que les <link linkend="errorfunc.constants">constantes d'erreur</link> soient utilisées.
+        Bien que la gravité puisse être n'importe quelle valeur <type>int</type>, il est prévu que les <link linkend="errorfunc.constants">constantes d'erreur</link> soient utilisées.
        </para>
       </note>
      </listitem>
