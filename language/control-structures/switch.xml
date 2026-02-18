@@ -8,7 +8,7 @@
  <?phpdoc print-version-for="switch"?>
  <simpara>
   L'instruction <literal>switch</literal> équivaut à une série d'instructions
-  <literal>if</literal>. En de nombreuses occasions, vous aurez besoin de
+  if. En de nombreuses occasions, vous aurez besoin de
   comparer la même variable (ou expression) avec un grand nombre de valeurs
   différentes, et d'exécuter différentes parties de code suivant la valeur
   à laquelle elle est égale. C'est exactement à cela que sert l'instruction
@@ -79,12 +79,12 @@ if ($i == 0) {
   <literal>case</literal> est trouvée dont 
   l'expression est évaluée à une valeur qui correspond à la valeur de 
   l'expression <literal>switch</literal>, PHP exécute alors les instructions correspondantes.
-  PHP continu d'exécuter les instructions jusqu'à
+  PHP continue d'exécuter les instructions jusqu'à
   la fin du bloc d'instructions du <literal>switch</literal>,
   ou bien dès qu'il trouve l'instruction <literal>break</literal>.
   Si vous ne pouvez pas utiliser l'instruction
   <literal>break</literal> à la fin de l'instruction
-  <literal>case</literal>, PHP continuera à exécuter
+  case, PHP continuera à exécuter
   toutes les instructions qui suivent. Par exemple :
   <informalexample>
    <programlisting role="php">
@@ -125,7 +125,7 @@ switch ($i) {
   <literal>switch</literal> sera plus rapide.
  </simpara>
  <para>
-  La liste de commandes d'un <literal>case</literal> peut
+  La liste de commandes d'un case peut
   être vide, auquel cas PHP utilisera la liste de
   commandes du cas suivant.
   <informalexample>
@@ -188,9 +188,9 @@ switch ($i) {
   Si aucun <literal>case</literal> ne correspond, et qu'il n'y a pas de <literal>default</literal>, alors aucun code ne sera exécuté, tout comme si aucune instruction <literal>if</literal> n'était vraie.
  </para>
 <para>
-    Une valeur de <literal>case</literal> peut être donnée sous forme d'expression. Cependant, cette expression sera
-  évaluée seule, puis comparée de manière approximative à la valeur du <literal>switch</literal>. Cela signifie
-  qu'elle ne peut pas être utilisée pour des évaluations complexes de la valeur du <literal>switch</literal>. Par exemple :
+    Une valeur de case peut être donnée sous forme d'expression. Cependant, cette expression sera
+  évaluée seule, puis comparée de manière approximative à la valeur du switch. Cela signifie
+  qu'elle ne peut pas être utilisée pour des évaluations complexes de la valeur du switch. Par exemple :
   <informalexample>
    <programlisting role="php">
 <![CDATA[
@@ -220,7 +220,7 @@ switch ($target) {
   </informalexample>
  </para>
  <para>
-  Pour des comparaisons plus complexes, la valeur &true; peut être utilisée comme valeur de <literal>switch</literal>.
+  Pour des comparaisons plus complexes, la valeur &true; peut être utilisée comme valeur de switch.
   Ou, alternativement, des blocs <literal>if</literal>-<literal>else</literal> au lieu de <literal>switch</literal>.
   <informalexample>
    <programlisting role="php">
