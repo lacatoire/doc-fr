@@ -119,7 +119,7 @@ $array2 = [
      <listitem>
       <simpara>
        La valeur <type>Null</type> sera modifiée en une chaîne vide, i.e. la clé
-       <literal>null</literal> sera stockée sous la chaîne de caractère <literal>""</literal>.
+       <literal>null</literal> sera stockée sous la chaîne de caractères <literal>""</literal>.
       </simpara>
      </listitem>
      <listitem>
@@ -283,7 +283,7 @@ array(4) {
    <example>
     <title>Exemple complexe sur la modification de type et l'écrasement</title>
     <para>
-     Cet exemple inclus toutes les variations de modification de type de clés
+     Cet exemple inclut toutes les variations de modification de type de clés
      et écrasements des éléments.
     </para>
     <programlisting role="php">
@@ -834,7 +834,7 @@ echo $foo[bar];
 
    <para>
     C'est incorrect, mais ça fonctionne. La raison est que ce code a une constante
-    indéfinie (<literal>bar</literal>) plutôt qu'une &string;
+    indéfinie (<literal>bar</literal>) plutôt qu'une <type>string</type>
     (<literal>'bar'</literal> - notez les guillemets).
     Cela fonctionne car PHP convertit automatiquement une <emphasis>chaîne nue</emphasis>
     (une chaîne sans guillemets qui ne correspond à aucun symbole connu) en une chaîne
@@ -934,7 +934,7 @@ try {
     echo get_class($e), ': ', $e->getMessage(), PHP_EOL;
 }
 
-// Ceci définit une constante pour expliquer ce qu'il ne va pas. La valeur 'veggie'
+// Ceci définit une constante pour expliquer ce qui ne va pas. La valeur 'veggie'
 // est assignée à la constante nommée fruit.
 define('fruit', 'veggie');
 
@@ -944,7 +944,7 @@ echo $arr[fruit], PHP_EOL;    // carrot
 
 // Ce qui suit est correct, car c'est dans une chaîne. Les constantes ne sont pas recherchées
 // dans les chaînes, et donc, aucune erreur ne sera émise
-echo "Hello $arr[fruit], PHP_EOL";      // Hello apple
+echo "Hello $arr[fruit]", PHP_EOL;      // Hello apple
 
 // Avec une exception : les parenthèses autour d'un tableau dans une chaîne permettent
 // aux constantes d'être interprétées
@@ -964,7 +964,7 @@ echo "Hello " . $arr['fruit'], PHP_EOL; // Hello apple
 <?php
 // Ceci ne fonctionnera pas, et en résultera une erreur d'analyse, comme ceci :
 // Parse error: parse error, expecting T_STRING' or T_VARIABLE' or T_NUM_STRING'
-// Ceci arrive lors de l'utilisation d'une supergloables dans les chaînes
+// Ceci arrive lors de l'utilisation d'une superglobales dans les chaînes
 print "Hello $arr['fruit']";
 print "Hello $_GET['foo']";
 ?>
@@ -1067,15 +1067,15 @@ $error_descriptions[8] = "This is just an informal notice";
   </para>
 
   <para>
-   Si un objet est converti en un tableau, le résultat sera un tableau dont les
-   éléments sont les propriétés de l'objet. Les clés sont les noms des membres,
+   Si un <type>object</type> est converti en un <type>array</type>, le résultat sera un <type>array</type> dont les
+   éléments sont les propriétés de l'<type>object</type>. Les clés sont les noms des membres,
    avec une légère exception : les variables ayant un nom sous forme d'entier sont
    inaccessibles ; les variables privées auront le nom de la classe
    ajouté au nom de la variable ; les variables protégées auront un '*' ajouté
    au nom de la variable.
    Ces valeurs préfixées ont des octets <literal>NUL</literal> des deux côtés.
    Les <link linkend="language.oop5.properties.typed-properties">propriétés typées</link>
-   non-initialisées sont silencieusement défaussés.
+   non-initialisées sont silencieusement écartées.
   </para>
 
   <example>
@@ -1153,7 +1153,7 @@ array(3) {
   </para>
 
   <para>
-   La conversion de &null; en un tableau résultat en un tableau vide.
+   La conversion de &null; en un <type>array</type> résulte en un <type>array</type> vide.
   </para>
  </sect2>
 
@@ -1172,7 +1172,7 @@ array(3) {
 
   <para>
    Un tableau préfixé par <code>...</code> sera déballé sur place lors de la définition du tableau.
-   Seul les tableaux et les objets qui implémente <interfacename>Traversable</interfacename> peuvent être déballé.
+   Seuls les tableaux et les objets qui implémentent <interfacename>Traversable</interfacename> peuvent être déballés.
    Le déballage de tableau avec <code>...</code> est disponible à partir de PHP 7.4.0. C'est aussi appelé l'opérateur de décomposition.
   </para>
 
@@ -1187,6 +1187,7 @@ array(3) {
 <?php
 // Utilisation de la syntaxe de tableau courte.
 // Fonctionne avec array() aussi.
+$arr1 = [1, 2, 3];
 $arr2 = [...$arr1]; // [1, 2, 3]
 $arr3 = [0, ...$arr1]; // [0, 1, 2, 3]
 $arr4 = [...$arr1, ...$arr2, 111]; // [1, 2, 3, 1, 2, 3, 111]
@@ -1235,8 +1236,8 @@ var_dump($arr6); // [1, 2, 3, 4, 5, 6]
 
   <note>
    <para>
-    Les clés qui ne sont ni des entiers, ni des chaînes lance une <classname>TypeError</classname>.
-    De telles clés peuvent uniquement être généré par un objet <interfacename>Traversable</interfacename>.
+    Les clés qui ne sont ni des entiers, ni des chaînes lancent une <classname>TypeError</classname>.
+    De telles clés peuvent uniquement être générées par un objet <interfacename>Traversable</interfacename>.
    </para>
   </note>
   <note>
