@@ -231,7 +231,7 @@ $v = foo(
 
    <para>
     À partir de PHP 8.0.0, la liste des arguments de fonction peut inclure une
-    virgule trainante, qui sera ignoré. Ceci est particulièrement pratique dans
+    virgule traînante, qui sera ignorée. Ceci est particulièrement pratique dans
     les cas où la liste d'arguments est longue ou contient des noms de variables
     longs, le rendant pratique pour lister les arguments verticalement.
    </para>
@@ -245,7 +245,7 @@ function takes_many_args(
     $second_arg,
     $a_very_long_argument_name,
     $arg_with_default = 5,
-    $again = 'a default string', // Cette virgule trainant n'était pas permit avant 8.0.0.
+    $again = 'a default string', // Cette virgule traînante n'était pas permise avant 8.0.0.
 )
 {
     // ...
@@ -1245,8 +1245,8 @@ string(11) "hello world"
   </example>
 
   <para>
-   À partir de PHP 8.0.0, la liste des variables hérité du contexte peut
-   inclure une virgule trainante, qui sera ignoré.
+   À partir de PHP 8.0.0, la liste des variables héritées du contexte peut
+   inclure une virgule traînante, qui sera ignorée.
   </para>
   <simpara>
    L'héritage du contexte parent 

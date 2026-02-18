@@ -80,9 +80,9 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <simpara>
-   La valeur convertie est retournée par la fonction, et peut être de type <type>&boolean;</type>,
-   <type>&integer;</type>, <type>&float;</type>, <type>&string;</type>,
-   <type>&array;</type>, <type>&object;</type>, ou de type <type>null</type>.
+   La valeur convertie est retournée par la fonction, et peut être de type <type>bool</type>,
+   <type>int</type>, <type>float</type>, <type>string</type>,
+   <type>array</type>, <type>object</type>, ou de type <type>null</type>.
   </simpara>
   <simpara>
    Si la chaîne de caractères passée ne peut pas être désérialisée, cette fonction retourne &false;

@@ -83,7 +83,7 @@ $myObject = new MyClass;
 
 $foo = serialize($myObject);
 
-// désérialise tous les objet en objet __PHP_Incomplete_Class
+// désérialise tous les objets en objet __PHP_Incomplete_Class
 $disallowed = unserialize($foo, ["allowed_classes" => false]);
 
 var_dump($disallowed);

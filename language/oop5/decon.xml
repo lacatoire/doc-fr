@@ -147,11 +147,11 @@ class Point {
      Quand un argument de constructeur inclut un modificateur, PHP l'interprétera
      comme une propriété d'objet et un argument du constructeur, et assigne la valeur de l'argument
      à la propriété. Le corps du constructeur peut être alors vide ou peut contenir d'autres
-     déclarations. Toutes déclarations additionnelles seront exécutées après que la valeur de
+     déclarations. Toutes les déclarations additionnelles seront exécutées après que la valeur de
      l'argument a été assignée à sa propriété correspondante.
     </para>
     <para>
-     Tous les arguments ne doivent pas être promus. Il est possible de mélanger et assortir les
+     Tous les arguments ne doivent pas être promus. Il est possible de combiner les
      arguments promus et non-promus, dans n'importe quel ordre. Les arguments promus n'ont aucun impact
      sur du code appellant le constructeur.
     </para>
@@ -291,10 +291,10 @@ var_dump($p1, $p2, $p3);
     </example>
     <para>
      Le constructeur peut être rendu privé ou protégé pour empêcher son appel
-     depuis l'extérieur. Dans ce cas, seul une méthode statique sera capable
+     depuis l'extérieur. Dans ce cas, seule une méthode statique sera capable
      d'instancier la classe. Puisqu'elles sont dans la même définition de classe,
      elles ont accès aux méthodes privées, même dans une instance différente de
-     l'objet. Un constructeur privé est optionnel et peut ou pas faire de sens
+     l'objet. Un constructeur privé est optionnel et peut avoir du sens ou non
      en fonction du cas d'utilisation.
     </para>
     <para>
@@ -304,12 +304,12 @@ var_dump($p1, $p2, $p3);
     <simplelist>
      <member><code>fromBasicData()</code> prend les paramètres exacts qui sont nécessaires,
       puis créé l'objet en appellant le constructeur puis retournant le résultat.</member>
-     <member><code>fromJson()</code> accepte une chaîne de caractère JSON et fait
-      du pré-traitement sur lui même pour se convertir dans le format désiré par
+     <member><code>fromJson()</code> accepte une chaîne de caractères JSON et fait
+      du pré-traitement sur elle-même pour se convertir dans le format désiré par
       le constructeur. Elle retourne alors le nouvel objet.</member>
      <member>
-      <code>fromXml()</code> accepte une chaîne de caractère XML, fait du pré-traitement,
-      puis créé un objet brut. Le constructeur est appelé, mais comme tous les
+      <code>fromXml()</code> accepte une chaîne de caractères XML, fait du pré-traitement,
+      puis crée un objet brut. Le constructeur est appelé, mais comme tous les
       paramètres sont optionnels la méthode les ignore. Elle assigne alors les
       valeurs aux propriétés de l'objet directement avant de retourner le résultat.
      </member>

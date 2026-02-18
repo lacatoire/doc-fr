@@ -686,7 +686,7 @@ $horseshoes = (new ReflectionClass(Suit::class))->newInstanceWithoutConstructor(
   <title>Liste de valeurs</title>
 
   <para>
-   Les Enums pures et les Enums avec valeur de base implémentent toute deux une interface interne nommée
+   Les Enums pures et les Enums avec valeur de base implémentent toutes deux une interface interne nommée
   <interfacename>UnitEnum</interfacename>. <literal>UnitEnum</literal> comprend une méthode statique
    <literal>cases()</literal>. <literal>cases()</literal> renvoie un tableau compact de
    tous les cas définis dans l'ordre de leur déclaration.

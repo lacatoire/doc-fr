@@ -56,7 +56,7 @@
        Ajout : Support limité pour la covariance du type de retour et
        contravariance pour le type d'argument. Support complet de variance est
        uniquement disponible si l'autochargement est utilisé. À l'intérieur
-       d'un fichier unique seul les références non-cyclique de type sont
+       d'un fichier unique seules les références non-cycliques de type sont
        possibles.
       </entry>
      </row>
@@ -108,29 +108,29 @@
      <row>
       <entry>7.2.0</entry>
       <entry>
-       Changement : Une virgule trainant peut désormais être ajouté à la
-       syntaxe use groupé pour les espaces de noms.
+       Changement : Une virgule traînante peut désormais être ajoutée à la
+       syntaxe use groupée pour les espaces de noms.
       </entry>
      </row>
      <row>
       <entry>7.2.0</entry>
       <entry>
        Changement : Élargissement du type des paramètres. Le type des
-       paramètres des méthodes réécrite et d'implémentation d'interface
-       peuvent désormais être omit.
+       paramètres des méthodes réécrites et d'implémentation d'interface
+       peuvent désormais être omis.
       </entry>
      </row>
      <row>
       <entry>7.2.0</entry>
       <entry>
-       Changement : Les méthodes abstraites peuvent désormais être réécrite
+       Changement : Les méthodes abstraites peuvent désormais être réécrites
        quand une classe abstraite étend une autre classe abstraite.
       </entry>
      </row>
      <row>
       <entry>7.1.0</entry>
       <entry>
-       Changement : Les noms suivant ne peuvent pas être utilisé pour nommer
+       Changement : Les noms suivants ne peuvent pas être utilisés pour nommer
        des classes, interfaces ou traits : <literal>void</literal> 
        et <literal>iterable</literal>.
       </entry>
@@ -147,7 +147,7 @@
       <entry>7.0.0</entry>
       <entry>
        Obsolète : Appel <link linkend="language.oop5.static">statique</link>
-       à des méthodes qui ne sont pas déclarées comme statique.
+       à des méthodes qui ne sont pas déclarées comme statiques.
       </entry>
      </row>
      <row>
@@ -162,8 +162,8 @@
       <entry>7.0.0</entry>
       <entry>
        Ajout : Déclaration <emphasis>use</emphasis> groupé : les classes,
-       fonctions et constantes qui sont importer depuis un même espace de nom
-       peuvent désormais être groupé ensemble en une seule déclaration use.
+       fonctions et constantes qui sont importées depuis un même espace de noms
+       peuvent désormais être groupées ensemble en une seule déclaration use.
       </entry>
      </row>
      <row>
@@ -193,7 +193,7 @@
      <row>
       <entry>5.6.0</entry>
       <entry>
-       Ajout : La methode <link linkend="object.debuginfo">__debugInfo()</link>.
+       Ajout : La méthode <link linkend="object.debuginfo">__debugInfo()</link>.
       </entry>
      </row>
      <row>

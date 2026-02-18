@@ -421,12 +421,12 @@ if (empty($_POST['action'])) {
    <para>
     Il est recommandé de ne pas "empiler" les expressions ternaires.
     Le comportement de PHP lors de l'utilisation de plusieurs opérateurs
-    ternaire qui ne sont pas entre parenthèses en une unique expression est
+    ternaires qui ne sont pas entre parenthèses en une unique expression est
     non évident comparé à d'autres langages.
-    En effet antérieur à PHP 8.0.0, l'expression ternaire était évalué
-    gauche-associatif, au lieu de droite-associatif comme la plupart des
-    autres langages de programmations.
-    Dépendre de la gauche associativité est obsolète à partir de PHP 7.4.0.
+    En effet, avant PHP 8.0.0, l'expression ternaire était évaluée
+    gauche-associative, au lieu de droite-associative comme la plupart des
+    autres langages de programmation.
+    Dépendre de la gauche-associativité est obsolète à partir de PHP 7.4.0.
     À partir de PHP 8.0.0, l'opérateur ternaire est non associatif.
     <example>
      <title>Comportement de PHP</title>

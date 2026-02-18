@@ -46,7 +46,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   Si une opération non supportée est tentée, tel que l'utilisation d'un object
+   Si une opération non supportée est tentée, tel que l'utilisation d'un objet
    <classname>DateInterval</classname> représentant une spécification de temps
    relatif tel que <literal>next weekday</literal>, une
    <exceptionname>DateInvalidOperationException</exceptionname> est lancé.

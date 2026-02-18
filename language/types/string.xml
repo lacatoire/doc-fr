@@ -883,7 +883,7 @@ Changer le caractère à l'indice -3 en o donne strong.
    </sect4>
 
    <sect4 xml:id="language.types.string.parsing.advanced">
-    <title>Syntaxe avancée (syntax de accolades)</title>
+    <title>Syntaxe avancée (syntaxe d'accolades)</title>
 
     <simpara>
      La syntaxe avancée permet l'interpolation de
@@ -999,7 +999,7 @@ echo "C:\\directory\\{$great}.txt";
     <simpara>
      Avant PHP 8.0.0, les <type>string</type>s pouvaient également être accédées en utilisant des accolades, comme dans
      <varname>$str{42}</varname>, pour le même objectif.
-     Cette syntaxe de accolades a été dépréciée depuis PHP 7.4.0 et n'est plus prise en charge depuis PHP 8.0.0.
+     Cette syntaxe d'accolades a été dépréciée depuis PHP 7.4.0 et n'est plus prise en charge depuis PHP 8.0.0.
     </simpara>
    </note>
 
