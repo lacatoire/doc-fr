@@ -37,8 +37,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne un tableau indexé numériquement d'alias d'encodage.
-   &return.falseforfailure;
+   Returns a numerically indexed array of encoding aliases.
   </para>
  </refsect1>
 

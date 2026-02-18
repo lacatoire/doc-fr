@@ -97,6 +97,12 @@ Array
   </para>
  </refsect1>
 
+
+ <refsect1 role="errors">
+  &reftitle.errors;
+  &errors.no.unusual.warnings;
+ </refsect1>
+
 </refentry>
 
 <!-- Keep this comment at the end of the file

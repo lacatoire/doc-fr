@@ -61,7 +61,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <simpara>
-   Lit la taille de bloc, sous forme d'un &integer;.
+   Returns the algorithm block size in bytes &return.falseforfailure;.
   </simpara>
  </refsect1>
 

@@ -81,56 +81,57 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Ce que la fonction retourne, premièrement lors de succès, ensuite lors
-   d'échec. Voyez aussi l'entité &return.success;
+   Returns a statement resource with a result set containing rows describing
+   the statistics and indexes for the base tables matching the specified
+   parameters. The rows are composed of the following columns:
    <informaltable>
     <tgroup cols="2">
      <thead>
       <row>
-       <entry>Nom de la colonne</entry>
+       <entry>Column name</entry>
        <entry>Description</entry>
       </row>
      </thead>
      <tbody>
       <row>
        <entry>TABLE_CAT</entry>
-       <entry>Nom du catalogue que contient la table.
-       La valeur est &null; si la table n'a pas de catalogue.</entry>
+       <entry>The catalog that contains the table. The value is &null; if
+       this table does not have catalogs.</entry>
       </row>
       <row>
        <entry>TABLE_SCHEM</entry>
-       <entry>Nom du schéma que contient la table.</entry>
+       <entry>Name of the schema that contains the table.</entry>
       </row>
       <row>
        <entry>TABLE_NAME</entry>
-       <entry>Nom de la table.</entry>
+       <entry>Name of the table.</entry>
       </row>
       <row>
        <entry>NON_UNIQUE</entry>
        <entry>
         <para>
-         Un entier représentant si l'index interdit les valeurs uniques ou si
-         la ligne représente des statistiques sur la table elle-même :
+         An integer value representing whether the index prohibits unique
+         values, or whether the row represents statistics on the table itself:
          <informaltable>
           <tgroup cols="2">
            <thead>
             <row>
-             <entry>Valeur de retour</entry>
-             <entry>Type de paramètre</entry>
+             <entry>Return value</entry>
+             <entry>Parameter type</entry>
             </row>
            </thead>
            <tbody>
             <row>
              <entry>0 (SQL_FALSE)</entry>
-             <entry>L'index autorise les valeurs dupliquées.</entry>
+             <entry>The index allows duplicate values.</entry>
             </row>
             <row>
              <entry>1 (SQL_TRUE)</entry>
-             <entry>Les valeurs index doivent être uniques.</entry>
+             <entry>The index values must be unique.</entry>
             </row>
             <row>
              <entry>&null;</entry>
-             <entry>La ligne contient des informations statistiques à propos de la table.</entry>
+             <entry>This row is statistics information for the table itself.</entry>
             </row>
            </tbody>
           </tgroup>
@@ -140,45 +141,44 @@
       </row>
       <row>
        <entry>INDEX_QUALIFIER</entry>
-       <entry>Une chaîne de caractères représentant un qualificatif qui devrait
-       avoir été préalablement fixé à INDEX_NAME pour qualifier complètement
-       l'index.</entry>
+       <entry>A string value representing the qualifier that would have to be
+       prepended to INDEX_NAME to fully qualify the index.</entry>
       </row>
       <row>
        <entry>INDEX_NAME</entry>
-       <entry>Une chaîne représentant le nom de l'index.</entry>
+       <entry>A string representing the name of the index.</entry>
       </row>
       <row>
        <entry>TYPE</entry>
        <entry>
         <para>
-         Un entier représentant le type d'informations contenues dans cette
-         ligne du jeu de résultats :
+         An integer value representing the type of information contained in
+         this row of the result set:
          <informaltable>
           <tgroup cols="2">
            <thead>
             <row>
-             <entry>Valeur de retour</entry>
-             <entry>Type de paramètre</entry>
+             <entry>Return value</entry>
+             <entry>Parameter type</entry>
             </row>
            </thead>
            <tbody>
             <row>
              <entry>0 (SQL_TABLE_STAT)</entry>
-             <entry>La ligne contient des informations statistiques à propos de la table.</entry>
+             <entry>The row contains statistics about the table itself.</entry>
             </row>
             <row>
              <entry>1 (SQL_INDEX_CLUSTERED)</entry>
-             <entry>La ligne contient des informations à propos d'index groupé.</entry>
+             <entry>The row contains information about a clustered index.</entry>
             </row>
             <row>
              <entry>2 (SQL_INDEX_HASH)</entry>
-             <entry>La ligne contient des informations à propos d'index haché.</entry>
+             <entry>The row contains information about a hashed index.</entry>
             </row>
             <row>
              <entry>3 (SQL_INDEX_OTHER)</entry>
-             <entry>La ligne contient des informations à propos du type
-             d'index qui n'est pas groupé ni haché.</entry>
+             <entry>The row contains information about a type of index that
+             is neither clustered nor hashed.</entry>
             </row>
            </tbody>
           </tgroup>
@@ -188,35 +188,34 @@
       </row>
       <row>
        <entry>ORDINAL_POSITION</entry>
-       <entry>Un tableau commençant à l'index 1 indiquant la colonne dans
-       l'index. &null; si la ligne contient des informations statistiques à
-       propos de la table.</entry>
+       <entry>The 1-indexed position of the column in the index. &null; if
+        the row contains statistics information about the table itself.</entry>
       </row>
       <row>
        <entry>COLUMN_NAME</entry>
-       <entry>Le nom de la colonne dans l'index. &null; si la ligne contient
-       des informations statistiques à propos de la table.</entry>
+       <entry>The name of the column in the index. &null; if the row
+        contains statistics information about the table itself.</entry>
       </row>
       <row>
        <entry>ASC_OR_DESC</entry>
        <entry>
-        <literal>A</literal> si la colonne est triée en ordre alphabétique,
-        <literal>D</literal> si la colonne est triée en ordre alphabétique
-        inverse, &null; si la ligne contient des informations statistiques à
-        propos de la table.
+        <literal>A</literal> if the column is sorted in ascending order,
+        <literal>D</literal> if the column is sorted in descending order,
+        &null; if the row contains statistics information about the table
+        itself.
        </entry>
       </row>
       <row>
        <entry>CARDINALITY</entry>
        <entry>
         <simpara>
-         Si la ligne contient des informations à propos d'un index, cette
-         colonne contiendra un entier représentant le nombre de valeurs uniques
-         dans l'index.
+         If the row contains information about an index, this column contains
+         an integer value representing the number of unique values in the
+         index.
         </simpara>
         <simpara>
-         Si la ligne contient des informations à propos de la table, cette
-         colonne contiendra un entier représentant le nombre de lignes dans la
+         If the row contains information about the table itself, this column
+         contains an integer value representing the number of rows in the
          table.
         </simpara>
        </entry>
@@ -225,20 +224,20 @@
        <entry>PAGES</entry>
        <entry>
         <simpara>
-         Si la ligne contient des informations à propos d'un index, cette
-         colonne contiendra un entier représentant le nombre de pages
-         utilisées pour enregistrer l'index.
+         If the row contains information about an index, this column contains
+         an integer value representing the number of pages used to store the
+         index.
         </simpara>
         <simpara>
-         Si la ligne contient des informations à propos de la table, cette
-         colonne contiendra un entier représentant le nombre de pages utilisées
-         pour enregistrer la table.
+         If the row contains information about the table itself, this column
+         contains an integer value representing the number of pages used to
+         store the table.
         </simpara>
        </entry>
       </row>
       <row>
        <entry>FILTER_CONDITION</entry>
-       <entry>Retourne toujours &null;.</entry>
+       <entry>Always returns &null;.</entry>
       </row>
      </tbody>
     </tgroup>
@@ -260,6 +259,36 @@
    <member><function>db2_tables</function></member>
   </simplelist>
  </refsect1>
+
+ <refsect1 role="examples">
+  &reftitle.examples;
+  <para>
+   <example>
+    <title>A <function>db2_statistics</function> example</title>
+    <para>
+     Any text that describes the purpose of the example, or
+     what goes on in the example should go here (inside the
+     <example> tag, not out
+    </para>
+    <programlisting role="php">
+<![CDATA[
+<?php
+if ($anexample === true) {
+    echo 'Use the PEAR Coding Standards';
+}
+?>
+]]>
+    </programlisting>
+    &example.outputs;
+    <screen>
+<![CDATA[
+Use the PEAR Coding Standards
+]]>
+    </screen>
+   </example>
+  </para>
+ </refsect1>
+
 </refentry>
 <!-- Keep this comment at the end of the file
 Local variables:

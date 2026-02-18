@@ -111,6 +111,14 @@ CHERRIES
   </para>
  </refsect1>
 
+
+ <refsect1 role="errors">
+  &reftitle.errors;
+  <para>
+   When does this function issue E_* level errors, and/or throw exceptions.
+  </para>
+ </refsect1>
+
 </refentry>
 <!-- Keep this comment at the end of the file
 Local variables:

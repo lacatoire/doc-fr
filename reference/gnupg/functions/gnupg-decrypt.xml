@@ -44,7 +44,8 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <simpara>
-   &return.success;
+   On success, this function returns the decrypted text.
+   On failure, this function returns &false;.
   </simpara>
  </refsect1>
 

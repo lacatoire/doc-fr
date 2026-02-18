@@ -71,8 +71,10 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retourne un nom de fonction unique, sous la forme d'une &string;,
-   ou &false; si une erreur survient.
+   Returns a unique function name as a string, &return.falseforfailure;.
+   Note that the name contains a non-printable character (<literal>"\0"</literal>),
+   so care should be taken when printing the name or incorporating it in any other
+   string.
   </para>
  </refsect1>
 
