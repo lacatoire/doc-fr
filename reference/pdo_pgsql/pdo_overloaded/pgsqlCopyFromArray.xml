@@ -22,13 +22,6 @@
    &info.method.alias; <methodname>Pdo\Pgsql::copyFromArray</methodname>.
   </simpara>
  </refsect1>
-
- <refsect1 role="returnvalues">
-  &reftitle.returnvalues;
-  <para>
-   Retourne &true; en cas de succès,&return.falseforfailure;.
-  </para>
- </refsect1>
 </refentry>
 <!-- Keep this comment at the end of the file
 Local variables:

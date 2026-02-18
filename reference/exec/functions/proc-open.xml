@@ -328,6 +328,31 @@ $cmd = '""findstr" "search" "filename.txt""';
     </programlisting>
    </example>
   </para>
+
+<!-- ptys are currently disabled
+  <para>
+   <example>
+    <title>Utilisation de ptys</title>
+    <programlisting role="php">
+<![CDATA[
+<?php
+// Create a pseudo terminal for the child process
+$descriptorspec = array(
+   0 => array("pty"),
+   1 => array("pty"),
+   2 => array("pty")
+);
+$process = proc_open("cvs -d:pserver:cvsread@cvs.php.net:/repository login", $descriptorspec, $pipes);
+if (is_resource($process)) {
+   // work with it here
+}
+?>
+]]>
+    </programlisting>
+   </example>
+  </para>
+-->
+
  </refsect1>
  <refsect1 role="notes">
   &reftitle.notes;

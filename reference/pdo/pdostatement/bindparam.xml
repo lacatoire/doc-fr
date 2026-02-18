@@ -154,6 +154,29 @@ $sth->execute();
 ]]>
    </programlisting>
   </example>
+
+<!--
+  <example><title>Passer une valeur NULL dans une requête préparée</title>
+   <programlisting role="php">
+<![CDATA[
+<?php
+/* Exécution d'une requête préparée en liant des variables PHP */
+$calories = 150;
+$couleur = 'rouge';
+$sth = $dbh->prepare('SELECT nom, couleur, calories
+    FROM fruit
+    WHERE calories < :calories AND couleur = :couleur');
+$sth->bindParam(':calories', $calories, PDO::PARAM_INT);
+
+/* Trouver un fruit avec une valeur NULL dans la colonne couleur */
+$sth->bindParam(':couleur', $couleur, PDO::PARAM_NULL);
+
+$sth->execute();
+?>
+]]>
+   </programlisting>
+  </example>
+-->
   <example>
    <title>Appel une procédure stockée avec un paramètre INOUT</title>
    <programlisting role="php">
