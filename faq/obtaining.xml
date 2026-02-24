@@ -19,11 +19,11 @@
     </question>
     <answer>
      <para>
-      Vous pouvez télécharger PHP à partir d'un des membres du réseau de
-      sites PHP. Vous pouvez les trouver sur
+      Il est possible de télécharger PHP à partir d'un des membres du réseau de
+      sites PHP. Ils se trouvent sur
       <link xlink:href="&url.php;">&url.php;</link>.
-      Vous pouvez aussi utiliser Git pour obtenir la toute dernière version
-      des sources. Pour plus d'informations, allez sur
+      Il est aussi possible d'utiliser Git pour obtenir la toute dernière version
+      des sources. Pour plus d'informations, consulter
       <link xlink:href="&url.php.anongit;">&url.php.anongit;</link>.
      </para>
     </answer>
@@ -37,11 +37,11 @@
      <para>
       Nous ne les distribuons que pour le système Windows, car nous ne pouvons
       compiler PHP pour chaque plate-forme Linux/Unix avec toutes les
-      combinaisons d'extensions. Notez aussi que plusieurs distributions Linux
+      combinaisons d'extensions. Il est à noter aussi que plusieurs distributions Linux
       fournissent PHP d'office de nos jours. Les binaires Windows peuvent être
       téléchargés à partir de notre page de <link
       xlink:href="&url.php.downloads;">Téléchargement</link>, pour les binaires
-      Linux, visitez le site de votre distribution.
+      Linux, il convient de consulter le site de la distribution correspondante.
      </para>
     </answer>
    </qandaentry>
@@ -57,8 +57,8 @@
      <para>
       <note>
        <simpara>
-        Celles marquées d'une étoile (*) ne sont pas thread safe ; nous vous
-        recommandons de ne pas les utiliser en environnement multithreadé.
+        Celles marquées d'une étoile (*) ne sont pas thread safe ; il est
+        recommandé de ne pas les utiliser en environnement multithreadé.
        </simpara>
       </note>
      </para>
@@ -178,12 +178,12 @@
     </question>
     <answer>
      <para>
-      Vous devrez suivre les instructions fournies avec les bibliothèques.
-      Quelques-unes d'entre elles sont détectées automatiquement lorsque vous
-      exécutez le script 'configure' de PHP (comme la bibliothèque GD), pour les
-      autres, vous devrez les activer en utilisant l'option 
+      Il est nécessaire de suivre les instructions fournies avec les bibliothèques.
+      Quelques-unes d'entre elles sont détectées automatiquement lorsque le
+      script 'configure' de PHP est exécuté (comme la bibliothèque GD), pour les
+      autres, il faut les activer en utilisant l'option
       '<literal>--with-EXTENSION</literal>' de '<literal>configure</literal>'.
-      Exécutez '<literal>configure --help</literal>' pour en avoir la liste
+      Exécuter '<literal>configure --help</literal>' pour en avoir la liste
       complète.     
      </para>
     </answer>
@@ -209,14 +209,14 @@
     </question>
     <answer>
      <para>
-      Vous pouvez trouver un fichier <filename>browscap.ini</filename> sur 
+      Il est possible de trouver un fichier <filename>browscap.ini</filename> sur
       <link xlink:href="&url.browscap.download;">&url.browscap.download;</link>.
      </para>
     </answer>
    </qandaentry>
    <qandaentry xml:id="faq.obtaining.threadsafety">
     <question>
-     <para>Que signifie thread safety lors du téléchargement de PHP?</para>
+     <para>Que signifie thread safety lors du téléchargement de PHP ?</para>
     </question>
     <answer>
      <para>
@@ -227,10 +227,10 @@
       threads.
      </para>
      <para>
-      Donc, que choisir? Si vous utilisez PHP comme CGI, alors vous n'avez pas besoin
-      de la sécurité des threads car le binaire est invoqué à chaque requête.
-      Concernant les serveurs multithreads, comme IIS5 et IIS6, vous devriez utiliser
-      la version threadée de PHP.
+      Donc, que choisir ? Si PHP est utilisé comme CGI, la sécurité des threads
+      n'est pas nécessaire car le binaire est invoqué à chaque requête.
+      Concernant les serveurs multithreads, comme IIS5 et IIS6, il est recommandé
+      d'utiliser la version threadée de PHP.
      </para>
     </answer>
    </qandaentry>

@@ -23,8 +23,8 @@
     <answer>
      <para>
       Si c'est une DLL simple, il n'y a aucun moyen pour le moment de
-      l'utiliser avec PHP. Si la DLL contient un serveur COM, vous pourrez
-      l'utiliser si elle implémente l'interface IDispatch.
+      l'utiliser avec PHP. Si la DLL contient un serveur COM, il sera possible de
+      l'utiliser à condition qu'elle implémente l'interface IDispatch.
      </para>
     </answer>
    </qandaentry>
@@ -37,14 +37,14 @@
     </question>
     <answer>
      <para>
-      Il y a des dizaines de types de VARIANT et de combinaisons entre elles.
+      Il y a des dizaines de types de VARIANT et de combinaisons entre eux.
       La plupart d'entre elles sont déjà supportées, mais quelques-unes ne sont
       toujours pas implémentées.
       Les tableaux ne sont pas complètement supportés. Seuls les tableaux
       unidimensionnels indexés peuvent être transmis entre PHP et COM.
-      Si vous trouvez d'autres types qui ne sont pas supportés, reportez-les
-      nous comme un bogue (si ce n'est pas déjà fait) et fournissez le plus
-      d'informations possibles.
+      Si d'autres types non supportés sont rencontrés, il convient de les signaler
+      comme un bogue (si ce n'est pas déjà fait) et de fournir le plus
+      d'informations possible.
      </para>
     </answer>
    </qandaentry>
@@ -61,7 +61,7 @@
       souvent en tant que langage de script web et dans un environnement de
       serveur web, les objets visuels n'apparaîtront jamais sur le bureau du
       serveur.
-      Si vous voulez utiliser PHP pour scripter des applications, par
+      Pour scripter des applications, par
       exemple avec PHP-GTK, il n'y a aucune limitation à accéder et
       manipuler des objets visuels via COM.
      </para>
@@ -76,7 +76,7 @@
     </question>
     <answer>
      <para>
-      Non, vous ne pouvez pas. Les instances COM sont traitées comme des
+      Non. Les instances COM sont traitées comme des
       ressources, ce qui signifie qu'elles ne sont disponibles que dans un
       seul contexte de script.
      </para>
@@ -92,7 +92,7 @@
     <answer>
      <para>
       L'extension COM envoie des exceptions
-      <literal>com_exception</literal>, que vous pouvez intercepter en
+      <literal>com_exception</literal>, qu'il est possible d'intercepter en
       inspectant le membre <literal>code</literal> pour déterminer que faire.
      </para>
     </answer>
@@ -151,13 +151,13 @@
     </question>
     <answer>
      <para>
-      Exactement de la même manière qu'avec des objets locaux. Vous devez
-      juste passer l'adresse IP de la machine distante en deuxième paramètre
+      Exactement de la même manière qu'avec des objets locaux. Il suffit de
+      passer l'adresse IP de la machine distante en deuxième paramètre
       du constructeur COM.
      </para>
      <para>
-      Assurez-vous que vous avez spécifié 
-      <link linkend="ini.com.allow-dcom">com.allow_dcom</link><literal>=</literal>&true; dans votre
+      Il faut s'assurer que
+      <link linkend="ini.com.allow-dcom">com.allow_dcom</link><literal>=</literal>&true; dans le
       &php.ini;.
      </para>
     </answer>
@@ -172,7 +172,7 @@
     </question>
     <answer>
      <para>
-      Éditez votre &php.ini; et mettez 
+      Il faut éditer le &php.ini; et définir
       <link linkend="ini.com.allow-dcom">com.allow_dcom</link><literal>=</literal>&true;.
      </para>
     </answer>
@@ -203,8 +203,8 @@
     </question>
     <answer>
      <para>
-      C'est possible avec l'aide de monikers. Si vous voulez des références
-      multiples au même mot d'instance, vous pouvez créer une instance de la
+      C'est possible avec l'aide de monikers. Pour obtenir des références
+      multiples vers la même instance de Word, il est possible de créer une instance de la
       façon suivante :
      </para>
      <programlisting role="php">
@@ -230,8 +230,8 @@ $word = new COM("C:\docs\word.doc");
     </question>
     <answer>
      <para>
-      Vous pouvez définir un moniteur d'événement (sink) et le lier en
-      utilisant <function>com_event_sink</function>. Vous pouvez utiliser
+      Il est possible de définir un moniteur d'événement (sink) et le lier en
+      utilisant <function>com_event_sink</function>. Il est également possible d'utiliser
       <function>com_print_typeinfo</function> pour que PHP génère un
       squelette pour la classe du moniteur d'événement.
      </para>
@@ -248,7 +248,7 @@ $word = new COM("C:\docs\word.doc");
     <answer>
      <para>
       La réponse est aussi simple que non satisfaisante. Nous ne savons pas
-      exactement, mais nous pensons que vous ne pouvez rien faire.
+      exactement, mais nous pensons qu'il n'est pas possible de faire quoi que ce soit.
      </para>
     </answer>
    </qandaentry>
@@ -271,16 +271,16 @@ $word = new COM("C:\docs\word.doc");
    <qandaentry xml:id="faq.com.q15">
     <question>
      <para>
-      Si PHP peut manipuler des objets COM, peut-on imaginer d'utiliser des
-      ressources de composants, en conjonction avec PHP ?
+      Si PHP peut manipuler des objets COM, peut-on imaginer d'utiliser MTS
+      pour gérer les ressources de composants, en conjonction avec PHP ?
      </para>
     </question>
     <answer>
      <para>
       PHP ne supporte pas encore les transactions. Ainsi, si une erreur se
-      produit, aucun rollback n'est initié. Si vous utilisez des composants
-      qui supportent les transactions, vous devrez implémenter le
-      gestionnaire de transactions par vous-même.
+      produit, aucun rollback n'est initié. Si des composants supportant
+      les transactions sont utilisés, il faudra implémenter le
+      gestionnaire de transactions soi-même.
      </para>
     </answer>
    </qandaentry>

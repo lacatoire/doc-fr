@@ -13,7 +13,7 @@
    quasiment n'importe quel serveur web.
   </para>
   <para>
-   Pour installer PHP, suivez les instructions présentes dans  <xref linkend="install"/>.
+   Pour installer PHP, suivre les instructions présentes dans <xref linkend="install"/>.
   </para>
 
   <qandaset>
@@ -39,7 +39,7 @@
       entrante, de nouvelles faiblesses sont introduites dans le système PHP.
      </para>
      <para>
-      Si vous voulez utiliser un MPM threadé, regardez du côté
+      Pour utiliser un MPM threadé, il est possible de regarder du côté
       d'une configuration FastCGI dans laquelle PHP s'exécute dans son propre espace
       mémoire.
      </para>
@@ -59,27 +59,27 @@
       La plupart des personnes voudront changer ceci lors de la compilation
       avec l'option <link
       linkend="configure.with-config-file-path">--with-config-file-path</link>.
-      Vous pouvez par exemple le régler de cette façon :
+      Il est par exemple possible de le régler de cette façon :
       <programlisting role="shell">
 --with-config-file-path=/etc
       </programlisting>
-      Et alors vous copierez le fichier <filename>php.ini-development</filename> livré
-      avec les sources vers <filename>/etc/php.ini</filename> et l'éditer pour
-      l'adapter à vos besoins.
+      Il suffit ensuite de copier le fichier <filename>php.ini-development</filename> livré
+      avec les sources vers <filename>/etc/php.ini</filename> et de l'éditer pour
+      l'adapter aux besoins locaux.
      </para>
       <programlisting role="shell">
 --with-config-file-scan-dir=PATH
       </programlisting>
      <para>
       Sous Windows, le chemin par défaut de &php.ini; est le répertoire de
-      Windows. Si vous utilisez le serveur web Apache, &php.ini; est tout
-      d'abord cherché dans le répertoire d'installation de Apache, c'est-à-dire
+      Windows. Lors de l'utilisation du serveur web Apache, &php.ini; est tout
+      d'abord cherché dans le répertoire d'installation d'Apache, par exemple
       <filename>c:\program files\apache group\apache</filename>. De cette
-      façon, vous pouvez avoir un &php.ini; différent pour chaque version de
-      Apache installée.
+      façon, il est possible d'avoir un &php.ini; différent pour chaque version
+      d'Apache installée.
      </para>
      <para>
-     Consultez aussi le chapitre sur le
+     Consulter aussi le chapitre sur le
      <link linkend="configuration.file">fichier de configuration</link>.
      </para>
     </answer>
@@ -96,16 +96,16 @@
     <answer>
      <para>
       Cela signifie probablement que PHP rencontre un problème et génère un
-      fichier core. Consultez vos fichiers de logs de votre serveur pour voir
-      si c'est le cas, et tentez de reproduire le problème avec un test
-      simple. Si vous savez utiliser 'gdb', il serait très utile de fournir un
-      backtrace avec votre rapport de bogue, afin d'aider les développeurs à
-      cerner le problème. Si vous utilisez PHP en module Apache, essayez
+      fichier core. Il convient de consulter les fichiers de logs du serveur pour voir
+      si c'est le cas, et de tenter de reproduire le problème avec un test
+      simple. En cas de maîtrise de 'gdb', il serait très utile de fournir un
+      backtrace avec le rapport de bogue, afin d'aider les développeurs à
+      cerner le problème. Lors de l'utilisation de PHP en module Apache, il est possible d'essayer
       ceci :
       <itemizedlist>
        <listitem>
         <para>
-         Stoppez vos processus httpd
+         Stopper les processus httpd
         </para>
        </listitem>
        <listitem>
@@ -115,7 +115,7 @@
        </listitem>
        <listitem>
         <para>
-         Stoppez vos processus httpd
+         Stopper les processus httpd
         </para>
        </listitem>
        <listitem>
@@ -125,7 +125,7 @@
        </listitem>
        <listitem>
         <para>
-         Pointez alors avec votre navigateur vers l'URL posant problème.
+         Pointer alors avec le navigateur vers l'URL posant problème.
         </para>
        </listitem>
        <listitem>
@@ -135,17 +135,17 @@
        </listitem>
        <listitem>
         <para>
-         Si vous obtenez un fichier core, gdb doit alors vous en informer.
+         En cas de fichier core, gdb doit alors en informer.
         </para>
        </listitem>
        <listitem>
         <para>
-         tapez : bt
+         taper : bt
         </para>
        </listitem>
        <listitem>
         <para>
-         Vous devriez inclure votre backtrace dans votre rapport de bogue.
+         Il convient d'inclure le backtrace dans le rapport de bogue.
          Celui-ci doit être posté sur
          <link xlink:href="&url.php.bugs;">&url.php.bugs;</link>.
         </para>
@@ -153,9 +153,9 @@
       </itemizedlist>
      </para>
      <para>
-      Si votre script utilise les expressions régulières
-      (<function>preg_match</function> et consorts), assurez-vous que PHP et
-      Apache ont été compilés avec les même outils d'expression régulières.
+      Si le script utilise les expressions régulières
+      (<function>preg_match</function> et consorts), il faut s'assurer que PHP et
+      Apache ont été compilés avec les mêmes outils d'expressions régulières.
       Cela doit être automatiquement le cas avec PHP et Apache 1.3.x.
      </para>
     </answer>
@@ -170,9 +170,9 @@
     </question>
     <answer>
      <para>
-      En supposant que vous avez installé à la fois Apache et PHP à partir
-      de fichiers RPM, vous devrez commenter ou ajouter au moins quelques-unes
-      des lignes suivantes dans votre fichier &httpd.conf; :
+      En supposant qu'Apache et PHP ont été installés à partir
+      de fichiers RPM, il faut commenter ou ajouter au moins quelques-unes
+      des lignes suivantes dans le fichier &httpd.conf; :
       <programlisting role="apache-conf">
 <![CDATA[
 # Extra Modules
@@ -191,8 +191,8 @@ LoadModule perl_module        modules/libperl.so
 AddType application/x-httpd-php .php
 ]]>
       </programlisting>
-      ... aux propriétés globales ou aux propriétés du VirtualDomain ou vous
-      voulez que PHP officie.
+      ... aux propriétés globales ou aux propriétés du VirtualDomain où
+      PHP doit officier.
      </para>
     </answer>
    </qandaentry>
@@ -225,12 +225,12 @@ AddType application/x-httpd-php .php
     </question>
     <answer>
      <para>
-      Affichez le code source du document dans votre navigateur et vous
-      devriez probablement trouver le code source de votre script PHP.
+      En affichant le code source du document dans le navigateur, il est
+      probable d'y trouver le code source du script PHP.
       Cela signifie que le serveur web n'a pas envoyé le script à PHP pour
-      interprétation. Quelque chose est donc incorrecte dans le fichier de configuration
-      de votre serveur web - re-vérifiez la configuration du serveur web en vous
-      référant aux instructions d'installations
+      interprétation. Quelque chose est donc incorrect dans le fichier de configuration
+      du serveur web - il convient de re-vérifier la configuration du serveur web en se
+      référant aux instructions d'installation
       de PHP.
      </para>
     </answer>
@@ -247,15 +247,15 @@ AddType application/x-httpd-php .php
      <para>
       Quelque chose se passe mal lorsque le serveur tente d'utiliser PHP.
       Pour tenter de récupérer un message d'erreur, depuis la ligne de commande,
-      placez-vous dans le répertoire contenant l'exécutable PHP
-      (<filename>php.exe</filename> sous Windows) et exécutez la commande
+      se placer dans le répertoire contenant l'exécutable PHP
+      (<filename>php.exe</filename> sous Windows) et exécuter la commande
       <command>php -i</command>.
       Si PHP a un problème quelconque l'empêchant de fonctionner, un message
       d'erreur devrait s'afficher qui devrait expliquer comment résoudre ce souci. Si un
       écran de code HTML apparaît (la sortie de la fonction
       <function>phpinfo</function>),
       cela signifie que PHP fonctionne correctement et que le problème doit
-      certainement venir de la configuration de votre serveur web que vous devriez
+      certainement venir de la configuration du serveur web qu'il convient de
       re-vérifier.
      </para>
     </answer>
@@ -279,7 +279,7 @@ AddType application/x-httpd-php .php
      <para>
       Cela n'a actuellement rien à voir avec PHP mais avec la bibliothèque cliente
       MySQL. Suivant les versions, elle a besoin que PHP soit compilé avec l'option
-      <option role="configure">--with-zlib</option>, d'autre non.
+      <option role="configure">--with-zlib</option>, d'autres non.
       Ce problème est également traité dans la FAQ de MySQL.
      </para>
     </answer>
@@ -304,37 +304,37 @@ cgi error:
      <para>
       Ce message d'erreur signifie que PHP a échoué lors de l'affichage.
       Pour tenter de récupérer un message d'erreur, depuis la ligne de commande,
-      placez-vous dans le répertoire contenant l'exécutable PHP
-      (<filename>php.exe</filename> sous Windows) et exécutez la commande
+      se placer dans le répertoire contenant l'exécutable PHP
+      (<filename>php.exe</filename> sous Windows) et exécuter la commande
       <command>php -i</command>. Si PHP a un quelconque souci de
-      fonctionnement, alors un message d'erreur le décrivant s'affichera. Si vous
-      obtenez un écran de code HTML (le contenu du résultat de la fonction
+      fonctionnement, alors un message d'erreur le décrivant s'affichera. Si un
+      écran de code HTML apparaît (le contenu du résultat de la fonction
       <function>phpinfo</function>), alors PHP fonctionne
       correctement.
      </para>
      <para>
-      Si PHP fonctionne depuis la ligne de commande, tentez d'accéder à votre script
-      encore une fois via votre navigateur. S'il échoue toujours, alors, il se peut que ce
+      Si PHP fonctionne depuis la ligne de commande, tenter d'accéder au script
+      encore une fois via le navigateur. Si cela échoue toujours, alors, il se peut que ce
       soit l'un des soucis suivants :
      </para>
      <itemizedlist>
       <listitem>
        <simpara>
-        Les permissions de votre script PHP des fichiers <filename>php.exe</filename>,
+        Les permissions du script PHP, des fichiers <filename>php.exe</filename>,
         <filename>php5ts.dll</filename>, &php.ini; ou de toute extension nécessaire à PHP
-        que vous tentez de charger, sont telles que l'utilisateur internet anonyme de votre système
+        à charger, sont telles que l'utilisateur internet anonyme du système
         <literal>ISUR_&lt;machinename&gt;</literal> ne peut pas y accéder.
        </simpara>
       </listitem>
       <listitem>
        <simpara>
-        Le script PHP n'existe pas (ou n'est pas à l'endroit que vous pensez, relativement au
-        répertoire racine de votre serveur web). Notez que pour le serveur web IIS, vous pouvez
+        Le script PHP n'existe pas (ou n'est pas à l'endroit supposé, relativement au
+        répertoire racine du serveur web). Il est à noter que pour le serveur web IIS, il est possible de
         vérifier cela en cochant la case 'vérifier si le fichier existe' lors de la configuration
         de l'exécution des scripts dans le gestionnaire de services Internet. Si un fichier de script
         n'existe pas, le serveur web retournera une erreur 404. IIS a également
-        l'avantage d'effectuer toutes les identifications requises à votre place,
-        basés sur les permissions NTLanMan, sur votre fichier de script.
+        l'avantage d'effectuer toutes les identifications requises automatiquement,
+        basés sur les permissions NTLanMan, sur le fichier de script.
        </simpara>
       </listitem>
      </itemizedlist>
@@ -350,16 +350,16 @@ cgi error:
     </question>
     <answer>
      <para>
-      Assurez-vous que chaque utilisateur qui a besoin d'exécuter un script PHP
+      Il faut s'assurer que chaque utilisateur qui a besoin d'exécuter un script PHP
       possède les droits requis pour exécuter le fichier
       <filename>php.exe</filename> !
       IIS utilise un utilisateur anonyme qui est ajouté lors de l'installation de IIS.
-      Cet utilisateur doit avoir les droits suffisant sur le fichier
+      Cet utilisateur doit avoir les droits suffisants sur le fichier
       <filename>php.exe</filename>. De même, tous les utilisateurs enregistrés
       doivent posséder les droits requis pour exécuter le fichier
       <filename>php.exe</filename>.
-      Pour IIS4, vous devez lui dire que PHP est un moteur de script.
-      De plus, vous devriez lire cette <link
+      Pour IIS4, il faut lui indiquer que PHP est un moteur de script.
+      De plus, il est recommandé de lire cette <link
       linkend="faq.installation.forceredirect">FAQ</link>.
      </para>
     </answer>
@@ -368,22 +368,22 @@ cgi error:
    <qandaentry xml:id="faq.installation.forceredirect">
     <question>
      <para>
-      Lorsque vous exécutez PHP comme CGI avec IIS, PWS, OmniHTTPD ou Xitami,
-      j'obtiens l'erreur suivante : <literal>Security Alert! PHP CGI
+      Lors de l'exécution de PHP comme CGI avec IIS, PWS, OmniHTTPD ou Xitami,
+      l'erreur suivante apparaît : <literal>Security Alert! PHP CGI
        cannot be accessed directly.</literal>.
      </para>
     </question>
     <answer>
      <para>
-      Vous devez définir la directive <link linkend="ini.cgi.force-redirect">
+      Il faut définir la directive <link linkend="ini.cgi.force-redirect">
       cgi.force_redirect</link> à &zero;. Par défaut, elle vaut &one;, donc,
-      soyez sûrs que cette directive n'est pas commentée (précédée d'un point virgule).
+      il faut s'assurer que cette directive n'est pas commentée (précédée d'un point virgule).
       Comme toutes les directives, elles sont définies dans le &php.ini;.
      </para>
      <para>
-      Comme la valeur par défaut vaut &one;, il est impératif que vous soyez sûrs
+      Comme la valeur par défaut vaut &one;, il est impératif de s'assurer
       à 100% que le bon fichier &php.ini; a été lu.
-      Lisez cette <link linkend="faq.installation.findphpini">FAQ</link> 
+      Il est recommandé de lire cette <link linkend="faq.installation.findphpini">FAQ</link>
       pour plus de détails.
      </para>
     </answer>
@@ -398,18 +398,18 @@ cgi error:
     </question>
     <answer>
      <para>
-      Pour être sûr que votre &php.ini; a été lu par PHP, effectuez un appel à la fonction
+      Pour s'assurer que le &php.ini; a été lu par PHP, effectuer un appel à la fonction
       <function>phpinfo</function>. Vers le haut du document résultant, il devrait figurer
       une liste appelée <literal>Configuration File (php.ini)</literal>.
-      Cela vous indiquera où PHP a cherché le &php.ini; et si oui ou non il l'a lu.
-      Si seul un dossier <envar>PATH</envar> existe et qu'il est accessible en lecture,
-      vous devez copier votre &php.ini; dans ce dossier. Si le &php.ini; est présent dans le
+      Cela indiquera où PHP a cherché le &php.ini; et si oui ou non il l'a lu.
+      Si seul un dossier <envar>PATH</envar> existe et que le fichier n'est pas lu,
+      il faut copier le &php.ini; dans ce dossier. Si le &php.ini; est présent dans le
       chemin, cela signifie qu'il a bien été lu.
      </para>
      <para>
-      Si le &php.ini; a bien été lu et que vous exécutez PHP comme module,
-      alors assurez-vous de redémarrer le serveur web après avoir effectué les modifications
-      à votre &php.ini;.
+      Si le &php.ini; a bien été lu et que PHP s'exécute comme module,
+      alors il faut s'assurer de redémarrer le serveur web après avoir effectué les modifications
+      au &php.ini;.
      </para>
      <para>
       Voir aussi la fonction <function>php_ini_loaded_file</function>.
@@ -429,38 +429,38 @@ cgi error:
       Sous Windows :
       <itemizedlist>
        <listitem><para>
-        Allez dans le centre de contrôle et ouvrez l'icône système (Démarrer → Paramètres
+        Aller dans le centre de contrôle et ouvrir l'icône système (Démarrer → Paramètres
         → Panneau de configuration → Système ou juste Démarrer → centre de contrôle
         → Système pour Windows XP/2003+)
        </para></listitem>
        <listitem><para>
-        Allez à l'onglet "Avancé"
+        Aller à l'onglet "Avancé"
        </para></listitem>
        <listitem><para>
-        Cliquez sur le bouton "Variables d'environnements"
+        Cliquer sur le bouton "Variables d'environnements"
        </para></listitem>
        <listitem><para>
-        Regardez dans le panneau "Variables systèmes"
+        Regarder dans le panneau "Variables systèmes"
        </para></listitem>
        <listitem><para>
-        Trouvez l'entrée <literal>Path</literal> (vous devriez avoir à faire descendre
-        l'ascenseur pour le trouver)
+        Trouver l'entrée <literal>Path</literal> (il peut être nécessaire de faire descendre
+        l'ascenseur pour la trouver)
        </para></listitem>
        <listitem><para>
-        Double cliquez sur l'entrée <literal>Path</literal>
+        Double cliquer sur l'entrée <literal>Path</literal>
        </para></listitem>
        <listitem><para>
-        Entrez votre répertoire PHP à la fin, sans oublier le point virgule (<literal>;</literal>)
+        Entrer le répertoire PHP à la fin, sans oublier le point virgule (<literal>;</literal>)
         avant (par exemple <literal>;C:\php</literal>)
        </para></listitem>
        <listitem><para>
-        Confirmez en cliquant sur <literal>OK</literal>
+        Confirmer en cliquant sur <literal>OK</literal>
        </para></listitem>
       </itemizedlist>
      </para>
      <note>
       <simpara>
-       Assurez-vous de redémarrer l'ordinateur après avoir suivi cette procédure
+       Il faut redémarrer l'ordinateur après avoir suivi cette procédure
        afin que les modifications sur la variable <envar>PATH</envar>
        soient bien prises en compte.
       </simpara>
@@ -476,8 +476,8 @@ cgi error:
     </question>
     <answer>
      <para>
-      Il y a plusieurs façons de faire cela. Si vous utilisez Apache,
-      référez vous à la documentation d'Apache, sinon vous devez définir
+      Il y a plusieurs façons de faire cela. En cas d'utilisation d'Apache,
+      se référer à la documentation d'Apache, sinon il faut définir
       la variable d'environnement <varname>PHPRC</varname>.
      </para>
     </answer>
@@ -494,7 +494,7 @@ cgi error:
      <procedure>
       <step>
        <simpara>
-        Faites un clic droit sur le répertoire temporaire (<varname>%TEMP%</varname>)
+        Faire un clic droit sur le répertoire temporaire (<varname>%TEMP%</varname>)
         dans l'Explorateur de fichiers pour obtenir les autorisations.
         Le répertoire temporaire est disponible depuis la configuration ou
         <function>phpinfo</function>.
@@ -502,7 +502,7 @@ cgi error:
       </step>
       <step>
        <simpara>
-        Pour IIS, vérifiez que l'utilisateur <literal>IIS_User</literal> dispose de
+        Pour IIS, vérifier que l'utilisateur <literal>IIS_User</literal> dispose de
         l'autorisation <literal>MODIFIER</literal>.
        </simpara>
       </step>
@@ -521,10 +521,10 @@ cgi error:
      <para>
       Si les liens vers les fichiers PHP incluent l'extension, tout fonctionne
       parfaitement. Cette entrée de la FAQ traite uniquement du cas où les liens
-      vers les fichiers PHP n'incluent pas l'extension et que vous voulez
+      vers les fichiers PHP n'incluent pas l'extension et qu'il est souhaité
       utiliser la négociation sur le contenu fourni par Apache pour choisir les
       fichiers PHP depuis une URL qui ne contient pas d'extension. Dans ce
-      cas, remplacez la ligne
+      cas, remplacer la ligne
       <literal>AddType application/x-httpd-php .php</literal> par :
       <programlisting role="apache-conf">
 <![CDATA[
@@ -546,10 +546,10 @@ AddType text/html php
     </question>
     <answer>
      <para>
-      Non, il est possible de gérer tout type de méthode, comme CONNECT. Les
-      bons en-têtes de réponse peuvent être envoyés avec la fonction
+      Non, il est possible de gérer tout type de méthode, comme CONNECT. Le
+      bon statut de réponse peut être envoyé avec la fonction
       <function>header</function>. Si seules les méthodes POST et GET doivent
-      être gérées, vous pouvez configurer Apache comme ce qui suit :
+      être gérées, il est possible de configurer Apache comme ce qui suit :
       <programlisting role="apache-conf">
 <![CDATA[
 <LimitExcept GET POST>
