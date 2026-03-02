@@ -52,7 +52,7 @@
    Nom de la table du champ spécifié, en cas de succès.
   </simpara>
   <simpara>
-   &false; when invalid field_offset value.
+   &false; lorsque la valeur de field_offset est invalide.
   </simpara>
   <simpara>
    -1 si la requête SQL n'est pas de type SELECT.

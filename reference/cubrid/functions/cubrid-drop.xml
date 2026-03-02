@@ -16,7 +16,7 @@
    <methodparam><type>string</type><parameter>oid</parameter></methodparam>
   </methodsynopsis>
   <simpara>
-   La <function>cubrid_drop</function> est utilisée pour supprimer une
+   La fonction <function>cubrid_drop</function> est utilisée pour supprimer une
    instance de la base de données en utilisant le paramètre <parameter>oid</parameter>
    de l'instance.
   </simpara>

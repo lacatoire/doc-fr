@@ -99,7 +99,7 @@
          * Le module PHP dans CUBRID fonctionne en architecture 3 parties.
          * Lors de l'appel à une requête de type SELECT dans une transaction, elle
          * sera exécutée comme faisant partie de la transaction. Aussi, si la
-         * transaction est annulé avant l'appel à la requête SELECT, elle sera
+         * transaction est annulée avant l'appel à la requête SELECT, elle sera
          * exécutée avec des performances moindres.
          */
         cubrid_commit($cubrid_con);

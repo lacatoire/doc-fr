@@ -15,7 +15,7 @@
    <void/>
   </methodsynopsis>
   <simpara>
-   Cette fonction retourne une &string; représentant la vesion
+   Cette fonction retourne une &string; représentant la version
    de la bibliothèque cliente.
   </simpara>
  </refsect1>

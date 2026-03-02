@@ -17,7 +17,7 @@
   </methodsynopsis>
   <simpara>
    Cette fonction exécute une requête sans attendre que tous les résultats
-   ait été récupérés. La fonction retournera lorsque les résultats seront
+   aient été récupérés. La fonction retournera lorsque les résultats seront
    générés.
   </simpara>
  </refsect1>
@@ -67,7 +67,7 @@
     $link = cubrid_connect("localhost", 30000, "demodb", "dba", "");
     if (!$link)
     {
-        die('Could not connect.');
+        die('Impossible de se connecter.');
     }
     $query = "select * from code";
     $result = cubrid_unbuffered_query($query, $link);

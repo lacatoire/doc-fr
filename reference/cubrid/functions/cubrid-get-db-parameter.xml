@@ -113,7 +113,7 @@
         de données pour la table qui a été mise à jour et validée par la
         transaction T2 alors qu'elle lit à plusieurs reprises la table A.
         La transaction T1 peut rencontrer des données non mises à jour pour
-        l'enregistrement qui a été mise à jour mais non validé par la transaction
+        l'enregistrement qui a été mis à jour mais non validé par la transaction
         T2.</entry>
       </row>
      </tbody>
