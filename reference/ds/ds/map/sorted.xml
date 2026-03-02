@@ -85,7 +85,7 @@ Ds\Map Object
 <?php
 $map = new \Ds\Map(["a" => 2, "b" => 3, "c" => 1]);
 
-// Renverse 
+// Inversé
 $sorted = $map->sorted(function($a, $b) {
     return $b <=> $a;
 });

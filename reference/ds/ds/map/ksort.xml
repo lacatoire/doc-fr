@@ -88,7 +88,7 @@ Ds\Map Object
 <?php
 $map = new \Ds\Map([1 => "x", 2 => "y", 0 => "z"]);
 
-// Reverse
+// Inversé
 $map->ksort(function($a, $b) {
     return $b <=> $a;
 });

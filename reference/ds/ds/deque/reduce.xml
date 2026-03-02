@@ -87,7 +87,7 @@ $callback = function($carry, $value) {
 
 var_dump($deque->reduce($callback, 5));
 
-// Iterations:
+// Itérations :
 //
 // $carry = $initial = 5
 //
@@ -115,7 +115,7 @@ var_dump($deque->reduce(function($carry, $value) {
     return $carry + $value + 5;
 }));
 
-// Iterations:
+// Itérations :
 //
 // $carry = $initial = null
 //

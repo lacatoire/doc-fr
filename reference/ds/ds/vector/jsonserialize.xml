@@ -14,7 +14,7 @@
   </para>
   <note>
    <para>
-    On ne devriez jamais avoir besoin d'appeler ceci directement.
+    Il ne devrait jamais être nécessaire d'appeler cette méthode directement.
    </para>
   </note>
  </refsect1>

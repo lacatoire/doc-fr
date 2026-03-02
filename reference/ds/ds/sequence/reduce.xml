@@ -87,7 +87,7 @@ $callback = function($carry, $value) {
 
 var_dump($sequence->reduce($callback, 5));
 
-// Iterations:
+// Itérations :
 //
 // $carry = $initial = 5
 //
