@@ -21,7 +21,7 @@
    Le paquet principal à installer est <filename>php</filename>,
    qui contient le moteur de base (en plus de fpm, gettext et iconv) et pourrait
    être disponible sous plusieurs versions au choix.
-   Puis, jetez un oeil aux paquets de module, comme <filename>php-mysqli</filename>
+   Puis, jeter un œil aux paquets de module, comme <filename>php-mysqli</filename>
    ou <filename>php-imap</filename>. Il faut utiliser la commande
    <command>phpxs</command> pour activer et désactiver ces modules dans le
    &php.ini;.
@@ -33,12 +33,12 @@
 # pkg_add php
 # pkg_add php-apache
 # pkg_add php-mysqli
-  (install the PEAR libraries)
+  (installer les bibliothèques PEAR)
 # pkg_add pear
 
-Follow the instructions shown with each package!
+Suivre les instructions affichées avec chaque paquet !
 
-  (to remove packages)
+  (pour supprimer des paquets)
 # pkg_delete php
 # pkg_delete php-apache
 # pkg_delete php-mysqli

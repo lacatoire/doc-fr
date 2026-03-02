@@ -70,7 +70,7 @@
    </listitem>
    <listitem>
     <para>
-     Avec un éditeur de texte, décommentez les lignes (en effaçant le caractère #)
+     Avec un éditeur de texte, décommenter les lignes (en effaçant le caractère #)
      qui ressemblent aux lignes suivantes (ces 2 lignes ne se trouvent pas au même endroit) :
      <screen>
 <![CDATA[
@@ -172,7 +172,7 @@
    </listitem>
    <listitem>
     <simpara>
-     Redémarrez Apache et chargez le fichier PHP que nous venons de créer.
+     Redémarrer Apache et charger le fichier PHP créé précédemment.
     </simpara>
     <para>
      Pour redémarrer, exécutez la commande <literal>sudo apachectl graceful</literal>
