@@ -7,7 +7,7 @@
   <refname>pcntl_sigtimedwait</refname>
   <refpurpose>Attend un signal dans un délai donné</refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>

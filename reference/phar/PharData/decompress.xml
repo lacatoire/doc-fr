@@ -19,12 +19,12 @@
   <para>
    Pour les archives Zip, cette méthode échoue et lève une exception.
    L'extension <link linkend="ref.zlib">zlib</link> doit être activée
-   pour décompresser une archive compressée avec gzip et l'extension 
-   <link linkend="ref.bzip2">bzip2</link> doit être disponible pour 
+   pour décompresser une archive compressée avec gzip et l'extension
+   <link linkend="ref.bzip2">bzip2</link> doit être disponible pour
    décompresser une archive compressée avec bzip2.
   </para>
   <para>
-   De plus, cette méthode renomme automatiquement l'extension de 
+   De plus, cette méthode renomme automatiquement l'extension de
    fichier de l'archive, <literal>.tar</literal> par défaut.
    Sinon, une extension de fichier peut être spécifiée avec le paramètre
    <parameter>extension</parameter>.
@@ -39,8 +39,8 @@
      <term><parameter>extension</parameter></term>
      <listitem>
       <para>
-       Pour décompresser, l'extension par défaut est 
-       <literal>.tar</literal>. Utiliser ce paramètre 
+       Pour décompresser, l'extension par défaut est
+       <literal>.tar</literal>. Utiliser ce paramètre
        pour spécifier une autre extension de fichier. Gardez
        à l'esprit que seul les archives exécutables peuvent
        contenir <literal>.phar</literal> dans leur nom de fichier.
@@ -63,7 +63,7 @@
   &reftitle.errors;
   <para>
    Soulève une exception <classname>BadMethodCallException</classname> si
-   l'extension <link linkend="ref.zlib">zlib</link> n'est pas disponible ou si 
+   l'extension <link linkend="ref.zlib">zlib</link> n'est pas disponible ou si
    l'extension <link linkend="ref.bzip2">bzip2</link> n'est pas activée.
   </para>
  </refsect1>

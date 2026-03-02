@@ -17,15 +17,15 @@
    <methodparam choice="opt"><type class="union"><type>array</type><type>null</type></type><parameter>commandOptions</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
   <para>
-   Construit un nouveau <classname>MongoDB\Driver\Command</classname>, qui est 
-   un objet valeur immuable qui représente une commande de base de données. 
+   Construit un nouveau <classname>MongoDB\Driver\Command</classname>, qui est
+   un objet valeur immuable qui représente une commande de base de données.
    La commande peut alors être exécutée avec
    <methodname>MongoDB\Driver\Manager::executeCommand</methodname>.
   </para>
   <para>
-   Le document de commande complet, qui inclut le nom de la commande et ses 
-   options, doit être exprimé dans le paramètre <parameter>document</parameter>. 
-   Le paramètre <parameter>commandOptions</parameter> est utilisé uniquement 
+   Le document de commande complet, qui inclut le nom de la commande et ses
+   options, doit être exprimé dans le paramètre <parameter>document</parameter>.
+   Le paramètre <parameter>commandOptions</parameter> est utilisé uniquement
    pour spécifier les options liées à l'exécution de la commande et le résultat
    <classname>MongoDB\Driver\Cursor</classname>.
   </para>
@@ -43,14 +43,14 @@
      </para>
     </listitem>
    </varlistentry>
-   
+
    <varlistentry>
     <term><parameter>commandOptions</parameter></term>
     <listitem>
      <note>
       <simpara>
-       N'utiliser pas ce paramètre pour spécifier les options décrites dans la 
-       référence de la commande dans le manuel MongoDB. Ce paramètre ne doit 
+       N'utiliser pas ce paramètre pour spécifier les options décrites dans la
+       référence de la commande dans le manuel MongoDB. Ce paramètre ne doit
        être utilisé que pour les options explicitement énumérées ci-dessous.
       </simpara>
      </note>
@@ -71,10 +71,10 @@
           <entry><type>int</type></entry>
           <entry>
            <para>
-            Entier positif indiquant la limite de temps en millisecondes pour 
-            que le serveur bloque une opération getMore si aucune donnée n'est 
-            disponible. Cette option ne doit être utilisée qu'en conjonction 
-            avec les commandes qui retournent un curseur à queue (par exemple 
+            Entier positif indiquant la limite de temps en millisecondes pour
+            que le serveur bloque une opération getMore si aucune donnée n'est
+            disponible. Cette option ne doit être utilisée qu'en conjonction
+            avec les commandes qui retournent un curseur à queue (par exemple
             <link xlink:href="&url.mongodb.docs;changeStreams/">Change Streams</link>).
            </para>
           </entry>
@@ -94,7 +94,7 @@
    &mongodb.throws.argumentparsing;
   </simplelist>
  </refsect1>
- 
+
  <refsect1 role="changelog">
   &reftitle.changelog;
   <para>
@@ -111,7 +111,7 @@
        <entry>PECL mongodb 1.4.0</entry>
        <entry>
         <para>
-         Ajout d'un deuxième argument <parameter>commandOptions</parameter>, qui 
+         Ajout d'un deuxième argument <parameter>commandOptions</parameter>, qui
          prend en charge l'option <literal>"maxAwaitTimeMS"</literal>.
         </para>
        </entry>
@@ -191,14 +191,14 @@ array(13) {
 ]]>
    </screen>
   </example>
-  
+
   <example>
    <title>Exemple avec <function>MongoDB\Driver\Command::__construct</function></title>
    <para>
-    Les commandes peuvent également accepter des options, dans le cadre de la 
-    structure normale qu'on crée pour envoyer au serveur. Par exemple, 
-    l'option <literal>maxTimeMS</literal> peut être passée avec la plupart des 
-    commandes pour restreindre la durée pendant laquelle une commande spécifique 
+    Les commandes peuvent également accepter des options, dans le cadre de la
+    structure normale qu'on crée pour envoyer au serveur. Par exemple,
+    l'option <literal>maxTimeMS</literal> peut être passée avec la plupart des
+    commandes pour restreindre la durée pendant laquelle une commande spécifique
     peut s'exécuter sur le serveur.
    </para>
    <programlisting role="php">

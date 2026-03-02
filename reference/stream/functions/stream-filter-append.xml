@@ -6,7 +6,7 @@
 <refentry xml:id="function.stream-filter-append" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>stream_filter_append</refname>
-  <refpurpose>Attache un filtre à un flux en fin de liste</refpurpose> 
+  <refpurpose>Attache un filtre à un flux en fin de liste</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
@@ -18,9 +18,9 @@
     <methodparam choice="opt"><type>mixed</type><parameter>params</parameter></methodparam>
    </methodsynopsis>
    <para>
-    <function>stream_filter_append</function> ajoute le filtre 
+    <function>stream_filter_append</function> ajoute le filtre
     <parameter>filtername</parameter> à la liste de filtres attachés au
-    flux <parameter>stream</parameter>. 
+    flux <parameter>stream</parameter>.
    </para>
   </refsect1>
 
@@ -58,7 +58,7 @@
        <constant>STREAM_FILTER_WRITE</constant>, et/ou
        <constant>STREAM_FILTER_ALL</constant> peuvent aussi être utilisées
        dans le paramètre <parameter>read_write</parameter> pour contrôler
-       ce comportement. 
+       ce comportement.
       </para>
      </listitem>
     </varlistentry>
@@ -66,9 +66,9 @@
      <term><parameter>params</parameter></term>
      <listitem>
       <para>
-       Ce filtre sera ajouté avec les paramètres 
+       Ce filtre sera ajouté avec les paramètres
        <parameter>params</parameter> à la <emphasis>fin</emphasis> de
-       la liste des filtres, et sera ainsi appelé à la fin des 
+       la liste des filtres, et sera ainsi appelé à la fin des
        opérations de filtres. Pour ajouter un filtre au début
        de la liste, utiliser la fonction 
        <function>stream_filter_prepend</function>.
@@ -144,7 +144,7 @@ Guvf vf n grfg
     sous le nom de <parameter>filtername</parameter>.
    </simpara>
   </note>
-  <note> 
+  <note>
    <simpara>
     Les données du flux (locales et distantes) sont retournées en morceaux,
     les données non acheminées étant conservées dans le tampon interne.
@@ -158,7 +158,7 @@ Guvf vf n grfg
    <simpara>
     Quand un filtre est ajouté pour la lecture et l'écriture, deux instances
     du filtre sont créées. <function>stream_filter_append</function> doit être
-    appelée deux fois avec <constant>STREAM_FILTER_READ</constant> et 
+    appelée deux fois avec <constant>STREAM_FILTER_READ</constant> et
     <constant>STREAM_FILTER_WRITE</constant> pour obtenir les ressources de filtres.
    </simpara>
   </note>
