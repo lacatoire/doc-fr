@@ -171,7 +171,7 @@ function escape_javascript_string($str) {
 $convmap = [ 0x0, 0xffff, 0, 0xffff ];
 $msg = '';
 for ($i=0; $i < 1000; $i++) {
-  // chr() ne peut pas générer de données correctes UTF-8 plus grande valeur que 128, utilisez mb_decode_numericentity().
+  // chr() ne peut pas générer de données correctes UTF-8 plus grande valeur que 128, utiliser mb_decode_numericentity().
   $msg .= mb_decode_numericentity('&#'.$i.';', $convmap, 'UTF-8');
 }
  

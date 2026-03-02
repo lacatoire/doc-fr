@@ -65,7 +65,7 @@
   &reftitle.returnvalues;
   <simpara>
    Retourne le nom de base de données en cas de succès et &false; en cas
-   d'échec. Si &false; est retourné, utilisez <function>mysql_error</function>
+   d'échec. Si &false; est retourné, utiliser <function>mysql_error</function>
    pour déterminer la nature de l'erreur.
   </simpara>
  </refsect1>

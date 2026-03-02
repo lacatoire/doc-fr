@@ -5,7 +5,7 @@
  &reftitle.install;
 
  <simpara>
-  Utilisez <option role="configure">--with-cmark[=DIR]</option> lors de la compilation PHP.
+  Utiliser <option role="configure">--with-cmark[=DIR]</option> lors de la compilation PHP.
  </simpara>
 
  <simpara>

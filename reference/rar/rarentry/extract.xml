@@ -84,7 +84,7 @@
   <warning>
    <simpara>
     Avant la version 2.0.0, cette fonction ne gérait pas les chemins relatifs
-    correctement. Utilisez la fonction <function>realpath</function> comme contournement.
+    correctement. Utiliser la fonction <function>realpath</function> comme contournement.
    </simpara>
   </warning>
  </refsect1>

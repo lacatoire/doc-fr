@@ -40,7 +40,7 @@
     <listitem><simpara>Le nom ou la position du champ <parameter>field</parameter>
      à récupérer. Ce peut être la position du champ, son nom, ou le nom de la table suivi
      d'un point, suivi du nom du champ (tablename.fieldname). Si le nom de la colonne
-     est un alias ('select foo as bar from...'), utilisez l'alias au lieu du nom
+     est un alias ('select foo as bar from...'), utiliser l'alias au lieu du nom
      de la colonne. Si non défini, le premier champ sera récupéré.</simpara></listitem>
    </varlistentry>
   </variablelist>

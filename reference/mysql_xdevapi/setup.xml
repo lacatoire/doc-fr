@@ -86,29 +86,29 @@ pdo_mysql
     <itemizedlist>
       <listitem>
         <para>
-          Le nom de l'extension est 'mysql_xdevapi', donc utilisez <literal>--enable-mysql-xdevapi</literal>.
+          Le nom de l'extension est 'mysql_xdevapi', donc utiliser <literal>--enable-mysql-xdevapi</literal>.
         </para>
       </listitem>
       <listitem>
         <para>
-          Boost; requis, utilisez optionnellement l'option de configuration --with-boost=DIR
+          Boost; requis, utiliser optionnellement l'option de configuration --with-boost=DIR
           ou définissez la variable d'environnement MYSQL_XDEVAPI_BOOST_ROOT. Seuls les
           fichiers d'en-tête boost sont requis; pas les binaires.
         </para>
       </listitem>
       <listitem>
         <para>
-          Google Protocol Buffers (protobuf): requis, utilisez optionnellement l'option de configuration
+          Google Protocol Buffers (protobuf): requis, utiliser optionnellement l'option de configuration
           --with-protobuf=DIR ou définissez la variable d'environnement MYSQL_XDEVAPI_PROTOBUF_ROOT.
         </para>
         <para>
-          Optionnellement utilisez <literal>make protobufs</literal> pour générer les fichiers protobuf (*.pb.cc/.h),
+          Optionnellement utiliser <literal>make protobufs</literal> pour générer les fichiers protobuf (*.pb.cc/.h),
           et <literal>make clean-protobufs</literal> pour supprimer les fichiers protobuf générés.
         </para>
         <para>
           Note spécifique à Windows : selon l'environnement, la bibliothèque statique avec
           un runtime DLL multi-thread peut être nécessaire.
-          Pour préparer, utilisez les options suivantes :
+          Pour préparer, utiliser les options suivantes :
           <emphasis>-Dprotobuf_MSVC_STATIC_RUNTIME=OFF -Dprotobuf_BUILD_SHARED_LIBS=OFF</emphasis>
         </para>
       </listitem>

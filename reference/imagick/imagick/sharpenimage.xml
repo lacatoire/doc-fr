@@ -22,7 +22,7 @@
    utilisant le paramètre <parameter>radius</parameter> et la déviation
    standard <parameter>sigma</parameter>. Pour de bons résultats,
    le paramètre <parameter>radius</parameter> doit être plus élevé
-   que le paramètre <parameter>sigma</parameter>. Utilisez un <parameter>radius</parameter>
+   que le paramètre <parameter>sigma</parameter>. Utiliser un <parameter>radius</parameter>
    de 0 et <function>Imagick::sharpenImage</function> choisira un bon
    <parameter>radius</parameter> au place.
   </para>

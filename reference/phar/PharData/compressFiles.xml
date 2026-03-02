@@ -17,7 +17,7 @@
   <para>
    Pour les archives basées sur tar, cette méthode soulève une exception
    <classname>BadMethodCallException</classname> car la compression individuelle des fichiers
-   d'une archive tar n'est pas supportée par ce format de fichiers. Utilisez
+   d'une archive tar n'est pas supportée par ce format de fichiers. Utiliser
    <function>PharData::compress</function> pour compresser une archive basée sur tar complète.
   </para>
   <para>

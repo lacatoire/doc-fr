@@ -7,7 +7,7 @@
  &reftitle.install;
 
  <para>
-  Utilisez <option role="configure">--enable-uopz[=DIR]</option>
+  Utiliser <option role="configure">--enable-uopz[=DIR]</option>
   lors de la compilation de PHP.
  </para>
 

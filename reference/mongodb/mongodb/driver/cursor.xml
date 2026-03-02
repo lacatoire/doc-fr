@@ -117,7 +117,7 @@ $query = new MongoDB\Driver\Query( [] );
 $cursor = $manager->executeQuery("test.asteroids", $query);
 
 /* $cursor contient maintenant un objet qui entoure le jeu de résultats. 
- * Utilisez foreach() pour itérer sur tous les résultats */
+ * Utiliser foreach() pour itérer sur tous les résultats */
 foreach($cursor as $document) {
     print_r($document);
 }

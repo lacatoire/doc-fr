@@ -36,7 +36,7 @@ function foo(callable $callback) {
    Les callables peuvent être passés en tant qu'arguments aux fonctions ou méthodes qui
    attendent un paramètre callback ou ils peuvent être invoqués directement.
    Le type <type>callable</type> ne peut pas être utilisé comme déclaration de type pour les
-   propriétés. À la place, utilisez une déclaration de type <classname>Closure</classname>.
+   propriétés. À la place, utiliser une déclaration de type <classname>Closure</classname>.
   </simpara>
 
   <simpara>
@@ -170,7 +170,7 @@ print implode(' ', $new_numbers);
     où ils sont créés, les callables référençant des méthodes de classes sous forme
     de chaînes de caractères ou de tableaux sont résolus dans le scope où ils sont appelés.
     Pour créer un callable à partir d'une méthode privée ou protégée, qui peut ensuite être
-    invoqué depuis l'extérieur de la classe, utilisez
+    invoqué depuis l'extérieur de la classe, utiliser
     <methodname>Closure::fromCallable</methodname> ou la 
     <link linkend="functions.first_class_callable_syntax">syntaxe callable de
     première classe</link>
@@ -190,7 +190,7 @@ print implode(' ', $new_numbers);
     À partir de PHP 8.2.0, les callables dépendants du contexte
     sont dépréciés. Supprimez la dépendance au contexte en remplaçant
     <literal>'parent::method'</literal> par
-    <literal>parent::class . '::method'</literal> ou utilisez la
+    <literal>parent::class . '::method'</literal> ou utiliser la
     <link linkend="functions.first_class_callable_syntax">syntaxe callable de
     première classe</link>.
    </simpara>

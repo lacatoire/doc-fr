@@ -3193,7 +3193,7 @@
     <listitem>
      <simpara>
       Échec de l'envoi au client (cette constante est disponible dans Swoole version >= v4.5.9, 
-      auparavant, utilisez le code d'état).
+      auparavant, utiliser le code d'état).
      </simpara>
     </listitem>
    </varlistentry>

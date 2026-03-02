@@ -105,9 +105,9 @@ executeAction($copyAction);
    <para>
     La syntaxe des attributs consiste en plusieurs composants clés. Une déclaration d'attribut commence par <literal>#[</literal> et se termine par
     <literal>]</literal>. À l'intérieur, un ou plusieurs attributs peuvent être listés, séparés par des virgules. Le nom de l'attribut peut être non qualifié, qualifié,
-    ou complètement qualifié, comme décrit dans <link linkend="language.namespaces.basics">Utilisation des bases des espaces de noms</link>.
-    Les arguments de l'attribut sont optionnels et sont enfermés dans des parenthèses <literal>()</literal>. Les arguments peuvent uniquement être des valeurs littérales ou des expressions constantes.
-    La syntaxe des arguments positionnels et nommés est prise en charge.
+    ou complètement qualifié, comme décrit dans <link linkend="language.namespaces.basics">Utilisation de base des espaces de noms</link>.
+    Les arguments de l'attribut sont optionnels et sont placés entre parenthèses <literal>()</literal>. Les arguments peuvent uniquement être des valeurs littérales ou des expressions constantes.
+    La syntaxe des arguments positionnels et nommés est supportée.
    </para>
 
    <para>
@@ -173,14 +173,14 @@ class AnotherThing
 
    <para>
     Pour accéder aux attributs des classes, méthodes, fonctions, paramètres, propriétés
-    et constantes de classe, utilisez la méthode <function>getAttributes</function> fournie
+    et constantes de classe, il convient d'utiliser la méthode <function>getAttributes</function> fournie
     par l'API de réflexion. Cette méthode retourne un tableau d'instances de <classname>ReflectionAttribute</classname>.
     Ces instances permettent d'interroger le nom de l'attribut, ses arguments, et
-    peuvent être utilisées pour instancier une instance de l'attribut représenté.
+    peuvent être utilisées pour créer une instance de l'attribut représenté.
    </para>
 
    <para>
-    Séparer la représentation réfléchie d'un attribut de son instance réelle offre un meilleur
+    Séparer la représentation obtenue par réflexion d'un attribut de son instance réelle offre un meilleur
     contrôle sur la gestion des erreurs, comme l'absence de classe d'attribut, les arguments
     mal typés ou les valeurs manquantes. Les objets de la classe d'attribut ne sont instanciés
     qu'après l'appel à <function>ReflectionAttribute::newInstance</function>, garantissant que
@@ -337,7 +337,7 @@ class MyAttribute
 
    <para>
     Par défaut, un attribut ne peut être utilisé qu'une seule fois par déclaration.
-    Pour autoriser un attribut à être répété, spécifiez-le dans le masque de bits
+    Pour autoriser un attribut à être répété, il faut le spécifier dans le masque de bits
     de la déclaration <literal>#[Attribute]</literal> en utilisant le drapeau
     <constant>Attribute::IS_REPEATABLE</constant>.
    </para>

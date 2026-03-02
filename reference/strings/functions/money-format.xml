@@ -340,7 +340,7 @@ echo money_format($fmt, 1234.56) . "\n";
   <note>
    <para>
     La catégorie <constant>LC_MONETARY</constant> de la configuration locale
-    affecte le comportement de cette fonction. Utilisez
+    affecte le comportement de cette fonction. Utiliser
     <function>setlocale</function> pour configurer correctement PHP avant
     d'utiliser cette fonction.
    </para>

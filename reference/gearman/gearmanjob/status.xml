@@ -17,7 +17,7 @@
   </methodsynopsis>
   <simpara>
    Envoie des informations de statut au serveur de travaux ainsi qu'à tous
-   les clients à l'écoute. Utilisez cette méthode pour spécifier le pourcentage
+   les clients à l'écoute. Utiliser cette méthode pour spécifier le pourcentage
    de réalisation d'un travail.
   </simpara>
   <note>

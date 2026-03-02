@@ -87,7 +87,7 @@
    </step>
    <step>
     <simpara>
-     Ajoutez la ligne suivante à la fin du fichier php.ini : 
+     Ajouter la ligne suivante à la fin du fichier php.ini :
      <literal>extension = php_wincache.dll</literal>.
     </simpara>
    </step>
@@ -207,7 +207,7 @@ $user_allowed = array('DOMAIN\user1', 'DOMAIN\user2', 'DOMAIN\user3');
    <link linkend="ini.session.save-handler">session.save_handler</link> du fichier 
    <filename>php.ini</filename> à <emphasis>wincache</emphasis>.
    Par défaut, l'endroit où sont stockés les fichiers temporaires sous Windows est utilisé
-   pour stocker les données de session. Pour changer cet endroit, utilisez la directive
+   pour stocker les données de session. Pour changer cet endroit, utiliser la directive
    <link linkend="ini.session.save-path">session.save_path</link>.
    <example>
     <title>Activer le gestionnaire de session WinCache</title>
@@ -280,7 +280,7 @@ session.save_path = C:\inetpub\temp\session\
    </listitem>
   </itemizedlist>
   <para>
-   Pour configurer le re routage de fonctions avec Wincache, utilisez le fichier
+   Pour configurer le re routage de fonctions avec Wincache, utiliser le fichier
    <filename>reroute.ini</filename> inclus dans le paquet. Copiez-le dans le dossier
    où se trouve <filename>php.ini</filename>. Après, ajoutez wincache.rerouteini dans
    <filename>php.ini</filename> et précisez le chemin absolu ou relatif vers

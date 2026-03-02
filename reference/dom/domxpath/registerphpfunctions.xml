@@ -28,7 +28,7 @@
      <term><parameter>restrict</parameter></term>
      <listitem>
       <para>
-       Utilisez ce paramètre uniquement pour autoriser certaines fonctions
+       Utiliser ce paramètre uniquement pour autoriser certaines fonctions
        à être appelées depuis XPath.
       </para>
       <para>

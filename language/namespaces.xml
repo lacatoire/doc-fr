@@ -344,7 +344,7 @@ echo MonProjet\Connexion::start();
      <simpara>
       Une mise en garde : les noms sans qualificatif pour les fonctions et les
       constantes vont être pris dans le namespace global, si la fonction
-      n'est pas définie dans le namespace courant. Voyez
+      n'est pas définie dans le namespace courant. Voir
       <link linkend="language.namespaces.fallback">Utilisation des espaces de noms :
       retour au namespace global pour les fonctions et les constantes</link> pour
       plus de détails.
@@ -485,7 +485,7 @@ echo constant('constname'), "\n"; // affiche global
     </programlisting>
    </example>
    Il faut utiliser un nom absolu (le nom de la classe, avec son préfixe d'espace
-   de noms). Notez qu'il n'y a pas de différence entre un nom absolu et un nom qualifié
+   de noms). Il est à noter qu'il n'y a pas de différence entre un nom absolu et un nom qualifié
    dans un nom de classe, de fonction ou de constante dynamique, ce qui fait que l'antislash
    initial n'est pas nécessaire.
    <example>
@@ -1530,9 +1530,9 @@ $obj = new $a;
       ]]>
      </programlisting>
     </example>
-    Dans une chaîne à double guillemets, la séquence de protection est beaucoup plus
-    sécuritaire à utiliser, mais il est quand même recommandé de toujours protéger
-    les antislashs dans une chaîne qui contient un espace de noms.
+    Dans une chaîne à guillemets simples, la séquence de protection est beaucoup plus
+    sûre à utiliser, mais il est quand même recommandé de toujours protéger
+    les antislashs dans toutes les chaînes comme bonne pratique.
    </para>
   </sect2>
   <sect2 xml:id="language.namespaces.faq.constants">

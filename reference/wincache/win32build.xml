@@ -75,7 +75,7 @@ configure.js [all options used to build PHP] --enable-wincache
       <literal>--enable-wincache</literal> est la seule option supplémentaire requise
       pour s'assurer que l'extension WinCache se compile correctement.
       Cette option permet de construire WinCache et le lier statiquement avec la
-      DLL de PHP. Pour construire l'extension comme une DLL externe, utilisez 
+      DLL de PHP. Pour construire l'extension comme une DLL externe, utiliser 
       l'option <literal>--enable-wincache=shared</literal>.
      </para>
     </step>

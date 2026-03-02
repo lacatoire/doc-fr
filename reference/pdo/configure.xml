@@ -14,7 +14,7 @@
    <para>
     PDO et le pilote <link linkend="ref.pdo-sqlite">PDO_SQLITE</link>
     sont activés par défaut. Il faut activer
-    le pilote PDO de la base de données de son choix ; consultez
+    le pilote PDO de la base de données de son choix ; consulter
     la documentation pour les
     <link linkend="pdo.drivers">pilotes spécifiques au base
      de données</link> pour plus d'informations.
@@ -52,7 +52,7 @@ extension=pdo
    <para>
     PDO est activé par défaut.
     Choisissez les autres fichiers DLL spécifiques à la base de données
-    et utilisez soit la fonction <function>dl</function> pour les charger
+    et utiliser soit la fonction <function>dl</function> pour les charger
     au moment de l'exécution ou activez-les dans le fichier &php.ini;.
     Par exemple, ceci charge le pilote
     <link linkend="ref.pdo-sqlite">PDO_SQLITE</link> mais

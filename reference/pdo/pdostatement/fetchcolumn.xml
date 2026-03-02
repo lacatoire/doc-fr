@@ -26,7 +26,7 @@
     <methodname>PDOStatement::fetchColumn</methodname> ne doit pas être utilisé pour 
     récupérer des colonnes contenant des booléens, car il n'est pas possible de 
     distinguer une valeur &false; d'un retour avec aucune ligne à récupérer. 
-    Utilisez <methodname>PDOStatement::fetch</methodname> à la place.
+    Utiliser <methodname>PDOStatement::fetch</methodname> à la place.
    </para>
   </note>
  </refsect1>

@@ -95,7 +95,7 @@
   <warning>
    <para>
     Cette fonction ne doit pas être utilisée avec les sockets serveur UDP.
-    À la place, utilisez les fonctions
+    À la place, utiliser les fonctions
     <function>stream_socket_recvfrom</function> et
     <function>stream_socket_sendto</function>.
    </para>

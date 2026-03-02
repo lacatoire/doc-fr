@@ -64,7 +64,7 @@ $contents = $file->fread($file->getSize());
   <note>
    <para>
     Il est à noter que <methodname>SplFileObject::fread</methodname> lit depuis la
-    position courante du pointeur de fichier. Utilisez la méthode
+    position courante du pointeur de fichier. Utiliser la méthode
     <methodname>SplFileObject::ftell</methodname> pour trouver la position
     courante du pointeur, et la méthode <methodname>SplFileObject::rewind</methodname>
     (ou <methodname>SplFileObject::fseek</methodname>) pour réinitialiser la

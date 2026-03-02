@@ -95,7 +95,7 @@
      <entry>
       Mode d'exécution de la requête pour <function>oci_execute</function>.
       La transaction n'est pas automatiquement validée lors de l'utilisation
-      de ce mode. Pour plus de lisibilité dans le code, utilisez cette
+      de ce mode. Pour plus de lisibilité dans le code, utiliser cette
       valeur plutôt que l'ancienne valeur <constant>OCI_DEFAULT</constant>.
      </entry>
     </row>

@@ -20,7 +20,7 @@
    et les valeurs sont les clés.
   </para>
   <para>
-   Notez bien que les valeurs de <parameter>array</parameter> doivent 
+   Il est à noter que les valeurs de <parameter>array</parameter> doivent
    être des clés valides, c'est-à-dire qu'elles doivent être des
    &integer; ou des &string;.
    Une alerte sera émise si une valeur est d'un type qui 

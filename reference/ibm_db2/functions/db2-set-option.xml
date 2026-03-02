@@ -224,7 +224,7 @@
        </simpara>
        <simpara>
         Pour s'assurer que les données spécifiées dans chaque option seront converties
-        correctement lorsqu'elles seront transmises au système, utilisez seulement
+        correctement lorsqu'elles seront transmises au système, utiliser seulement
         les caractères d'A à Z, 0 à 9, les soulignés (<literal>_</literal>) et
         les points (<literal>.</literal>).
        </simpara>

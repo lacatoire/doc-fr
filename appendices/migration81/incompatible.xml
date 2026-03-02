@@ -5,7 +5,7 @@
  <title>Les changements de rétrocompatibilités</title>
 
  <sect2 xml:id="migration81.incompatible.core">
-  <title>PHP Core</title>
+  <title>Cœur de PHP</title>
 
   <sect3 xml:id="migration81.incompatible.core.globals-access">
    <title>Restrictions d'accès $GLOBALS</title>
@@ -64,7 +64,7 @@ var_dump(B::counter()); // int(4), précédemment int(2)
     spécifié avant les paramètres requis est maintenant toujours traité comme requis,
     même lorsqu'il est appelé en utilisant
     <link linkend="functions.named-arguments">les arguments nommés</link>.
-    À partir de PHP 8.0.0, mais avant PHP 8.1.0, le code ci-dessous émet une note de dépréciation
+    À partir de PHP 8.0.0, mais antérieur à PHP 8.1.0, le code ci-dessous émet une note de dépréciation
     sur la définition, mais s'exécute avec succès lorsqu'il est appelé. À partir de PHP 8.1.0, une erreur
     de la classe <classname>ArgumentCountError</classname> est lancée, comme ce serait le cas lorsqu'il
     est appelé avec des arguments positionnels.
@@ -259,7 +259,7 @@ ArgumentCountError - makeyogurt(): Argument #1 ($container) not passed
    Voir la page <link linkend="mysqli-driver.report-mode">Mode de rapport MySQLi</link>
    pour plus de détails sur ce que cela implique,
    et comment définir explicitement cet attribut.
-   Pour restaurer le comportement précédent, utilisez :
+   Pour restaurer le comportement précédent, utiliser :
    <code>mysqli_report(MYSQLI_REPORT_OFF);</code>
   </para>
 

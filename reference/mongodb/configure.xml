@@ -203,7 +203,7 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'mongodb'
   <para>
    Pour les développeurs et les utilisateurs intéressés par les dernières corrections de bogues,
    l'extension peut être compilée à partir du dernier code source sur
-   <link xlink:href="&url.mongodb.github.new;">Github</link>. Exécutez les commandes suivantes
+   <link xlink:href="&url.mongodb.github.new;">Github</link>. Exécuter les commandes suivantes
    pour cloner et construire le projet :
    <programlisting role="shell">
 <![CDATA[

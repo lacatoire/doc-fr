@@ -49,7 +49,7 @@
      <row>
       <entry>8.4.0</entry>
       <entry>
-       Cette méthode est désormais obsolète, utilisez
+       Cette méthode est désormais obsolète, utiliser
        <methodname>SplFixedArray::__unserialize</methodname>
        à la place.
       </entry>

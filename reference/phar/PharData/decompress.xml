@@ -40,7 +40,7 @@
      <listitem>
       <para>
        Pour décompresser, l'extension par défaut est 
-       <literal>.tar</literal>. Utilisez ce paramètre 
+       <literal>.tar</literal>. Utiliser ce paramètre 
        pour spécifier une autre extension de fichier. Gardez
        à l'esprit que seul les archives exécutables peuvent
        contenir <literal>.phar</literal> dans leur nom de fichier.

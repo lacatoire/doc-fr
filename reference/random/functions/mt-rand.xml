@@ -116,7 +116,7 @@
         <function>mt_rand</function>
         <link linkend="migration71.incompatible.fixes-to-mt_rand-algorithm">a été mis à jour</link>
         pour utiliser la version corrigée, correcte, de l'algorithme Twister
-        Mersenne. Pour revenir à l'ancien comportement, utilisez
+        Mersenne. Pour revenir à l'ancien comportement, utiliser
         <function>mt_srand</function> avec <constant>MT_RAND_PHP</constant>
         comme deuxième paramètre.
        </entry>

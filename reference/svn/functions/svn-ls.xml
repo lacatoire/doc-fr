@@ -39,7 +39,7 @@
      <simpara>
       URL du référentiel, e.g. <userinput>http://www.example.com/svnroot</userinput>.
       Pour accéder à un référentiel local Subversion via le système de fichiers,
-      utilisez l'URI suivant : <userinput>file:///home/user/svn-repos</userinput>
+      utiliser l'URI suivant : <userinput>file:///home/user/svn-repos</userinput>
      </simpara>
     </listitem>
    </varlistentry>

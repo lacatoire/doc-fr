@@ -412,7 +412,7 @@ but needs all top-level xml:id's removed (see XInclude 1.1 set-xml-id).
         &htaccess;. Toute directive de PHP configurée avec le type
         <systemitem role="directive">php_admin_value</systemitem> ne peut pas être
         modifiée en utilisant le fichier &htaccess; ou la fonction <function>ini_set</function>.
-        Pour annuler une valeur qui aurait été modifiée au préalable, utilisez la
+        Pour annuler une valeur qui aurait été modifiée au préalable, utiliser la
         valeur <literal>none</literal>.
        </para>
       </listitem>

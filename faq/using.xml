@@ -99,9 +99,9 @@ echo '</pre>';
     </question>
     <answer>
      <para>
-      Si l'on suppose que c'est pour une base de données, utilisez
+      Si l'on suppose que c'est pour une base de données, utiliser
       le mécanisme d'échappement fourni avec la base de données. Par
-      exemple, utilisez la fonction
+      exemple, utiliser la fonction
       <function>mysql_real_escape_string</function> avec MySQL et
       <function>pg_escape_string</function> avec PostgreSQL.
       Il y a également les fonctions génériques comme
@@ -243,11 +243,11 @@ foreach ($headers as $nom => $contenu) {
       Le modèle sécuritaire de IIS est en faute. C'est un problème commun à
       tous les programmes CGI fonctionnant avec IIS. Une alternative est de
       créer un fichier HTML (non exécuté par PHP) comme page d'entrée dans
-      le dossier où il faut s'identifier. Utilisez alors une balise META
-      pour rediriger vers la page PHP, ou encore proposez un lien vers
+      le dossier où il faut s'identifier. Utiliser alors une balise META
+      pour rediriger vers la page PHP, ou encore proposer un lien vers
       celle-ci. PHP reconnaîtra alors l'identification correctement.
       Cela ne devrait pas non
-      plus affecter d'autres serveurs NT. Pour plus d'informations, voyez : 
+      plus affecter d'autres serveurs NT. Pour plus d'informations, voir :
       <link xlink:href="&url.iis;">&url.iis;</link> et la section du manuel
       concernant l'<link linkend="features.http-auth">identification HTTP</link>.
      </para>
@@ -306,12 +306,12 @@ foreach ($headers as $nom => $contenu) {
     </question>
     <answer>
      <para>
-      Lisez la page du manuel qui concerne les <link linkend="language.variables.predefined">
+      Consulter la page du manuel qui concerne les <link linkend="language.variables.predefined">
       variables prédéfinies</link> vu qu'elle présente une liste
       partielle des variables prédéfinies disponibles dans un script. Une
       liste complète des variables disponibles (et beaucoup d'informations)
       peut être vue en appelant la fonction <function>phpinfo</function>.
-      Lisez la section du manuel traitant des  
+      Consulter la section du manuel traitant des
       <link linkend="language.variables.external">variables non-issues de
       PHP</link>, elle décrit des scénarios communs pour les variables
       externes, comme celles issues d'un formulaire HTML, d'un cookie, et de

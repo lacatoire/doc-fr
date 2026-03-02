@@ -31,7 +31,7 @@
     <term><parameter>key</parameter></term>
     <listitem>
      <simpara>
-      Nom de la clé. Utilisez une <link linkend="svn.constants.auth">constante d'identification</link>
+      Nom de la clé. Utiliser une <link linkend="svn.constants.auth">constante d'identification</link>
       définie par cette extension pour spécifier la clé.
      </simpara>
     </listitem>

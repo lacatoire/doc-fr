@@ -78,7 +78,7 @@ if (!in_array(LDAP_CONTROL_PAGEDRESULTS, ldap_get_entries($ds, $result)[0]['supp
      </term>
      <listitem>
       <simpara>
-       Si applicable, la valeur du contrôle. Lisez ci-dessous pour plus d'informations.
+       Si applicable, la valeur du contrôle. Consulter ci-dessous pour plus d'informations.
       </simpara>
      </listitem>
     </varlistentry>

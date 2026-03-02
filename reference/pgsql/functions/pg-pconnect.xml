@@ -73,7 +73,7 @@
        <parameter>connect_timeout</parameter>,
        <parameter>options</parameter>, <parameter>tty</parameter> (ignoré),
        <parameter>sslmode</parameter>,
-       <parameter>requiressl</parameter> (obsolète, utilisez
+       <parameter>requiressl</parameter> (obsolète, utiliser
        <parameter>sslmode</parameter>) et
        <parameter>service</parameter>.
        La liste de ces arguments dépend de la version du serveur PostgreSQL.

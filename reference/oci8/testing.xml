@@ -67,7 +67,7 @@
   </programlisting>
  </para>
  <para>
-  Exécutez tous les tests PHP avec la commande :
+  Exécuter tous les tests PHP avec la commande :
   <programlisting>
 <![CDATA[
     $ cd your_php_src_directory
@@ -106,12 +106,12 @@
   </programlisting>
  </para>
  <para>
-  Définissez l'environnement nécessaire à Oracle grâce au fichier
+  Définir l'environnement nécessaire à Oracle grâce au fichier
   <filename>oracle_env.sh</filename> ou
   <filename>oraenv</filename>, tel que défini ci-dessus.
  </para>
  <para>
-  Démarrez l'utilitaire en ligne de commande SQL*Plus et augmentez la valeur
+  Démarrer l'utilitaire en ligne de commande SQL*Plus et augmenter la valeur
   du paramètre <literal>PROCESSES</literal>
   <programlisting>
 <![CDATA[
@@ -121,7 +121,7 @@
   </programlisting>
  </para>
  <para>
-  Redémarrez la base de données :
+  Redémarrer la base de données :
   <programlisting>
 <![CDATA[
     SQL> startup force

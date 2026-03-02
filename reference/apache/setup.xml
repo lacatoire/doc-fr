@@ -10,7 +10,7 @@
  <section xml:id="apache.installation">
   &reftitle.install;
   <para>
-   Pour une installation de PHP sous Apache, lisez
+   Pour une installation de PHP sous Apache, consulter
    le <link linkend="install">chapitre sur l'installation</link>.
   </para>
  </section>

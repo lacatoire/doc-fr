@@ -60,7 +60,7 @@ abstract class A
 }
 abstract class B extends A
 {
-    // overridden - still maintaining contravariance for parameters and covariance for return
+    // surchargée - tout en maintenant la contravariance pour les paramètres et la covariance pour le retour
     abstract function test($s) : int;
 }
 ]]>
@@ -75,7 +75,7 @@ abstract class B extends A
    La bibliothèque moderne de cryptographie sodium est maintenant devenue une extension de base dans PHP.
   </para>
   <para>
-   Pour une référence de fonction complète, consultez le chapitre <link linkend="book.sodium">Sodium</link>.
+   Pour une référence de fonction complète, consulter le chapitre <link linkend="book.sodium">Sodium</link>.
   </para>
  </sect2>
  

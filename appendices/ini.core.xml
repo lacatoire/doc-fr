@@ -551,8 +551,8 @@ Fatal error: Maximum execution time of 30+2 seconds exceeded (terminated) in Unk
        <para>
         Temps (en seconde) pour lequel persiste l'information du cache de
         realpath pour un fichier ou un répertoire donné. Pour des systèmes
-        avec des fichiers qui changent peu souvent, pensez à augmenter cette
-        valeur.
+        avec des fichiers qui changent peu souvent, il est recommandé d'augmenter
+        cette valeur.
        </para>
       </listitem>
      </varlistentry>
@@ -1484,7 +1484,7 @@ include_path = ".:${USER}/pear/php"
         Le comportement précédent de PHP était de définir
         <literal>PATH_TRANSLATED</literal> en <literal>SCRIPT_FILENAME</literal>
         et de ne pas remplir <literal>PATH_INFO</literal>. Pour plus d'informations
-        sur <literal>PATH_INFO</literal>, lisez les spécificités <acronym>CGI</acronym>.
+        sur <literal>PATH_INFO</literal>, consulter les spécificités <acronym>CGI</acronym>.
         Si définie à <literal>1</literal>, PHP <acronym>CGI</acronym> fixera ce
         chemin suivant les spécifications. Si définie à <literal>0</literal>, PHP
         appliquera l'ancien comportement. Par défaut, cette directive est activée. Il est

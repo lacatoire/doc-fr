@@ -15,7 +15,7 @@
   </methodsynopsis>
   <para>
    Lit les options de comportement de l'objet <classname>ArrayObject</classname>.
-   Voyez la méthode <link linkend="arrayobject.setflags">ArrayObject::setFlags</link>
+   Voir la méthode <link linkend="arrayobject.setflags">ArrayObject::setFlags</link>
    pour obtenir une liste d'options disponibles.
   </para>
  </refsect1>

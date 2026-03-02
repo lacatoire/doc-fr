@@ -95,7 +95,7 @@
       <note>
        <para>
         L'option <literal>"e"</literal> n'a pas d'effet lorsqu'elle est définie par la <function>mb_regex_set_options</function>.
-        Utilisez-la avec <function>mb_ereg_replace</function> ou <function>mb_eregi_replace</function>.
+        Utiliser-la avec <function>mb_ereg_replace</function> ou <function>mb_eregi_replace</function>.
        </para>
       </note>
       <table>

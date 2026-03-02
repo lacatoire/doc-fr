@@ -60,7 +60,7 @@
      <term><parameter>options</parameter></term>
      <listitem>
       <simpara>
-       L'option de recherche. Pour plus d'explications, consultez <function>mb_regex_set_options</function>.
+       L'option de recherche. Pour plus d'explications, consulter <function>mb_regex_set_options</function>.
       </simpara>
      </listitem>
     </varlistentry>

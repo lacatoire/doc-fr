@@ -37,7 +37,7 @@
  <orderedlist>
   <listitem>
    <para>
-    Pour obtenir et installer LiteSpeed Web Server ou OpenLiteSpeed Web Server, visitez la
+    Pour obtenir et installer LiteSpeed Web Server ou OpenLiteSpeed Web Server, consulter la
     <link xlink:href="&url.litespeed.lsws;">page d'installation</link>
     de la documentation de LiteSpeed Web Server
     ou la
@@ -48,7 +48,7 @@
 
   <listitem>
    <para>
-    Téléchargez et décompressez le code source de PHP :
+    Télécharger et décompresser le code source de PHP :
    </para>
 
    <informalexample xml:id="install.unix.litespeed.extract.php">
@@ -66,8 +66,8 @@ cd php-x.x.x
 
   <listitem>
    <para>
-    Configurez et construisez PHP. C'est ici que PHP peut être personnalisé avec diverses options,
-    telles que les extensions qui seront activées. Exécutez ./configure --help pour obtenir une liste des options
+    Configurer et construire PHP. C'est ici que PHP peut être personnalisé avec diverses options,
+    telles que les extensions qui seront activées. Exécuter ./configure --help pour obtenir une liste des options
     disponibles. Dans l'exemple, nous utiliserons les options de configuration recommandées par défaut pour
     LiteSpeed Web Server :
    </para>
@@ -117,7 +117,7 @@ Zend Engine v2.6.0, Copyright (c) 1998-2015 Zend Technologies
    </informalexample>
 
    <para>
-    Remarquez le <literal>litespeed</literal> entre parenthèses. Cela signifie que le binaire PHP a été
+    Remarquer le <literal>litespeed</literal> entre parenthèses. Cela signifie que le binaire PHP a été
     construit avec le support LSAPI.
    </para>
   </listitem>
@@ -127,7 +127,7 @@ Zend Engine v2.6.0, Copyright (c) 1998-2015 Zend Technologies
   Après avoir suivi les étapes ci-dessus, LiteSpeed / OpenLiteSpeed Web Server devrait
   maintenant fonctionner avec le support de PHP en tant qu'extension SAPI. Il existe de nombreuses autres
   options de configuration disponibles pour LSWS / OLS et PHP. Pour plus d'informations,
-  consultez la documentation LiteSpeed sur
+  consulter la documentation LiteSpeed sur
   <link xlink:href="&url.litespeed.php;">PHP</link>.
  </para>
 
@@ -215,7 +215,7 @@ PHP_LSAPI_MAX_REQUESTS=500 PHP_LSAPI_CHILDREN=35 /path/to/lsphp -b IP_address:po
  <para>
   Actuellement, LiteSpeed PHP peut être utilisé avec LiteSpeed Web Server,
   OpenLiteSpeed Web Server et Apache mod_lsapi. Pour les étapes de
-  configuration côté serveur, visitez les pages de documentation pour
+  configuration côté serveur, consulter les pages de documentation pour
   <link xlink:href="&url.litespeed.web.server;">LiteSpeed Web Server</link>
   et <link xlink:href="&url.litespeed.open;">OpenLiteSpeed</link>.
  </para>
@@ -238,14 +238,14 @@ PHP_LSAPI_MAX_REQUESTS=500 PHP_LSAPI_CHILDREN=35 /path/to/lsphp -b IP_address:po
 
  <para>
   cPanel:
-  Visitez la <link xlink:href="&url.litespeed.cpanel;">page de documentation</link> respective
+  Consulter la <link xlink:href="&url.litespeed.cpanel;">page de documentation</link> respective
   sur la façon d'installer LSPHP avec cPanel et LSWS/OLS en utilisant EasyApache 4.
  </para>
 
  <para>
   Plesk:
   Plesk peut être utilisé avec LSPHP sur CentOS, CloudLinux, Debian et Ubuntu,
-  pour plus de détails à ce sujet, visitez la <link xlink:href="&url.litespeed.plesk;">page de documentation</link> respective.
+  pour plus de détails à ce sujet, consulter la <link xlink:href="&url.litespeed.plesk;">page de documentation</link> respective.
  </para>
 </sect1>
 

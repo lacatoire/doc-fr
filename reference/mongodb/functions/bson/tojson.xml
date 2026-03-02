@@ -49,7 +49,7 @@
     ces valeurs (<link xlink:href="&url.mongodb.libbson;">libbson</link> va 
     produire <literal>nan</literal> et <literal>inf</literal> littérallement, 
     qui ne peuvent pas être analysés comme JSON valide). Si on travaille avec 
-    BSON qui peut contenir des nombres non finis, utilisez svp 
+    BSON qui peut contenir des nombres non finis, utiliser svp 
     <function>MongoDB\BSON\toCanonicalExtendedJSON</function> ou  
     <function>MongoDB\BSON\toRelaxedExtendedJSON</function>.
    </simpara>

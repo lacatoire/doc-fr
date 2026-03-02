@@ -10,7 +10,7 @@
   peuvent échouer pour une grande variété de raisons (par exemple : impossible
   de se connecter au serveur distant, fichier introuvable, etc.). Un flux peut aussi
   échouer parce que le gestionnaire n'est pas configuré sur le système en
-  cours. Voyez le tableau retourné par la fonction
+  cours. Voir le tableau retourné par la fonction
   <function>stream_get_wrappers</function> pour connaître la liste des gestionnaires
   configurés sur l'installation de PHP. Comme avec la plupart des fonctions
   internes de PHP, si une erreur survient, un message de type

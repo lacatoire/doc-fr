@@ -32,7 +32,7 @@
   </constructorsynopsis>
   <simpara>
    Construit un objet watcher EvSignal et le démarre automatiquement.
-   Pour un watcher périodique stoppé, utilisez plutôt la méthode
+   Pour un watcher périodique stoppé, utiliser plutôt la méthode
    <methodname>EvSignal::createStopped</methodname>.
   </simpara>
  </refsect1>

@@ -75,7 +75,7 @@
   <simpara>
    <function>eio_readdir</function> retourne la ressource demandée en cas
    de succès,&return.falseforfailure;.
-   Définissez l'argument
+   Définir l'argument
    <parameter>result</parameter> de la fonction de rappel
    <parameter>callback</parameter> suivant le drapeau
    <parameter>flags</parameter> utilisé :

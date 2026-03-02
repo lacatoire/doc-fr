@@ -107,7 +107,7 @@ if (!$fp) {
   <note>
    <para>
     Cette fonction ne fonctionne pas avec les opérations avancées comme
-    <function>stream_socket_recvfrom</function>, utilisez plutôt
+    <function>stream_socket_recvfrom</function>, utiliser plutôt
     <function>stream_select</function> avec une durée d'expiration en
     paramètre.
    </para>

@@ -49,7 +49,7 @@
   <simpara>
    Retourne le nom de la base de données en cas de succès,
    et &false; si une erreur survient. Si &false; est retourné,
-   utilisez la fonction <function>cubrid_error</function> pour
+   utiliser la fonction <function>cubrid_error</function> pour
    déterminer la nature de l'erreur.
   </simpara>
  </refsect1>

@@ -21,7 +21,7 @@
    <note>
     <simpara>
      libgd-2.1.0 ou supérieur est requis. Alternativement, 
-     utilisez la bibliothèque <acronym>GD</acronym> fournie avec PHP.
+     utiliser la bibliothèque <acronym>GD</acronym> fournie avec PHP.
     </simpara>
    </note>
    <note>

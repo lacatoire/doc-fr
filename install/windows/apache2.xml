@@ -9,7 +9,7 @@
  </para>
  <note>
   <para>
-   Veuillez lire d'abord les <link linkend="install.windows.manual">étapes
+   Il convient de lire d'abord les <link linkend="install.windows.manual">étapes
    d'installation manuelle</link> !
   </para>
  </note>
@@ -18,17 +18,17 @@
   Il est fortement recommandé de consulter la
   <link xlink:href="&url.apache2.docs;">documentation d'Apache</link>
    pour obtenir une compréhension de base du serveur Apache 2.x.
-   Considérez également la lecture des
+   Il est également recommandé de lire les
    <link xlink:href="&url.apache2.windows;">notes spécifiques à Windows</link>
    pour Apache 2.x avant de continuer ici.
  </para>
 
  <para>
-  Téléchargez la version la plus récente de
+  Télécharger la version la plus récente de
   <link xlink:href="&url.apachelounge.download;">Apache 2.x</link>
-  et une version PHP correspondante. Suivez les
+  et une version PHP correspondante. Suivre les
   <link linkend="install.windows.manual">étapes d'installation manuelle</link>
-  et revenez pour continuer avec l'intégration de PHP et Apache.
+  et revenir pour continuer avec l'intégration de PHP et Apache.
  </para>
 
  <para>
@@ -116,10 +116,10 @@ PHPIniDir "C:/php"
    l'exécution en tant que CGI. La configuration est assez simple :
   </para>
   <para>
-   Obtenez <literal>mod_fcgid</literal> depuis
+   Obtenir <literal>mod_fcgid</literal> depuis
    <link xlink:href="&url.apachelounge.download;">&url.apachelounge;</link>.
    Les binaires Win32 sont disponibles en téléchargement sur ce site.
-   Installez le module selon les instructions qui l'accompagneront.
+   Installer le module selon les instructions qui l'accompagneront.
   </para>
   <para>
    Configurer le serveur web comme indiqué ci-dessous, en prenant soin d'ajuster

@@ -120,7 +120,7 @@
       <entry>
        Pour activer le support de FreeType 2, ajoutez l'option
        <option role="configure">--with-freetype-dir=DIR</option>.
-       À partir de PHP 7.4.0 utilisez <option role="configure">--with-freetype</option>
+       À partir de PHP 7.4.0 utiliser <option role="configure">--with-freetype</option>
        à la place, qui dépend de <productname>pkg-config</productname>.
       </entry>
      </row>

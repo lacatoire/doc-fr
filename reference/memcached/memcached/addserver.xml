@@ -28,7 +28,7 @@
   </para>
   <para>
    Le même serveur peut apparaître plusieurs fois dans le pool, car aucune
-   recherche de doublon n'est faite. Ce n'est pas recommandé : utilisez plutôt
+   recherche de doublon n'est faite. Ce n'est pas recommandé : utiliser plutôt
    le paramètre <parameter>weight</parameter> pour augmenter le poids d'un serveur
    dans la sélection.
   </para>

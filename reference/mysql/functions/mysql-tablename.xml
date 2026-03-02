@@ -63,7 +63,7 @@
    Le nom de la table en cas de succès&return.falseforfailure;.
   </simpara>
   <simpara>
-   Utilisez la fonction <function>mysql_tablename</function>
+   Utiliser la fonction <function>mysql_tablename</function>
    pour parcourir ce pointeur de résultats, ou n'importe quelle fonction
    pour les résultats de tables comme la fonction
    <function>mysql_fetch_array</function>.

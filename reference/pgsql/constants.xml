@@ -788,7 +788,7 @@
      <function>pg_update</function> et <function>pg_delete</function>.
      Tous les paramètres passés tel que. Un échappement manuel est nécessaire
      si les paramètres contiennent des données fournies par l'utilisateur.
-     Utilisez la fonction <function>pg_escape_string</function> pour cela.
+     Utiliser la fonction <function>pg_escape_string</function> pour cela.
     </simpara>
    </listitem>
   </varlistentry>

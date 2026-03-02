@@ -59,7 +59,7 @@
        <constant>STREAM_FILTER_WRITE</constant>, et/ou
        <constant>STREAM_FILTER_ALL</constant> peuvent aussi être passés dans le
        paramètre <parameter>read_write</parameter> pour imposer le comportement
-       désiré. Voyez <function>stream_filter_append</function> pour un exemple
+       désiré. Voir <function>stream_filter_append</function> pour un exemple
        d'utilisation de ce paramètre.
       </para>
      </listitem>
@@ -71,7 +71,7 @@
        Le filtre sera ajouté avec les paramètres spécifiés dans <parameter>params</parameter>,
        au <emphasis>début</emphasis> de la liste, et sera ainsi appelé en premier
        dans les opérations du flux. Pour ajouter un filtre à la fin de la liste,
-       utilisez <function>stream_filter_append</function>.
+       utiliser <function>stream_filter_append</function>.
       </para>
      </listitem>
     </varlistentry>

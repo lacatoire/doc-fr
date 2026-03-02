@@ -20,7 +20,7 @@
   <note>
    <para>
     Le chemin indiqué n'est pas toujours le chemin réel sur le système de fichiers.
-    Utilisez <methodname>SplFileInfo::getRealPath</methodname> pour déterminer le
+    Utiliser <methodname>SplFileInfo::getRealPath</methodname> pour déterminer le
     véritable chemin.
    </para>
   </note>

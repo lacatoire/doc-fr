@@ -43,7 +43,7 @@
      <listitem>
       <para>
        Le paramètre <parameter>info</parameter> reçoit les informations
-       du signal, sous forme de tableau. Voyez 
+       du signal, sous forme de tableau. Voir 
        <function>pcntl_sigwaitinfo</function>.
       </para>
      </listitem>

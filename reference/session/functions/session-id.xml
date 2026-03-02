@@ -21,7 +21,7 @@
   <para>
    La constante <constant>SID</constant> peut également être utilisée pour
    lire le nom de la session courante et l'identifiant de session à fournir
-   dans les URL. Voyez aussi <link linkend="ref.session">Gestion de session</link>.
+   dans les URL. Voir aussi <link linkend="ref.session">Gestion de session</link>.
   </para>
  </refsect1>
 

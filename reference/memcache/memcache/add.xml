@@ -58,7 +58,7 @@
     <term><parameter>flag</parameter></term>
     <listitem>
      <simpara>
-      Utilisez <constant>MEMCACHE_COMPRESSED</constant> pour compresser l'élément
+      Utiliser <constant>MEMCACHE_COMPRESSED</constant> pour compresser l'élément
       (utilise zlib).
      </simpara>
     </listitem>

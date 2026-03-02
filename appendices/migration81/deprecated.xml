@@ -5,7 +5,7 @@
  <title>Fonctionnalités dépréciées</title>
 
  <sect2 xml:id="migration81.deprecated.core">
-  <title>PHP Core</title>
+  <title>Cœur de PHP</title>
 
   <sect3 xml:id="migration81.deprecated.core.serialize-interface">
    <title>
@@ -252,7 +252,7 @@ $arr[] = 2;
   <para>
    La propriété <property>mysqli_driver::$driver_version</property>
    a été dépréciée.
-   C'était dénué de sens et obsolète, utilisez <constant>PHP_VERSION_ID</constant>
+   C'était dénué de sens et obsolète, utiliser <constant>PHP_VERSION_ID</constant>
    à la place.
   </para>
 

@@ -129,7 +129,7 @@
      <term><parameter>value</parameter></term>
      <listitem>
       <para>
-       La nouvelle valeur de l'option. Utilisez cet argument seulement si
+       La nouvelle valeur de l'option. Utiliser cet argument seulement si
        l'argument précédent est une chaîne de caractères.
       </para>
      </listitem>

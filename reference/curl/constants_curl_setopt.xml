@@ -198,7 +198,7 @@
    </term>
    <listitem>
     <para>
-     Un <type>string</type> avec un répertoire qui contient plusieurs certificats CA. Utilisez cette option
+     Un <type>string</type> avec un répertoire qui contient plusieurs certificats CA. Utiliser cette option
      en combinaison avec <constant>CURLOPT_SSL_VERIFYPEER</constant>.
      Disponible à partir de cURL 7.9.8.
     </para>
@@ -241,7 +241,7 @@
    </term>
    <listitem>
     <para>
-     Le nombre de secondes à attendre lors de la tentative de connexion. Utilisez 0 pour
+     Le nombre de secondes à attendre lors de la tentative de connexion. Utiliser 0 pour
      attendre indéfiniment.
      Cette option accepte toute valeur pouvant être convertie en un <type>int</type> valide.
      Par défaut, la valeur est <literal>300</literal>.
@@ -257,7 +257,7 @@
    <listitem>
     <para>
      Le nombre de millisecondes à attendre lors de la tentative de connexion.
-     Utilisez <literal>0</literal> pour attendre indéfiniment.
+     Utiliser <literal>0</literal> pour attendre indéfiniment.
      Si cURL est compilé pour utiliser le résolveur de noms système standard, cette
      partie de la connexion utilisera toujours une résolution à la seconde complète pour
      les délais d'attente avec un délai d'attente minimum autorisé d'une seconde.
@@ -860,7 +860,7 @@
    <listitem>
     <para>
      Un alias de
-     <constant>CURLOPT_TRANSFERTEXT</constant>. Utilisez plutôt cela.
+     <constant>CURLOPT_TRANSFERTEXT</constant>. Utiliser plutôt cela.
      Disponible à partir de cURL 7.1, obsolète à partir de cURL 7.11.1
      et dernière fois disponible à partir de cURL 7.15.5.
      Supprimé à partir de PHP 7.3.0.
@@ -1361,7 +1361,7 @@
     <para>
      Accepte un handle de fichier <type>resource</type> vers le fichier à partir duquel le transfert doit être lu lors du téléchargement.
      Disponible à partir de cURL 7.1.0 et déprécié à partir de cURL 7.9.7.
-     Utilisez <constant>CURLOPT_READDATA</constant> à la place.
+     Utiliser <constant>CURLOPT_READDATA</constant> à la place.
     </para>
    </listitem>
   </varlistentry>
@@ -1752,7 +1752,7 @@
    </term>
    <listitem>
     <para>
-     La quantité maximale de redirections HTTP à suivre. Utilisez cette option aux côtés de <constant>CURLOPT_FOLLOWLOCATION</constant>.
+     La quantité maximale de redirections HTTP à suivre. Utiliser cette option aux côtés de <constant>CURLOPT_FOLLOWLOCATION</constant>.
      La valeur par défaut de <literal>20</literal> est définie pour éviter les redirections infinies.
      Définir à <literal>-1</literal> permet les redirections infinies, et <literal>0</literal> refuse toutes les redirections.
      Disponible à partir de cURL 7.5.0.
@@ -1813,7 +1813,7 @@
     <para>
      Définir à &true; pour être complètement silencieux avec
      les fonctions cURL.
-     Utilisez <constant>CURLOPT_RETURNTRANSFER</constant> à la place.
+     Utiliser <constant>CURLOPT_RETURNTRANSFER</constant> à la place.
      Disponible à partir de cURL 7.1.0, déprécié à partir de cURL 7.8.0
      et dernier disponible à partir de cURL 7.15.5.
      Supprimé à partir de PHP 7.3.0.
@@ -2250,7 +2250,7 @@
       </para>
      </note>
      Disponible à partir de cURL 7.1.0 et obsolète à partir de cURL 7.32.0.
-     Utilisez <constant>CURLOPT_XFERINFOFUNCTION</constant> à la place.
+     Utiliser <constant>CURLOPT_XFERINFOFUNCTION</constant> à la place.
     </para>
    </listitem>
   </varlistentry>
@@ -2706,8 +2706,8 @@
     <para>
      Définir sur <literal>2</literal> pour vérifier dans les champs de nom du certificat du proxy
      contre le nom du proxy. Lorsqu'il est défini sur <literal>0</literal>, la connexion réussit
-     indépendamment des noms utilisés dans le certificat. Utilisez cette capacité avec prudence!
-     Définissez sur <literal>1</literal> à partir de cURL 7.28.0 et antérieur en tant qu'option de débogage.
+     indépendamment des noms utilisés dans le certificat. Utiliser cette capacité avec prudence!
+     Définir sur <literal>1</literal> à partir de cURL 7.28.0 et antérieur en tant qu'option de débogage.
      Définir sur <literal>1</literal> à partir de cURL 7.28.1 à 7.65.3 <constant>CURLE_BAD_FUNCTION_ARGUMENT</constant> est renvoyé.
      À partir de cURL 7.66.0, <literal>1</literal> et <literal>2</literal> sont traités comme la même valeur. 
      Par défaut, la valeur de cette option doit être maintenue à <literal>2</literal>. 
@@ -3264,7 +3264,7 @@
      Lorsque plus d'une méthode est définie, cURL interrogera le serveur pour voir
      quelles méthodes il supporte et choisira la meilleure.
      Par défaut, <literal>CURLAUTH_BASIC|CURLAUTH_GSSAPI</literal>.
-     Définissez le nom d'utilisateur et le mot de passe réels avec l'option <constant>CURLOPT_PROXYUSERPWD</constant>.
+     Définir le nom d'utilisateur et le mot de passe réels avec l'option <constant>CURLOPT_PROXYUSERPWD</constant>.
      Disponible à partir de PHP 7.3.0 et cURL 7.55.0.
     </para>
    </listitem>
@@ -3953,7 +3953,7 @@
    <listitem>
     <para>
      Définir comment <constant>CURLOPT_TIMEVALUE</constant> est traité.
-     Utilisez <constant>CURL_TIMECOND_IFMODSINCE</constant> pour retourner la
+     Utiliser <constant>CURL_TIMECOND_IFMODSINCE</constant> pour retourner la
      page uniquement si elle a été modifiée depuis le temps spécifié dans
      <constant>CURLOPT_TIMEVALUE</constant>. Si elle n'a pas été modifiée,
      un en-tête <literal>304 Not Modified</literal> sera retourné
@@ -4450,7 +4450,7 @@
    <listitem>
     <para>
      Spécife le jeton d'accès OAuth 2.0.
-     Définissez sur &null; pour désactiver.
+     Définir sur &null; pour désactiver.
      Par défaut, c'est &null;.
      Disponible à partir de PHP 7.0.7 et cURL 7.33.0.
     </para>

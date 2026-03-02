@@ -17,7 +17,7 @@
   </methodsynopsis>
   <simpara>
    Rend la prochaine ligne d'un jeu de résultats disponible pour lecture.
-   Utilisez la fonction <function>sqlsrv_get_field</function> pour llire les
+   Utiliser la fonction <function>sqlsrv_get_field</function> pour llire les
    champs de la ligne.
   </simpara>
  </refsect1>

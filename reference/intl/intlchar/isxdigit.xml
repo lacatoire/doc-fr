@@ -74,7 +74,7 @@ bool(false)
   &reftitle.notes;
   <note>
    <para>
-    Pour restreindre la définition des chiffres hexadécimaux uniquement aux caractères ASCII, utilisez :
+    Pour restreindre la définition des chiffres hexadécimaux uniquement aux caractères ASCII, utiliser :
    </para>
    <programlisting role="php">
     <![CDATA[

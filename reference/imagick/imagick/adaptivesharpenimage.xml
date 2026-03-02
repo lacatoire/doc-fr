@@ -33,7 +33,7 @@
      <listitem>
       <para>
        Le rayon de la gaussienne, en pixels, sans compter
-       le pixel du centre. Utilisez 0 pour l'auto-sélection.
+       le pixel du centre. Utiliser 0 pour l'auto-sélection.
       </para>
      </listitem>
     </varlistentry>

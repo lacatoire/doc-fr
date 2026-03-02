@@ -100,7 +100,7 @@
    <link linkend="book.openssl">OpenSSL</link> et
    <link linkend="book.sodium">Sodium</link>, qui connaissent un large éventail
    de méthodes de chiffrement. Le script PHP va chiffrer les données qui
-   seront stockées, et les déchiffrer lorsqu'elles seront relues. Voyez la
+   seront stockées, et les déchiffrer lorsqu'elles seront relues. Voir la
    suite pour des exemples d'utilisation de ce chiffrement.
   </simpara>
   

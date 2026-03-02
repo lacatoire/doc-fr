@@ -52,7 +52,7 @@
     <term><parameter>port</parameter></term>
     <listitem>
      <simpara>
-      Pointe au port où memcache écoute pour des connexions. Définissez ce paramètre à
+      Pointe au port où memcache écoute pour des connexions. Définir ce paramètre à
       <literal>0</literal> lors de l'utilisation des sockets Unix.
      </simpara>
      <simpara>

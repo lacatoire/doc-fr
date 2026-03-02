@@ -22,7 +22,7 @@
    <function>yaz_search</function> pour effectuer une recherche.
   </para>
   <para>
-   Pour définir un champ CCL valide, utilisez la fonction
+   Pour définir un champ CCL valide, utiliser la fonction
    <function>yaz_ccl_conf</function> avant d'utiliser cette fonction.
   </para>
  </refsect1>

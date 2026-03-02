@@ -27,7 +27,7 @@
    L'existence de <function>snmpwalkoid</function> et
    <function>snmpwalk</function> a des raisons historiques.
    Les deux fonctions fournissent des compatibilités ascendantes.
-   Utilisez plutôt la fonction <function>snmprealwalk</function>.
+   Utiliser plutôt la fonction <function>snmprealwalk</function>.
   </simpara>
  </refsect1>
 

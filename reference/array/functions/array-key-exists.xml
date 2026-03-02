@@ -77,7 +77,7 @@
      <row>
       <entry>8.5.0</entry>
       <entry>
-       L’utilisation de <type>null</type> dans le paramètre <parameter>key</parameter> est obsolète, utilisez une chaîne vide à la place.
+       L’utilisation de <type>null</type> dans le paramètre <parameter>key</parameter> est obsolète, utiliser une chaîne vide à la place.
       </entry>
      </row>
      <row>

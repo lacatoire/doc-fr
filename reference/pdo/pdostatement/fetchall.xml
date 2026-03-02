@@ -57,17 +57,17 @@
       <para>
        Pour indexer le tableau résultant par la valeur d'une certaine colonne (plutôt que par des nombres
        consécutifs), placez le nom de cette colonne en premier dans la liste des colonnes en SQL, et
-       utilisez <constant>PDO::FETCH_UNIQUE</constant>. Cette colonne doit contenir uniquement des
+       utiliser <constant>PDO::FETCH_UNIQUE</constant>. Cette colonne doit contenir uniquement des
        valeurs uniques, sinon certaines données seront perdues.
       </para>
       <para>
        Pour regrouper les résultats sous la forme d'un tableau à trois dimensions indexé par les valeurs
        d'une colonne spécifiée, placez le nom de cette colonne en premier dans la liste des colonnes
-       en SQL et utilisez <constant>PDO::FETCH_GROUP</constant>.
+       en SQL et utiliser <constant>PDO::FETCH_GROUP</constant>.
       </para>
       <para>
        Pour regrouper les résultats sous la forme d'un tableau à deux dimensions,
-       utilisez un OU bit-à-bit avec <constant>PDO::FETCH_GROUP</constant> et
+       utiliser un OU bit-à-bit avec <constant>PDO::FETCH_GROUP</constant> et
        <constant>PDO::FETCH_COLUMN</constant>.
        Les résultats seront regroupés par la première colonne, la valeur de l'élément du tableau
        étant une liste d'entrées correspondantes de la seconde colonne.
@@ -131,8 +131,8 @@
    L'utilisation de cette méthode pour récupérer de gros jeux de résultats
    peut entraîner une charge importante sur les ressources du système et du réseau.
    Plutôt que de récupérer toutes les données et des manipuler avec PHP,
-   utilisez le serveur de base de données pour manipuler les jeux de résultats.
-   Par exemple, utilisez les clauses <literal>WHERE</literal> et 
+   utiliser le serveur de base de données pour manipuler les jeux de résultats.
+   Par exemple, utiliser les clauses <literal>WHERE</literal> et 
    <literal>ORDER BY</literal> dans les requêtes SQL pour restreindre les résultats
    avant des récupérer et des traiter avec PHP.
   </para>

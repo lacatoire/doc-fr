@@ -31,7 +31,7 @@
   </para>
   <para>
    En cas de besoin d'obtenir plus d'informations sur l'erreur lors de
-   l'échec des requêtes avec <function>pg_query</function>, utilisez
+   l'échec des requêtes avec <function>pg_query</function>, utiliser
    <function>pg_set_error_verbosity</function> et
    <function>pg_last_error</function> et analyser ensuite le résultat.
   </para>

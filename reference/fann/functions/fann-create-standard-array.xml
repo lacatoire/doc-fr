@@ -23,7 +23,7 @@
    Lors de l'exécution du réseau, les neurones de biais émettent toujours 1.
   </para>
   <para>
-   Pour détruire un réseau de neurones, utilisez la fonction <function>fann_destroy</function>.
+   Pour détruire un réseau de neurones, utiliser la fonction <function>fann_destroy</function>.
   </para>
  </refsect1>
 

@@ -35,7 +35,7 @@
   <para>
    Il y a de nombreux formats du manuel pour la consultation hors ligne, et
    le format le plus approprié dépend du système d'exploitation et des goûts personnels.
-   Pour savoir comment le manuel est généré, lisez la section
+   Pour savoir comment le manuel est généré, se reporter à la section
    <link linkend="about.generate">'Comment le manuel est généré'</link> de cet
    appendice.
   </para>
@@ -53,7 +53,7 @@
    il intègre un moteur de recherche complet, un index et des signets. De
    nombreux IDE sous Windows fournissent des liens avec ce format pour une
    meilleure intégration. Il existe aussi des visualiseurs de CHM pour
-   Linux. Visitez <link xlink:href="&url.xchm;">xCHM</link> ou <link
+   Linux. Consulter <link xlink:href="&url.xchm;">xCHM</link> ou <link
    xlink:href="&url.gnochm;">GnoCHM</link>.
   </para>
   <para>
@@ -88,7 +88,7 @@
     Pour des questions de portée de licence, les notes utilisateurs sont
     considérées comme faisant partie du manuel PHP, et sont donc couvertes par
     la même licence qui couvre cette documentation (Creative Commons Attribution
-    à ce jour). Pour plus de détails, lisez la page <link
+    à ce jour). Pour plus de détails, se reporter à la page <link
     linkend="copyright">Manual's Copyright</link>.
    </para>
   </note>
@@ -348,8 +348,8 @@ Retourne la taille de la chaîne $string.
   <para>
    En contribuant aux notes, il est possible de fournir de nouveaux exemples,
    mettre en lumière des effets de bords et apporter des clarifications pour
-   les autres lecteurs. Mais ne prenez pas le système d'annotation pour
-   un système de soumission de bogues. Il est possible d'en savoir plus sur les
+   les autres lecteurs. Mais il ne faut pas utiliser le système d'annotation
+   comme un système de soumission de bogues. Il est possible d'en savoir plus sur les
    annotations dans la section
    <link linkend="about.notes">'À propos des notes utilisateurs'</link>
   </para>
@@ -362,7 +362,7 @@ Retourne la taille de la chaîne $string.
    de l'anglais ainsi que d'une autre langue permet d'aider
    la documentation de PHP en travaillant avec une équipe de traduction.
    Pour plus d'informations sur la manière de démarrer une nouvelle traduction
-   ou de contribuer à une version déjà traduite, commencez par lire
+   ou de contribuer à une version déjà traduite, il convient de lire
    <link xlink:href="&url.php.dochowto;">&url.php.dochowto;</link>.
   </para>
   <para>
@@ -391,7 +391,7 @@ Retourne la taille de la chaîne $string.
    bien sûr, PHP lui-même pour effectuer des conversions et du formatage.
   </para>
   <para>
-   Le manuel PHP est généré en de nombreux langages et formats, lisez
+   Le manuel PHP est généré en de nombreux langages et formats, consulter
    <link xlink:href="&url.php.docs;">&url.php.docs;</link> pour plus d'informations.
    Le code source <acronym>XML</acronym> peut être téléchargé depuis git et
    visualisé sur <link xlink:href="&url.php.git.mirror;doc-en">&url.php.git.mirror;doc-en</link>.

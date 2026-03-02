@@ -6,7 +6,7 @@
  &reftitle.install;
 
  <simpara>
-  utilisez l'option <option role="configure">--with-parallel[=DIR]</option>
+  utiliser l'option <option role="configure">--with-parallel[=DIR]</option>
   lors de la compilation de PHP.
  </simpara>
 

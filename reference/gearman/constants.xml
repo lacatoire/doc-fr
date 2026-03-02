@@ -164,7 +164,7 @@
     <simpara>
      Un code d'erreur de notification obtenu avec <methodname>GearmanClient::returnCode</methodname>
      lors de l'utilisation de <methodname>GearmanClient::do</methodname>. Envoyé pour mettre à jour le statut
-     d'une tâche longue. Utilisez <methodname>GearmanClient::doStatus</methodname> pour obtenir le pourcentage
+     d'une tâche longue. Utiliser <methodname>GearmanClient::doStatus</methodname> pour obtenir le pourcentage
      de complétion de la tâche.
     </simpara>
    </listitem>

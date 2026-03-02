@@ -92,8 +92,8 @@ Effacement de 9 lignes.
      <para>
       Pour la plupart des bases de données, <methodname>PDOStatement::rowCount</methodname>
       ne retourne pas le nombre de lignes affectées par une requête SELECT.
-      À la place, utilisez <methodname>PDO::query</methodname> pour faire une requête
-      SELECT COUNT(*), puis utilisez <methodname>PDOStatement::fetchColumn</methodname>
+      À la place, utiliser <methodname>PDO::query</methodname> pour faire une requête
+      SELECT COUNT(*), puis utiliser <methodname>PDOStatement::fetchColumn</methodname>
       pour récupérer le nombre de lignes correspondantes.
      </para>
      <programlisting role="php">

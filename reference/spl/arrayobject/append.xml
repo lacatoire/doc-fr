@@ -21,7 +21,7 @@
    <para>
     Cette méthode ne peut pas être appelée lorsque l'objet
     <classname>ArrayObject</classname> a été construit à partir
-    d'un autre objet. Utilisez alors la méthode
+    d'un autre objet. Utiliser alors la méthode
     <methodname>ArrayObject::offsetSet</methodname>.
    </para>
   </note>

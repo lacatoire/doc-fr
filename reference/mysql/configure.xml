@@ -10,7 +10,7 @@
  </warning>
 
  <simpara xml:id="mysql.configure">
-  Pour compiler, utilisez tout simplement l'option de configuration
+  Pour compiler, utiliser tout simplement l'option de configuration
   <option role="configure">--with-mysql[=DIR]</option>
   où le paramètre optionnel <literal>[DIR]</literal> pointe vers
   le dossier d'installation de MySQL.
@@ -18,7 +18,7 @@
  <simpara>
   Bien que cette extension MySQL soit compatible avec MySQL 4.1.0 et supérieur,
   elle ne supporte pas les fonctionnalités supplémentaires que cette version fournit.
-  Pour cela, utilisez plutôt l'extension <link linkend="book.mysqli">MySQLi</link>.
+  Pour cela, utiliser plutôt l'extension <link linkend="book.mysqli">MySQLi</link>.
  </simpara>
  <simpara>
   Pour installer l'extension mysqli en même temps que l'extension
@@ -93,7 +93,7 @@
     Un fichier nommé <filename>libmysql.dll</filename> est inclus dans
     la distribution de PHP pour Windows et pour que PHP puisse discuter
     avec MySQL, ce fichier doit être disponible dans le <envar>PATH</envar>
-    du système Windows. Lisez la FAQ intitulée
+    du système Windows. Consulter la FAQ intitulée
     "<link linkend="faq.installation.addtopath">Où dois-je ajouter mon répertoire PHP à la variable
     <envar>PATH</envar> sous Windows ?</link>" pour plus d'informations sur
     la réalisation de cela. Néanmoins, le fait de copier le fichier
@@ -106,7 +106,7 @@
     <filename>php_mysql.dll</filename>), la directive PHP
     <link linkend="ini.extension-dir">extension_dir</link> doit être définie
     et doit pointer vers le dossier où sont stockées les extensions PHP.
-    Lisez également le
+    Consulter également le
     <link linkend="install.windows.manual">manuel d'installation sous Windows</link>.
     Par exemple, voici une valeur possible pour la directive
     extension_dir en PHP 5 :

@@ -165,7 +165,7 @@
         <simpara>
          Ceci a été ajouté pour assurer la compatibilité avec l'extension
          <literal>dbm</literal> qui est obsolète.
-         Utilisez ce gestionnaire seulement quand l'on ne peut installer
+         Utiliser ce gestionnaire seulement quand l'on ne peut installer
          aucun autre gestionnaire et qu'il n'est pas possible d'utiliser le
          gestionnaire cdb intégré.
         </simpara>

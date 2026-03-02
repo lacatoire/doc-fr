@@ -19,7 +19,7 @@
    Implémente le formatage direct en mémoire. Il retourne toutes les
    images de la séquence sous forme de chaîne. Le format de l'image
    détermine le format du BLOB retourné (GIF, JPEG, PNG, etc.). Pour
-   retourner un format d'image différent, utilisez 
+   retourner un format d'image différent, utiliser 
    <function>Imagick::setImageFormat</function>.
   </para>
  </refsect1>

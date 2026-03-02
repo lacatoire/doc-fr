@@ -22,7 +22,7 @@
     besoins.
    </para>
    <para>
-    Veuillez noter qu'il n'est pas nécessaire d'instancier la classe
+    Il est à noter qu'il n'est pas nécessaire d'instancier la classe
     <classname>Yaf_Route_Static</classname>, et qu'il n'est pas nécessaire
     de l'ajouter dans la pile des routes de la classe
     <classname>Yaf_Router</classname> vu qu'elle sera toujours présente

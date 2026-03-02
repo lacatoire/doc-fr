@@ -71,7 +71,7 @@
        Le nouveau nom de l'état, après l'application de la règle.
       </para>
       <para>
-       Si '.' est spécifié comme état de sortie, alors l'état du lexer n'est pas modifié lorsque cette règle correspond. Un état de sortie avec '&gt;' avant le nom signifie pousser. Utilisez la signature sans id pour soit la continuation ou pour commencer la correspondance, quand une continuation ou une récursion est requise.
+       Si '.' est spécifié comme état de sortie, alors l'état du lexer n'est pas modifié lorsque cette règle correspond. Un état de sortie avec '&gt;' avant le nom signifie pousser. Utiliser la signature sans id pour soit la continuation ou pour commencer la correspondance, quand une continuation ou une récursion est requise.
       </para>
       <para>
        Si '&lt;' est spécifié comme état de sortie, cela signifie pop. Dans ce cas, la signature contenant l'id peut être utilisée pour identifier la correspondance. Il est à noter que même dans le cas où un id est spécifié, la règle se terminera d'abord lorsque tous les poussées précédentes auront été enlevées.

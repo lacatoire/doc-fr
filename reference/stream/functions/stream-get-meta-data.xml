@@ -60,7 +60,7 @@
      <literal>eof</literal> (&boolean;) : &true; si le flux a atteint la
      fin du fichier. Il est à noter que pour les sockets, cette valeur peut être
      &true; même si <literal>unread_bytes</literal> est non nul. Pour
-     déterminer s'il reste des données à lire, utilisez plutôt la
+     déterminer s'il reste des données à lire, utiliser plutôt la
      fonction <function>feof</function>.
     </para>
    </listitem>
@@ -84,7 +84,7 @@
    <listitem>
     <para>
      <literal>wrapper_type</literal> (&string;) : un nom qui décrit
-     le gestionnaire de protocole pour ce flux. Voyez
+     le gestionnaire de protocole pour ce flux. Voir
      <xref linkend="wrappers"/> pour plus d'informations sur les
      gestionnaires.
     </para>
@@ -92,7 +92,7 @@
    <listitem>
     <para>
      <literal>wrapper_data</literal> (mixed) : des données spécifiques
-     au gestionnaire liées à ce flux. Voyez <xref linkend="wrappers"/> pour
+     au gestionnaire liées à ce flux. Voir <xref linkend="wrappers"/> pour
      plus d'informations sur les gestionnaires et leurs données.
     </para>
    </listitem>

@@ -424,7 +424,7 @@
      <listitem>
       <para>
        Définit le protocole memcached par défaut pour les nouvelles connexions. (Pour configurer le protocole memcached pour
-       les connexions utilisées par les sessions, utilisez <literal>memcached.sess_binary_protocol</literal> à la place.)
+       les connexions utilisées par les sessions, utiliser <literal>memcached.sess_binary_protocol</literal> à la place.)
 
        Si défini à <literal>On</literal>, le protocole binaire memcached est utilisé par défaut.
        Si défini à <literal>Off</literal>, le protocole texte memcached est utilisé.
@@ -440,7 +440,7 @@
      <listitem>
       <para>
        Définit le délai de connexion memcached par défaut pour les nouvelles connexions.
-      (Pour configurer le délai de connexion memcached pour les sessions, utilisez <literal>memcached.sess_connect_timeout</literal> à la place.)
+      (Pour configurer le délai de connexion memcached pour les sessions, utiliser <literal>memcached.sess_connect_timeout</literal> à la place.)
 
        Dans un mode non bloquant, cela change la valeur du délai.
        Pendant la connexion du socket en millisecondes.
@@ -459,7 +459,7 @@
       <para>
        Définit le hachage consistant par défaut pour les nouvelles connexions.
        (Pour configurer le hachage consistant pour les connexions utilisées par les sessions,
-       utilisez <literal>memcached.sess_consistent_hash</literal> à la place.)
+       utiliser <literal>memcached.sess_consistent_hash</literal> à la place.)
 
        Si défini à <literal>On</literal>, le hachage consistant (libketama) est utilisé pour la
        gestion des sessions. Lorsque le hachage consistant est utilisé, on peut ajouter ou supprimer des nœuds de cache

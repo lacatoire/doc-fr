@@ -100,7 +100,7 @@ if (!tcpwrap_check('php', $_SERVER['REMOTE_ADDR'])) {
  <refsect1 role="seealso">
   &reftitle.seealso;
   <para>
-   Pour plus de détails, consultez la page man de hosts_access(3).
+   Pour plus de détails, consulter la page man de hosts_access(3).
   </para>
  </refsect1>
 </refentry>

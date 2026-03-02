@@ -19,7 +19,7 @@
    donnée en utilisant l'analyseur lexical du moteur Zend.
   </para>
   <para>
-   Pour une liste des tokens, voir <xref linkend="tokens"/>, ou utilisez la fonction
+   Pour une liste des tokens, voir <xref linkend="tokens"/>, ou utiliser la fonction
    <function>token_name</function> pour traduire une valeur token dans une
    représentation sous forme de chaîne de caractères.
   </para>

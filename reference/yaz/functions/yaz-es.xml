@@ -36,7 +36,7 @@
   <para>
    La fonction <function>yaz_es</function> crée des paquets d'une Requête de
    Service Étendu et les place dans une file d'attente d'opérations.
-   Utilisez <function>yaz_wait</function> pour envoyer la/les requête(s) au
+   Utiliser <function>yaz_wait</function> pour envoyer la/les requête(s) au
    serveur.
    À la fin de <function>yaz_wait</function>, le résultat de l'opération de
    Service Étendu devrait être obtenu avec un appel à

@@ -67,7 +67,7 @@
       (<literal>tablename.fieldname</literal>).
       Si un alias a été utilisé pour le nom de la colonne
       (<literal>"selected foo as bar from..."</literal>),
-      utilisez plutôt l'alias. Si ce paramètre n'est pas défini, le premier champ
+      utiliser plutôt l'alias. Si ce paramètre n'est pas défini, le premier champ
       sera récupéré.
      </simpara>
     </listitem>

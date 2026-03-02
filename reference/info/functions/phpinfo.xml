@@ -82,7 +82,7 @@
            <entry>4</entry>
            <entry>
             Valeurs courantes locales et générales des directives PHP.
-            Voyez aussi la fonction <function>ini_get</function>.
+            Voir aussi la fonction <function>ini_get</function>.
            </entry>
           </row>
           <row>

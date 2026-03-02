@@ -62,7 +62,7 @@
      <term><parameter>minimal</parameter></term>
      <listitem>
       <para>
-       Configurez <parameter>minimal</parameter> à &true; pour
+       Configurer <parameter>minimal</parameter> à &true; pour
        minimaliser la taille du diff (peut prendre beaucoup de temps).
       </para>
      </listitem>
@@ -111,7 +111,7 @@ if (is_string($diff)) {
   <note>
    <para>
     Cette fonction ne fonctionne pas correctement avec des chaînes binaires.
-    Pour effectuer un diff de chaînes binaires, utilisez la fonction
+    Pour effectuer un diff de chaînes binaires, utiliser la fonction
     <function>xdiff_string_bdiff</function>/<function>xdiff_string_rabdiff</function>.
    </para>
   </note>

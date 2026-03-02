@@ -46,7 +46,7 @@
       <para>
        Pour décompresser, les extensions de fichier par défaut
        sont <literal>.phar</literal> et <literal>.phar.tar</literal>.
-       Utilisez ce paramètre pour spécifier une autre extension de fichier.
+       Utiliser ce paramètre pour spécifier une autre extension de fichier.
        À noter que toutes les archives phar exécutables doivent contenir <literal>.phar</literal>
        dans leur nom de fichier.
       </para>

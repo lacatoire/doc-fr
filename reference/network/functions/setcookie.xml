@@ -169,7 +169,7 @@
       <note>
        <simpara>
         Pour définir un cookie qui inclut des attributs qui ne figurent pas parmi les clés répertoriées,
-        utilisez <function>header</function>.
+        utiliser <function>header</function>.
        </simpara>
       </note>
       <note>
@@ -406,7 +406,7 @@ one : cookieone
      <simpara>
       Du fait que l'assignation d'une valeur valant &false; à un cookie
       tente de l'effacer, les valeurs booléennes ne devraient pas être utilisées.
-      À la place, utilisez <emphasis>0</emphasis> pour &false;
+      À la place, utiliser <emphasis>0</emphasis> pour &false;
       et <emphasis>1</emphasis> pour &true;.
      </simpara>
     </listitem>
@@ -415,7 +415,7 @@ one : cookieone
       Les noms des cookies peuvent être des tableaux de noms et seront
       disponibles dans les scripts PHP sous la forme de tableaux, mais
       des cookies différents seront placés sur le navigateur.
-      Utilisez <function>json_encode</function> pour définir un cookie
+      Utiliser <function>json_encode</function> pour définir un cookie
       avec des noms et des valeurs multiples. Il n'est pas recommandé d'utiliser
       la fonction <function>serialize</function> pour cela, car
       cela peut conduire à des problèmes de sécurité.

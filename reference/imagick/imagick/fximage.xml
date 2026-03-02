@@ -17,7 +17,7 @@
    <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
   </methodsynopsis>
   <para>
-   Évalue une expression pour chaque pixel d'une image. Consultez 
+   Évalue une expression pour chaque pixel d'une image. Consulter 
    <link xlink:href="&url.imagemagick;script/fx.php"><literal>The Fx Special Effects Image Operator</literal></link>
    pour plus de détails (en anglais).
   </para>

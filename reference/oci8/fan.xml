@@ -56,7 +56,7 @@
    <itemizedlist>
     <listitem>
      <simpara>
-      Avec les privilèges d'administrateur de la base de données, utilisez
+      Avec les privilèges d'administrateur de la base de données, utiliser
       un programme comme SQL*Plus pour activer le service de base de données
       pour poster les événements FAN ; par exemple :
      </simpara>

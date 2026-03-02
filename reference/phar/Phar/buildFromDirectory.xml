@@ -19,7 +19,7 @@
    Remplit une archive phar à partir du contenu d'un répertoire. Le second paramètre,
    optionnel, est une expression rationnelle (pcre) utilisée pour exclure des fichiers.
    Tout fichier dont le nom satisfait l'expression rationnelle sera inclus, les autres seront exclus.
-   Pour un contrôle plus fin, utilisez <function>Phar::buildFromIterator</function>.
+   Pour un contrôle plus fin, utiliser <function>Phar::buildFromIterator</function>.
   </para>
  </refsect1>
 

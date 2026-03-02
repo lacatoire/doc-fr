@@ -8,7 +8,7 @@
  <section xml:id="oci8.configure" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>Configuration de PHP avec OCI8</title>
   <para>
-   Relisez la section précédente sur les
+   Consulter la section précédente sur les
    <link linkend="oci8.requirements">Pré-requis</link> avant de configurer OCI8.
   </para>
   <para>
@@ -53,7 +53,7 @@ pear config-set http_proxy http://my-proxy.example.com:80/
     </listitem>
     <listitem>
      <para>
-      Exécutez :
+      Exécuter :
      </para>
      <para>
       <informalexample>
@@ -65,7 +65,7 @@ pecl install oci8
       </informalexample>
      </para>
      <para>
-      Pour PHP 7, utilisez <literal>pecl install oci8-2.2.0</literal>.
+      Pour PHP 7, utiliser <literal>pecl install oci8-2.2.0</literal>.
      </para>
     </listitem>
     <listitem>
@@ -85,7 +85,7 @@ pecl install oci8
       Si on obtient une erreur <literal>oci8_dtrace_gen.h: Aucun fichier ou
       répertoire de ce type</literal>, cela signifie que PHP a été compilé
       avec <link linkend="features.dtrace">DTrace Dynamic Tracing</link> activé.
-      Installez en utilisant la commande :
+      Installer en utilisant la commande :
      </para>
      <para>
       <informalexample>
@@ -100,7 +100,7 @@ $ pecl install oci8
    </listitem>
    <listitem>
     <para>
-      Modifiez le fichier &php.ini; et ajoutez la ligne :
+      Modifier le fichier &php.ini; et ajouter la ligne :
      </para>
      <para>
       <informalexample>
@@ -204,7 +204,7 @@ make install
        Si on obtient une erreur <literal>oci8_dtrace_gen.h: Aucun fichier ou
        répertoire de ce type</literal>, cela signifie que PHP a été compilé
        avec <link linkend="features.dtrace">DTrace Dynamic Tracing</link> activé.
-       Exécutez à nouveau les commandes <literal>configure</literal> et <literal>make</literal>
+       Exécuter à nouveau les commandes <literal>configure</literal> et <literal>make</literal>
        après avoir défini cette variable d'environnement :
       </para>
       <para>
@@ -219,7 +219,7 @@ $ export PHP_DTRACE=yes
      </listitem>
      <listitem>
       <para>
-       Modifiez le fichier &php.ini; et ajoutez la ligne :
+       Modifier le fichier &php.ini; et ajouter la ligne :
       </para>
       <para>
        <informalexample>
@@ -246,7 +246,7 @@ extension=oci8.so
    Si on compile PHP à partir du code source, l'option de configuration <literal>shared</literal> peut être utilisée pour construire OCI8 en tant que bibliothèque partagée qui peut être chargée dynamiquement dans PHP. La construction d'une extension partagée permet à OCI8 d'être facilement mis à jour sans avoir d'impact sur le reste de PHP.
   </para>
   <para>
-   Configurez OCI8 en utilisant l'une des options de configuration suivantes.
+   Configurer OCI8 en utilisant l'une des options de configuration suivantes.
   </para>
   <para>
    <itemizedlist>
@@ -436,7 +436,7 @@ extension=oci8.so
   </para>
   <para>
    Pour vérifier si les variables d'environnement ont été définies
-   correctement, utilisez la fonction <function>phpinfo</function>
+   correctement, utiliser la fonction <function>phpinfo</function>
    et s'attarder sur la section <emphasis>Environment</emphasis>
    (et non la section <emphasis>Apache Environment</emphasis>) ;
    elle doit contenir toutes les variables définies.
@@ -475,7 +475,7 @@ extension=oci8.so
       <row>
        <entry>LD_LIBRARY_PATH</entry>
        <entry>
-        Définissez cette variable (ou son équivalent sur la plateforme
+        Définir cette variable (ou son équivalent sur la plateforme
         courante, comme <literal>LIBPATH</literal>,
         ou <literal>SHLIB_PATH</literal>)
         comme le chemin vers les bibliothèques Oracle, par exemple
@@ -536,7 +536,7 @@ extension=oci8.so
    <function>oci_connect</function> ou <function>oci_pconnect</function>.
    L'erreur peut être une erreur purement PHP comme <emphasis>Call to undefined function
    oci_connect()</emphasis>, une erreur Oracle comme ORA-12705 ou
-   encore un arrêt brutal d'Apache. Vérifiez le contenu des fichiers de
+   encore un arrêt brutal d'Apache. Vérifier le contenu des fichiers de
    log d'Apache lors de son démarrage et se reporter aux sections
    ci-dessus pour résoudre le problème.
   </para>
@@ -561,7 +561,7 @@ extension=oci8.so
   <note>
    <title>Si le serveur Web ne démarre pas ou échoue au démarrage</title>
    <para>
-    Vérifiez qu'Apache est lié avec la bibliothèque pthread :
+    Vérifier qu'Apache est lié avec la bibliothèque pthread :
    </para>
    <para>
     <informalexample>

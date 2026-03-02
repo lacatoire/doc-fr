@@ -23,7 +23,7 @@
   </para>
   <para>
    Pour récupérer une variable sérialisée et retrouver une
-   valeur PHP, utilisez <function>unserialize</function>.
+   valeur PHP, utiliser <function>unserialize</function>.
   </para>
  </refsect1>
 

@@ -22,7 +22,7 @@
   <note>
    <para>
     Afin de retarder l'exécution d'un programme pendant une fraction de seconde,
-    utilisez la fonction <function>usleep</function> car la fonction <function>sleep</function> attend un &integer;.
+    utiliser la fonction <function>usleep</function> car la fonction <function>sleep</function> attend un &integer;.
     Par exemple, <code>sleep(0.25)</code> retardera l'exécution du programme pendant <literal>0</literal> seconde.
    </para>
   </note>

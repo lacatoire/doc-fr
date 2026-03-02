@@ -170,7 +170,7 @@ pcntl_signal(SIGTERM, "sig_handler");
 pcntl_signal(SIGHUP,  "sig_handler");
 pcntl_signal(SIGUSR1, "sig_handler");
 
-// ou bien utilisez un objet
+// ou bien utiliser un objet
 // pcntl_signal(SIGUSR1, array($obj, "faire_quelque_chose"));
 
 echo"Génération d'un signal SIGUSR1 à moi-même...\n";

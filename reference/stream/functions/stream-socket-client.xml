@@ -81,7 +81,7 @@
        <note>
         <para>
          Pour définir un délai d'expiration lors de la lecture/écriture de
-         données via un socket, utilisez la fonction
+         données via un socket, utiliser la fonction
          <function>stream_set_timeout</function>, vu que le paramètre
          <parameter>timeout</parameter> n'est appliqué que lors de la connexion
          au socket.
@@ -229,7 +229,7 @@ if (!$fp) {
     Suivant l'environnement, les sockets Unix ou le délai d'expiration
     peuvent ne pas être disponibles. Une liste des transports disponibles
     sur le système est accessible via <function>stream_get_transports</function>.
-    Voyez <xref linkend="transports"/> pour une liste de transports natifs.
+    Voir <xref linkend="transports"/> pour une liste de transports natifs.
    </para>
   </note>
  </refsect1><!-- }}} -->

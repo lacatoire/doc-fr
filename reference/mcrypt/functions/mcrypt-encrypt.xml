@@ -94,7 +94,7 @@
 <?php
     # --- CHIFFREMENT ---
 
-    # la clé devrait être un binaire aléatoire, utilisez la fonction scrypt, bcrypt
+    # la clé devrait être un binaire aléatoire, utiliser la fonction scrypt, bcrypt
     # ou PBKDF2 pour convertir une chaîne de caractères en une clé.
     # La clé est spécifiée en utilisant une notation hexadécimale.
     $key = pack('H*', "bcb04b7e103a0cd8b54763051cef08bc55abe029fdebae5e1d417e2ffb2a00a3");

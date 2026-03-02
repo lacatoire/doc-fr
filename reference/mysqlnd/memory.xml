@@ -102,7 +102,7 @@
   Le driver natif MySQL supprime la référence aux variables utilisateurs lorsque
   le jeu de résultat est libéré ou qu'une opération de copie-sur-lecture
   est effectuée. Un observateur peut voir la consommation mémoire totale croître
-  tant que le jeu de résultat n'est pas libéré. Utilisez les
+  tant que le jeu de résultat n'est pas libéré. Utiliser les
   <link linkend="mysqlnd.stats">statistiques</link> pour vérifier si un script
   libère le jeu de résultats explicitement, ou si le driver le libère implicitement,
   faisant ainsi que la mémoire soit utilisée plus longtemps que nécessaire.

@@ -17,7 +17,7 @@
   <para>
    Pour les archives phar basées sur tar, cette méthode lève une exception
    <classname>BadMethodCallException</classname> car la compression de fichier individuelle au sein
-   d'une archive tar n'est pas supportée par le format de fichier. Utilisez
+   d'une archive tar n'est pas supportée par le format de fichier. Utiliser
    <function>Phar::compress</function> pour compresser une archive phar basée sur tar en entier.
   </para>
   <para>

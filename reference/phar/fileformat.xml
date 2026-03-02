@@ -217,8 +217,8 @@ __HALT_COMPILER();
    actuellement, les en-têtes <literal>././@LongLink</literal> sont résolus.
   </para>
   <para>
-   Pour compresser une archive entière, utilisez <function>Phar::compress</function>.
-   Pour décompresser une archive entière, utilisez <function>Phar::decompress</function>.
+   Pour compresser une archive entière, utiliser <function>Phar::compress</function>.
+   Pour décompresser une archive entière, utiliser <function>Phar::decompress</function>.
   </para>
  </section>
  <section xml:id="phar.fileformat.zip" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -250,7 +250,7 @@ __HALT_COMPILER();
   </para>
   <para>
    Tous les drapeaux non utilisés sont réservés pour un usage futur et ne doivent pas être utilisés
-   pour stocker des informations personnalisées. Utilisez les métadonnées par fichier pour stocker
+   pour stocker des informations personnalisées. Utiliser les métadonnées par fichier pour stocker
    des métadonnées personnalisées sur des fichiers particuliers.
   </para>
   <para>

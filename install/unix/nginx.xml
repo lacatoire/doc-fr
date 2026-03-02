@@ -213,7 +213,7 @@ location / {
 
    <para>
     La prochaine étape permet d'assurer que les fichiers .php soient passés
-    au backend PHP-FPM. Sous le bloc PHP commenté par défaut, entrez :
+    au backend PHP-FPM. Sous le bloc PHP commenté par défaut, entrer :
    </para>
 
    <informalexample xml:id="install.unix.nginx.configure.nginx.php">
@@ -259,7 +259,7 @@ echo "<?php phpinfo(); ?>" >> /usr/local/nginx/html/index.php
    </informalexample>
 
    <para>
-    Maintenant, naviguez vers http://localhost. Le phpinfo()
+    Maintenant, naviguer vers http://localhost. Le phpinfo()
     devrait maintenant être affiché.
    </para>
   </listitem>
@@ -269,7 +269,7 @@ echo "<?php phpinfo(); ?>" >> /usr/local/nginx/html/index.php
   En suivant ces différentes étapes, le résultat devrait être un serveur
   web Nginx avec le support de PHP comme module <literal>FPM</literal> <literal>SAPI</literal>.
   Bien entendu, il y a beaucoup plus d'options de configuration
-  disponibles pour Nginx et PHP. Pour plus d'informations, tapez
+  disponibles pour Nginx et PHP. Pour plus d'informations, taper
   <command>./configure --help</command> dans la source correspondante.
  </para>
 

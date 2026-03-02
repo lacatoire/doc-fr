@@ -1107,7 +1107,7 @@ php -r 'print_r(get_defined_constants());'
      </para>
      <note>
       <para>
-       Lisez l'exemple attentivement, il n'y a ni balise d'ouverture, ni balise de fermeture !
+       Lire l'exemple attentivement, il n'y a ni balise d'ouverture, ni balise de fermeture !
        L'option <option>-r</option> rend caduque l'utilisation de celles-ci, et les ajouter conduirait
        alors à une erreur d'analyse syntaxique.
       </para>
@@ -1162,7 +1162,7 @@ $ some_application | some_filter | php | sort -u > final_output.txt
    le caractère <literal>-</literal>, il n'y a rien de spécial à surveiller.
    Le fait de passer des arguments au script qui commencent par
    <literal>-</literal> pose des problèmes car PHP
-   va penser qu'il doit les interpréter. Pour éviter cela, utilisez le séparateur
+   va penser qu'il doit les interpréter. Pour éviter cela, utiliser le séparateur
    <literal>--</literal>. Après cet argument, tous les arguments suivants seront
    passés au script sans être modifiés ou analysés par PHP.
   </para>
@@ -1916,7 +1916,7 @@ $ php -S localhost:8000 router.php
    <title>Gestion des types de fichiers non supportés</title> 
    <para>
     Pour servir une ressource statique pour laquelle le type
-    MIME n'est pas géré par le CLI du serveur web, utilisez ceci :
+    MIME n'est pas géré par le CLI du serveur web, utiliser ceci :
    </para>
    <programlisting role="php">
 <![CDATA[

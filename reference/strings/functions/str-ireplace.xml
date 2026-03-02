@@ -25,7 +25,7 @@
   </para>
   <para>
    Pour remplacer un texte en fonction d'un modèle plutôt qu'une chaîne fixe,
-   utilisez <function>preg_replace</function> avec le modificateur de modèle
+   utiliser <function>preg_replace</function> avec le modificateur de modèle
    <literal>i</literal> <link linkend="reference.pcre.pattern.modifiers">.</link>.
   </para>
  </refsect1>

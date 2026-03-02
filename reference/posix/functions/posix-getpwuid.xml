@@ -76,7 +76,7 @@
       <row>
        <entry>gid</entry>
        <entry>
-        L'ID du groupe de l'utilisateur. Utilisez la fonction
+        L'ID du groupe de l'utilisateur. Utiliser la fonction
         <function>posix_getgrgid</function> pour connaître le nom du groupe,
         et ses membres.
        </entry>

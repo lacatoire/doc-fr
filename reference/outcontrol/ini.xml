@@ -111,7 +111,7 @@
     <note>
      <para>
       Seules les fonctions internes peuvent être utilisées avec cette directive.
-      Pour les fonctions utilisateurs, utilisez <function>ob_start</function>.
+      Pour les fonctions utilisateurs, utiliser <function>ob_start</function>.
      </para>
     </note>
    </listitem>

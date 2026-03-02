@@ -27,7 +27,7 @@
   <simpara>
    Construit un objet de watcher EvPrepare.
    Démarre le watcher automatiquement. S'il est nécessaire
-   d'un watcher stoppé, utilisez plutôt la méthode
+   d'un watcher stoppé, utiliser plutôt la méthode
    <methodname>EvPrepare::createStopped</methodname>.
   </simpara>
  </refsect1>

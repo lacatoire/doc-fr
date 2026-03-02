@@ -14,7 +14,7 @@
    <methodparam choice="opt"><type>string</type><parameter>class</parameter><initializer><constant>SplFileInfo::class</constant></initializer></methodparam>
   </methodsynopsis>
   <para>
-   Utilisez cette méthode pour configurer une classe personnalisée
+   Utiliser cette méthode pour configurer une classe personnalisée
    à utiliser avec les méthodes <methodname>SplFileInfo::getFileInfo</methodname>
    et <methodname>SplFileInfo::getPathInfo</methodname>. La classe utilisée doit hériter de <classname>SplFileInfo</classname>.
   </para>

@@ -200,7 +200,7 @@ mongodb://[username:password@]host1[:port1][,host2[:port2],...[,hostN[:portN]]][
             Par défaut, fournir un seul membre dans la chaîne de connexion
             établira une connexion directe ou découvrira des membres supplémentaires
             selon que l'option d'URI <literal>"replicaSet"</literal> est omise ou présente,
-            respectivement. Spécifiez &false; pour forcer la découverte à se produire
+            respectivement. Spécifier &false; pour forcer la découverte à se produire
             (si <literal>"replicaSet"</literal> est omis)
             ou spécifiez &true; pour forcer une connexion directe (si
             <literal>"replicaSet"</literal> est présent).

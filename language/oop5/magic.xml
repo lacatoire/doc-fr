@@ -93,7 +93,7 @@
      Il n'est pas possible pour <link linkend="object.sleep">__sleep()</link> de retourner
      des noms de propriétés privées des classes parentes. Le faire
      résultera en une erreur de niveau <constant>E_NOTICE</constant>.
-     Utilisez <link linkend="object.serialize">__serialize()</link> à la place.
+     Utiliser <link linkend="object.serialize">__serialize()</link> à la place.
     </para>
    </note>
    <note>
@@ -282,18 +282,18 @@ class Connection
    </para>
    <warning>
     <para>
-     Un objet <interfacename>Stringable</interfacename>
-     <emphasis>ne</emphasis> sera pas accepté par une déclaration de type <type>string</type> si la
-     <link linkend="language.types.declarations.strict">déclaration de type strict</link> est activée.
-     Si un tel comportement est souhaité, la déclaration de type doit accepter
-     à la fois <interfacename>Stringable</interfacename> et <type>string</type> via un type union.
-    </para>
-    <para>
      À partir de PHP 8.0.0, la valeur de retour suit les sémantiques standard
      de PHP, signifiant que la valeur sera convertie en une <type>string</type>
      si possible et si le
      <link linkend="language.types.declarations.strict">typage strict</link>
      est désactivé.
+    </para>
+    <para>
+     Un objet <interfacename>Stringable</interfacename>
+     <emphasis>ne</emphasis> sera pas accepté par une déclaration de type <type>string</type> si la
+     <link linkend="language.types.declarations.strict">déclaration de type strict</link> est activée.
+     Si un tel comportement est souhaité, la déclaration de type doit accepter
+     à la fois <interfacename>Stringable</interfacename> et <type>string</type> via un type union.
     </para>
     <para>
      À partir de PHP 8.0.0, toute classe qui contient une méthode

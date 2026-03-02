@@ -175,7 +175,7 @@
     </term>
     <listitem>
      <para>
-      Envoie FPM en arrière-plan. Mettez 'no' pour garder FPM au premier plan lors du
+      Envoie FPM en arrière-plan. Mettre 'no' pour garder FPM au premier plan lors du
       débogage. Valeur par défaut : yes.
      </para> 
     </listitem>
@@ -570,7 +570,7 @@
       </term>
       <listitem>
        <para>
-        Spécifiez la priorité nice(2) à appliquer au processus de travail 
+        Spécifier la priorité nice(2) à appliquer au processus de travail 
         (uniquement s'il est défini). La valeur peut varier de -19 (priorité 
         la plus élevée) à 20 (priorité la plus basse).         Valeur par 
         défaut: non définie.
@@ -966,7 +966,7 @@
              accepter un format <literal>strftime(3)</literal> :
              <literal>%d/%b/%Y:%H:%M:%S %z</literal> (par défaut).
              Le format <literal>strftime(3)</literal> doit être encapsulé dans
-             une balise <literal>%{&lt;strftime_format&gt;}t</literal>, par exemple, pour une chaîne de temps au format ISO8601, utilisez :
+             une balise <literal>%{&lt;strftime_format&gt;}t</literal>, par exemple, pour une chaîne de temps au format ISO8601, utiliser :
              <literal>%{%Y-%m-%dT%H:%M:%S%z}t</literal>
             </entry>
            </row>
@@ -979,7 +979,7 @@
              format <literal>strftime(3)</literal> :
              <literal>%d/%b/%Y:%H:%M:%S %z</literal> (par défaut).
              Le format <literal>strftime(3)</literal> doit être encapsulé dans une
-             balise <literal>%{&lt;strftime_format&gt;}T</literal>, par exemple, pour une chaîne de temps au format ISO8601, utilisez :
+             balise <literal>%{&lt;strftime_format&gt;}T</literal>, par exemple, pour une chaîne de temps au format ISO8601, utiliser :
              <literal>%{%Y-%m-%dT%H:%M:%S%z}T</literal>
             </entry>
            </row>

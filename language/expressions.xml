@@ -191,7 +191,7 @@ $e = $d = ++$b;     /* Pre-incrémentation, et assignation de la valeur aux
 $f = double($d++);  /* assignation du double de la valeur de $d à la variable $f ($f vaut 12),
                        puis incrémentation de la valeur de $d  */
 $g = double(++$e);  /* assigne deux fois la valeur de $e après
-                       incrémentation, 2*7 = 14 to $g */
+                       incrémentation, 2*7 = 14 à $g */
 $h = $g += 10;      /* Tout d'abord, $g est incrémentée de 10, et donc $g vaut 24.
                        Ensuite, la valeur de $g, (24) est assignée à la variable $h,
                        qui vaut donc elle aussi 24. */
@@ -220,16 +220,16 @@ $h = $g += 10;      /* Tout d'abord, $g est incrémentée de 10, et donc $g vaut
   
   Les constantes &true; et &false; (insensible à la casse) sont les deux
   valeurs possibles pour un booléen. Lorsque nécessaire, une expression
-  est automatiquement convertie en booléen. Lisez la
+  est automatiquement convertie en booléen. Consulter la
   <link linkend="language.types.typecasting">section sur le transtypage</link>
   pour plus de détails.
  </simpara>
  <simpara>
-  PHP propose une implémentation complète et détaillée des expressions.
-  PHP documente toutes ses expressions dans le présent manuel.
-  Les exemples qui vont suivre devraient donner une
-  bonne idée de ce qu'est une expression et comment construire ses propres
-  expressions. Dans tout ce qui va suivre, nous écrirons
+  PHP propose une implémentation complète et détaillée des expressions, et
+  la documenter entièrement va au-delà de la portée de ce manuel.
+  Les exemples ci-dessus devraient donner une
+  bonne idée de ce qu'est une expression et comment construire des
+  expressions utiles. Dans tout le reste de ce manuel, nous écrirons
   <varname>expr</varname> pour indiquer toute expression PHP valide.
  </simpara>
 </chapter>

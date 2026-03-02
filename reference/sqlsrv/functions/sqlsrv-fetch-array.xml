@@ -157,7 +157,7 @@ sqlsrv_free_stmt( $stmt);
   <simpara>
    Si plus d'une colonne est retournée avec le même nom, la dernière colonne
    prendra le dessus. Pour éviter d'avoir des problèmes avec les noms des
-   colonnes, utilisez des alias.
+   colonnes, utiliser des alias.
   </simpara>
   <simpara>
    Si une colonne ne possédant aucun nom est retournée, la clé associative de l'élément

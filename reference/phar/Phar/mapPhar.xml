@@ -68,7 +68,7 @@
    <example>
     <title>Exemple avec <function>Phar::mapPhar</function></title>
     <para>
-     mapPhar ne doit être utilisé qu'au sein du conteneur de chargement d'un phar. Utilisez
+     mapPhar ne doit être utilisé qu'au sein du conteneur de chargement d'un phar. Utiliser
      loadPhar pour charger un phar externe en mémoire.
     </para>
     <para>

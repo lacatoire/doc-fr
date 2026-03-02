@@ -19,7 +19,7 @@
    Remplit une archive tar/zip à partir du contenu d'un répertoire. Le second paramètre optionnel
    est une expression rationnelle (pcre) utilisée pour exclure des fichiers.
    N'importe quel fichier dont le nom satisfait sera inclus, tous les autres seront exclus. Pour un
-   contrôle plus fin, utilisez <function>PharData::buildFromIterator</function>.
+   contrôle plus fin, utiliser <function>PharData::buildFromIterator</function>.
   </para>
  </refsect1>
 

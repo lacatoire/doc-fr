@@ -24,7 +24,7 @@
   </para>
   <para>
    Pour remplacer un texte en fonction d'un modèle plutôt qu'une chaîne fixe,
-   utilisez <function>preg_replace</function>.
+   utiliser <function>preg_replace</function>.
   </para>
  </refsect1>
 
@@ -187,7 +187,7 @@ echo $output, PHP_EOL;
   </caution>
   <note>
    <para>
-    Cette fonction est sensible à la casse. Utilisez la fonction
+    Cette fonction est sensible à la casse. Utiliser la fonction
     <function>str_ireplace</function> pour un remplacement insensible à la
     casse.
    </para>

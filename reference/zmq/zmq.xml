@@ -756,7 +756,7 @@
      <varlistentry xml:id="zmq.constants.mode-noblock">
       <term><constant>ZMQ::MODE_NOBLOCK</constant></term>
       <listitem>
-       <para>Opération non-bloquante. Obsolète : utilisez plutôt ZMQ::MODE_DONTWAIT</para>
+       <para>Opération non-bloquante. Obsolète : utiliser plutôt ZMQ::MODE_DONTWAIT</para>
       </listitem>
      </varlistentry>
      

@@ -34,7 +34,7 @@
   <orderedlist>
    <listitem>
     <simpara>
-     Trouvez et ouvrez le fichier de configuration d'Apache. Par défaut, ce sera :
+     Trouver et ouvrir le fichier de configuration d'Apache. Par défaut, ce sera :
      <filename>/private/etc/apache2/httpd.conf</filename>
     </simpara>
     <simpara>
@@ -70,7 +70,7 @@
    </listitem>
    <listitem>
     <para>
-     Avec un éditeur de texte, décommentez les lignes (en effaçant le caractère #)
+     Avec un éditeur de texte, décommenter les lignes (en effaçant le caractère #)
      qui ressemblent aux lignes suivantes (ces 2 lignes ne se trouvent pas au même endroit) :
      <screen>
 <![CDATA[
@@ -129,8 +129,8 @@
    </listitem>
    <listitem>
     <simpara>
-     Définissez le chemin vers le fichier
-     &php.ini; ou utilisez le chemin par défaut.
+     Définir le chemin vers le fichier
+     &php.ini; ou utiliser le chemin par défaut.
     </simpara>
     <simpara>
      Le chemin par défaut sur macOS est
@@ -143,7 +143,7 @@
    </listitem>
    <listitem>
     <simpara>
-     Trouvez et définissez le <literal>DocumentRoot</literal>
+     Trouver et définir le <literal>DocumentRoot</literal>
     </simpara>
     <simpara>
      C'est le dossier principal pour tous les fichiers Web. Les fichiers dans
@@ -158,11 +158,11 @@
    </listitem>
    <listitem>
     <simpara>
-     Créez un fichier <function>phpinfo</function>.
+     Créer un fichier <function>phpinfo</function>.
     </simpara>
     <para>
      La fonction <function>phpinfo</function> affiche les informations sur PHP.
-     Créez un fichier dans le DocumentRoot avec le code PHP suivant :
+     Créer un fichier dans le DocumentRoot avec le code PHP suivant :
      <programlisting role="php">
 <![CDATA[
 <?php phpinfo(); ?>
@@ -172,7 +172,7 @@
    </listitem>
    <listitem>
     <simpara>
-     Redémarrez Apache et chargez le fichier PHP que nous venons de créer.
+     Redémarrer Apache et charger le fichier PHP créé précédemment.
     </simpara>
     <para>
      Pour redémarrer, exécutez la commande <literal>sudo apachectl graceful</literal>
@@ -189,7 +189,7 @@
  <simpara>
   <acronym>CLI</acronym> (ou <acronym>CGI</acronym> dans les anciennes versions) est nommé
   <filename>php</filename> et réside normalement dans
-  <filename>/usr/bin/php</filename>. Ouvrez un terminal, lisez la section sur
+  <filename>/usr/bin/php</filename>. Ouvrir un terminal, consulter la section sur
   <link linkend="features.commandline">la ligne de commande</link> du manuel PHP, et
   exécutez la commande <literal>php -v</literal> pour vérifier la version PHP de ce binaire.
   Un appel à la fonction <function>phpinfo</function> pourra également révéler cette

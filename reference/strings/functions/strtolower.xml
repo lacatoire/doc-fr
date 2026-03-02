@@ -27,7 +27,7 @@
   <para>
    Cela peut être utilisé pour convertir des caractères ASCII dans des chaînes
    encodées avec UTF-8, car les caractères UTF-8 multioctets seront ignorés.
-   Pour convertir des caractères non-ASCII multioctets, utilisez la fonction
+   Pour convertir des caractères non-ASCII multioctets, utiliser la fonction
    <function>mb_strtolower</function>.
   </para>
  </refsect1>

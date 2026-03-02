@@ -79,18 +79,20 @@ $array2 = [
     "foo" => "bar",
     "bar" => "foo",
 ];
+
+var_dump($array1, $array2);
 ?>
 ]]>
     </programlisting>
    </example>
-   
-   <para xml:id="language.types.array.key-casts">
+
+   <para>
     La clé <replaceable>key</replaceable> peut être soit un <type>int</type>,
     soit une &string;. La valeur <replaceable>value</replaceable> peut être
     de n'importe quel type.
    </para>
-   
-   <para>
+
+   <para xml:id="language.types.array.key-casts">
     De plus, les modifications de type suivantes surviendront pour la clé <replaceable>key</replaceable> :
     <itemizedlist>
      <listitem>
@@ -530,9 +532,9 @@ $arr[] = 56;    // Identique à $arr[13] = 56;
 $arr["x"] = 42; // Ceci ajoute un nouvel élément au
                 // tableau avec la clé "x"
 
-var_dump($arr);
-
 unset($arr[5]); // Ceci efface l'élément du tableau
+
+var_dump($arr);
 
 unset($arr);    // Ceci efface complètement le tableau
 
@@ -770,7 +772,7 @@ echo $b, PHP_EOL;    // Affiche 1
   <note>
    <para>
     La fonction <function>unset</function> permet d'effacer les clés d'un tableau.
-    Soyez attentif sur le fait que le tableau ne sera <emphasis>pas</emphasis>
+    Il est à noter que le tableau ne sera <emphasis>pas</emphasis>
     ré-indexé. Pour réaliser un effacement complet et une ré-indexation
     du tableau, il faut utiliser la fonction
     <function>array_values</function>.
@@ -855,7 +857,7 @@ echo $foo[bar];
 
    <simpara>
     Ceci ne signifie pas qu'il faut <emphasis>toujours</emphasis> mettre la clé entre guillemets.
-    N'utilisez pas de guillemets avec les clés qui sont des
+    Ne pas utiliser de guillemets avec les clés qui sont des
     <link linkend="language.constants">constantes</link> ou des
     <link linkend="language.variables">variables</link>, car cela empêcherait PHP de
     les interpréter.
@@ -1152,7 +1154,7 @@ array(3) {
   </para>
 
   <para>
-   La conversion de &null; en un tableau résultat en un tableau vide.
+   La conversion de &null; en un tableau résulte en un tableau vide.
   </para>
  </sect2>
 
@@ -1388,6 +1390,8 @@ Aimez-vous la couleur jaune ?
    <programlisting role="php">
 <![CDATA[
 <?php
+$colors = array('rouge', 'bleu', 'verte', 'jaune');
+
 foreach ($colors as &$color) {
     $color = mb_strtoupper($color);
 }
@@ -1519,7 +1523,7 @@ var_dump($juices);
 
   <para>
    L'assignation d'un tableau induit toujours la copie des valeurs.
-   Utilisez l'<link linkend="language.operators">opérateur de référence</link>
+   Utiliser l'<link linkend="language.operators">opérateur de référence</link>
    pour copier un tableau par référence.
   </para>
 
