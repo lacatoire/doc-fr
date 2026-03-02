@@ -5,7 +5,7 @@
  <title>Nouvelles fonctionnalités</title>
 
  <sect2 xml:id="migration83.new-features.core">
-  <title>PHP Core</title>
+  <title>Cœur de PHP</title>
 
   <sect3 xml:id="migration83.new-features.core.readonly-modifier-improvements">
    <title>Modification sur la lecture seule</title>

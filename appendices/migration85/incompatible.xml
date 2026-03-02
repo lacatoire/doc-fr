@@ -5,7 +5,7 @@
  <title>Changements non rétrocompatibles</title>
 
  <sect2 xml:id="migration85.incompatible.core">
-  <title>PHP Core</title>
+  <title>Cœur de PHP</title>
 
   <sect3 xml:id="migration85.incompatible.core.array-callable-alias">
    <title>Les noms d'alias <literal>"array"</literal> et <literal>"callable"</literal></title>

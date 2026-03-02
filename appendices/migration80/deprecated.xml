@@ -7,7 +7,7 @@
  <title>Fonctionnalités obsolètes</title>
 
  <sect2 xml:id="migration80.deprecated.core">
-  <title>PHP Core</title>
+  <title>Cœur de PHP</title>
 
   <itemizedlist>
    <listitem>

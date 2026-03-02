@@ -5,7 +5,7 @@
  <title>Nouvelles fonctionnalités</title>
 
  <sect2 xml:id="migration80.new-features.core">
-  <title>PHP Core</title>
+  <title>Cœur de PHP</title>
 
   <sect3 xml:id="migration80.new-features.core.named-arguments">
    <title>Les arguments nommés</title>

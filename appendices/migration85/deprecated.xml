@@ -5,7 +5,7 @@
  <title>Fonctionnalités dépréciées</title>
 
  <sect2 xml:id="migration85.deprecated.core">
-  <title>PHP Core</title>
+  <title>Cœur de PHP</title>
 
   <sect3 xml:id="migration85.deprecated.core.changes-to-user-output-handler">
    <title>Changement aux gestionnaires de sortie utilisateur</title>
