@@ -13,7 +13,7 @@
  </simpara>
 
  <sect2 xml:id="migration84.incompatible.core">
-  <title>PHP Core</title>
+  <title>Cœur de PHP</title>
 
   <!-- RFC: https://wiki.php.net/rfc/exit-as-function -->
   <sect3 xml:id="migration84.incompatible.core.exit">

@@ -5,7 +5,7 @@
  <title>Nouvelles fonctions</title>
 
  <sect2 xml:id="migration74.new-functions.core">
-  <title>PHP Core</title>
+  <title>Cœur de PHP</title>
 
   <itemizedlist>
    <listitem>
