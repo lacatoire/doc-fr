@@ -585,7 +585,7 @@ $strftimeFormats = array(
 // Résultats
 $strftimeValues = array();
 
-// 2value les formats tout en supprimant les erreurs
+// Évalue les formats tout en supprimant les erreurs
 foreach ($strftimeFormats as $format => $description) {
     if (false !== ($value = @strftime("%{$format}"))) {
         $strftimeValues[$format] = $value;

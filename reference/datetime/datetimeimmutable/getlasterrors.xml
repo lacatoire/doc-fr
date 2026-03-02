@@ -68,10 +68,10 @@
 try {
     $date = new DateTimeImmutable('asdfasdf');
 } catch (Exception $e) {
-    // For demonstration purposes only...
+    // À des fins de démonstration uniquement...
     print_r(DateTimeImmutable::getLastErrors());
 
-    // The real object-oriented way to do this is
+    // La vraie manière orientée objet de faire cela est
     echo $e->getMessage();
 }
 ?>

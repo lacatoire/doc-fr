@@ -447,20 +447,20 @@ echo date_format($date, 'Y-m-d H:i:s');
     <programlisting role="php">
 <![CDATA[
 <?php
-// set the default timezone to use.
+// Définit le fuseau horaire par défaut.
 date_default_timezone_set('UTC');
 
-// now
+// Maintenant
 $date = new DateTimeImmutable();
 
-// Prints something like: Wednesday
+// Affiche quelque chose comme : Wednesday
 echo $date->format('l'), "\n";
 
-// Prints something like: Wednesday 19th of October 2022 08:40:48 AM
+// Affiche quelque chose comme : Wednesday 19th of October 2022 08:40:48 AM
 echo $date->format('l jS \o\f F Y h:i:s A'), "\n";
 
-/* use the constants in the format parameter */
-// prints something like: Wed, 19 Oct 2022 08:40:48 +0000
+/* Utilisation des constantes dans le paramètre format */
+// Affiche quelque chose comme : Wed, 19 Oct 2022 08:40:48 +0000
 echo $date->format(DateTimeInterface::RFC2822), "\n";
 ?>
 ]]>
@@ -478,7 +478,7 @@ echo $date->format(DateTimeInterface::RFC2822), "\n";
 <?php
 $date = new DateTimeImmutable();
 
-// prints something like: Wednesday the 19th
+// Affiche quelque chose comme : Wednesday the 19th
 echo $date->format('l \t\h\e jS');
 ?>
 ]]>
