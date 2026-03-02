@@ -123,7 +123,7 @@ $login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
 
 // Tente de télécharger le fichier $remote_file et de le sauvegarder dans $handle
 if (ftp_fget($ftp, $handle, $remote_file, FTP_ASCII, 0)) {
- echo "Ecriture dans le fichier $local_file avec succès\n";
+ echo "Écriture dans le fichier $local_file avec succès\n";
 } else {
  echo "Il y a un problème lors du téléchargement du fichier $remote_file dans $local_file\n";
 }

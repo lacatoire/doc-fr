@@ -99,7 +99,7 @@ $login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
 $buff = ftp_mdtm($ftp, $file);
 
 if ($buff != -1) {
-    // somefile.txt was last modified on: March 26 2003 14:16:41.
+    // somefile.txt a été modifié pour la dernière fois le : March 26 2003 14:16:41.
     echo "$file a été modifié pour la dernière fois : " . date("F d Y H:i:s.", $buff);
 } else {
     echo "Impossible de récupérer mdtime";
