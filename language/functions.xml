@@ -1255,7 +1255,7 @@ string(11) "hello world"
    contexte global, qui est le même, quelle que soit la fonction qui
    s'exécute. Le contexte parent d'une fonction anonyme est la fonction
    dans laquelle la fonction a été déclarée (pas nécessairement celle
-   qui appelle). Voir l'exemple ci-dessous : 
+   qui appelle). Voir l'exemple ci-dessous :
   </simpara>
   
   <example>
