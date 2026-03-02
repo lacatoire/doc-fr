@@ -132,7 +132,7 @@ oci_close($conn);
    <para>
     Cette fonction ne retournera pas de lignes depuis le jeu de
     résultats implicite depuis une base de données Oracle.
-    Utilisez plutôt la fonction
+    Utiliser plutôt la fonction
     <function>oci_fetch_array</function>.
    </para>
   </note>

@@ -26,7 +26,7 @@
     La désérialisation peut résulter
     en une exécution de code chargé et exécuté lors de l'instanciation
     et l'autochargement d'objet, et ainsi, un utilisateur mal intentionné
-    peut être capable d'exploiter ce comportement. Utilisez un standard d'échange
+    peut être capable d'exploiter ce comportement. Utiliser un standard d'échange
     sûr, comme JSON (via les fonctions <function>json_decode</function> 
     et <function>json_encode</function>) s'il faut passer des données sérialisées
     à l'utilisateur.

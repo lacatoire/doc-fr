@@ -70,7 +70,7 @@ define("__FOO__", "something");
   Tout comme les &link.superglobals;, la portée d'une constante est globale.
   Les constantes peuvent être accédées depuis partout dans un script sans tenir
   compte de la portée.
-  Pour plus d'informations sur la portée, lisez la section du manuel sur la
+  Pour plus d'informations sur la portée, consulter la section du manuel sur la
   <link linkend="language.variables.scope">portée des variables</link>.
  </simpara>
 
@@ -111,7 +111,7 @@ define("__FOO__", "something");
    préfixée d'un <literal>$</literal>.
    Il est aussi possible d'utiliser la fonction <function>constant</function>
    pour lire la valeur d'une constante si son nom est obtenu dynamiquement.
-   Utilisez la fonction <function>get_defined_constants</function> pour connaître
+   La fonction <function>get_defined_constants</function> permet de connaître
    la liste de toutes les constantes définies.
   </simpara>
 

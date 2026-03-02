@@ -15,7 +15,7 @@
   </methodsynopsis>
   <para>
    Ignore (décale) un nombre donné d'éléments qui autrement seraient retournés
-   par l'opération find. Utilisez avec la méthode limit().
+   par l'opération find. Utiliser avec la méthode limit().
   </para>
   <para>
    Définir un décalage plus grand que la taille de l'ensemble de résultats donne un ensemble vide.

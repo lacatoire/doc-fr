@@ -35,7 +35,7 @@
        Le contenu de la superglobale qui est filtrée est le contenu original
        "brut" fourni par le <acronym>SAPI</acronym>,
        avant toute modification utilisateur de la superglobale.
-       Pour filtrer une superglobale modifiée utilisez
+       Pour filtrer une superglobale modifiée utiliser
        <function>filter_var_array</function> à la place.
       </simpara>
      </warning>

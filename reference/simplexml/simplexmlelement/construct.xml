@@ -59,7 +59,7 @@
      <term><parameter>dataIsURL</parameter></term>
      <listitem>
       <para>
-       Par défaut, <parameter>dataIsURL</parameter> vaut &false;. Utilisez
+       Par défaut, <parameter>dataIsURL</parameter> vaut &false;. Utiliser
        &true; pour spécifier que le paramètre <parameter>data</parameter> est
        un chemin d'accès ou un URL pointant à un document XML au lieu d'une
        chaîne de caractères de données.
@@ -97,7 +97,7 @@
   </para>
   <tip>
    <para>
-    Utilisez la fonction <function>libxml_use_internal_errors</function>
+    Utiliser la fonction <function>libxml_use_internal_errors</function>
     pour supprimer toutes les erreurs XML et la fonction
     <function>libxml_get_errors</function> pour les parcourir.
    </para>

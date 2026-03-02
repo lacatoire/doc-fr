@@ -79,7 +79,7 @@
   <note>
    <para>
     Pour une compatibilité avec les versions non supportées,
-    utilisez la classe <link xlink:href="&url.php.pear;">PEAR</link> :
+    utiliser la classe <link xlink:href="&url.php.pear;">PEAR</link> :
     <link xlink:href="&url.pear.package;Net_DNS">Net_DNS</link>.
    </para>
   </note>

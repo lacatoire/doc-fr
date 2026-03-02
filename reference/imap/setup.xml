@@ -31,7 +31,7 @@
   <note>
    <para>
     Pour compiler la bibliothèque C cliente avec
-    SSL et/ou avec le support Kerberos, lisez la doc fournie dans
+    SSL et/ou avec le support Kerberos, consulter la doc fournie dans
     la distribution.
    </para>
   </note>

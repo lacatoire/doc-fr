@@ -16,7 +16,7 @@
   </methodsynopsis>
   <simpara>
    La méthode <methodname>GearmanClient::echo</methodname> est obsolète
-   depuis pecl/gearman 1.0.0. Utilisez la méthode
+   depuis pecl/gearman 1.0.0. Utiliser la méthode
    <methodname>GearmanClient::ping</methodname> à la place.
   </simpara>
  </refsect1>

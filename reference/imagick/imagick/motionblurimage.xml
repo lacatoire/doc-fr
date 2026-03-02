@@ -22,7 +22,7 @@
    Ajoute un flou de déplacement. Une convolution de l'image
    avec un opérateur gaussien, pour un rayon et une déviation donnés
    est utilisé. Pour des résultats raisonnables, le rayon doit être
-   plus grand que la déviation. Utilisez un rayon de zéro, et 
+   plus grand que la déviation. Utiliser un rayon de zéro, et
    Imagick va choisir sa valeur pour. L'angle donne la 
    direction du flou de déplacement.
   </para>
@@ -62,7 +62,7 @@
       <para>
        Une constante de canal, valide pour le mode de canal. Pour spécifier un
        ou plusieurs canaux, combinez les constantes de canaux avec les opérateurs logiques.
-       Voyez la liste de constantes de <link linkend="imagick.constants.channel">canaux</link>.
+       Voir la liste de constantes de <link linkend="imagick.constants.channel">canaux</link>.
        L'argument de canal est disponible uniquement si Imagick est compilé avec 
        ImageMagick, version 6.4.4 ou plus récent.
       </para>

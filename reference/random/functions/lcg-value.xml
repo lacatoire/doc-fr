@@ -39,8 +39,8 @@
     de l'intervalle demandé.
    </para>
    <para>
-    Utilisez <methodname>Random\Randomizer::getFloat</methodname> pour générer un
-    nombre flottant aléatoire dans un intervalle arbitraire. Utilisez <methodname>Random\Randomizer::getInt</methodname>
+    Utiliser <methodname>Random\Randomizer::getFloat</methodname> pour générer un
+    nombre flottant aléatoire dans un intervalle arbitraire. Utiliser <methodname>Random\Randomizer::getInt</methodname>
     pour générer un entier aléatoire dans un intervalle arbitraire.
    </para>
   </caution>

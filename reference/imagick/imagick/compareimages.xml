@@ -38,7 +38,7 @@
      <term><parameter>metric</parameter></term>
      <listitem>
       <para>
-       Une constante de type de métrique. Voyez la liste des
+       Une constante de type de métrique. Voir la liste des
        <link linkend="imagick.constants.metric">constantes de métriques</link>.
       </para>
      </listitem>

@@ -25,7 +25,7 @@
      <term><parameter>functions</parameter></term>
      <listitem>
       <para>
-       Utilisez ce paramètre pour restreindre les fonctions PHP accessibles
+       Utiliser ce paramètre pour restreindre les fonctions PHP accessibles
        depuis XSLT.
       </para>
       <para>

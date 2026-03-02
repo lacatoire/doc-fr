@@ -50,7 +50,7 @@
       <constant>ZLIB_FULL_FLUSH</constant>, <constant>ZLIB_FINISH</constant>.
       Normalement, on voudra définir <constant>ZLIB_NO_FLUSH</constant> pour
       maximiser la compression, et <constant>ZLIB_FINISH</constant> pour terminer
-      avec le dernier morceau de données. Consultez le <link
+      avec le dernier morceau de données. Consulter le <link
       xlink:href="&url.zlib.manual;">manuel de zlib</link> pour une
       description détaillée de ces constantes.
      </para>

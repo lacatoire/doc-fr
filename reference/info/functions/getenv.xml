@@ -110,7 +110,7 @@
 // Exemple d'utilisation de getenv()
 $ip = getenv('REMOTE_ADDR');
 
-// Ou utilisez simplement une Superglobale ($_SERVER ou $_ENV)
+// Ou utiliser simplement une Superglobale ($_SERVER ou $_ENV)
 $ip = $_SERVER['REMOTE_ADDR'];
 
 // Obtenir en toute sécurité la valeur d'une variable d'environnement,

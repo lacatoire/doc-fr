@@ -20,7 +20,7 @@
   </methodsynopsis>
   <para>
    La signature alternative suivante est obsolète à partir de PHP 8.4.0,
-   utilisez <function>stream_context_set_options</function> à la place.
+   utiliser <function>stream_context_set_options</function> à la place.
    <methodsynopsis>
     <type>bool</type><methodname>stream_context_set_option</methodname>
     <methodparam><type>resource</type><parameter>stream_or_context</parameter></methodparam>
@@ -118,7 +118,7 @@
       <entry>8.4.0</entry>
       <entry>
        La signature alternative à 2 paramètres est désormais obsolète.
-       Utilisez <function>stream_context_set_options</function> à la place.
+       Utiliser <function>stream_context_set_options</function> à la place.
       </entry>
      </row>
     </tbody>

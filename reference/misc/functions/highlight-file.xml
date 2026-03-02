@@ -24,7 +24,7 @@
    afficher le source colorisé, avec l'extension
    <emphasis>phps</emphasis>. Par exemple,
    <filename>example.phps</filename> va afficher le source du script.
-   Pour activer cette fonctionnalité, utilisez cette ligne dans
+   Pour activer cette fonctionnalité, utiliser cette ligne dans
    &httpd.conf; :
   </para>
   <screen>

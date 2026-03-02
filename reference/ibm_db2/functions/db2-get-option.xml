@@ -52,7 +52,7 @@
       </simpara>
       <simpara>
        Pour s'assurer que les données spécifiées dans chaque option sont converties correctement
-       lors de la transmission vers une base de données, utilisez seulement les caractères de A à Z, 0 à 9
+       lors de la transmission vers une base de données, utiliser seulement les caractères de A à Z, 0 à 9
        et les caractères de soulignement (_) ou point (.).
       </simpara>
      </note>

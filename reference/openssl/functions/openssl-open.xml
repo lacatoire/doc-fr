@@ -26,7 +26,7 @@
    <parameter>cipher_algo</parameter> et <parameter>iv</parameter>. Le VI est requis uniquement si la
    méthode de chiffrement l'exige. La fonction remplit <parameter>output</parameter> avec les données
    déchiffrées. La clé d'enveloppe est généralement générée lorsque les données sont scellées à l'aide d'une clé publique
-   associée à la clé privée. Consultez <function>openssl_seal</function> pour plus d'informations.
+   associée à la clé privée. Consulter <function>openssl_seal</function> pour plus d'informations.
   </para>
  </refsect1>
 

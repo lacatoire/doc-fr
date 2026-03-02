@@ -67,7 +67,7 @@
   </programlisting>
  </para>
  <para>
-  Exécutez tous les tests PHP avec la commande :
+  Exécuter tous les tests PHP avec la commande :
   <programlisting>
 <![CDATA[
     $ cd your_php_src_directory

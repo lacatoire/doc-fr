@@ -61,7 +61,7 @@
   <note>
    <para>
     Lors de l'utilisation de <varname>$_SESSION</varname>
-    utilisez <function>unset</function> pour détruire une variable de
+    utiliser <function>unset</function> pour détruire une variable de
     session, c.-à-d. <code>unset($_SESSION['nomvariable']);</code>.
    </para>
   </note>
@@ -75,7 +75,7 @@
   </caution>
   <note>
    <para>
-    Utilisez seulement <function>session_unset</function> pour du vieux code obsolète
+    Utiliser seulement <function>session_unset</function> pour du vieux code obsolète
     qui n'utilise pas <varname>$_SESSION</varname>.
    </para>
   </note>
@@ -83,7 +83,7 @@
    <para>
     Cette fonction ne fonctionne que si une session est active. Elle ne videra pas le
     tableau <varname>$_SESSION</varname> si la session n'a pas encore été démarrée
-    ou si elle a déjà été détruite. Utilisez <code>$_SESSION = []</code> pour supprimer
+    ou si elle a déjà été détruite. Utiliser <code>$_SESSION = []</code> pour supprimer
     toutes les variables de session même si la session n'est pas active.
    </para>
   </caution>

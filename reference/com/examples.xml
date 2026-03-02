@@ -68,7 +68,7 @@ foreach ($domainObject as $obj) {
       de contrôle &foreach;. Cela fonctionne
       car un SafeArray comporte des informations à propos de sa taille. Si
       une propriété à la façon des tableaux implémente IEnumVariant, alors on
-      peut aussi utiliser &foreach; pour cette propriété ; lisez <xref
+      peut aussi utiliser &foreach; pour cette propriété ; consulter <xref
       linkend="com.examples.foreach"/> pour plus d'informations à ce sujet.
      </para>
     </listitem>

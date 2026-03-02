@@ -23,7 +23,7 @@
   </para>
   <note>
    <simpara>
-    Pour définir les valeurs des propriétés statiques, utilisez <literal>ReflectionProperty::setValue(null, $value)</literal>.
+    Pour définir les valeurs des propriétés statiques, utiliser <literal>ReflectionProperty::setValue(null, $value)</literal>.
    </simpara>
   </note>
  </refsect1>
@@ -75,7 +75,7 @@
       <entry>8.3.0</entry>
       <entry>
        L'appel de cette méthode avec un seul argument est obsolète,
-       utilisez plutôt <literal>ReflectionProperty::setValue(null, $value)</literal>
+       utiliser plutôt <literal>ReflectionProperty::setValue(null, $value)</literal>
        pour les propriétés statiques.
       </entry>
      </row>

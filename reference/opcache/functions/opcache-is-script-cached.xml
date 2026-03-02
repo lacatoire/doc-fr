@@ -19,7 +19,7 @@
    Ceci peut être utilisé pour détecter facilement le « réchauffement » du cache pour
    un script particulier.
    Cette fonction ne vérifie que le cache en mémoire, pas le cache des fichiers.
-   Pour vérifier le cache des fichiers, utilisez
+   Pour vérifier le cache des fichiers, utiliser
    <function>opcache_is_script_cached_in_file_cache</function>.
   </simpara>
  </refsect1>

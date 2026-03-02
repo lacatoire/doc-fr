@@ -93,7 +93,7 @@
      Il n'est pas possible pour <link linkend="object.sleep">__sleep()</link> de retourner
      des noms de propriétés privées des classes parentes. Le faire
      résultera en une erreur de niveau <constant>E_NOTICE</constant>.
-     Utilisez <link linkend="object.serialize">__serialize()</link> à la place.
+     Utiliser <link linkend="object.serialize">__serialize()</link> à la place.
     </para>
    </note>
    <note>

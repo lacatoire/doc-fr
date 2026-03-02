@@ -14,7 +14,7 @@
    <void />
   </constructorsynopsis>
   <para>
-   Un objet retourné par la méthode select(); utilisez execute() pour
+   Un objet retourné par la méthode select(); utiliser execute() pour
    exécuter la requête.
   </para>
 

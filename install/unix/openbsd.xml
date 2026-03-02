@@ -47,7 +47,7 @@ Follow the instructions shown with each package!
     </programlisting>
   </example>
   <simpara>
-   Lisez la page de manuel Unix <link xlink:href="&url.openbsd.packages;">packages(7)</link>
+   Lire la page de manuel Unix <link xlink:href="&url.openbsd.packages;">packages(7)</link>
     pour plus de détails sur les paquets binaires d'OpenBSD.
   </simpara>
  </sect2>

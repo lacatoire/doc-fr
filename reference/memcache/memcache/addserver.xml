@@ -85,7 +85,7 @@
     <listitem>
      <simpara>
       Pointe au port où memcache écoute pour des connexions.
-      Définissez ce paramètre à <literal>0</literal> lors de l'utilisation des sockets Unix.
+      Définir ce paramètre à <literal>0</literal> lors de l'utilisation des sockets Unix.
      </simpara>
      <simpara>
       Note : Par défaut, le paramètre <parameter>port</parameter>

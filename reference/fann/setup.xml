@@ -69,7 +69,7 @@ $ sudo apt-get install libfann-dev
    <title>Installation PECL</title>
 
    <para>
-    Cette extension est disponible sur PECL. L'installation est très simple. Exécutez simplement:
+    Cette extension est disponible sur PECL. L'installation est très simple. Exécuter simplement :
     <programlisting>
 <![CDATA[
 

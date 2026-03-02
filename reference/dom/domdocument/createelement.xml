@@ -132,7 +132,7 @@ Warning: DOMDocument::createElement(): unterminated entity reference            
   <note>
    <para>
     La valeur <parameter>value</parameter> ne sera <emphasis>pas</emphasis>
-    échappée. Utilisez la méthode <methodname>DOMDocument::createTextNode</methodname>
+    échappée. Utiliser la méthode <methodname>DOMDocument::createTextNode</methodname>
     pour créer un nœud de texte avec le <emphasis>support de l'échappement</emphasis>.
    </para>
   </note>

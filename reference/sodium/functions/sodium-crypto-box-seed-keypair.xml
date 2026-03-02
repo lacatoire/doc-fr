@@ -18,7 +18,7 @@
   </simpara>
   <simpara>
    Les fonctions <literal>*_seed_keypair</literal> sont idéales pour générer une paire de clés à partir
-   d'un mot de passe et d'un sel. Utilisez le résultat comme <parameter>seed</parameter> pour générer les clés souhaitées.
+   d'un mot de passe et d'un sel. Utiliser le résultat comme <parameter>seed</parameter> pour générer les clés souhaitées.
   </simpara>
 
  </refsect1>

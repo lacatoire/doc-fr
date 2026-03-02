@@ -29,7 +29,7 @@
    alloue un nouveau socket et le rend non bloquant en interne.
   </para>
   <para>
-   Pour résoudre les noms DNS (de façon asynchrone), utilisez la méthode
+   Pour résoudre les noms DNS (de façon asynchrone), utiliser la méthode
    <methodname>EventBufferEvent::connectHost</methodname>.
   </para>
  </refsect1>

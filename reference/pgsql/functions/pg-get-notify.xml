@@ -19,7 +19,7 @@
   <para>
    <function>pg_get_notify</function> reçoit le message de NOTIFY envoyé
    par une commande SQL <literal>NOTIFY</literal>. Pour lire le message
-   associé, utilisez la commande <literal>LISTEN</literal>.
+   associé, utiliser la commande <literal>LISTEN</literal>.
   </para>
  </refsect1>
 

@@ -20,7 +20,7 @@
    Spécifie le jeu de caractères à utiliser pour les annotations de texte.
    Le seul jeu de caractères qui peut être spécifié actuellement est 
    "UTF-8", qui représente l'Unicode sous forme d'une séquence d'octets.
-   Spécifiez une chaîne vide pour utiliser le jeu de caractères du système.
+   Spécifier une chaîne vide pour utiliser le jeu de caractères du système.
    Le dessin des textes peut avoir besoin d'une police qui supporte Unicode.
   </para>
  </refsect1>

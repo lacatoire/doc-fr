@@ -9,7 +9,7 @@
  </para>
  <note>
   <para>
-   Veuillez lire les <link linkend="install.windows.manual">étapes
+   Il convient de lire les <link linkend="install.windows.manual">étapes
    d'installation manuelle</link> en premier !
   </para>
  </note>
@@ -40,10 +40,10 @@ C:\php\php.exe -f "C:\PHP Scripts\script.php" -- -arg1 -arg2 -arg3
 
    <listitem>
     <para>
-     Ajoutez l'emplacement de l'exécutable PHP (<filename>php.exe</filename>,
+     Ajouter l'emplacement de l'exécutable PHP (<filename>php.exe</filename>,
      <filename>php-win.exe</filename> ou <filename>php-cli.exe</filename>
      selon la version de PHP et les préférences d'affichage) à la variable
-     d'environnement <envar>PATH</envar>. Lisez plus sur comment ajouter le
+     d'environnement <envar>PATH</envar>. Lire la section sur comment ajouter le
      répertoire PHP approprié à la variable d'environnement <envar>PATH</envar> dans la
      <link linkend="faq.installation.addtopath">entrée FAQ correspondante</link>.
     </para>
@@ -51,11 +51,11 @@ C:\php\php.exe -f "C:\PHP Scripts\script.php" -- -arg1 -arg2 -arg3
 
    <listitem>
     <para>
-     Ajoutez l'extension <literal>.PHP</literal>
+     Ajouter l'extension <literal>.PHP</literal>
      à la variable d'environnement <varname>PATHEXT</varname>. Ceci peut être fait
      en même temps que l'ajout de la variable d'environnement <envar>PATH</envar>.
-     Suivez les mêmes étapes que décrites dans la <link
-     linkend="faq.installation.addtopath">FAQ</link> mais modifiez la variable
+     Suivre les mêmes étapes que décrites dans la <link
+     linkend="faq.installation.addtopath">FAQ</link> mais modifier la variable
      d'environnement <varname>PATHEXT</varname> plutôt que la variable
      d'environnement <envar>PATH</envar>.
      <note>

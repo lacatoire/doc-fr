@@ -30,7 +30,7 @@
      <term><parameter>facetSort</parameter></term>
      <listitem>
       <para>
-       Utilisez SolrQuery::FACET_SORT_INDEX pour trier sur l'index,
+       Utiliser SolrQuery::FACET_SORT_INDEX pour trier sur l'index,
        ou SolrQuery::FACET_SORT_COUNT pour trier sur le total.
       </para>
      </listitem>

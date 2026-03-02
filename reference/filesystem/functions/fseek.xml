@@ -81,7 +81,7 @@
   <warning>
    <simpara>
     Cette fonction a été créée pour imiter la fonction du même nom en langage C.
-    Veuillez faire attention aux valeurs de retour car elles diffèrent de ce que
+    Il faut faire attention aux valeurs de retour car elles diffèrent de ce que
     l'on pourrait attendre en PHP.
    </simpara>
   </warning>

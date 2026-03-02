@@ -1261,7 +1261,7 @@ function getA() { return A; }
    <listitem>
     <simpara>
      Un masque de bits spécifiant quelle sortie de débogage de JIT activer
-     Pour les valeurs possibles, consultez <link xlink:href="&url.php.git.src.master.view;ext/opcache/jit/zend_jit.h">zend_jit.h</link>
+     Pour les valeurs possibles, consulter <link xlink:href="&url.php.git.src.master.view;ext/opcache/jit/zend_jit.h">zend_jit.h</link>
      (voir les définitions de macro commençant par <code>ZEND_JIT_DEBUG</code>).
     </simpara>
    </listitem>

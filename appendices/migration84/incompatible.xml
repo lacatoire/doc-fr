@@ -638,7 +638,7 @@
    Par conséquent, cela signifie que <literal>{,3}</literal> est désormais reconnu
    comme un quantificateur au lieu d'un texte.
    De plus, la signification de certaines classes de caractères en mode UCP a changé.
-   Consultez le <link xlink:href="&url.pcre2.changelog;">Journal des modifications de PCRE2</link>
+   Consulter le <link xlink:href="&url.pcre2.changelog;">Journal des modifications de PCRE2</link>
    pour un journal des modifications complet.
   </simpara>
  </sect2>
@@ -778,7 +778,7 @@ nodeData: 3
    Si PHP est compilé sans l'extension session et avec le drapeau de configuration
    <option>--enable-rtld-now</option> activé, des erreurs de démarrage se produiront
    désormais si l'extension <link linkend="book.soap">SOAP</link> est également utilisée.
-   Pour résoudre ce problème, n'utilisez pas rtld-now ou chargez l'extension session.
+   Pour résoudre ce problème, ne pas utiliser rtld-now ou charger l'extension session.
   </simpara>
  </sect2>
 

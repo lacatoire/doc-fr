@@ -99,9 +99,9 @@ echo '</pre>';
     </question>
     <answer>
      <para>
-      Si l'on suppose que c'est pour une base de données, utilisez
+      Si l'on suppose que c'est pour une base de données, utiliser
       le mécanisme d'échappement fourni avec la base de données. Par
-      exemple, utilisez la fonction
+      exemple, utiliser la fonction
       <function>mysql_real_escape_string</function> avec MySQL et
       <function>pg_escape_string</function> avec PostgreSQL.
       Il y a également les fonctions génériques comme
@@ -306,12 +306,12 @@ foreach ($headers as $nom => $contenu) {
     </question>
     <answer>
      <para>
-      Lisez la page du manuel qui concerne les <link linkend="language.variables.predefined">
+      Consulter la page du manuel qui concerne les <link linkend="language.variables.predefined">
       variables prédéfinies</link> vu qu'elle présente une liste
       partielle des variables prédéfinies disponibles dans un script. Une
       liste complète des variables disponibles (et beaucoup d'informations)
       peut être vue en appelant la fonction <function>phpinfo</function>.
-      Lisez la section du manuel traitant des  
+      Consulter la section du manuel traitant des
       <link linkend="language.variables.external">variables non-issues de
       PHP</link>, elle décrit des scénarios communs pour les variables
       externes, comme celles issues d'un formulaire HTML, d'un cookie, et de

@@ -42,7 +42,7 @@
   Pour utiliser PHP en ligne de commande
   (écrire des scripts de génération d'image hors ligne,
   par exemple, ou bien traiter des textes en fonction
-  d'informations fournies), un exécutable PHP est nécessaire. Pour plus de détails, lisez la
+  d'informations fournies), un exécutable PHP est nécessaire. Pour plus de détails, consulter la
   section <link linkend="features.commandline"> écrire des applications
    PHP en ligne de commande</link>. Dans ce cas, il
   n'est pas nécessaire d'avoir un serveur Web, ni un navigateur.

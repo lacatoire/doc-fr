@@ -41,7 +41,7 @@
  <orderedlist>
   <listitem>
    <para>
-    Téléchargez le serveur HTTP Apache depuis le site ci-dessus et décompressez-le :
+    Télécharger le serveur HTTP Apache depuis le site ci-dessus et le décompresser :
    </para>
    
    <informalexample>
@@ -55,7 +55,7 @@ tar -xzf httpd-2.x.NN.tar.gz
   
   <listitem>
    <para>
-    De la même façon, téléchargez et décompressez les sources de PHP :
+    De la même façon, télécharger et décompresser les sources de PHP :
    </para>
    
    <informalexample>
@@ -69,7 +69,7 @@ tar -xzf php-NN.tar.gz
   
   <listitem>
    <para>
-    Compilez et installez Apache. Consultez la documentation sur l'installation
+    Compiler et installer Apache. Consulter la documentation sur l'installation
     d'Apache pour plus de détails quant à la compilation de ce logiciel.
    </para>
    

@@ -27,7 +27,7 @@
    un retour à la ligne, un saut de page, une tabulation horizontale et une tabulation verticale.
   </para>
   <para>
-   Pour faire une conversion similaire sur les chaînes multioctet, utilisez
+   Pour faire une conversion similaire sur les chaînes multioctet, utiliser
    <function>mb_convert_case</function> avec le mode
    <constant>MB_CASE_TITLE</constant>.
   </para>

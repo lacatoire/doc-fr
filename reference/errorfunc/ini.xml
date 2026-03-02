@@ -167,11 +167,11 @@
     <listitem>
      <para>
       Fixe le niveau d'erreur. Ce paramètre est un entier, représentant un
-      champ de bits. Ajoutez les valeurs suivantes pour choisir le niveau
+      champ de bits. Ajouter les valeurs suivantes pour choisir le niveau
       que l'on désire, telles que décrites dans la section
       <link linkend="errorfunc.constants">Constantes pré-définies</link>,
       et dans le fichier &php.ini;. Pour modifier cette configuration durant
-      l'exécution du script, utilisez la fonction
+      l'exécution du script, utiliser la fonction
       <function>error_reporting</function>. Voir aussi la directive
       <link linkend="ini.display-errors">display_errors</link>.
      </para>
@@ -194,7 +194,7 @@
        <filename>httpd.conf</filename>, n'a pas de signification utile, donc dans ces cas,
        des valeurs entières sont nécessaires. Et depuis que les niveaux
        d'erreurs ont été ajoutés, la valeur maximale (pour <constant>E_ALL</constant>)
-       devrait changer. Donc, à la place de <constant>E_ALL</constant>, utilisez
+       devrait changer. Donc, à la place de <constant>E_ALL</constant>, utiliser
        plutôt une valeur plus grande pour couvrir tous les octets, une valeur numérique comme
        <literal>2147483647</literal> (incluant toutes les erreurs, et non juste
        les erreurs de type <constant>E_ALL</constant>).

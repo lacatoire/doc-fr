@@ -14,7 +14,7 @@
 
  <para>
   Ces exemples se connectent à la base de données
-  <literal>XE</literal> de la machine. Modifiez la chaîne de connexion
+  <literal>XE</literal> de la machine. Modifier la chaîne de connexion
   afin de correspondre à la base de données avant d'exécuter les
   exemples de cette documentation.
  </para>
@@ -152,7 +152,7 @@ oci_close($conn);
  <example>
   <title>Insertion de données dans une colonne CLOB</title>
   <para>
-   Pour de lourdes données, utilisez un objet binaire long (BLOB)
+   Pour de lourdes données, utiliser un objet binaire long (BLOB)
    ou un objet de caractères long (CLOB). Cet exemple utilise les CLOB.
   </para>
   <programlisting role="php">

@@ -6,7 +6,7 @@
  <title>Construction d'un événement de type signal</title>
  <para>
   Un événement peut aussi surveiller les signaux de style POSIX.
-  Pour construire un gestionnaire pour un signal, utilisez la méthode
+  Pour construire un gestionnaire pour un signal, utiliser la méthode
   <methodname>Event::__construct</methodname> avec le drapeau
   <constant>Event::SIGNAL</constant> ou la méthode factorielle
   <methodname>Event::signal</methodname>.

@@ -43,7 +43,7 @@
        correspondant à la même clé est déjà présente dans le cache, la fonction
        échouera et retournera &false;. Le paramètre <parameter>key</parameter> est sensible à la
        casse. Pour écraser cette valeur, si <parameter>key</parameter> est présent,
-       utilisez plutôt la fonction <function>wincache_ucache_set</function>.
+       utiliser plutôt la fonction <function>wincache_ucache_set</function>.
        <parameter>key</parameter> peut également être un tableau de paires nom => valeur où
        les noms seront utilisés comme clés. Ce format peut être utilisé pour ajouter
        de multiples valeurs dans le cache en une seule opération.

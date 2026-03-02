@@ -19,7 +19,7 @@
    Cette méthode tente de mettre à jour une entrée avec une nouvelle valeur. Si l'entrée
    n'existait pas, elle ajoutera une nouvelle entrée. Elle retourne si l'entrée a été
    ajoutée ou mise à jour. Si des clés en double sont présentes, seul le premier
-   élément trouvé sera mis à jour. Utilisez
+   élément trouvé sera mis à jour. Utiliser
    <constant>QuickHashIntHash::CHECK_FOR_DUPES</constant> lors de la création du hachage pour empêcher les clés en double
    de faire partie du hachage.
   </simpara>

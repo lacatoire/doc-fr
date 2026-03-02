@@ -55,7 +55,7 @@
   </title>
   <para>
    Toutes les fonctions <link linkend="book.mysql">ext/mysql</link> ont été supprimées.
-   Pour plus d'informations sur le choix d'une autre API MySQL, consultez 
+   Pour plus d'informations sur le choix d'une autre API MySQL, consulter
    <link linkend="mysqlinfo.api.choosing">choisir une API MySQL</link>.
   </para>
  </sect3>

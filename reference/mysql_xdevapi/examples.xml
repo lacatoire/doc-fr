@@ -99,7 +99,7 @@ array(4) {
   il ne faut pas s'y fier. Se référer à la documentation du type de données JSON de MySQL pour plus de détails.
  </para>
  <para>
-  Optionnellement, utilisez les itérateurs de PHP pour récupérer plusieurs documents :
+  Optionnellement, utiliser les itérateurs de PHP pour récupérer plusieurs documents :
  </para>
  <example>
   <title>Récupérer et Itérer sur Plusieurs Documents</title>

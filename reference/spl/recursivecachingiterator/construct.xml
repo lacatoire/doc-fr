@@ -39,7 +39,7 @@
      <term><parameter>flags</parameter></term>
      <listitem>
       <para>
-       Le drapeau. Utilisez la constante <constant>CALL_TOSTRING</constant> pour appeler
+       Le drapeau. Utiliser la constante <constant>CALL_TOSTRING</constant> pour appeler
        <methodname>RecursiveCachingIterator::__toString</methodname> sur tous les éléments
        (par défaut), et/ou la constante <constant>CATCH_GET_CHILD</constant>
        pour attraper toutes les exceptions émises lorsque l'on tente de récupérer des fils.

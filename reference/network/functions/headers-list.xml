@@ -16,7 +16,7 @@
   <para>
    <function>headers_list</function> retourne un tableau avec la liste des en-têtes
    qui seront transmis au navigateur. Pour déterminer si ces en-têtes ont
-   déjà été envoyés ou pas, utilisez la fonction <function>headers_sent</function>.
+   déjà été envoyés ou pas, utiliser la fonction <function>headers_sent</function>.
   </para>
  </refsect1>
 

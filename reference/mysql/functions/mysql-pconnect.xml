@@ -127,7 +127,7 @@
   <note>
    <simpara>
     À noter que les connexions persistantes ne fonctionnent que si on utilise
-    PHP en version module. Lisez la section sur les
+    PHP en version module. Consulter la section sur les
     <link linkend="features.persistent-connections">connexions persistantes
     aux bases de données</link> pour plus d'informations.
    </simpara>

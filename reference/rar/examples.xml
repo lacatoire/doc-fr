@@ -66,8 +66,8 @@ function detectUserAgent() {
 
 /*
  * Nous avons 3 options :
- * - Pour FF et Opera, qui supportent RFC 2231, utilisez ce format.
- * - Pour IE et Chrome, utilisez attwithfnrawpctenclong
+ * - Pour FF et Opera, qui supportent RFC 2231, utiliser ce format.
+ * - Pour IE et Chrome, utiliser attwithfnrawpctenclong
  *   (http://greenbytes.de/tech/tc2231/#attwithfnrawpctenclong)
  * - Pour les autres, convertissez en ISO-8859-1, si possible
  */

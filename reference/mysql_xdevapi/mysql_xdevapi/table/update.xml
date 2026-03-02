@@ -27,7 +27,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Un objet TableUpdate; utilisez la méthode execute() pour exécuter l'instruction de mise à jour.
+   Un objet TableUpdate; utiliser la méthode execute() pour exécuter l'instruction de mise à jour.
   </para>
  </refsect1>
 

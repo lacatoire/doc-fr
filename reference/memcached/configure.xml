@@ -11,24 +11,24 @@
    xlink:href="&url.pecl.package;memcached">&url.pecl.package;memcached</link>
  </para>
  <para>
-  Si libmemcached est installé dans un dossier non-standard, utilisez l'option
+  Si libmemcached est installé dans un dossier non-standard, utiliser l'option
   <option role="configure">--with-libmemcached-dir=DIR</option>, où DIR est le préfixe
   d'installation libmemcached. Ce dossier doit contenir le fichier 
     <filename>include/libmemcached/memcached.h</filename>.
  </para>
  <para>
   Zlib est nécessaire pour le support de la compression. Pour spécifier un dossier
-  d'installation non-standard de Zlib, utilisez l'option
+  d'installation non-standard de Zlib, utiliser l'option
   <option role="configure">--with-zlib-dir=DIR</option>, où DIR est le préfixe
   d'installation.
  </para>
  <para>
   Le support du gestionnaire de sessions est activé par défaut. Pour le désactiver,
-  utilisez <option role="configure">--disable-memcached-session</option>.
+  utiliser <option role="configure">--disable-memcached-session</option>.
  </para>
  <para>
   Le support de l'authentification SASL est désactivé par défaut. Pour l'activer,
-  utilisez l'option de compilation <option role="configure">--enable-memcached-sasl</option>.
+  utiliser l'option de compilation <option role="configure">--enable-memcached-sasl</option>.
   Ceci nécessite l'installation préalable de la bibliothèque libsasl2 ainsi que
   la compilation de libmemcached avec l'activation du support SASL.
  </para>

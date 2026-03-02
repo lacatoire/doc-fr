@@ -22,7 +22,7 @@
   </para>
   <para>
    Cette fonction est en fait la fonction VariantChangeType() de la bibliothèque COM ;
-   consultez MSDN pour plus d'informations.
+   consulter MSDN pour plus d'informations.
   </para>
  </refsect1>
  <refsect1 role="parameters">

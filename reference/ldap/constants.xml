@@ -686,7 +686,7 @@
    </term>
    <listitem>
     <simpara>
-     Constante de contrôle - N'utilisez pas Copier (<link xlink:href="&url.rfc;6171">RFC 6171</link>).
+     Constante de contrôle - N'utiliser pas Copier (<link xlink:href="&url.rfc;6171">RFC 6171</link>).
      &php.version.added; 7.3.0.
     </simpara>
    </listitem>

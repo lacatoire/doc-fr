@@ -13,7 +13,7 @@
   &reftitle.description;
   <para>
    Un tableau associatif des valeurs stockées dans les sessions,
-   et accessible au script courant. Voyez l'extension
+   et accessible au script courant. Voir l'extension
    <link linkend="ref.session">Sessions</link> pour plus de détails sur comment
    est utilisée cette variable.
   </para>

@@ -44,8 +44,8 @@
        Le nom de la colonne utilisé dans la requête.
       </para>
       <para>
-       Utilisez un nom en majuscule, pour les noms de colonne non
-       sensibles à la casse (par défaut sous Oracle). Utilisez la
+       Utiliser un nom en majuscule, pour les noms de colonne non
+       sensibles à la casse (par défaut sous Oracle). Utiliser la
        casse exacte du nom de la colonne pour les noms de colonne
        sensibles à la casse.
       </para>
@@ -150,10 +150,10 @@ if (!$conn) {
 
 $stid = oci_parse($conn, 'SELECT * FROM mytab');
 
-// Utilisez des majuscules pour les noms de colonne insensibles à la casse
+// Utiliser des majuscules pour les noms de colonne insensibles à la casse
 oci_define_by_name($stid, 'ID', $id);
 
-// Utilisez la casse exacte pour les noms de colonnes sensibles à la casse
+// Utiliser la casse exacte pour les noms de colonnes sensibles à la casse
 oci_define_by_name($stid, 'MyDescription', $mydesc);
 
 oci_execute($stid);

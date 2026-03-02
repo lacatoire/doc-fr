@@ -22,7 +22,7 @@
    équivalent en RPN.
   </para>
   <para>
-   Pour faire correspondre une requête CCL spécifique à RPN, utilisez la
+   Pour faire correspondre une requête CCL spécifique à RPN, utiliser la
    fonction <function>yaz_ccl_parse</function>.
   </para>
  </refsect1>

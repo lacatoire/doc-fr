@@ -82,7 +82,7 @@
        si aucun contexte n'a été passé à la fonction.
       </para>
       <para>
-       Utilisez la fonction <function>stream_context_get_options</function>
+       Utiliser la fonction <function>stream_context_get_options</function>
        pour analyser le contexte.
       </para>
       <note>

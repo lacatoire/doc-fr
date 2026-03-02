@@ -104,7 +104,7 @@
        Les chaînes de caractères encodées en UTF-8 peuvent être passées directement.
       </para>
       <para>
-       Les entités nommées, comme <literal>&amp;copy;</literal>, ne sont pas supportées. Utilisez la
+       Les entités nommées, comme <literal>&amp;copy;</literal>, ne sont pas supportées. Utiliser la
        fonction <function>html_entity_decode</function> pour encoder ces entités
        nommées en chaîne UTF-8.
       </para>

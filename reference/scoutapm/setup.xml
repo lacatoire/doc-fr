@@ -19,7 +19,7 @@
  <section xml:id="scoutapm.installation">
   &reftitle.install;
   <para>
-   Cette extension est disponible sur PECL. Exécutez :
+   Cette extension est disponible sur PECL. Exécuter :
    <programlisting>
     <![CDATA[
 $ sudo pecl install scoutapm

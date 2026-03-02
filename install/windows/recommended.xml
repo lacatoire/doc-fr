@@ -49,7 +49,7 @@ opcache.enable_cli=On
    option de configuration pour utiliser le cache d'objet de l'utilisateur de
    WinCache.
    
-   Si des performances élevées sont nécessaires, utilisez le cache d'objets dans les applications.
+   Si des performances élevées sont nécessaires, utiliser le cache d'objets dans les applications.
    
    Voir : <link xlink:href="&url.pecl.package;WinCache">&url.pecl.package;WinCache</link>
    pour télécharger une DLL WinCache (ou <filename>WINCACHE_<replaceable>*</replaceable>.tgz</filename>)

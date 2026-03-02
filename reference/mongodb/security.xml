@@ -101,7 +101,7 @@ $r = $m->executeCommand( 'dramio', $cmd );
   <para>
    Maintenant MongoDB exécute la chaîne JavaScript
    <literal>"print('Hello, '); db.users.drop(); print('!');"</literal>.
-   Cette attaque est facile à éviter : utilisez <literal>args</literal> pour passer
+   Cette attaque est facile à éviter : utiliser <literal>args</literal> pour passer
    des variables de PHP à JavaScript :
   </para>
   <programlisting role="php">
@@ -140,7 +140,7 @@ $r = $m->executeCommand( 'dramio', $cmd );
    Il est recommandé de rester à l'écart de la clause <link
    xlink:href="&url.mongodb.docs;reference/operator/query/where/#considerations">$where</link>
    dans les requêtes, car elle impacte significativement les performances. Dans
-   la mesure du possible, utilisez soit des opérateurs de requête normaux, soit
+   la mesure du possible, utiliser soit des opérateurs de requête normaux, soit
    le <link xlink:href="&url.mongodb.docs;core/aggregation-pipeline">Framework
    d'agrégation</link>.
   </para>

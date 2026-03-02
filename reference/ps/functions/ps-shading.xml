@@ -75,7 +75,7 @@
      <term><parameter>c1, c2, c3, c4</parameter></term>
      <listitem>
       <para>
-       Voyez <function>ps_setcolor</function> pour leur signification.
+       Voir <function>ps_setcolor</function> pour leur signification.
       </para>
      </listitem>
     </varlistentry>

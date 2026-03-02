@@ -52,7 +52,7 @@
     <term><parameter>mask</parameter></term>
     <listitem>
      <simpara>
-      Événements à surveiller. Voyez
+      Événements à surveiller. Voir
       <link linkend="inotify.constants">&ReservedConstants;</link>.
      </simpara>
     </listitem>

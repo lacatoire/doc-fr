@@ -106,7 +106,7 @@ array(2) {
    Dans cet exemple, seules les clés
    <literal>'blue'</literal> et <literal>'green'</literal> sont présentes dans
    les deux tableaux et, donc, elles
-   sont retournées. Notez également que les valeurs pour les clés
+   sont retournées. Il est également à noter que les valeurs pour les clés
    <literal>'blue'</literal> et <literal>'green'</literal> diffèrent
    entre les deux tableaux. Néanmoins, elles correspondent toujours car
    uniquement les clés sont vérifiées. Les valeurs retournées sont celles du

@@ -75,7 +75,7 @@
     </term>
     <listitem>
      <simpara>
-      Vérifiez si l'entrée pour les fonctions IDN est conforme aux règles de noms
+      Vérifier si l'entrée pour les fonctions IDN est conforme aux règles de noms
       de domaine ASCII.
      </simpara>
     </listitem>

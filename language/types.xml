@@ -40,7 +40,7 @@
    <link linkend="language.types.type-juggling">jongler de type</link> dans un
    type compatible avec l'opération.
    Ce processus dépend du contexte dans lequel la valeur est utilisée.
-   Pour plus d’informations, consultez la section sur le
+   Pour plus d’informations, consulter la section sur le
    <link linkend="language.types.type-juggling">jonglage de type</link>.
   </para>
 
@@ -63,13 +63,13 @@
 
   <para>
     Pour vérifier le type et la valeur d'une
-    <link linkend="language.expressions">expression</link>, utilisez la fonction
+    <link linkend="language.expressions">expression</link>, utiliser la fonction
     <function>var_dump</function>.
 
    Pour récupérer le type d'une
    <link linkend="language.expressions">expression</link>,
    utiliser la fonction <function>get_debug_type</function>.
-   Toutefois, pour vérifier si une expression est d'un certain type, utilisez
+   Toutefois, pour vérifier si une expression est d'un certain type, utiliser
    plutôt les fonctions
    <!-- TODO When PhD support is there: <function>is_<replaceable>type</replaceable></function> -->
    <literal>is_<replaceable>type</replaceable></literal>.

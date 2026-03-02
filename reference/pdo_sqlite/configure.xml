@@ -7,7 +7,7 @@
  &reftitle.install;
  <para>
   Le driver PDO PDO_SQLITE est actif par défaut. Pour le désactiver,
-  utilisez l'option de compilation
+  utiliser l'option de compilation
   <option role="configure">--without-pdo-sqlite[=DIR]</option>, où
   <literal>[=DIR]</literal> (optionnel) représente le chemin vers le
   dossier d'installation de base de sqlite.

@@ -302,7 +302,7 @@ The log style finally formatted such as:
        <emphasis>seaslog.disting_folder = 1</emphasis> Le commutateur utilise Logger DisTing par dossier.
        Cela signifie que SeasLog créera le fichier deistic par dossier,
        et lorsque cette configuration est désactivée, SeasLog créera le fichier
-       utilisez le connecteur de soulignement Logger et Time comme default_20180211.log.
+       utiliser le connecteur de soulignement Logger et Time comme default_20180211.log.
        </simpara>
      </note>
     </listitem>

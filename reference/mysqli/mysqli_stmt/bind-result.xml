@@ -56,7 +56,7 @@
    <para>
     Cette fonction est utile pour les résultats basiques.
     Pour récupérer un ensemble de résultats itérable, ou récupérer chaque ligne sous forme
-    de tableau ou d'objet, utilisez la <function>mysqli_stmt_get_result</function>.
+    de tableau ou d'objet, utiliser la <function>mysqli_stmt_get_result</function>.
    </para>
   </tip>
  </refsect1>

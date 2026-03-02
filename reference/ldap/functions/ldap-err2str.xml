@@ -19,7 +19,7 @@
    Retourne le message lisible expliquant l'erreur dont le numéro est
    <parameter>errno</parameter>. Bien que les numéros d'erreur
    LDAP soient standardisés, différentes bibliothèques retournent des
-   messages différents ou même des textes d'erreur localisés. N'utilisez
+   messages différents ou même des textes d'erreur localisés. N'utiliser
    jamais les messages d'erreur pour identifier une erreur, mais bien les
    numéros.
   </para>

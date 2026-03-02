@@ -263,7 +263,7 @@ echo $bar; // affiche 1
  </para>
  <simpara>
   <literal>$bar</literal> a la valeur de &one; car
-  l'inclusion était réussie. Notez la différence entre les deux
+  l'inclusion était réussie. Il est à noter la différence entre les deux
   exemples ci-dessus. Le premier utilise la commande
   <function>return</function>
   dans le fichier inclus, alors que le second ne le fait pas.

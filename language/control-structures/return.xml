@@ -32,7 +32,7 @@
   dans le fichier &php.ini;, alors l'exécution du script s'arrête.
  </simpara>
  <simpara>
-  Pour plus d'informations, voyez
+  Pour plus d'informations, voir
   <link linkend="functions.returning-values">retourner des valeurs</link>.
  </simpara>
  <para>

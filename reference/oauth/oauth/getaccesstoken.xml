@@ -40,7 +40,7 @@
      <simpara>
       L'identifiant de session. Ce paramètre n'a pas d'existence
       dans les spécifications OAuth 1.0, mais peut être mis en
-      place par de grosses implémentations. Voyez
+      place par de grosses implémentations. Voir
       <link xlink:href="&url.oauth.scale;"><literal>ScalableOAuth</literal></link>
       pour plus de détails.
      </simpara>
@@ -58,7 +58,7 @@
       automatiquement passé et l'appelant n'a pas besoin de préciser
       de paramètre <parameter>verifier_token</parameter> (généralement, le token
       d'accès est échangé via l'URL de rappel <parameter>callback_url</parameter>.).
-      Voyez <link xlink:href="&url.oauth.scale;">ScalableOAuth</link>
+      Voir <link xlink:href="&url.oauth.scale;">ScalableOAuth</link>
       pour plus d'informations.
      </simpara>
     </listitem>

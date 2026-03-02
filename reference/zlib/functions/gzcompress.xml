@@ -20,7 +20,7 @@
    le format de données <literal>ZLIB</literal>.
   </para>
   <para>
-   Pour plus de détails sur l'algorithme, lisez le document
+   Pour plus de détails sur l'algorithme, consulter le document
    "<link xlink:href="&url.rfc;1950">ZLIB Compressed Data Format
    Specification version 3.3</link>" (RFC 1950).
   </para>

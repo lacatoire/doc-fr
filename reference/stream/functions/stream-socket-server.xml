@@ -50,7 +50,7 @@
       <para>
        En fonction de l'environnement, les sockets de domaine Unix
        peuvent être indisponibles. Une liste des transports disponibles
-       est accessible via <function>stream_get_transports</function>. Voyez
+       est accessible via <function>stream_get_transports</function>. Voir
        <xref linkend="transports"/> pour connaître la liste des transports
        natifs.
       </para>
@@ -78,7 +78,7 @@
      <term><parameter>error_message</parameter></term>
      <listitem>
       <para>
-       Voyez la description de <parameter>error_code</parameter>.
+       Voir la description de <parameter>error_code</parameter>.
       </para>
      </listitem>
     </varlistentry>

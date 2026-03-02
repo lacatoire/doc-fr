@@ -18,7 +18,7 @@
   &warn.undocumented.func;
   <para>
    Configure le vecteur graphique associé à l'objet ImagickDraw.
-   Utilisez cette méthode avec <methodname>ImagickDraw::getVectorGraphics</methodname>, pour
+   Utiliser cette méthode avec <methodname>ImagickDraw::getVectorGraphics</methodname>, pour
    faire persister l'état du vecteur graphique.
   </para>
  </refsect1>

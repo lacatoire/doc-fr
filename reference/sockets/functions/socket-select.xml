@@ -103,7 +103,7 @@
    <para>
     À cause d'une limitation du moteur Zend actuel, il n'est pas possible
     de passer une constante comme &null; directement comme paramètre à cette
-    fonction, qui attend une valeur par référence. À la place, utilisez
+    fonction, qui attend une valeur par référence. À la place, utiliser
     un tableau temporaire ou une expression dont le membre de gauche
     est une variable temporaire :
     <example>

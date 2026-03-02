@@ -24,7 +24,7 @@
    en utilisant <function>pg_get_result</function>.
   </para>
   <para> 
-   L'exécution du script n'est pas bloquée durant l'exécution des requêtes. Utilisez 
+   L'exécution du script n'est pas bloquée durant l'exécution des requêtes. Utiliser
    <function>pg_connection_busy</function> pour vérifier si la connexion est
    occupée (c'est-à-dire la requête est en train d'être exécutée). Les requêtes
    peuvent être annulées avec <function>pg_cancel_query</function>.
@@ -70,7 +70,7 @@
   &reftitle.returnvalues;
   <para>
    Retourne &true; en cas de succès, &false; ou <literal>0</literal> en cas d'échec.
-   Utilisez <function>pg_get_result</function> pour déterminer le résultat
+   Utiliser <function>pg_get_result</function> pour déterminer le résultat
    de la requête.
   </para>
  </refsect1>

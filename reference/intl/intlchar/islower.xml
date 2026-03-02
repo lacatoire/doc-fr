@@ -18,7 +18,7 @@
   </para>
   <note>
    <para>
-    Cela manque certains caractères qui sont également en minuscules mais ont une valeur de catégorie générale différente. Pour les inclure, utilisez <function>IntlChar::isULowercase</function>.
+    Cela manque certains caractères qui sont également en minuscules mais ont une valeur de catégorie générale différente. Pour les inclure, utiliser <function>IntlChar::isULowercase</function>.
    </para>
   </note>
  </refsect1>

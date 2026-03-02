@@ -68,7 +68,7 @@
      <listitem>
       <simpara>Si activé, l'ajout d'éléments dupliqués à un hachage (via <methodname>QuickHashStringIntHash::add</methodname> ou
       <methodname>QuickHashStringIntHash::loadFromFile</methodname>) entraînera la suppression de ces éléments du
-      hachage. Cela prendra du temps supplémentaire, alors n'utilisez cette option que si nécessaire.</simpara>
+      hachage. Cela prendra du temps supplémentaire, alors n'utiliser cette option que si nécessaire.</simpara>
      </listitem>
     </varlistentry>
 

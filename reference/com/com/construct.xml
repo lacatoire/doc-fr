@@ -146,7 +146,7 @@
       <constant>CP_THREAD_ACP</constant> (utilise codepage/locale définie pour
       le thread en cours d'exécution ), <constant>CP_UTF7</constant>
       et <constant>CP_UTF8</constant>. Il est aussi possible d'utiliser le numéro pour
-      une codepage donnée ; consultez la documentation de Microsoft pour plus de
+      une codepage donnée ; consulter la documentation de Microsoft pour plus de
       détails sur les codepages et leurs valeurs numériques.
      </simpara>
     </listitem>

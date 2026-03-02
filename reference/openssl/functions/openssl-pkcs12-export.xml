@@ -42,7 +42,7 @@
      <listitem>
       <para>
        Clé privée du fichier <acronym>PKCS</acronym>#12.
-       Consultez <link linkend="openssl.certparams">Public/Private Key Parameters</link> pour obtenir la liste des valeurs valides.
+       Consulter <link linkend="openssl.certparams">Public/Private Key Parameters</link> pour obtenir la liste des valeurs valides.
       </para>
      </listitem>
     </varlistentry>

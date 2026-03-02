@@ -344,7 +344,7 @@ php*:::oci8-execute-mode
   </para>
 
   <para>
-   Exécutez un script PHP ou une application. Le script de surveillance D
+   Exécuter un script PHP ou une application. Le script de surveillance D
    affiche chaque argument de découvertes lancé. Par exemple, un simple
    script PHP qui requête une table va produire les traces suivantes :
    <informalexample>

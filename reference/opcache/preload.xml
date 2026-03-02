@@ -47,7 +47,7 @@ opcache.preload=preload.php
   root avant de passer à un utilisateur système non privilégié, ou si PHP est exécuté en tant que root
   (non recommandé), la valeur <link linkend="ini.opcache.preload-user">opcache.preload_user</link>
   peut spécifier l'utilisateur système pour exécuter le préchargement. L'exécution du préchargement en tant que root n'est pas autorisée
-  par défaut. Définissez <literal>opcache.preload_user=root</literal> pour l'autoriser explicitement.
+  par défaut. Définir <literal>opcache.preload_user=root</literal> pour l'autoriser explicitement.
  </simpara>
 
  <simpara>

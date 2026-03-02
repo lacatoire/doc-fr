@@ -17,7 +17,7 @@
   <simpara>
    Récupère le paramètre d'identification dont la clé est
    <parameter>key</parameter>.
-   Pour une list de clés valides ainsi que leurs significations, consultez
+   Pour une list de clés valides ainsi que leurs significations, consulter
    la <link linkend="svn.constants.auth">liste des constantes d'identification</link>.
   </simpara>
  </refsect1>
@@ -29,7 +29,7 @@
     <term><parameter>key</parameter></term>
     <listitem>
      <simpara>
-      Nom de la clé. Utilisez une <link linkend="svn.constants.auth">constante d'identification</link> définie
+      Nom de la clé. Utiliser une <link linkend="svn.constants.auth">constante d'identification</link> définie
       par cette extension pour spécifier une clé..
      </simpara>
     </listitem>

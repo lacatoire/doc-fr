@@ -659,7 +659,7 @@ Expression : 0 = -4 << 62
  </para>
  <warning>
   <para>
-   Utilisez les fonctions de l'extension <link linkend="book.gmp">gmp</link>
+   Utiliser les fonctions de l'extension <link linkend="book.gmp">gmp</link>
    pour les manipulations sur les bits, lorsque les entiers dépassent
    <constant>PHP_INT_MAX</constant>.
   </para>

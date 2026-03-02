@@ -175,7 +175,7 @@
     <simpara>
      Spécifie l'algorithme de hachage utilisé pour les clés. Les valeurs valides
      sont fournies avec les constantes <constant>Memcached::HASH_<replaceable>*</replaceable></constant>.
-     Chaque algorithme de hachage a ses avantages et inconvénients. Utilisez
+     Chaque algorithme de hachage a ses avantages et inconvénients. Utiliser
      celui qui est donné par défaut, si on ne comprenez pas, ou que peu l'on
      importe.
     </simpara>
@@ -367,7 +367,7 @@
    <term><constant>Memcached::OPT_BINARY_PROTOCOL</constant></term>
    <listitem>
     <simpara>
-     Activez cette option pour utiliser le protocole binaire. 
+     Activer cette option pour utiliser le protocole binaire.
      À noter qu'il n'est pas possible de changer cette option pour 
      une connexion déjà ouverte.
     </simpara>

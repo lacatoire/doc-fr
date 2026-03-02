@@ -368,7 +368,7 @@
        <entry>PECL mongodb 2.0.0</entry>
        <entry>
         <para>
-         L'option <literal>"partial"</literal> a été supprimée. Utilisez
+         L'option <literal>"partial"</literal> a été supprimée. Utiliser
          <literal>"allowPartialResults"</literal> à la place.
         </para>
         <para>

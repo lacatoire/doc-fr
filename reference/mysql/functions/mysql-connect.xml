@@ -98,7 +98,7 @@
       <constant>MYSQL_CLIENT_COMPRESS</constant>,
       <constant>MYSQL_CLIENT_IGNORE_SPACE</constant> ou
       <constant>MYSQL_CLIENT_INTERACTIVE</constant>.
-      Lisez la section à propos de <xref linkend="mysql.client-flags"/>
+      Consulter la section à propos de <xref linkend="mysql.client-flags"/>
       pour plus d'informations.
       En &sqlsafemode;, ce paramètre est ignoré.
      </simpara>
@@ -189,7 +189,7 @@ mysql_close($link);
     Toutes les fois qu'on spécifie &quot;localhost&quot; ou
     &quot;localhost:port&quot; en tant que serveur, la bibliothèque client
     MySQL surchargera cela et essaiera de se connecter à un socket local
-    (nommé pipe sous Windows). Pour utiliser TCP/IP, utilisez
+    (nommé pipe sous Windows). Pour utiliser TCP/IP, utiliser
     &quot;127.0.0.1&quot; au lieu de &quot;localhost&quot;. Si la bibliothèque
     client MySQL essaie de se connecter au mauvais socket local,
     le chemin correct doit être défini comme <link linkend="ini.mysql.default-host">mysql.default_host</link>

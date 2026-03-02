@@ -30,7 +30,7 @@
      <term><parameter>preview</parameter></term>
      <listitem>
       <para>
-       Type de prévisualisation. Voyez la liste des <link linkend="imagick.constants.preview">constantes de prévisualisation</link>
+       Type de prévisualisation. Voir la liste des <link linkend="imagick.constants.preview">constantes de prévisualisation</link>
       </para>
      </listitem>
     </varlistentry>

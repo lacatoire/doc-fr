@@ -181,7 +181,7 @@ if( $stmt === false ) {
    Pour les requêtes que l'on ne prévoit d'exécuter qu'une seule fois,
    il est recommandé d'utiliser la fonction <function>sqlsrv_query</function>.
    Pour ré-exécuter une requête avec des valeurs différentes pour ses
-   paramètres, utilisez la combinaison de la fonction
+   paramètres, utiliser la combinaison de la fonction
    <function>sqlsrv_prepare</function> et de la fonction <function>sqlsrv_execute</function>.
   </simpara>
  </refsect1>

@@ -25,7 +25,7 @@
    (<parameter>x</parameter>, <parameter>y</parameter>). L'arc débute à un
    angle de <parameter>alpha</parameter> et termine avec un angle de
    <parameter>beta</parameter>. Il est tracé dans le sens des aiguilles d'une
-   montre (utilisez <function>ps_arc</function> pour dessiner dans le sens
+   montre (utiliser <function>ps_arc</function> pour dessiner dans le sens
    contraire des aiguilles d'une montre). La sous trajectoire ajoutée à la
    trajectoire courante débute sur l'arc à l'angle <parameter>beta</parameter>
    et termine sur l'arc à l'angle <parameter>alpha</parameter>.

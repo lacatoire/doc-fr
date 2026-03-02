@@ -164,7 +164,7 @@
    <example>
     <title>Validation de téléchargement de fichiers</title>
     <para>
-     Voyez aussi les fonctions <function>is_uploaded_file</function> et
+     Voir aussi les fonctions <function>is_uploaded_file</function> et
      <function>move_uploaded_file</function> pour plus d'informations.
      L'exemple suivant va télécharger un fichier venant d'un formulaire.
     </para>

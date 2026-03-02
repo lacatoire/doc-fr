@@ -66,7 +66,7 @@
      <term><parameter>path</parameter></term>
      <listitem>
       <para>
-       Le chemin dans le domaine où le cookie sera accessible. Utilisez
+       Le chemin dans le domaine où le cookie sera accessible. Utiliser
        un simple slash ('/') pour tous les chemins du domaine.
        Voir la directive <link linkend="ini.session.cookie-path">path</link>.
       </para>

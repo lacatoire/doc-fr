@@ -62,7 +62,7 @@ chmod("/somedir/somefile", 0755);  // notation octale : valeur du mode correcte
        le groupe du propriétaire et les autres, respectivement. Chaque
        composant peut être calculé en ajoutant les droits désirés.
        Le chiffre 1 donne les droits d'exécution, le chiffre 2 les droits
-       d'écriture et le chiffre 4 les droits de lecture. Ajoutez simplement
+       d'écriture et le chiffre 4 les droits de lecture. Ajouter simplement
        ces nombres pour spécifier les droits voulus. Il est aussi possible de
        lire le manuel des systèmes Unix avec <command>man 1 chmod</command> et 
        <command>man 2 chmod</command>.

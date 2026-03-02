@@ -135,14 +135,14 @@
        </table>
       </para>
       <para>
-       Utilisez l'opérateur d'addition &quot;+&quot; pour choisir une
+       Utiliser l'opérateur d'addition &quot;+&quot; pour choisir une
        combinaison de structures de tableaux et de modes d'index.
       </para>
       <para>
        Les noms de colonnes qui ne sont pas sensibles à la casse (par défaut sous Oracle),
        auront des noms d'attributs en majuscule. Les noms de colonnes qui sont sensibles à la
        casse, auront des noms d'attributs utilisant exactement la même casse de la colonne.
-       Utilisez la fonction <function>var_dump</function> sur l'objet de résultat pour vérifier
+       Utiliser la fonction <function>var_dump</function> sur l'objet de résultat pour vérifier
        la casse appropriée à utiliser pour chaque requête.
       </para>
       <para>

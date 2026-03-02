@@ -16,7 +16,7 @@
   </methodsynopsis>
 
   <para>
-   Utilisez la fonction <methodname>PDOStatement::columnCount</methodname>
+   Utiliser la fonction <methodname>PDOStatement::columnCount</methodname>
    pour retourner le nombre de colonnes dans le jeu de résultats représenté
    par l'objet PDOStatement.
   </para>

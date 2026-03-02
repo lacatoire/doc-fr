@@ -15,7 +15,7 @@
   </methodsynopsis>
   <simpara>
     Renvoie le format de date et d'heure de SeasLog.
-    Utilisez la fonction <methodname>SeasLog::getDatetimeFormat</methodname> pour obtenir la valeur de
+    Utiliser la fonction <methodname>SeasLog::getDatetimeFormat</methodname> pour obtenir la valeur de
     <link linkend="ini.seaslog.default-datetime-format">seaslog.default_datetime_format</link>
     configurée dans php.ini (seaslog.ini).
   </simpara>
@@ -32,7 +32,7 @@
   <simpara>
     Renvoie le format de date et d'heure de SeasLog
     <link linkend="ini.seaslog.default-datetime-format">seaslog.default_datetime_format</link>.
-    Utilisez la fonction <methodname>SeasLog::setDatetimeFormat</methodname>
+    Utiliser la fonction <methodname>SeasLog::setDatetimeFormat</methodname>
     pour modifier cette valeur.
   </simpara>
  </refsect1>

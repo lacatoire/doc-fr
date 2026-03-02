@@ -89,7 +89,7 @@
   </para>
   <tip>
    <para>
-    Utilisez la fonction <function>libxml_use_internal_errors</function>
+    Utiliser la fonction <function>libxml_use_internal_errors</function>
     pour supprimer toutes les erreurs XML, et la fonction
     <function>libxml_get_errors</function> pour les parcourir.
    </para>

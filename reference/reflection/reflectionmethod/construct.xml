@@ -22,7 +22,7 @@
   <warning>
    <simpara>
     La signature alternative est obsolète à partir de PHP 8.4.0,
-    utilisez <methodname>ReflectionMethod::createFromMethodName</methodname>
+    utiliser <methodname>ReflectionMethod::createFromMethodName</methodname>
     à la place.
    </simpara>
   </warning>

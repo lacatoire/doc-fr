@@ -68,7 +68,7 @@
  * Il attend les variables $user, $password, $table, $where, et $commitsize
  * Le script efface alors les lignes sélectionnées avec ROWID et valide
  * l'effacement après chaque groupe de $commitsize lignes.
- * (Utilisez avec prudence, car il n'y a pas d'annulation possible).
+ * (Utiliser avec prudence, car il n'y a pas d'annulation possible).
  */
 $conn = oci_connect($user, $password);
 $stmt = oci_parse($conn, "select rowid from $table $where");

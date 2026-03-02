@@ -79,7 +79,7 @@ unset($_SESSION['count']);
   <para>
    <caution>
     <para>
-     N'utilisez PAS la fonction <function>unset</function>
+     Ne pas utiliser la fonction <function>unset</function>
      avec <varname>$_SESSION</varname> sous la forme
      <literal>unset($_SESSION)</literal> sinon, cela rendra impossible
      l'enregistrement de données dans la session en utilisant la super-globale

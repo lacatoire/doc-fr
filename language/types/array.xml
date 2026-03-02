@@ -770,7 +770,7 @@ echo $b, PHP_EOL;    // Affiche 1
   <note>
    <para>
     La fonction <function>unset</function> permet d'effacer les clés d'un tableau.
-    Soyez attentif sur le fait que le tableau ne sera <emphasis>pas</emphasis>
+    Il est à noter que le tableau ne sera <emphasis>pas</emphasis>
     ré-indexé. Pour réaliser un effacement complet et une ré-indexation
     du tableau, il faut utiliser la fonction
     <function>array_values</function>.
@@ -855,7 +855,7 @@ echo $foo[bar];
 
    <simpara>
     Ceci ne signifie pas qu'il faut <emphasis>toujours</emphasis> mettre la clé entre guillemets.
-    N'utilisez pas de guillemets avec les clés qui sont des
+    Ne pas utiliser de guillemets avec les clés qui sont des
     <link linkend="language.constants">constantes</link> ou des
     <link linkend="language.variables">variables</link>, car cela empêcherait PHP de
     les interpréter.
@@ -1519,7 +1519,7 @@ var_dump($juices);
 
   <para>
    L'assignation d'un tableau induit toujours la copie des valeurs.
-   Utilisez l'<link linkend="language.operators">opérateur de référence</link>
+   Utiliser l'<link linkend="language.operators">opérateur de référence</link>
    pour copier un tableau par référence.
   </para>
 

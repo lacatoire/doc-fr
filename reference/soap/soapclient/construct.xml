@@ -34,7 +34,7 @@
       <note>
        <para>
         Par défaut, le fichier WSDL sera mis en cache pour des raisons de performance. Pour désactiver
-        ou configurer cette mise en cache, consultez la section
+        ou configurer cette mise en cache, consulter la section
         <link linkend="soap.configuration.list">SOAP &ConfigureOptions;</link>
         et l'option <link linkend="soapclient.construct.options.cache-wsdl">
         <literal>cache_wsdl</literal></link>
@@ -306,7 +306,7 @@
            l'algorithme de compression à utiliser ; et un nombre entre 1 et 9
            pour indiquer le niveau de compression à utiliser dans la requête.
            Par exemple, pour activer la compression gzip bidirectionnelle avec le niveau
-           de compression maximal, utilisez
+           de compression maximal, utiliser
            <literal>SOAP_COMPRESSION_ACCEPT | SOAP_COMPRESSION_GZIP | 9</literal>.
           </para>
          </listitem>
@@ -527,7 +527,7 @@
                Si la fonctionnalité <constant>SOAP_SINGLE_ELEMENT_ARRAYS</constant> est activée,
                les éléments qui n'apparaissent qu'une seule fois sont placés dans un tableau à un seul élément, de sorte que
                l'accès soit cohérent pour tous les éléments. Cela n'a d'effet que lors de l'utilisation d'un WSDL
-               contenant un schéma pour la réponse. Consultez la section des exemples pour une illustration.
+               contenant un schéma pour la réponse. Consulter la section des exemples pour une illustration.
               </para>
              </listitem>
             </varlistentry>

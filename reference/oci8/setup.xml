@@ -11,14 +11,14 @@
   &reftitle.required;
   <para>
    OCI8 3.0 est incluse avec PHP 8. Elle est également disponible depuis
-   &link.pecl;. Pour PHP 7, utilisez OCI8 2.2 depuis &link.pecl;.
+   &link.pecl;. Pour PHP 7, utiliser OCI8 2.2 depuis &link.pecl;.
    OCI8 requiert Oracle 10<emphasis>g</emphasis>
    ou bibliothèques cliente ultérieures.
   </para>
   <para>
    Si la base de données Oracle est sur la même machine que PHP, le logiciel
    de base de données contient déjà les bibliothèques et en-têtes nécessaires.
-   Lorsque PHP est sur une machine différente, utilisez les bibliothèques gratuites
+   Lorsque PHP est sur une machine différente, utiliser les bibliothèques gratuites
    <link xlink:href="&url.oracle.instant.client;">Oracle Instant Client</link>.
   </para>
   <para>

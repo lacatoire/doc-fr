@@ -43,7 +43,7 @@
      <term><parameter>compose</parameter></term>
      <listitem>
       <para>
-       L'opérateur de composition. Voyez la liste des <link 
+       L'opérateur de composition. Voir la liste des <link
        linkend="imagick.constants.compositeop">constantes d'opérateurs de composition</link>
       </para>
      </listitem>

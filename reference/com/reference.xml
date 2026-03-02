@@ -11,7 +11,7 @@
   <section xml:id="com.seealso">
    &reftitle.seealso;
    <para>
-    Pour plus d'informations sur les objets COM, lisez les
+    Pour plus d'informations sur les objets COM, consulter les
     <link xlink:href="&url.comspecs;">spécifications COM</link>.
     Il est possible de trouver des informations utiles dans notre FAQ pour <xref
     linkend="faq.com"/>.

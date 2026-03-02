@@ -29,7 +29,7 @@
    Récupère le nombre de lignes d'un jeu de résultat. Cette commande n'est
    disponible que pour les requêtes comme SELECT ou SHOW qui retournent
    un jeu de résultats. Pour récupérer le nombre de lignes
-   affectées par une requête INSERT, UPDATE, REPLACE ou DELETE, utilisez la
+   affectées par une requête INSERT, UPDATE, REPLACE ou DELETE, utiliser la
    fonction <function>mysql_affected_rows</function>.
   </simpara>
  </refsect1>

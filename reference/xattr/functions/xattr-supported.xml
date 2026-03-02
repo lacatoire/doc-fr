@@ -79,7 +79,7 @@
 $file = 'un_fichier';
 
 if (xattr_supported($file)) {
-    /* ... utilisez les fonctions xattr_* ... */
+    /* ... utiliser les fonctions xattr_* ... */
 }
 
 ?>

@@ -13,7 +13,7 @@
  <sect2 xml:id="language.types.boolean.syntax">
   <title>Syntaxe</title>
   <para>
-   Pour spécifier un &boolean; littéral, utilisez la constante &true; ou
+   Pour spécifier un &boolean; littéral, utiliser la constante &true; ou
    &false;. Les deux sont insensibles à la casse.
   </para>
 
@@ -65,7 +65,7 @@ if ($show_separators) {
   <title>Conversion en booléen</title>
 
   <simpara>
-  Pour convertir explicitement une valeur en <type>bool</type>, utilisez
+  Pour convertir explicitement une valeur en <type>bool</type>, utiliser
   le cast <literal>(bool)</literal>. Généralement, cela n'est pas nécessaire
   car lorsqu'une valeur est utilisée dans un contexte logique, elle sera
   automatiquement interprétée comme une valeur de type <type>bool</type>.

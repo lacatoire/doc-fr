@@ -21,7 +21,7 @@
   <title>PHP &lt; 7.4</title>
   <para>
    Après avoir installé Expat, compilez PHP avec
-   <option role="configure">--enable-wddx</option> et utilisez
+   <option role="configure">--enable-wddx</option> et utiliser
    <option role="configure">--with-libexpat-dir</option> pour Expat.
   </para>
   &windows.builtin;

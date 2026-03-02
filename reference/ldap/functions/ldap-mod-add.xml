@@ -18,7 +18,7 @@
   </methodsynopsis>
   <para>
    Ajoute l'attribut <parameter>entry</parameter> à l'entrée <parameter>dn</parameter>.
-   Pour ajouter un nouvel objet entier, consultez la fonction <function>ldap_add</function> .
+   Pour ajouter un nouvel objet entier, consulter la fonction <function>ldap_add</function> .
   </para>
  </refsect1>
 

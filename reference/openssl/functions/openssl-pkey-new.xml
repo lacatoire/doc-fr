@@ -34,7 +34,7 @@
        Ces options peuvent soit être des paramètres spécifiques à l'algorithme utilisés pour la
        génération de clés, soit des options génériques également utilisées pour la génération
        de <acronym>CSR</acronym> si non spécifiées.
-       Consultez <function>openssl_csr_new</function> pour plus d'informations
+       Consulter <function>openssl_csr_new</function> pour plus d'informations
        sur l'utilisation de <parameter>options</parameter> pour un <acronym>CSR</acronym>.
        Parmi ces options, seules <literal>private_key_bits</literal>,
        <literal>private_key_type</literal>, <literal>curve_name</literal>,

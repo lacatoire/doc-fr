@@ -284,7 +284,7 @@ Stack trace:
      Il n’est pas possible de combiner les deux types de singleton
      <literal>false</literal> et <literal>true</literal> ensemble dans une
      union de type.
-     Utilisez plutôt <type>bool</type>.
+     Utiliser plutôt <type>bool</type>.
     </simpara>
    </warning>
 

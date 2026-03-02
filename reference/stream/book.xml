@@ -30,7 +30,7 @@
     ou bien directement par une autre extension.
     Grâce à la souplesse des gestionnaires qui peuvent être ajoutés à PHP,
     il n'y a pas de limites aux possibilités offertes. Pour connaître la liste
-    des gestionnaires actuellement enregistrés, utilisez la fonction
+    des gestionnaires actuellement enregistrés, utiliser la fonction
     <function>stream_get_wrappers</function>.
    </simpara>
    <para>

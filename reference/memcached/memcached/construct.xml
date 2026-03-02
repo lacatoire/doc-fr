@@ -30,7 +30,7 @@
      <listitem>
       <para>
        Par défaut, les instances Memcached sont détruites à la fin de la 
-       requête. Pour créer un objet qui persiste entre les requêtes, utilisez
+       requête. Pour créer un objet qui persiste entre les requêtes, utiliser
        le paramètre <parameter>persistent_id</parameter> pour spécifier un identifiant
        unique pour l'instance. Tous les objets créés avec le même 
        identifiant <parameter>persistent_id</parameter> partageront la même connexion.
