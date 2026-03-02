@@ -28,7 +28,7 @@
    Si la fraction de changement de candidat en cascade est faible, les neurones candidats seront entraînés davantage et si la fraction est élevée, ils seront moins entraînés.
   </para>
   <para>
-   Le fraction de changement de candidat en cascade par défaut est de 0.01, ce qui est équivalent à un changement de 1% dans le MSE.
+   La fraction de changement de candidat en cascade par défaut est de 0.01, ce qui est équivalent à un changement de 1% dans le MSE.
   </para>
  </refsect1>
 

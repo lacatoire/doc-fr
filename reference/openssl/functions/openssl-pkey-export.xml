@@ -7,7 +7,7 @@
   <refname>openssl_pkey_export</refname>
   <refpurpose>Stocke une représentation exportable de la clé dans une chaîne de caractères</refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>

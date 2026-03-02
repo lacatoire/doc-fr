@@ -8,7 +8,7 @@
    Exécute une requête PostgreSQL asynchrone
   </refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
@@ -23,7 +23,7 @@
    requêtes à la fois au serveur PostgreSQL et obtenir les résultats un par un
    en utilisant <function>pg_get_result</function>.
   </para>
-  <para> 
+  <para>
    L'exécution du script n'est pas bloquée durant l'exécution des requêtes. Utiliser
    <function>pg_connection_busy</function> pour vérifier si la connexion est
    occupée (c'est-à-dire la requête est en train d'être exécutée). Les requêtes
@@ -105,12 +105,12 @@
   if (!pg_connection_busy($dbconn)) {
       pg_send_query($dbconn,"select * from auteurs; select count(*) from auteurs;");
   }
-    
+
   $res1 = pg_get_result($dbconn);
   echo "Premier appel de pg_get_result() : $res1\n";
   $rows1 = pg_num_rows($res1);
   echo "$res1 a $rows1 enregistrements\n\n";
-    
+
   $res2 = pg_get_result($dbconn);
   echo "Second appel de pg_get_result() : $res2\n";
   $rows2 = pg_num_rows($res2);
@@ -128,7 +128,7 @@ Second appel de pg_get_result() : Resource id #4
 Resource id #4 a 1 enregistrements
 ]]>
     </screen>
-   </example> 
+   </example>
   </para>
  </refsect1>
 

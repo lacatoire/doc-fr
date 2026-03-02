@@ -145,7 +145,7 @@ $mysqli->query("SET CHARACTER SET utf8mb4");
 // Mais, ceci affectera $mysqli->real_escape_string();
 $mysqli->set_charset('utf8mb4');
 
-// Mais, ceci NE l'affectera PAS (UTF-8 par rapport à utf8mb4) -- ne pas utiliser les tirets ici
+// Mais, ceci NE l'affectera PAS (UTF-8 par rapport à utf8mb4) -- n'utiliser pas les tirets ici
 $mysqli->set_charset('UTF-8');
 ?>
 ]]>

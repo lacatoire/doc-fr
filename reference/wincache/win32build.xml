@@ -22,11 +22,11 @@
     </listitem>
    </orderedlist>
    <para>
-    Pour compléter les deux premières étapes, suivez le guide étape par étape 
+    Pour compléter les deux premières étapes, suivez le guide étape par étape
     <link xlink:href="&url.php.win.build;">Compiler PHP sous Windows</link>.
    </para>
    <para>
-    Pour obtenir le code source de WinCache, suivez les instructions décrites 
+    Pour obtenir le code source de WinCache, suivez les instructions décrites
     dans <link linkend="install.pecl.downloads">Télécharger des extensions PECL</link>.
    </para>
   </section>

@@ -8,7 +8,7 @@
  <section xml:id="oci8.configure" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>Configuration de PHP avec OCI8</title>
   <para>
-   Relisez la section précédente sur les
+   Consulter la section précédente sur les
    <link linkend="oci8.requirements">Pré-requis</link> avant de configurer OCI8.
   </para>
   <para>

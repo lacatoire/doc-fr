@@ -37,7 +37,7 @@
    <example>
     <title>Exemple avec <methodname>FilesystemIterator::key</methodname></title>
     <para>
-     Cet exemple va afficher le contenu du dossier qui 
+     Cet exemple va afficher le contenu du dossier qui
      contient le script en cours.
     </para>
     <programlisting role="php">
