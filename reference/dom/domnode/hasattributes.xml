@@ -5,7 +5,7 @@
  <refnamediv>
   <refname>DOMNode::hasAttributes</refname>
   <refpurpose>
-   Vérifie si le nœud possèd'un attribut
+   Vérifie si le nœud possède des attributs
   </refpurpose>
  </refnamediv>
  <refsect1 role="description">

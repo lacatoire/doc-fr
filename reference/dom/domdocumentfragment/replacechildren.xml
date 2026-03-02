@@ -28,7 +28,7 @@
   <example xml:id="domdocumentfragment.replacechildren.example.basic">
    <title>Exemple de <methodname>DOMDocumentFragment::replaceChildren</methodname></title>
    <para>
-    Remaplce les enfants par de nouveaux nœuds.
+    Remplace les enfants par de nouveaux nœuds.
    </para>
    <programlisting role="php">
 <![CDATA[

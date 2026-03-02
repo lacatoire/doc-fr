@@ -103,7 +103,7 @@ $xml = <<<EOD
 EOD;
 $dom = new DOMDocument;
 
-// load the XML string defined above
+// chargement de la chaîne XML définie ci-dessus
 $dom->loadXML($xml);
 
 foreach ($dom->getElementsByTagNameNS('http://www.w3.org/2001/XInclude', '*') as $element) {

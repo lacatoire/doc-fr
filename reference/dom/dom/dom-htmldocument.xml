@@ -47,7 +47,7 @@
     </xi:include>
 
     <classsynopsisinfo role="comment">&InheritedMethods;</classsynopsisinfo>
-    <classsynopsisinfo role="comment">Not documented yet</classsynopsisinfo>
+    <classsynopsisinfo role="comment">Pas encore documenté</classsynopsisinfo>
     <!--<xi:include xpointer="xmlns(db=http://docbook.org/ns/docbook) xpointer(id('class.dom-document')/db:refentry/db:refsect1[@role='description']/descendant::db:methodsynopsis[@role='Dom\\Document'])">
      <xi:fallback/>
     </xi:include>-->

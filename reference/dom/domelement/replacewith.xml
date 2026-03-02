@@ -14,7 +14,7 @@
    <methodparam rep="repeat"><type class="union"><type>DOMNode</type><type>string</type></type><parameter>nodes</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Remaplce l'élément par de nouveaux <parameter>nodes</parameter>.
+   Remplace l'élément par de nouveaux <parameter>nodes</parameter>.
   </para>
  </refsect1>
 

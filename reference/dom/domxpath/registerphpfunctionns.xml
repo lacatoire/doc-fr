@@ -107,11 +107,11 @@ $xpath->registerPhpFunctionNS(
 // Appel de la fonction substr sur le titre du livre
 $nodes = $xpath->query('//book[my:substring(title, 0, 3) = "PHP"]');
 
-echo "Found {$nodes->length} books starting with 'PHP':\n";
+echo "{$nodes->length} livres trouvés dont le titre commence par 'PHP' :\n";
 foreach ($nodes as $node) {
    $title  = $node->getElementsByTagName("title")->item(0)->nodeValue;
    $author = $node->getElementsByTagName("author")->item(0)->nodeValue;
-   echo "$title by $author\n";
+   echo "$title par $author\n";
 }
 
 ?>
@@ -120,9 +120,9 @@ foreach ($nodes as $node) {
    &example.outputs.similar;
    <screen>
 <![CDATA[
-Found 2 books starting with 'PHP':
-PHP Basics by Jim Smith
-PHP Secrets by Jenny Smythe
+2 livres trouvés dont le titre commence par 'PHP' :
+PHP Basics par Jim Smith
+PHP Secrets par Jenny Smythe
 ]]>
    </screen>
   </example>
