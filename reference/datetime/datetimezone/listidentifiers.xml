@@ -56,7 +56,7 @@
       <note>
        <simpara>
         Cette option n'est disponible que lorsque le paramètre
-        <parameter>timezoneGroup</parameter> prend la valeur de 
+        <parameter>timezoneGroup</parameter> prend la valeur de
         <constant>DateTimeZone::PER_COUNTRY</constant>.
        </simpara>
       </note>
@@ -70,9 +70,9 @@
   &reftitle.returnvalues;
   <para>
    Retourne le &array; des identificateurs des fuseaux horaires.
-   Seuls les éléments non obsolètes sont retournés. Pour tout obtenir, 
+   Seuls les éléments non obsolètes sont retournés. Pour tout obtenir,
    y compris les identifiants de fuseau horaire obsolètes, utiliser
-   <literal>DateTimeZone::ALL_WITH_BC</literal> comme valeur pour 
+   <literal>DateTimeZone::ALL_WITH_BC</literal> comme valeur pour
    <parameter>timezoneGroup</parameter>.
   </para>
  </refsect1>

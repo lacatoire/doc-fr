@@ -182,8 +182,8 @@
 // Configuration du fuseau horaire.
 date_default_timezone_set('UTC');
 
-// Affiche : July 1, 2000 est un Saturday
-echo "July 1, 2000 is on a " . date("l", mktime(0, 0, 0, 7, 1, 2000)) . "\n";
+// Affiche : Le 1er juillet 2000 est un Saturday
+echo "Le 1er juillet 2000 est un " . date("l", mktime(0, 0, 0, 7, 1, 2000)) . "\n";
 
 // Affiche quelque chose comme : 2006-04-05T01:02:03+00:00
 echo date('c', mktime(1, 2, 3, 4, 5, 2006)) . "\n";
@@ -192,7 +192,7 @@ echo date('c', mktime(1, 2, 3, 4, 5, 2006)) . "\n";
     &example.outputs.similar;
     <screen>
 <![CDATA[
-July 1, 2000 is on a Saturday
+Le 1er juillet 2000 est un Saturday
 2006-04-05T01:02:03+00:00
 ]]>
     </screen>   </example>
@@ -277,16 +277,16 @@ print date('c', $nextyear) . "\n";
 <?php
 
 $lastday = mktime(0, 0, 0, 3, 0, 2000);
-echo 'Last day in Feb 2000 is: ', date('d', $lastday) . "\n";
+echo 'Le dernier jour de février 2000 est : ', date('d', $lastday) . "\n";
 $lastday = mktime(0, 0, 0, 4, -31, 2000);
-echo 'Last day in Feb 2000 is: ', date('d', $lastday) . "\n";
+echo 'Le dernier jour de février 2000 est : ', date('d', $lastday) . "\n";
 ]]>
     </programlisting>
     &example.outputs;
     <screen>
 <![CDATA[
-Last day in Feb 2000 is: 29
-Last day in Feb 2000 is: 29
+Le dernier jour de février 2000 est : 29
+Le dernier jour de février 2000 est : 29
 ]]>
     </screen>
    </example>
