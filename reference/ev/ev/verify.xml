@@ -4,7 +4,7 @@
 <refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="ev.verify">
  <refnamediv>
   <refname>Ev::verify</refname>
-  <refpurpose>Effectue des vérifications internes de consistence (pour le débogage)</refpurpose>
+  <refpurpose>Effectue des vérifications internes de consistance (pour le débogage)</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
@@ -17,7 +17,7 @@
    <void/>
   </methodsynopsis>
   <simpara>
-   Effectue des vérifications internes de consistence (pour le débogage de
+   Effectue des vérifications internes de consistance (pour le débogage de
    <emphasis>libev</emphasis>) et met fin au programme si une structure
    de données corrompue a été trouvée.
   </simpara>

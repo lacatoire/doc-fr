@@ -47,7 +47,7 @@
     </term>
     <listitem>
      <simpara>
-      Le chemin pour lequel on attend un modification de statut.
+      Le chemin pour lequel on attend une modification de statut.
      </simpara>
     </listitem>
    </varlistentry>
@@ -116,7 +116,7 @@
   printf("Current atime: %ld\n", $attr['atime']);
   printf("Current mtime: %ld\n", $attr['mtime']);
  } else {
-  fprintf(STDERR, "`messages` file is not there!");
+  fprintf(STDERR, "Le fichier `messages` est introuvable !");
   $w->stop();
  }
 });

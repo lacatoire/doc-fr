@@ -84,7 +84,7 @@
        <entry>
         <literal>'rdev'</literal>
        </entry>
-       <entry>ID du périphérique (si fichier spécifial)</entry>
+       <entry>ID du périphérique (si fichier spécial)</entry>
       </row>
       <row>
        <entry>
@@ -143,7 +143,7 @@ $w = new EvStat("/var/log/messages", 8, function ($w) {
         printf("Current atime: %ld\n", $attr['atime']);
         printf("Current mtime: %ld\n", $attr['mtime']);
     } else {
-        fprintf(STDERR, "`messages` file is not there!");
+        fprintf(STDERR, "Le fichier `messages` est introuvable !");
         $w->stop();
     }
 });

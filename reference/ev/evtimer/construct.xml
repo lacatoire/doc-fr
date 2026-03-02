@@ -118,9 +118,9 @@ $w2 = new EvTimer(2, 1, function ($w) {
     echo "est appelé chaque seconde, est démarré après 2 secondes\n";
     echo "itération = ", Ev::iteration(), PHP_EOL;
 
-    // Stop the watcher after 5 iterations
+    // Stoppe le watcher après 5 itérations
     Ev::iteration() == 5 and $w->stop();
-    // Stop the watcher if further calls cause more than 10 iterations
+    // Stoppe le watcher si les appels suivants provoquent plus de 10 itérations
     Ev::iteration() >= 10 and $w->stop();
 });
 

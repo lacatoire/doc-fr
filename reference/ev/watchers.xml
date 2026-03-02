@@ -10,7 +10,7 @@
   <programlisting role="php">
 <![CDATA[
 <?php
-// Wait until STDIN is readable
+// Attend que STDIN devienne accessible en lecture
 $w = new EvIo(STDIN, Ev::READ, function ($watcher, $revents) {
  echo "STDIN est accessible en lecture\n";
 });

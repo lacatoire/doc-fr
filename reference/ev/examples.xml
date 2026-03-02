@@ -38,7 +38,7 @@ $w_stopped = EvTimer::createStopped(10, 5, function($w) {
 // Boucle tant que Ev::stop() n'est pas appelé ou que tous les watchers ne soient stoppés
 Ev::run();
 
-// Démarre et regarde si ca fonctionne
+// Démarre et regarde si ça fonctionne
 $w_stopped->start();
 echo "Exécute une seule itération\n";
 Ev::run(Ev::RUN_ONCE);
@@ -182,7 +182,7 @@ $timeout_watcher = new EvTimer(10.0, 0., function () use ($socket) {
     Ev::stop(Ev::BREAK_ALL);
 });
 
-// Effectue un requête HEAD lorsque le socket est accessible en écriture
+// Effectue une requête HEAD lorsque le socket est accessible en écriture
 $write_watcher = new EvIo($socket, Ev::WRITE, function ($w)
     use ($socket, $timeout_watcher, $e_nonblocking)
 {
@@ -214,7 +214,7 @@ $write_watcher = new EvIo($socket, Ev::WRITE, function ($w)
             return;
         }
 
-        // On attrappe EINPROGRESS, EAGAIN, ou EWOULDBLOCK
+        // On attrape EINPROGRESS, EAGAIN, ou EWOULDBLOCK
         if (in_array(socket_last_error(), $e_nonblocking)) {
             return;
         }
@@ -294,7 +294,7 @@ if ($loop_lo) {
 <?php
 /*
 * Vérifie si kqueue est disponible mais non recommandé, et crée un backend kqueue
-* pour l'utiliser avec les sockets (ce qui fonctionne avec toutes les implentations kqueue).
+* pour l'utiliser avec les sockets (ce qui fonctionne avec toutes les implémentations kqueue).
 * Stocke la boucle d'événements kqueue/uniquement-socket dans loop_socket. (On peut
 * également utiliser EVFLAG_NOENV)
 *

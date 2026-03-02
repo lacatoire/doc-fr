@@ -51,9 +51,9 @@
   <simpara>
    Il est valide d'installer un observateur sur le fils après qu'un
    <classname>EvChild</classname> ne soit sorti, mais avant que la boucle
-   d'événement n'est démarrée sa prochaine itération. Par exemple,
+   d'événement n'ait démarré sa prochaine itération. Par exemple,
    d'abord, appelez <literal>fork</literal>, puis le nouveau processus
-   fils peut sortie, et uniquement là, un observateur
+   fils peut sortir, et uniquement là, un observateur
    <classname>EvChild</classname> est installé sur le parent pour le
    nouveau <emphasis>PID</emphasis>.
   </simpara>

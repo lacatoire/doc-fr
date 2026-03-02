@@ -113,7 +113,7 @@
  <refsect1 role="examples">
   &reftitle.examples;
  <example>
-   <title>Surveillance des modifications dans of /var/log/messages.
+   <title>Surveillance des modifications dans /var/log/messages.
     Détecte les mises à jour oubliées en ajoutant une seconde de délai</title>
    <programlisting role="php">
 <![CDATA[
