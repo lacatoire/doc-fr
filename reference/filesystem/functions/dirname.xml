@@ -96,10 +96,10 @@
      <programlisting role="php">
 <![CDATA[
 <?php
-dirname('.');    // Will return '.'.
-dirname('/');    // Will return `\` on Windows and '/' on *nix systems.
-dirname('\\');   // Will return `\` on Windows and '.' on *nix systems.
-dirname('C:\\'); // Will return 'C:\' on Windows and '.' on *nix systems.
+dirname('.');    // Retournera '.'.
+dirname('/');    // Retournera `\` sur Windows et '/' sur les systèmes *nix.
+dirname('\\');   // Retournera `\` sur Windows et '.' sur les systèmes *nix.
+dirname('C:\\'); // Retournera 'C:\' sur Windows et '.' sur les systèmes *nix.
 ?>
 ]]>
      </programlisting>

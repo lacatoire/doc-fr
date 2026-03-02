@@ -71,7 +71,7 @@
       <para>
        Il est également possible d'ajouter <constant>LOCK_NB</constant>
        comme masque d'une des opérations précédentes si l'on ne
-       voulez pas que la fonction <function>flock</function> bloque durant
+       veut pas que la fonction <function>flock</function> bloque durant
        le verrouillage.
       </para>
      </listitem>

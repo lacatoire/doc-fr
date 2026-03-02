@@ -20,7 +20,7 @@
   </para>
   <note>
    <para>
-    Si le fichier a été ouvert le fichier en mode d'ajout ("a" ou "a+"), toutes
+    Si le fichier a été ouvert en mode d'ajout ("a" ou "a+"), toutes
     les données que l'on écrira dans ce fichier seront toujours ajoutées,
     sans se soucier de la position du pointeur de fichier.
    </para>

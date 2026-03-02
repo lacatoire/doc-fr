@@ -45,7 +45,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title><function>fdatasync</function> example</title>
+    <title>Exemple avec <function>fdatasync</function></title>
     <programlisting role="php">
 <![CDATA[
 <?php

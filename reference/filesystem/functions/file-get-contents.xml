@@ -74,8 +74,8 @@
       <para>
        Une ressource de contexte valide, créée avec la fonction
        <function>stream_context_create</function>. S'il n'y a
-       pas besoin d'utiliser un contexte particulier, il est possible de
-       ignorer ce paramètre en affectant la valeur &null;.
+       pas besoin d'utiliser un contexte particulier, il est possible
+       d'ignorer ce paramètre en affectant la valeur &null;.
       </para>
      </listitem>
     </varlistentry>

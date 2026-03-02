@@ -353,7 +353,7 @@ $handle = fopen("ftp://user:password@example.com/somefile.txt", "w");
    <para>
     Cette fonction peut également réussir lorsque <parameter>filename</parameter>
     est un dossier. En cas de doute sur le fait que
-    <parameter>filename</parameter> soit un fichier ou un dossier, il est possible de
+    <parameter>filename</parameter> soit un fichier ou un dossier, il est possible
     d'utiliser la fonction <function>is_dir</function> avant d'utiliser la fonction
     <function>fopen</function>.
    </para>

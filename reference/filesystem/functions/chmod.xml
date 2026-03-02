@@ -39,7 +39,7 @@
       <para>
        Il est à noter que le mode <parameter>permissions</parameter> est
        considéré comme un nombre en notation octale, aussi, afin de
-       l'on en assurer, il est possible de préfixer le mode
+       s'en assurer, il est possible de préfixer le mode
        <parameter>permissions</parameter> par un zéro. Les chaînes comme "g+w"
        ne fonctionneront pas correctement :
       </para>

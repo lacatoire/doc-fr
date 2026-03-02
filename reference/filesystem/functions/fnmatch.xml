@@ -162,7 +162,7 @@
           <row>
            <entry><constant>FNM_CASEFOLD</constant></entry>
            <entry>
-            Les correspondances ne tiennent pas compte de la casse. Fait parti
+            Les correspondances ne tiennent pas compte de la casse. Fait partie
             de l'extension GNU.
            </entry>
           </row>

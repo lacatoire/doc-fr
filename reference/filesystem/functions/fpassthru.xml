@@ -92,7 +92,7 @@ exit;
    </para>
    <para>
     Il est recommandé d'utiliser l'option <literal>b</literal> lorsqu'on
-    traitez des fichiers binaires, même si le système ne le requiert pas,
+    traite des fichiers binaires, même si le système ne le requiert pas,
     de façon à rendre les scripts portables.
    </para>
   </note>

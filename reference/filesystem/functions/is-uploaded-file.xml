@@ -67,7 +67,7 @@
 <?php
 
 if (is_uploaded_file($_FILES['userfile']['tmp_name'])) {
-   echo "File ". $_FILES['userfile']['name'] ." téléchargé avec succès.\n";
+   echo "Fichier ". $_FILES['userfile']['name'] ." téléchargé avec succès.\n";
    echo "Affichage du contenu\n";
    readfile($_FILES['userfile']['tmp_name']);
 } else {

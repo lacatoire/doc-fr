@@ -43,7 +43,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title><function>fsync</function> example</title>
+    <title>Exemple avec <function>fsync</function></title>
     <programlisting role="php">
 <![CDATA[
 <?php
