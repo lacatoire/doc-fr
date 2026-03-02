@@ -28,7 +28,7 @@
    </methodparam>
   </methodsynopsis>
   <para>
-   Cherche dans le tampon une occurrence de fin de ligne spécifié par
+   Cherche dans le tampon une occurrence de fin de ligne spécifiée par
    le paramètre <parameter>eol_style</parameter>. La méthode retourne
    la position numérique de la chaîne, ou &false; si la chaîne n'a pas été
    trouvée.

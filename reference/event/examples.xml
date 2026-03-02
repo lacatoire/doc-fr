@@ -193,7 +193,7 @@ $base->dispatch();
 <![CDATA[
 <?php
 /*
- * Serveur d'affichage simpple basé sur les écoutes de connexion libevent.
+ * Serveur d'affichage simple basé sur les écoutes de connexion libevent.
  *
  * Utilisation :
  * 1) Dans un terminal, exécutez :
@@ -327,7 +327,7 @@ if ($argc > 1) {
     $port = (int) $argv[1];
 }
 if ($port <= 0 || $port > 65535) {
-    exit("Invalid port");
+    exit("Port invalide");
 }
 
 $l = new MyListener($port);
@@ -497,7 +497,7 @@ Dans un terminal, exécutez :
 
 $ php examples/signal.php
 
-Dans un autre terminal, trouvez le pid et envoyé le signal SIGTERM, i.e. :
+Dans un autre terminal, trouvez le pid et envoyez le signal SIGTERM, i.e. :
 
 $ ps aux | grep examp
 ruslan    3976  0.2  0.0 139896 11256 pts/1    S+   10:25   0:00 php examples/signal.php
@@ -516,7 +516,7 @@ class MyEventSignal {
     }
 
     function eventSighandler($no, $c) {
-        echo "On attrappe le signal $no\n";
+        echo "On attrape le signal $no\n";
         event_base_loopexit($c->base);
     }
 }
@@ -906,7 +906,7 @@ function _request_handler($req, $base) {
         if ($response_code == 0) {
             echo "Connexion refusée\n";
         } elseif ($response_code != 200) {
-            echo "Réponse innatendue : $response_code\n";
+            echo "Réponse inattendue : $response_code\n";
         } else {
             echo "Succès : $response_code\n";
             $buf = $req->getInputBuffer();
@@ -981,7 +981,7 @@ function _request_handler($req, $base) {
         if ($response_code == 0) {
             echo "Connexion refusée\n";
         } elseif ($response_code != 200) {
-            echo "Réponse innatendue : $response_code\n";
+            echo "Réponse inattendue : $response_code\n";
         } else {
             echo "Succès : $response_code\n";
             $buf = $req->getInputBuffer();
@@ -1096,7 +1096,7 @@ class MyListener {
     public function __construct($sock_path) {
         $this->base = new EventBase();
         if (!$this->base) {
-            echo "Couldn't open event base";
+            echo "Impossible d'ouvrir la base de l'événement";
             exit(1);
         }
 

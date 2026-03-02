@@ -17,10 +17,10 @@
   </methodsynopsis>
   <para>
    Active le verrouillage de l'<classname>EventBuffer</classname>, lui
-   permettant ainsi de pouvoir être utilisé de façon sécurisé
+   permettant ainsi de pouvoir être utilisé de façon sécurisée
    par plusieurs threads à la fois. Lorsque le verrouillage est activé,
    le verrou sera placé lorsque les fonctions de rappel seront appelées.
-   Ce comportement peut conduire à des verrous morts si l'on n'êtes pas
+   Ce comportement peut conduire à des verrous morts si l'on n'est pas
    attentif.
   </para>
  </refsect1>

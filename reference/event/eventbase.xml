@@ -152,7 +152,7 @@
       <para>
        Drapeau de configuration. Au lieu de vérifier le temps courant chaque fois
        que la boucle d'événement est prête à exécuter la fonction de rappel,
-       le temps sera vérifié a chaque fois que le délai maximal d'attente pour la
+       le temps sera vérifié à chaque fois que le délai maximal d'attente pour la
        fonction de rappel sera atteint.
       </para>
      </listitem>
@@ -166,7 +166,7 @@
        Si l'on utilise le backend <literal>epoll</literal>, ce drapeau
        signifie qu'il est sécurisé d'utiliser le code interne de modification de liste
        interne à Libevent pour mettre en lot les ajouts et les suppressions afin
-       de tenter de minimiser le plus possible le nombre d'appels système..
+       de tenter de minimiser le plus possible le nombre d'appels système.
       </para>
       <para>
        Le fait de définir ce drapeau rend le code plus rapide, mais il peut

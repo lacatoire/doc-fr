@@ -30,7 +30,7 @@ $ kill -TERM 3976
 
 Dans le premier terminal, vous devriez attraper ceci :
 
-Caught signal 15
+Signal 15 attrapé
 */
 class MyEventSignal {
     private $base, $ev;
@@ -67,7 +67,7 @@ $base->loop();
   Voir aussi la
   <link
  xlink:href="http://www.wangafu.net/~nickm/libevent-book/Ref4_event.html#_constructing_signal_events">
-  programmation réseau facile, protable et non bloquante avec Libevent ; Construction
+  programmation réseau facile, portable et non bloquante avec Libevent ; Construction
   d'un événement de type signal</link>.
  </para>
 </chapter>

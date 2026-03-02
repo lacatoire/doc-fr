@@ -109,7 +109,7 @@
      </term>
      <listitem>
       <para>
-       Le nombre d'octets stockés de façon contigues au début du buffer.
+       Le nombre d'octets stockés de façon contiguë au début du buffer.
        Les octets dans un buffer peuvent être stockés dans plusieurs parties
        séparées de la mémoire ; cette propriété retourne le nombre d'octets
        actuellement stockés dans la première partie.
@@ -129,7 +129,7 @@
      </term>
      <listitem>
       <para>
-       La fin de ligne est une séquence de nombre représentent un retour charriot
+       La fin de ligne est une séquence de nombres représentant un retour chariot
        et une nouvelle ligne. Ce format n'est pas très utile ; il existe encore
        seulement pour des raisons de compatibilité ascendante.
       </para>
@@ -141,7 +141,7 @@
      </term>
      <listitem>
       <para>
-       La fin de ligne est un retour charriot optionnel, suivi par une nouvelle
+       La fin de ligne est un retour chariot optionnel, suivi par une nouvelle
        ligne. (En d'autres termes, c'est soit <literal>"\r\n"</literal>,
        soit <literal>"\n"</literal>). Ce format est utile pour analyser
        les protocoles Internet basés sur du texte ; le standard veut qu'on
@@ -156,7 +156,7 @@
      </term>
      <listitem>
       <para>
-       La fin de ligne est un simple retour charriot, suivant par une
+       La fin de ligne est un simple retour chariot, suivi par une
        simple nouvelle ligne (aussi connu comme <literal>"\r\n"</literal>.
        Les valeurs ASCII sont <literal>0x0D</literal> <literal>0x0A</literal>).
       </para>
