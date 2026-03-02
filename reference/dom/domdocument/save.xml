@@ -73,7 +73,7 @@ $root = $doc->appendChild($root);
 $title = $doc->createElement('title');
 $title = $root->appendChild($title);
 
-$text = $doc->createTextNode('This is the title');
+$text = $doc->createTextNode('Ceci est le titre');
 $text = $title->appendChild($text);
 
 echo 'Écrit : ' . $doc->save("/tmp/test.xml") . ' bytes'; // Écrit : 72 bytes

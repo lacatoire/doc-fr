@@ -304,7 +304,7 @@
      <term><varname>resolveExternals</varname></term>
      <listitem>
       <para>
-       Définissez-le à &true; pour charger des entités externes
+       Définir à &true; pour charger des entités externes
        depuis la déclaration doctype. C'est utile pour inclure
        des entités dans les documents XML.
       </para>

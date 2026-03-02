@@ -65,7 +65,7 @@ echo $query, "\n";
 $entries = $xpath->query($query);
 
 foreach ($entries as $entry) {
-    echo "Found ", $entry->textContent, "\n";
+    echo "Trouvé : ", $entry->textContent, "\n";
 }
 ?>
 ]]>
@@ -74,7 +74,7 @@ foreach ($entries as $entry) {
    <screen>
 <![CDATA[
 //book[@name="'quoted' name"]
-Found Book title
+Trouvé : Book title
 ]]>
    </screen>
    <simpara>
