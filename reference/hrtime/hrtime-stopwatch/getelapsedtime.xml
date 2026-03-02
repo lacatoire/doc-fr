@@ -15,7 +15,7 @@
    <methodparam choice="opt"><type>int</type><parameter>unit</parameter></methodparam>
   </methodsynopsis>
   <simpara>
-   Récupère le temps écoulé pour toutes les intervalles précédentes clos.
+   Récupère le temps écoulé pour tous les intervalles précédents clos.
   </simpara>
  </refsect1>
 

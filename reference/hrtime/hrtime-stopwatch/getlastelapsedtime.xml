@@ -5,7 +5,7 @@
 <refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="hrtime-stopwatch.getlastelapsedtime">
  <refnamediv>
   <refname>HRTime\StopWatch::getLastElapsedTime</refname>
-  <refpurpose>Récupère le temps écoulé pour la dernière intervalle</refpurpose>
+  <refpurpose>Récupère le temps écoulé pour le dernier intervalle</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">

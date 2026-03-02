@@ -5,7 +5,7 @@
 <refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="hrtime-stopwatch.getelapsedticks">
  <refnamediv>
   <refname>HRTime\StopWatch::getElapsedTicks</refname>
-  <refpurpose>Récupère les ticks écoulés pour toutes les intervalles</refpurpose>
+  <refpurpose>Récupère les ticks écoulés pour tous les intervalles</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -15,7 +15,7 @@
    <void/>
   </methodsynopsis>
   <simpara>
-   Récupère les ticks écoulés pour toutes les intervalles fermées précédentes.
+   Récupère les ticks écoulés pour tous les intervalles fermés précédents.
   </simpara>
  </refsect1>
 
