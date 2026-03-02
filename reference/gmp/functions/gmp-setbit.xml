@@ -115,7 +115,7 @@ echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
 <?php
 $a = gmp_init("0xff");
 echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
-gmp_setbit($a, 0, false); // clear bit at index 0
+gmp_setbit($a, 0, false); // efface le bit à l'index 0
 echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
 ?>
 ]]>
