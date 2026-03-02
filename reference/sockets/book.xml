@@ -27,7 +27,7 @@
    Lors de l'utilisation de ces fonctions, il est important de se
    rappeler que si de nombreuses fonctions ont le même nom que leur
    équivalent en langage C, elles ont souvent des déclarations différentes.
-   Lisez attentivement les descriptions pour éviter des confusions.
+   Consulter attentivement les descriptions pour éviter des confusions.
   </para>
   <para>
    Cela dit, ceux qui ne sont pas familiers avec la programmation par socket

@@ -106,7 +106,7 @@ if ($socket === false) {
   &reftitle.notes;
   <note>
    <para>
-    <function>socket_last_error</function> n'efface pas le code d'erreur. Utilisez
+    <function>socket_last_error</function> n'efface pas le code d'erreur. Utiliser
     plutôt la fonction <function>socket_clear_error</function> pour cela.
    </para>
   </note>

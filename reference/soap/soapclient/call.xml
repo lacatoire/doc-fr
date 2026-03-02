@@ -19,7 +19,7 @@
    L'appel direct à cette méthode est obsolète. Habituellement, les
    fonctions SOAP peuvent être appelées comme méthodes de l'objet
    <classname>SoapClient</classname> ; dans les cas où ce n'est pas
-   possible, ou bien qu'il est nécessaire de passer plus d'options, utilisez
+   possible, ou bien qu'il est nécessaire de passer plus d'options, utiliser
    la méthode <methodname>SoapClient::__soapCall</methodname>.
    </para>
  </refsect1>

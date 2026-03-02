@@ -48,7 +48,7 @@
         </member>
         <member>
          <constant>OCI_SEEK_END</constant> - ajoute <parameter>offset</parameter>
-         octets à la fin du LOB (utilisez une valeur négative pour obtenir une
+         octets à la fin du LOB (utiliser une valeur négative pour obtenir une
          position avant la fin du LOB).
         </member>
        </simplelist>

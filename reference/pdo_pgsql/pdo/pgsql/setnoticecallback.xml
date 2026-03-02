@@ -17,7 +17,7 @@
    Définit une fonction de rappel pour gérer les messages d'avis et d'avertissement générés par le serveur.
    Cela inclut les messages émis par PostgreSQL lui-même,
    ainsi que ceux générés par les fonctions SQL définies par l'utilisateur utilisant <literal>RAISE</literal>.
-   Veuillez noter que la réception effective de ces messages
+   Il est à noter que la réception effective de ces messages
    dépend du paramètre du serveur <literal>client_min_messages</literal>.
   </simpara>
  </refsect1>

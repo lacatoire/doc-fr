@@ -722,7 +722,7 @@
         Les opérateurs de bits devraient être appliqués ici
         (c.-à-d. <constant>Ev::BACKEND_ALL</constant> &amp; ~
         <constant>Ev::BACKEND_KQUEUE</constant>).
-        Utilisez la méthode
+        Utiliser la méthode
         <methodname>Ev::recommendedBackends</methodname> ou ne
         spécifiez aucun backend.
        </simpara>

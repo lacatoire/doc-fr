@@ -44,7 +44,7 @@
      <warning>
       <simpara>
        Si un chemin vers un fichier local n'a que des antislashs et aucun
-       slashs, cette extension échouera. Remplacez toujours tous les
+       slashs, cette extension échouera. Remplacer toujours tous les
        antislashs avec des slashs lors de l'utilisation de cette fonction.
       </simpara>
      </warning>
@@ -54,7 +54,7 @@
     <term><parameter>rev1</parameter></term>
     <listitem>
      <simpara>
-      Numéro de révision du premier chemin. Utilisez la constante
+      Numéro de révision du premier chemin. Utiliser la constante
       <constant>SVN_REVISON_HEAD</constant> pour spécifier la révision
       la plus récente.
      </simpara>

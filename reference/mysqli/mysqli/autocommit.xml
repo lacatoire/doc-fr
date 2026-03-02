@@ -26,7 +26,7 @@
    connexion.
   </para>
   <para>
-   Pour vérifier l'état de l'auto-commit, utilisez la commande SQL
+   Pour vérifier l'état de l'auto-commit, utiliser la commande SQL
    <literal>SELECT @@autocommit</literal>.
   </para>
  </refsect1>

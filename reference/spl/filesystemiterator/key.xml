@@ -26,7 +26,7 @@
   &reftitle.returnvalues;
   <para>
    Retourne le chemin ou le nom du fichier, suivant les options
-   activées. Voyez les 
+   activées. Voir les
    <link linkend="filesystemiterator.constants">Constantes de <classname>FilesystemIterator</classname></link>.
   </para>
  </refsect1>

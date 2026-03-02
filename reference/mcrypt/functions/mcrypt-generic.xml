@@ -30,11 +30,11 @@
    Pour enregistrer les données chiffrées dans une base de données
    il faut s'assurer d'enregistrer la chaîne entière retournée par cette fonction,
    sinon la chaîne ne sera pas déchiffrée correctement. Si la chaîne d'origine
-   comporte 10 caractères et que la taille d'un bloc est de 8 (utilisez
+   comporte 10 caractères et que la taille d'un bloc est de 8 (utiliser
    <function>mcrypt_enc_get_block_size</function> pour déterminer cette taille),
    on aura besoin d'au moins 16 caractères dans le champ de la base de données.
    À noter que la chaîne retournée par <function>mdecrypt_generic</function> aura
-   16 caractères de long... utilisez <literal>rtrim($str, "\0")</literal>
+   16 caractères de long... utiliser <literal>rtrim($str, "\0")</literal>
    pour supprimer le complément.
   </simpara>
   <simpara>

@@ -79,7 +79,7 @@
       Apache installée.
      </para>
      <para>
-     Consultez aussi le chapitre sur le
+     Consulter aussi le chapitre sur le
      <link linkend="configuration.file">fichier de configuration</link>.
      </para>
     </answer>
@@ -96,7 +96,7 @@
     <answer>
      <para>
       Cela signifie probablement que PHP rencontre un problème et génère un
-      fichier de vidage. Consultez les fichiers de logs du serveur pour voir
+      fichier de vidage. Consulter les fichiers de logs du serveur pour voir
       si c'est le cas, et tentez de reproduire le problème avec un test
       simple. En cas de maîtrise de 'gdb', il serait très utile de fournir un
       backtrace avec le rapport de bogue, afin d'aider les développeurs à
@@ -383,7 +383,7 @@ cgi error:
      <para>
       Comme la valeur par défaut vaut &one;, il est impératif d'être sûr
       à 100% que le bon fichier &php.ini; a été lu.
-      Lisez cette <link linkend="faq.installation.findphpini">FAQ</link> 
+      Consulter cette <link linkend="faq.installation.findphpini">FAQ</link>
       pour plus de détails.
      </para>
     </answer>
@@ -438,7 +438,7 @@ cgi error:
         Cliquez sur le bouton "Variables d'environnements"
        </para></listitem>
        <listitem><para>
-        Regardez dans le panneau "Variables systèmes"
+        Consulter le panneau "Variables systèmes"
        </para></listitem>
        <listitem><para>
         Trouvez l'entrée <literal>Path</literal> (il faudra peut-être faire descendre

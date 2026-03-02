@@ -41,7 +41,7 @@
     <term><parameter>start_revision</parameter></term>
     <listitem>
      <simpara>
-      Numéro de révision de la première historisation à récupérer. Utilisez
+      Numéro de révision de la première historisation à récupérer. Utiliser
       la constante <constant>SVN_REVISION_HEAD</constant> pour récupérer
       l'historisation de la révision la plus récente.
      </simpara>

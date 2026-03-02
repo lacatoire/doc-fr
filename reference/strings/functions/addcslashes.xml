@@ -66,7 +66,7 @@ echo addcslashes('foo[ ]', 'A..z');
        De plus, si le premier caractère d'un intervalle a un code ASCII
        plus grand que le second, l'intervalle ne sera pas créé.
        Seules les bornes de l'intervalle et le caractère point (.) seront
-       échappés. Utilisez la fonction <function>ord</function> pour
+       échappés. Utiliser la fonction <function>ord</function> pour
        trouver la valeur ASCII d'un caractère.
       <example>
        <title><function>addcslashes</function> avec des caractères dans le mauvais ordre</title>

@@ -305,9 +305,9 @@ Array (
     [0] => Array (
         [path] => /home/bob/wc/sandwich.txt
         [text_status] => 8 // l'élément a été modifié
-        [repos_text_status] => 1 // Aucune information disponible, utilisez update
+        [repos_text_status] => 1 // Aucune information disponible, utiliser update
         [prop_status] => 3 // aucun changement
-        [repos_prop_status] => 1 // Aucune information disponible, utilisez update
+        [repos_prop_status] => 1 // Aucune information disponible, utiliser update
         [name] => sandwich.txt
         [url] => http://www.example.com/svnroot/deli/trunk/sandwich.txt
         [repos] => http://www.example.com/svnroot/

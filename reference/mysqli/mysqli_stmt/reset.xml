@@ -32,7 +32,7 @@
    requête préparée (ou lorsuq'on les ferme).
   </para>
   <para>
-   Pour préparer de nouveau une requête, utilisez la fonction
+   Pour préparer de nouveau une requête, utiliser la fonction
    <function>mysqli_stmt_prepare</function>.
   </para>
  </refsect1>

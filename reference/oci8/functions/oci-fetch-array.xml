@@ -95,7 +95,7 @@
        Le <parameter>mode</parameter> par défaut est <constant>OCI_BOTH</constant>.
       </para>
       <para>
-       Utilisez l'opérateur d'addition &quot;+&quot; pour spécifier plus d'un mode
+       Utiliser l'opérateur d'addition &quot;+&quot; pour spécifier plus d'un mode
        à la fois.
       </para>
      </listitem>
@@ -125,12 +125,12 @@
    Les noms de colonnes qui ne sont pas sensibles à la casse (par défaut sous Oracle),
    auront des noms d'attributs en majuscule. Les noms de colonnes qui sont sensibles à la
    casse, auront des noms d'attributs utilisant exactement la même casse de la colonne.
-   Utilisez la fonction <function>var_dump</function> sur l'objet de résultat pour vérifier
+   Utiliser la fonction <function>var_dump</function> sur l'objet de résultat pour vérifier
    la casse appropriée à utiliser pour chaque requête.
   </para>
   <para>
    Le nom de la table n'est pas inclus dans l'index du tableau. Si la requête
-   contient deux colonnes différentes avec le même nom, utilisez la constante
+   contient deux colonnes différentes avec le même nom, utiliser la constante
    <constant>OCI_NUM</constant> ou ajoutez un alias à la colonne à la requête
    pour s'assurer l'unicité du nom ; voir l'exemple #7. Sinon, seulement une
    colonne sera retournée via PHP.
@@ -156,7 +156,7 @@ $stid = oci_parse($conn, 'SELECT department_id, department_name FROM departments
 oci_execute($stid);
 
 while (($row = oci_fetch_array($stid, OCI_BOTH)) != false) {
-    // Utilisez des noms de colonne en majuscule pour les indices des tableau associatif
+    // Utiliser des noms de colonne en majuscule pour les indices des tableau associatif
     echo $row[0] . " and " . $row['DEPARTMENT_ID']   . " are the same<br>\n";
     echo $row[1] . " and " . $row['DEPARTMENT_NAME'] . " are the same<br>\n";
 }
@@ -420,7 +420,7 @@ var_dump($row);
 //      string(9) "Australia"
 //    }
 
-// Pour interroger un nom de colonne dupliqué, utilisez un alias de colonne SQL
+// Pour interroger un nom de colonne dupliqué, utiliser un alias de colonne SQL
 // comme "AS ctnm":
 $sql = 'SELECT mycity.name AS ctnm, mycountry.name 
         FROM mycity, mycountry 
@@ -553,7 +553,7 @@ if ($oracleversion >= 12) {
 } else {
     // Les versions anciennes d'Oracle ont besoin d'une requête imbriquée
     // pour sélectionner un sous-jeu depuis $sql. Ou, si la requête SQL
-    // est connue au moment du développement, utilisez plutôt une fonction
+    // est connue au moment du développement, utiliser plutôt une fonction
     // row_number() au lieu de cette solution d'imbrication. Dans les
     // environnements de production, assurez-vous d'éviter les injections
     // SQL avec la concaténation.

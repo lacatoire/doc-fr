@@ -122,7 +122,7 @@ var_dump(isset($a['foo']));             // FALSE
 var_dump(isset($a['bonjour']));           // FALSE
 
 // La clé 'bonjour' vaut NULL et est considérée comme non existante
-// Si vous voulez vérifier l'existence de cette clé, utilisez cette fonction
+// Si vous voulez vérifier l'existence de cette clé, utiliser cette fonction
 var_dump(array_key_exists('bonjour', $a) ); // TRUE
 
 // Vérification des valeurs en profondeur
@@ -170,7 +170,7 @@ bool(false)
     <function>isset</function> fonctionne uniquement avec des variables car l'utilisation
     de toute autre chose aura comme conséquence une erreur d'analyse.
     Pour vérifier si une <link linkend="language.constants">constante</link> est définie,
-    utilisez la fonction <function>defined</function>.
+    utiliser la fonction <function>defined</function>.
    </para>
   </warning>
   &note.language-construct;

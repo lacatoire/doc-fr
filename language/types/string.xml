@@ -844,7 +844,7 @@ Valeur de l'objet : chaîne.
     <note>
      <simpara>
       La clé du tableau doit être non citée, et il n'est donc pas possible de
-      référencer une constante comme clé avec la syntaxe de base. Utilisez la
+      référencer une constante comme clé avec la syntaxe de base. Utiliser la
       syntaxe <link linkend="language.types.string.parsing.advanced">avancée</link>
       à la place.
      </simpara>
@@ -898,7 +898,7 @@ Changer le caractère à l'indice -3 en o donne strong.
      <type>chaîne</type>, puis entourée de <literal>{</literal> et
      <literal>}</literal>. Étant donné que <literal>{</literal> ne peut pas être échappé, cette
      syntaxe ne sera reconnue que lorsque le <literal>$</literal> suit immédiatement le
-     <literal>{</literal>. Utilisez <literal>{\$</literal> pour obtenir un
+     <literal>{</literal>. Utiliser <literal>{\$</literal> pour obtenir un
      <literal>{$</literal>. Voici quelques exemples pour clarifier :
     </simpara>
 
@@ -1136,7 +1136,7 @@ string(1) "b"
   <para>
    Les <type>chaînes</type> peuvent être concaténées à l'aide de l'opérateur '.' (point). Notez
    que l'opérateur '+' (addition) ne fonctionnera <emphasis>pas</emphasis> pour cela.
-   Consultez <link linkend="language.operators.string">les opérateurs de chaîne</link> pour
+   Consulter <link linkend="language.operators.string">les opérateurs de chaîne</link> pour
    plus d'informations.
   </para>
 
@@ -1145,7 +1145,7 @@ string(1) "b"
   </para>
 
   <simpara>
-   Consultez la <link linkend="ref.strings">section des fonctions de chaîne</link> pour
+   Consulter la <link linkend="ref.strings">section des fonctions de chaîne</link> pour
    les fonctions générales, et la <link linkend="ref.pcre">section des fonctions d'expressions régulières compatibles Perl</link> pour
    des fonctionnalités avancées de recherche et de remplacement.
   </simpara>
@@ -1158,7 +1158,7 @@ string(1) "b"
   </simpara>
 
   <simpara>
-   Enfin, consultez également les <link linkend="ref.ctype">fonctions de type caractère</link>.
+   Enfin, consulter également les <link linkend="ref.ctype">fonctions de type caractère</link>.
   </simpara>
  </sect2>
 
@@ -1196,7 +1196,7 @@ string(1) "b"
     À partir de PHP 8.0.0, le caractère de la virgule décimale est toujours
     un point ("<literal>.</literal>"). Avant PHP 8.0.0,
     le caractère de la virgule décimale est défini dans la locale du script (catégorie
-    LC_NUMERIC). Consultez la fonction <function>setlocale</function>.
+    LC_NUMERIC). Consulter la fonction <function>setlocale</function>.
    </para>
   </note>
 
@@ -1204,8 +1204,8 @@ string(1) "b"
    Les <type>tableaux</type> sont toujours convertis en la <type>chaîne</type>
    <literal>"Array"</literal>; de ce fait, <function>echo</function> et
    <function>print</function> ne peuvent pas à eux seuls afficher le contenu d'un
-   <type>tableau</type>. Pour afficher un seul élément, utilisez une construction telle que
-   <literal>echo $arr['foo']</literal>. Consultez ci-dessous des conseils sur la visualisation de tout le contenu.
+   <type>tableau</type>. Pour afficher un seul élément, utiliser une construction telle que
+   <literal>echo $arr['foo']</literal>. Consulter ci-dessous les conseils sur la visualisation de tout le contenu.
   </para>
 
   <para>
@@ -1220,7 +1220,7 @@ string(1) "b"
    l'exécution. Bien que la structure exacte de cette chaîne ne doive pas être considérée comme
    fiable et soit sujette à changement, elle sera toujours unique pour une ressource donnée
    pendant la durée d'exécution d'un script (c'est-à-dire une requête Web ou un processus CLI)
-   et ne sera pas réutilisée. Pour obtenir le type d'une <type>resource</type>, utilisez
+   et ne sera pas réutilisée. Pour obtenir le type d'une <type>resource</type>, utiliser
    la fonction <function>get_resource_type</function>.
   </para>
 
@@ -1231,7 +1231,7 @@ string(1) "b"
   <para>
    Comme indiqué ci-dessus, convertir directement un <type>tableau</type>,
    un <type>objet</type> ou une <type>resource</type> en <type>chaîne</type> ne fournit
-   pas d'informations utiles sur la valeur au-delà de son type. Consultez les fonctions
+   pas d'informations utiles sur la valeur au-delà de son type. Consulter les fonctions
    <function>print_r</function> et <function>var_dump</function> pour
    des moyens plus efficaces d'inspecter le contenu de ces types.
   </para>

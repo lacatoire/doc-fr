@@ -31,7 +31,7 @@
   <note>
    <para>
     Pour lier un socket, une connexion <literal>listen</literal> et une connexion
-    <literal>accept</literal> sur le socket en un seul appel, utilisez la méthode
+    <literal>accept</literal> sur le socket en un seul appel, utiliser la méthode
     <methodname>EventHttp::bind</methodname>.
     <methodname>EventHttp::accept</methodname> n'est nécessaire que si un socket
     est prêt à accepter les connexions.

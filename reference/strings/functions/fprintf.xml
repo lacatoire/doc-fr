@@ -100,7 +100,7 @@ $len = fprintf($fp, '%01.2f', $money);
 // écrira "123.10" dans le fichier currency.txt
 
 echo "écriture de $len octets dans le fichier currency.txt";
-// utilisez la valeur retournée par fprintf pour déterminer le nombre d'octets écrits
+// utiliser la valeur retournée par fprintf pour déterminer le nombre d'octets écrits
 ?>
 ]]>
     </programlisting>

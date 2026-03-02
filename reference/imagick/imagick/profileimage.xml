@@ -21,7 +21,7 @@
    il est retiré de l'image plutôt qu'ajouté.
   </simpara>
   <simpara>
-   Pour retirer tous les profils de l'image, utilisez <literal>'*'</literal>
+   Pour retirer tous les profils de l'image, utiliser <literal>'*'</literal>
    comme <parameter>name</parameter> et &null; pour le
    <parameter>profile</parameter>.
   </simpara>

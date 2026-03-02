@@ -24,7 +24,7 @@
    lorsque la requête sera exécutée.
    L'utilisation à la fois des paramètres nommés ainsi que les marqueurs est
    impossible dans un modèle de déclaration ; seul l'un ou l'autre style de paramètre.
-   Utilisez ces paramètres pour lier les entrées utilisateurs, ne les incluez pas
+   Utiliser ces paramètres pour lier les entrées utilisateurs, ne les incluez pas
    directement dans la requête.
   </para>
   <para>

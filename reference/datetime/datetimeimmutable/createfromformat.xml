@@ -50,7 +50,7 @@
       <literal>1970-01-01 00:00:00 UTC</literal>). Il est possible de faire cela 
       en incluant le caractère <literal>!</literal> comme premier caractère dans 
       <parameter>format</parameter>, ou <literal>|</literal> comme dernier. 
-      Veuillez consulter la documentation de chaque caractère ci-dessous pour 
+      Consulter la documentation de chaque caractère ci-dessous pour
       plus d'informations.
      </para>
      <para>

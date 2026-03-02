@@ -78,7 +78,7 @@
      <term><parameter>mode</parameter></term>
      <listitem>
       <para>
-       Utilisez <enumname>RoundingMode</enumname> ou l'une des constantes suivantes pour spécifier la méthode d'arrondi.
+       Utiliser <enumname>RoundingMode</enumname> ou l'une des constantes suivantes pour spécifier la méthode d'arrondi.
        <informaltable>
         <tgroup cols="2">
          <thead>

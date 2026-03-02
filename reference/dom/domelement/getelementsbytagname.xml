@@ -28,7 +28,7 @@
      <term><parameter>qualifiedName</parameter></term>
      <listitem>
       <para>
-       Le nom de la balise. Utilisez le caractère générique
+       Le nom de la balise. Utiliser le caractère générique
        <literal>*</literal> pour récupérer tous les éléments contenus
        dans l'arbre de l'élément.
       </para>

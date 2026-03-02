@@ -33,7 +33,7 @@
    en cache une version compilée de la requête.
   </para>
   <para>
-   Tous les pilotes PDO n'implémentent pas cette méthode (comme PDO_ODBC). Utilisez
+   Tous les pilotes PDO n'implémentent pas cette méthode (comme PDO_ODBC). Utiliser
    les requêtes préparées à la place.
   </para>
   <caution>

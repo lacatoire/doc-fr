@@ -44,7 +44,7 @@
   &reftitle.returnvalues;
   <simpara>
    Retourne une ressource de pointeurs de résultats en cas de succès, ou &false; si une
-   erreur survient. Utilisez la fonction <function>mysql_tablename</function>
+   erreur survient. Utiliser la fonction <function>mysql_tablename</function>
    pour parcourir ce résultat ou tout autre fonction pour les résultats de table, comme
    la fonction <function>mysql_fetch_array</function>.
   </simpara>

@@ -73,7 +73,7 @@
    données retournées.
   </simpara>
   <simpara>
-   Utilisez <function>mysql_num_rows</function> pour trouver le nombre
+   Utiliser <function>mysql_num_rows</function> pour trouver le nombre
    de lignes retournées pour une requête du type <literal>SELECT</literal> ou
    <function>mysql_affected_rows</function> pour trouver le nombre
    de lignes affectées par les requêtes du type <literal>DELETE</literal>,

@@ -71,7 +71,7 @@
   <para>
    Retourne le &array; des identificateurs des fuseaux horaires.
    Seuls les éléments non obsolètes sont retournés. Pour tout obtenir, 
-   y compris les identifiants de fuseau horaire obsolètes, utilisez 
+   y compris les identifiants de fuseau horaire obsolètes, utiliser
    <literal>DateTimeZone::ALL_WITH_BC</literal> comme valeur pour 
    <parameter>timezoneGroup</parameter>.
   </para>

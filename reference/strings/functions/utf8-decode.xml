@@ -43,7 +43,7 @@
     (<literal>“</literal> <literal>”</literal>), à la place de certains
     caractères de contrôle de l'<literal>ISO-8859-1</literal>. Cette fonction
     ne convertira pas ces caractères <literal>Windows-1252</literal>
-    correctement. Utilisez une fonction différente si une conversion
+    correctement. Utiliser une fonction différente si une conversion
     <literal>Windows-1252</literal> est nécessaire.
    </para>
   </note>

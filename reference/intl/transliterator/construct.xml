@@ -18,7 +18,7 @@
    l'instantiation avec l'opérateur <link linkend="language.oop5.basic.new">new</link> operator.
   </para>
   <para>
-   Utilisez les méthodes factorisées
+   Utiliser les méthodes factorisées
    <methodname>Transliterator::create</methodname> et
    <methodname>Transliterator::createFromRules</methodname> à la place.
   </para>

@@ -26,7 +26,7 @@
   <note>
    <para>
     Elles sont également utilisées lors de la compilation. Pour modifier la configuration
-    de l'exécution de PHP, lisez le chapitre sur la <link
+    de l'exécution de PHP, se reporter au chapitre sur la <link
     linkend="configuration">configuration de l'exécution</link>.
    </para>
   </note>

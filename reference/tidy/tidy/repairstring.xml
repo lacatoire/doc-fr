@@ -52,7 +52,7 @@
        et sinon, elle est interprétée comme les options elles-mêmes.
       </para>
       <para>
-       Lisez <link xlink:href="&url.tidy.conf;">&url.tidy.conf;</link> 
+       Consulter <link xlink:href="&url.tidy.conf;">&url.tidy.conf;</link>
        pour une explication sur chaque option.
       </para>
      </listitem>

@@ -30,7 +30,7 @@
   </methodsynopsis>
   <para>
    Fonction de formatage rapide, qui formate une chaîne sans avoir à 
-   créer explicitement un objet de formatage. Utilisez cette fonction
+   créer explicitement un objet de formatage. Utiliser cette fonction
    lorsque l'opération de formatage n'est effectuée qu'une seule fois
    et qu'il n'est pas nécessaire de conserver des paramètres ou des états,
    ou lorsqu'on souhaite personnaliser la sortie en fournissant

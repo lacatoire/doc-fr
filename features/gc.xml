@@ -375,7 +375,7 @@ a: (refcount=2, is_ref=1)=array (
     Pour éviter d'avoir à appeler la routine de nettoyage à chaque décrémentation de refcount possible,
     l'algorithme place toutes les zval racines dans un "tampon de racines" (en les marquant en "violet").
     Il s'assure aussi que chaque racine n'apparaisse qu'une seule fois dans le tampon. Le
-    mécanisme de nettoyage n'intervient alors que lorsque le tampon est plein. Voyez l'étape A
+    mécanisme de nettoyage n'intervient alors que lorsque le tampon est plein. Voir l'étape A
     sur la figure ci-dessus.
    </para>
    <para>
@@ -425,7 +425,7 @@ a: (refcount=2, is_ref=1)=array (
     <function>gc_disable</function> respectivement. Utiliser ces fonctions aura le même effet que de
     modifier le paramètre de configuration. Il est aussi possible de forcer l'exécution du
     ramasse-miettes à un moment donné dans le script, même si le tampon n'est pas encore
-    complètement plein. Utilisez pour cela la fonction <function>gc_collect_cycles</function>,
+    complètement plein. Utiliser pour cela la fonction <function>gc_collect_cycles</function>,
     qui retournera le nombre de cycles alors collectés.
    </para>
    <para>

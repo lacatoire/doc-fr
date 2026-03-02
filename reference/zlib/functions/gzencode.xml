@@ -22,7 +22,7 @@
    <command>gzip</command>.
   </para>
   <para>
-   Pour plus de détails sur l'algorithme, lisez le document
+   Pour plus de détails sur l'algorithme, consulter le document
    "<link xlink:href="&url.rfc;1952">GZIP file format specification
    version 4.3</link>" (RFC 1952).
   </para>

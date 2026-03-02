@@ -27,7 +27,7 @@
     <link xlink:href="&url.php.downloads;">page de téléchargement</link>.
    </simpara>
    <para>
-    Créez un fichier appelé <filename>hello.php</filename>
+    Créer un fichier appelé <filename>hello.php</filename>
     avec le contenu suivant :
    </para>
    <para>
@@ -113,7 +113,7 @@ php -S localhost:8000
     Puis, nous avons introduit les commandes PHP et refermé les balises
     PHP avec <literal>?&gt;</literal>. Il est possible de passer du mode PHP
     au mode HTML et vice-versa, de cette manière, à volonté. Pour plus
-    d'informations, lisez la section du manuel sur la
+    d'informations, consulter la section du manuel sur la
     <link linkend="language.basic-syntax">syntaxe basique de PHP</link>.
    </para>
 
@@ -168,7 +168,7 @@ php -S localhost:8000
     <link
     linkend="language.variables.predefined">variables pré-définies disponibles</link>,
     les modules PHP chargés ainsi que la <link linkend="configuration">configuration</link>.
-    Prenez du temps pour revoir ces informations importantes.
+    Prendre le temps de revoir ces informations importantes.
    </para>
    <para>
     <example>
@@ -359,7 +359,7 @@ if (str_contains($_SERVER['HTTP_USER_AGENT'], 'Firefox')) {
     L'un des points forts de PHP est sa capacité à gérer les formulaires.
     Le concept de base qui est important à comprendre est que tous les
     champs d'un formulaire seront automatiquement disponibles dans le
-    script PHP d'action. Lisez le chapitre du manuel concernant les
+    script PHP d'action. Consulter le chapitre du manuel concernant les
     <link linkend="language.variables.external">variables depuis des sources externes à PHP</link>
     pour plus d'informations et d'exemples sur la façon d'utiliser les
     formulaires. Voici un exemple de formulaire HTML :

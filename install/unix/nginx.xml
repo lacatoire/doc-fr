@@ -269,7 +269,7 @@ echo "<?php phpinfo(); ?>" >> /usr/local/nginx/html/index.php
   En suivant ces différentes étapes, le résultat devrait être un serveur
   web Nginx avec le support de PHP comme module <literal>FPM</literal> <literal>SAPI</literal>.
   Bien entendu, il y a beaucoup plus d'options de configuration
-  disponibles pour Nginx et PHP. Pour plus d'informations, tapez
+  disponibles pour Nginx et PHP. Pour plus d'informations, taper
   <command>./configure --help</command> dans la source correspondante.
  </para>
 

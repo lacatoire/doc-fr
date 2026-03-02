@@ -8,9 +8,9 @@
  <para>
   Si la base de données Oracle est sur la même machine que PHP, le logiciel de base
   de données contient déjà les bibliothèques nécessaires. Quand PHP est sur
-  une machine différente, utilisez les bibliothèques gratuites
+  une machine différente, utiliser les bibliothèques gratuites
   <link xlink:href="&url.oracle.instant.client;">Oracle Instant Client</link>.
-  Pour plus de détails consultez la section sur
+  Pour plus de détails consulter la section sur
   <link linkend="oci8.requirements">Prérequis OCI8</link>.
  </para>
  <section xml:id="pdo-oci.installation.php84">
@@ -27,13 +27,13 @@
 <section xml:id="pdo-oci.installation.phplt84">
   <title>PHP &lt; 8.4</title>
   <para>
-   Utilisez <option role="configure">--with-pdo-oci[=DIR]</option> pour installer
+   Utiliser <option role="configure">--with-pdo-oci[=DIR]</option> pour installer
    l'extension PDO Oracle OCI, où l'optionnel <literal>[=DIR]</literal>
    est le répertoire Oracle Home. <literal>[=DIR]</literal> correspond par défaut
    à la variable d'environnement <varname>$ORACLE_HOME</varname>.
   </para>
   <para>
-   Utilisez <option role="configure">--with-pdo-oci=instantclient,prefix,version</option>
+   Utiliser <option role="configure">--with-pdo-oci=instantclient,prefix,version</option>
    pour un <acronym>SDK</acronym> Oracle Instant Client, où prefix et
    version sont configurés.
   </para>

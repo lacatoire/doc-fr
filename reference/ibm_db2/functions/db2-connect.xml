@@ -197,7 +197,7 @@
           lors de la création de la connexion.
          </simpara>
          <simpara>
-          Pour catalogue la base de données, utilisez les commandes suivantes :
+          Pour catalogue la base de données, utiliser les commandes suivantes :
          </simpara>
          <literallayout>db2 catalog tcpip node loopback remote &lt;SERVERNAME&gt; server &lt;SERVICENAME&gt;
 db2 catalog database &lt;LOCALDBNAME&gt; as &lt;REMOTEDBNAME&gt; at node loopback
@@ -474,7 +474,7 @@ db2set DB2COMM=TCPIP</literallayout>
         <listitem>
          <simpara>
           Une chaîne indiquant la liste a utilisé pour résoudre les références
-          de fichiers non qualifiés. Spécifiez la liste en séparant les
+          de fichiers non qualifiés. Spécifier la liste en séparant les
           valeurs par un espace, comme ceci : 'i5_libl'=&gt;"MYLIB YOURLIB ANYLIB".
          </simpara>
          <note>

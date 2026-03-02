@@ -446,9 +446,9 @@
      et que la localisation ne peut pas être modifiée.
     </simpara>
     <simpara>
-     Pour en savoir plus sur les CCSID sur IBM i, consultez la
+     Pour en savoir plus sur les CCSID sur IBM i, consulter la
      <link xlink:href="&url.ibm.ccsid;">documentation IBM</link>.
-     Pour savoir comment les localisations sur IBM i PASE sont mappées sur les CCSID, consultez la
+     Pour savoir comment les localisations sur IBM i PASE sont mappées sur les CCSID, consulter la
      <link xlink:href="&url.ibm.pase.i;">documentation IBM</link>.
     </simpara>
    </listitem>
@@ -482,7 +482,7 @@
      </itemizedlist>
     </para>
     <simpara>
-     Pour en savoir plus sur les modes de nommage sur IBM i, consultez la
+     Pour en savoir plus sur les modes de nommage sur IBM i, consulter la
      <link xlink:href="&url.db2.object.naming;">documentation IBM</link>.
     </simpara>
    </listitem>

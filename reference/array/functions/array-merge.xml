@@ -139,7 +139,7 @@ Array
     <para>
      Si l'on veut ajouter des éléments du second tableau au premier
      sans pour autant écraser ou réindexer les éléments du premier,
-     utilisez l'opérateur d'union <literal>+</literal> :
+     utiliser l'opérateur d'union <literal>+</literal> :
     </para>
     <programlisting role="php">
 <![CDATA[

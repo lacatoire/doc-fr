@@ -86,7 +86,7 @@ function my_session_regenerate_id() {
     if (session_status() != PHP_SESSION_ACTIVE) {
         session_start();
     }
-    // AVERTISSEMENT: N'utilisez jamais des chaînes confidentielles comme préfixe !
+    // AVERTISSEMENT: N'utiliser jamais des chaînes confidentielles comme préfixe !
     $newid = session_create_id('myprefix-');
     // Définit l'horodatage de suppression.
     // Les données de session ne doivent pas être supprimées immédiatement pour certaines raisons.

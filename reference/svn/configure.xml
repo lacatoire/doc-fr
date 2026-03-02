@@ -11,7 +11,7 @@
  <simpara>
    Si <filename>./configure</filename> n'arrive pas à trouver les fichiers
    SVN (par exemple, Subversion a été installé avec un préfixe de dossier
-   personnalisé), utilisez la commande
+   personnalisé), utiliser la commande
    <userinput>./configure --with-svn=$USR_PATH</userinput>
    pour spécifier le dossier où
    <filename>include/subversion-1/</filename> se trouve.

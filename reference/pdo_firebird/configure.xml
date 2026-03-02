@@ -6,7 +6,7 @@
 <section xml:id="ref.pdo-firebird.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.install;
  <para>
-  Utilisez l'option de compilation
+  Utiliser l'option de compilation
   <option role="configure">--with-pdo-firebird[=DIR]</option>
   pour installer l'extension PDO Firebird, où <literal>[=DIR]</literal>
   (optionnel) représente le chemin vers le dossier d'installation

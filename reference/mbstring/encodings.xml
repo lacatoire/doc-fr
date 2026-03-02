@@ -213,7 +213,7 @@
      de <literal>IBM932 / CP932</literal>, qui est utilisé par
      <literal>OS/2®</literal> et Microsoft® Windows®.
      Pour échanger des informations avec ces plates-formes, 
-     utilisez <literal>EUCJP-WIN</literal>.
+     utiliser <literal>EUCJP-WIN</literal>.
     </seg>
    </seglistitem>
    <seglistitem>
@@ -229,7 +229,7 @@
      <literal>"SJIS"</literal> et <literal>"Shift_JIS"</literal> sont
      souvent utilisés à tort, pour ces jeux.
     </seg>
-    <seg>Pour <literal>CP932</literal>, utilisez <literal>SJIS-WIN</literal>.</seg>
+    <seg>Pour <literal>CP932</literal>, utiliser <literal>SJIS-WIN</literal>.</seg>
    </seglistitem>
    <seglistitem>
     <seg>(none)</seg>

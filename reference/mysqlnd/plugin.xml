@@ -487,7 +487,7 @@ void minit_register_hooks(TSRMLS_D) {
   </simpara>
   <note>
    <simpara>
-    N'utilisez aucune logique de taille fixe lors de la manipulation
+    N'utiliser aucune logique de taille fixe lors de la manipulation
     de la table de fonction <literal>mysqlnd</literal> : les nouvelles
     méthodes peuvent être ajoutées à la fin de la table de fonction.
     La table de fonction peut être modifiée à tout moment par la suite.

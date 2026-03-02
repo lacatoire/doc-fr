@@ -337,7 +337,7 @@ class MyAttribute
 
    <para>
     Par défaut, un attribut ne peut être utilisé qu'une seule fois par déclaration.
-    Pour autoriser un attribut à être répété, spécifiez-le dans le masque de bits
+    Pour autoriser un attribut à être répété, il faut le spécifier dans le masque de bits
     de la déclaration <literal>#[Attribute]</literal> en utilisant le drapeau
     <constant>Attribute::IS_REPEATABLE</constant>.
    </para>

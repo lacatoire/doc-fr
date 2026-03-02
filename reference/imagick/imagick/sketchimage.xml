@@ -22,7 +22,7 @@
    un opérateur Gaussien avec le paramètre <parameter>radius</parameter>
    et la déviation standard <parameter>sigma</parameter>. Pour de bons
    résultats, le paramètre <parameter>radius</parameter> doit être plus
-   élevé que le paramètre <parameter>sigma</parameter>. Utilisez un
+   élevé que le paramètre <parameter>sigma</parameter>. Utiliser un
    <parameter>sigma</parameter> de 0 et Imagick::sketchImage() sélectionnera
    automatiquement un bon radius au place. Le paramètre
    <parameter>angle</parameter> fournit l'angle du flou du mouvement.

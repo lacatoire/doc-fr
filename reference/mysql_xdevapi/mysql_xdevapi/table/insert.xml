@@ -46,7 +46,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Un objet TableInsert; utilisez la méthode execute() pour exécuter l'instruction d'insertion.
+   Un objet TableInsert; utiliser la méthode execute() pour exécuter l'instruction d'insertion.
   </para>
  </refsect1>
 

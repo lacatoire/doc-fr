@@ -65,7 +65,7 @@
       <para>
        Si le paramètre <parameter>ca_info</parameter> est spécifié, il doit
        contenir les informations sur les tiers de certificats de confiance
-       utilisé lors de la vérification. Voyez
+       utilisé lors de la vérification. Voir
        <link linkend="openssl.cert.verification">vérification des certificats</link>
        pour plus de détails.
       </para>

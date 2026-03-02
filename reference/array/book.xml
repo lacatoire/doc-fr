@@ -25,7 +25,7 @@
    Se reporter à la section sur les
    <link linkend="language.types.array">tableaux</link> de ce manuel pour
    une explication détaillée sur la façon dont les tableaux sont implémentés
-   et utilisés en PHP. Lisez également les
+   et utilisés en PHP. Consulter également les
    <link linkend="language.operators.array">opérateurs sur les tableaux</link>
    afin de voir d'autres façons de manipuler les tableaux.
   </para>

@@ -60,7 +60,7 @@
    Les noms de colonnes qui ne sont pas sensibles à la casse (par défaut sous Oracle),
    auront des noms d'attributs en majuscule. Les noms de colonnes qui sont sensibles à la
    casse, auront des noms d'attributs utilisant exactement la même casse de la colonne.
-   Utilisez la fonction <function>var_dump</function> sur l'objet de résultat pour vérifier
+   Utiliser la fonction <function>var_dump</function> sur l'objet de résultat pour vérifier
    la casse appropriée pour l'accès aux attributs.
   </para>
   <para>
@@ -94,7 +94,7 @@ $stid = oci_parse($conn, 'SELECT id, description FROM mytab');
 oci_execute($stid);
 
 while (($row = oci_fetch_object($stid)) != false) {
-    // Utilisez des noms d'attributs sensibles à la casse pour chaque colonne standard Oracle
+    // Utiliser des noms d'attributs sensibles à la casse pour chaque colonne standard Oracle
     echo $row->ID . "<br>\n";
     echo $row->DESCRIPTION . "<br>\n"; 
 }
@@ -135,9 +135,9 @@ $stid = oci_parse($conn, 'SELECT id, "MyDescription" FROM mytab');
 oci_execute($stid);
 
 while (($row = oci_fetch_object($stid)) != false) {
-    // Utilisez des noms d'attributs en majuscule pour chaque colonne Oracle standard
+    // Utiliser des noms d'attributs en majuscule pour chaque colonne Oracle standard
     echo $row->ID . "<br>\n";
-    // Utilisez la casse exacte pour les noms de colonnes sensibles à la casse
+    // Utiliser la casse exacte pour les noms de colonnes sensibles à la casse
     echo $row->MyDescription . "<br>\n";   
 }
 

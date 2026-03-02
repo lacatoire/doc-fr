@@ -75,7 +75,7 @@ if (!$conn) {
   exit;
 }
 
-// PID du serveur. Utilisez alors le PID avec pg_get_notify()
+// PID du serveur. Utiliser alors le PID avec pg_get_notify()
 $pid = pg_get_pid($conn);
 ?>
 ]]>

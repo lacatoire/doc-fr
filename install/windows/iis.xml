@@ -26,7 +26,7 @@
   <title>Configurer PHP avec IIS</title>
 
   <simpara>
-   Dans le gestionnaire IIS, installez le module FastCGI et ajoutez un mappage de gestionnaire pour
+   Dans le gestionnaire IIS, installer le module FastCGI et ajouter un mappage de gestionnaire pour
    <literal>.php</literal> au chemin de <filename>php-cgi.exe</filename>
    (pas <filename>php.exe</filename>)
   </simpara>

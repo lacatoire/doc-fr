@@ -30,7 +30,7 @@
   <para>
    Le nom du fichier, les informations du fichier, ou bien
    <literal>$this</literal>, en fonction des options utilisées.
-   Voyez la <link linkend="filesystemiterator.constants">liste des constantes <classname>FilesystemIterator</classname></link>.
+   Voir la <link linkend="filesystemiterator.constants">liste des constantes <classname>FilesystemIterator</classname></link>.
   </para>
  </refsect1>
 

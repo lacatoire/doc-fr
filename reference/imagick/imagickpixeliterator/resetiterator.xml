@@ -17,7 +17,7 @@
   </methodsynopsis>
   &warn.undocumented.func;
   <para>
-   Réinitialise l'itérateur de pixel. Utilisez cette méthode avec
+   Réinitialise l'itérateur de pixel. Utiliser cette méthode avec
    ImagickPixelIterator::getNextIteratorRow() pour itérer sur tous les
    pixels d'un conteneur de pixels.
   </para>

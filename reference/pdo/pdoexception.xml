@@ -81,7 +81,7 @@
      <term><varname>code</varname></term>
      <listitem>
       <para>
-       Code erreur <literal>SQLSTATE</literal>. Utilisez la méthode
+       Code erreur <literal>SQLSTATE</literal>. Utiliser la méthode
        <methodname>Exception::getCode</methodname> pour y accéder.
       </para>
      </listitem>

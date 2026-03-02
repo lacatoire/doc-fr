@@ -19,7 +19,7 @@
    Cet objet est en lecture seule. Il peut être ajouté à un document, mais les
    nœuds additionnels ne peuvent pas être ajoutés à ce nœud tant que ce nœud
    n'est pas associé à un document. Pour créer un nœud accessible en écriture,
-   utilisez
+   utiliser
    <xref linkend="domdocument.createcomment"/>.
   </para>
  </refsect1>

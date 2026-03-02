@@ -95,7 +95,7 @@ echo "Bonjour, je suis un script PHP !";
       un analyseur PHP (CGI ou module serveur), un serveur
       web et un navigateur web. Tout ceci
       peut fonctionner sur une machine locale juste pour expérimenter
-      la programmation PHP. Voyez la
+      la programmation PHP. Voir la
       section <link linkend="install">d'installation</link>
       pour plus d'informations.
      </simpara>
@@ -110,7 +110,7 @@ echo "Bonjour, je suis un script PHP !";
       avec un <command>cron</command> (sous Unix ou macOS) ou
       le Planificateur de tâches (sous Windows). Ces scripts
       peuvent aussi être utilisés pour réaliser des opérations sur des
-      fichiers texte. Voyez la section sur l'utilisation de PHP en
+      fichiers texte. Voir la section sur l'utilisation de PHP en
       <link linkend="features.commandline">ligne de commande</link>
       pour plus d'informations.
      </simpara>
@@ -182,9 +182,9 @@ echo "Bonjour, je suis un script PHP !";
   </para>
   <para>
    Cette page ne suffit pas pour lister toutes les fonctionnalités
-   et avantages que PHP peut offrir. Lisez la section
+   et avantages que PHP peut offrir. Consulter la section
    sur <link linkend="install">l'installation de PHP</link>
-   et consultez la <link linkend="funcref">référence des fonctions</link>
+   et la <link linkend="funcref">référence des fonctions</link>
    pour des explications sur les extensions mentionnées ici.
   </para>
  </section>

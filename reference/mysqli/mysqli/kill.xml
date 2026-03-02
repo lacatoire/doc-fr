@@ -34,7 +34,7 @@
    appelant la fonction <function>mysqli_thread_id</function>.
   </para>
   <para>
-   Pour arrêter une requête en cours d'exécution, utilisez la commande SQL
+   Pour arrêter une requête en cours d'exécution, utiliser la commande SQL
    <literal>KILL QUERY process_id</literal>.
   </para>
  </refsect1>
@@ -75,7 +75,7 @@
       <entry>8.4.0</entry>
       <entry>
        Les méthodes <methodname>mysqli::kill</methodname> et
-       <function>mysqli_kill</function> sont désormais obsolètes. Utilisez
+       <function>mysqli_kill</function> sont désormais obsolètes. Utiliser
        plutôt la commande SQL <literal>KILL</literal>.
       </entry>
      </row>

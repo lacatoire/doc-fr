@@ -79,7 +79,7 @@
       <entry>
        Les méthodes <methodname>mysqli::refresh</methodname> et
        <function>mysqli_refresh</function> sont désormais obsolètes.
-       Utilisez les commandes SQL <literal>FLUSH</literal> à la place.
+       Utiliser les commandes SQL <literal>FLUSH</literal> à la place.
       </entry>
      </row>
     </tbody>

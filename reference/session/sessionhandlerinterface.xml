@@ -67,7 +67,7 @@
       les paramètres <literal>$id</literal> sont en fait des valeurs fournies 
       par l'utilisateur qui nécessitent une validation/assainissement appropriée 
       pour éviter les vulnérabilités, telles que les problèmes de parcours de 
-      chemin. <emphasis>N'utilisez donc pas cet exemple sans modification dans 
+      chemin. <emphasis>N'utiliser donc pas cet exemple sans modification dans
       les environnements de production.</emphasis>
       
      </para>

@@ -79,7 +79,7 @@
   <warning>
    <simpara>
     Avant la version 2.0.0, cette fonction ne gérait pas correctement les
-    chemins relatifs. Utilisez la fonction
+    chemins relatifs. Utiliser la fonction
     <function>realpath</function> pour corriger ce bogue.</simpara>
   </warning>
  </refsect1>

@@ -42,7 +42,7 @@
    </term>
    <listitem>
     <para>
-     Définit un alias DSN. Voyez <methodname>PDO::__construct</methodname> pour
+     Définit un alias DSN. Voir <methodname>PDO::__construct</methodname> pour
      une explication complète.
     </para>
    </listitem>

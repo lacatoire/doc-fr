@@ -268,7 +268,7 @@
        hautement rentables, mais cela empêche PHP de détecter les problèmes de connexion,
        comme les problèmes de réseau, ou si le serveur Oracle a été éteint depuis la
        connexion de PHP, tant que la connexion n'est pas utilisée plus tard dans le script.
-       Consultez la documentation de la fonction
+       Consulter la documentation de la fonction
        <function>oci_pconnect</function> pour plus d'informations.
       </simpara>
      </note>
@@ -344,7 +344,7 @@
       ré-utilisées.
      </para>
      <para>
-      Définissez cette valeur à la taille du jeu de requêtes courantes
+      Définir cette valeur à la taille du jeu de requêtes courantes
       utilisées par l'application. Le fait de définir une valeur trop petite
       peut faire que les requêtes seront supprimées du cache avant qu'elles ne
       soient utilisées.

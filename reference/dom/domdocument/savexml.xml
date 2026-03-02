@@ -30,7 +30,7 @@
      <term><parameter>node</parameter></term>
      <listitem>
       <para>
-       Utilisez ce paramètre pour afficher uniquement un nœud spécifique sans déclaration XML
+       Utiliser ce paramètre pour afficher uniquement un nœud spécifique sans déclaration XML
        plutôt que la totalité du document.
       </para>
      </listitem>

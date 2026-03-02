@@ -107,7 +107,7 @@ array(2) {
   <para>
    Dans cet exemple, il est possible de voir que seules les clés <literal>'bleu'</literal>
    et <literal>'vert'</literal> sont présentes dans les deux tableaux et donc, 
-   elles sont retournées. Notez également que les valeurs pour les clés
+   elles sont retournées. Il est également à noter que les valeurs pour les clés
    <literal>'bleu'</literal> et <literal>'vert'</literal> diffèrent
    entre les deux tableaux. Néanmoins, elles correspondent toujours car
    uniquement les clés sont vérifiées.

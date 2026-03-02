@@ -377,8 +377,8 @@
      Cependant, le verrouillage de session peut être utilisé par les attaquants
      pour réaliser des attaques DoS. Pour minimiser le risque d'une attaque DoS
      par verrouillage de session, il convient de minimiser les verrous.
-     Utilisez des données en lecture seule lorsque les données de session
-     n'ont pas besoin d'être mises à jour. Utilisez l'option 'read_and_close'
+     Utiliser des données en lecture seule lorsque les données de session
+     n'ont pas besoin d'être mises à jour. Utiliser l'option 'read_and_close'
      avec la fonction <function>session_start</function>.
      <code>session_start(['read_and_close'=>1]);</code> va clôre
      la session aussi vite que possible après la mise à jour de la variable
@@ -425,7 +425,7 @@
     
     <warning>
      <simpara>
-      N'utilisez jamais de données confidentielles comme préfixe.
+      N'utiliser jamais de données confidentielles comme préfixe.
       Si l'identifiant utilisateur est confidentiel, il est recommandé d'utiliser
       la fonction <function>hash_hmac</function>.
      </simpara>
@@ -463,9 +463,9 @@
     </para>
     
     <para>
-     Utilisez une clé de hachage sécurisé à usage unique comme clé
+     Utiliser une clé de hachage sécurisé à usage unique comme clé
      d'auto-identification en utilisant la fonction
-     <function>setcookie</function>. Utilisez un hachage sécurisé
+     <function>setcookie</function>. Utiliser un hachage sécurisé
      plus fort que SHA-2. c.-à-d. SHA-256 ou supérieur avec des données
      aléatoires depuis la fonction <function>random_bytes</function>
      ou via <filename>/dev/urandom</filename>.
@@ -475,14 +475,14 @@
      Si l'utilisateur est non authentifié, vérifiez si la clé d'auto-identification
      à usage unique est valide ou non. Dans ce cas où elle est valide, authentifiez
      l'utilisateur et définissez une nouvelle clé de hachage sécurisée à usage unique.
-     Une clé d'auto-identification ne doit être utilisée qu'une seule fois, c.-à-d. n'utilisez
+     Une clé d'auto-identification ne doit être utilisée qu'une seule fois, c.-à-d. n'utiliser
      jamais une clé d'auto-identification, et régénérez-la toujours.
     </para>
     
     <para>
      Une clé d'auto-identification est une clé d'authentification avec une
      longue durée, elle doit être protégée autant que possible.
-     Utilisez les attributs de cookie path/httponly/secure/SameSite pour la sécurité.
+     Utiliser les attributs de cookie path/httponly/secure/SameSite pour la sécurité.
      c.-à-d. ne transmettez jamais la clé d'auto-identification tant que cela
      n'est pas nécessaire.
     </para>
@@ -560,7 +560,7 @@
     <para>
      Si une fonctionnalité d'auto-identification est désirée, les développeurs
      doivent implémenter leur propre système d'auto-identification sécurité.
-     N'utilisez pas des identifiants de session à longue durée pour cela.
+     N'utiliser pas des identifiants de session à longue durée pour cela.
      Pour plus d'informations, se rapporter à la bonne section
      de cette documentation.
     </para>
@@ -576,7 +576,7 @@
     <para>
      Bien que les cookies HTTP souffrent de soucis techniques, ils
      restent la façon préférée de gérer les identifiants de sessions.
-     N'utilisez que les cookies pour la gestion des identifiants de sessions
+     N'utiliser que les cookies pour la gestion des identifiants de sessions
      lorsque cela est possible. La plupart des applications doivent utiliser
      un cookie pour l'identifiant de session.
     </para>
@@ -709,7 +709,7 @@
      les sessions obsolètes soient supprimées à fréquence appropriée.
      Si la fonctionnalité d'auto-identification est nécessaire, les développeurs
      doivent implémenter leur propre fonctionnalité d'auto-identification sécurisée ;
-     voir ci-dessous pour plus d'informations. N'utilisez jamais l'identifiant
+     voir ci-dessous pour plus d'informations. N'utiliser jamais l'identifiant
      de session de longue durée pour réaliser ce genre de fonctionnalité.
     </para>
     <note>
@@ -750,7 +750,7 @@
      (PHP 7.1.0 &gt;=) Les développers ne doivent pas réécrire de drapeaux HTML
      non nécessaires. La valeur par défaut doit être suffisante pour la
      plupart des utilisations. Pour les versions de PHP plus anciennes,
-     utilisez plutôt
+     utiliser plutôt
      <link linkend="ini.url-rewriter.tags">url_rewriter.tags</link>.
     </para>
    </listitem>

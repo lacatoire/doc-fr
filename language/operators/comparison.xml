@@ -342,7 +342,7 @@ function standard_array_compare($op1, $op2)
 
  <note>
   <simpara>
-   Soyez conscient que la manipulation des types n'est pas toujours évidente lors de la comparaison
+   Il est important d'être conscient que la manipulation des types n'est pas toujours évidente lors de la comparaison
    de valeurs de différents types, en particulier comparant des &integer;s à des &boolean;s ou des
    &integer;s à des &string;s. Il est par conséquent généralement recommandé d'utiliser les
    opérateurs de comparaison <literal>===</literal> et <literal>!==</literal> au lieu de
@@ -508,7 +508,7 @@ if (isset($_POST['action'])) {
   </para>
   <note>
    <simpara>
-    Veuillez noter que l'opérateur null de fusion est une expression, et qu'il
+    Il est à noter que l'opérateur null de fusion est une expression, et qu'il
     ne s'évalue pas comme une variable, mais comme le résultat d'une expression.
     Il est important de le savoir pour renvoyer une variable
     par référence.
@@ -536,7 +536,7 @@ print 'Mr. ' . ($name ?? 'Anonymous');
   </note>
   <note>
    <para>
-    Veuillez noter que l'opérateur de fusion null permet une imbrication simple:
+    Il est à noter que l'opérateur de fusion null permet une imbrication simple :
     <example>
      <title>Imbrication de l'opération de fusion null</title>
      <programlisting role="php">

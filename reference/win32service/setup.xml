@@ -51,7 +51,7 @@
   </para>
   <para>
    Il est recommandé de mettre à jour vers Win32Service 1.1.0.
-   Pour des instructions supplémentaires sur la gestion des droits sans l'extension (ou avec une version antérieure à 1.1.0), consultez la
+   Pour des instructions supplémentaires sur la gestion des droits sans l'extension (ou avec une version antérieure à 1.1.0), consulter la
    <link xlink:href="&url.win32service.kb914392;">Base de connaissances Microsoft</link>.
   </para>
  </section>

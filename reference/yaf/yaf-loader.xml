@@ -34,7 +34,7 @@
     pas à se charger).
     <note>
      <para>
-      Veuillez conserver yaf.use_spl_autoload à Off à moins qu'il y a d'autres
+      Il convient de conserver yaf.use_spl_autoload à Off à moins qu'il y ait d'autres
       bibliothèques qui possèdent son propre système de chargement
       et puissent ré-écrire ce comportement.
      </para>

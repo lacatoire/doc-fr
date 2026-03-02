@@ -36,7 +36,7 @@
   <warning>
    <para>
     Il faut être conscient des limitations de PCRE.
-    Lisez <link xlink:href="&url.pcre.man;">&url.pcre.man;</link> pour plus de détails.
+    Consulter <link xlink:href="&url.pcre.man;">&url.pcre.man;</link> pour plus de détails.
    </para>
   </warning>
   <!-- FIXME: Check what Perl version implementation corresponds -->

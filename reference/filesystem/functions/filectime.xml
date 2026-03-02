@@ -80,7 +80,7 @@ if (file_exists($filename)) {
     Sur la plupart des serveurs UNIX, un fichier est considéré
     comme modifié si les données de son inode sont modifiées.
     C'est-à-dire lorsque les permissions (utilisateur, groupe ou autre) ont
-    été modifiées. Voyez aussi <function>filemtime</function>
+    été modifiées. Voir aussi <function>filemtime</function>
     (qu'il sera possible d'utiliser lorsqu'on créera des indications
     telles que "Dernière modification : " sur les pages web) et
     <function>fileatime</function>.

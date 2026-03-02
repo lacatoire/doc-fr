@@ -26,7 +26,7 @@
 { <parameter>systemId</parameter> | <parameter>publicId</parameter>?>
 ]]>
    </programlisting>
-   Consultez la
+   Consulter la
    <link xlink:href="&url.rec-xml;#Notations">section 4.7 des spécifications XML 1.0</link>
    pour la définition des déclarations de notation.
   </para>

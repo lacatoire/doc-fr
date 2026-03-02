@@ -14,7 +14,7 @@
    <methodparam rep="repeat"><type>mixed</type><parameter>values</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Crée un tableau. Lisez la section sur les
+   Crée un tableau. Consulter la section sur les
    <link linkend="language.types.array">types tableaux</link> pour plus d'informations
    sur ce qu'est un tableau, y compris les détails sur la syntaxe alternative de crochets (<literal>[]</literal>).
   </para>
@@ -49,7 +49,7 @@
   <para>
    Retourne un tableau des paramètres. Les paramètres peuvent fournir
    un index en utilisant l'opérateur <literal>=&gt;</literal>.
-   Lisez la section sur les <link linkend="language.types.array">types-tableaux</link>
+   Consulter la section sur les <link linkend="language.types.array">types-tableaux</link>
    pour plus d'informations sur ce qu'est un tableau.
   </para>
  </refsect1>
@@ -104,7 +104,7 @@ Array
    </example>
   </para>
   <para>
-   Notez bien que l'index '3' est défini deux fois, et conserve finalement
+   Il est à noter que l'index '3' est défini deux fois, et conserve finalement
    sa dernière valeur de 13. L'index '4' est défini après
    l'index '8', et l'index généré suivant (valeur 19) est
    9, puisque le plus grand index est alors 8.

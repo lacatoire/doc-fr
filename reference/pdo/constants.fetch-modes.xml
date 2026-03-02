@@ -208,7 +208,7 @@
   <simpara>
    Les modes spéciaux suivants pour plusieurs résultats ne fonctionnent qu'avec
    <methodname>PDOStatement::fetchAll</methodname> et ne fonctionnent pas avec certains autres
-   modes de récupération. Consultez la documentation complète pour plus de détails.
+   modes de récupération. Consulter la documentation complète pour plus de détails.
   </simpara>
 
   <informaltable>
@@ -491,7 +491,7 @@ Array
   <title>PDO::FETCH_COLUMN (<type>int</type>)</title>
   <simpara>
    <constant>PDO::FETCH_COLUMN</constant> renvoie des valeurs d'une seule colonne.
-   Utilisez le deuxième argument pour <methodname>PDOStatement::setFetchMode</methodname>
+   Utiliser le deuxième argument pour <methodname>PDOStatement::setFetchMode</methodname>
    ou <methodname>PDOStatement::fetchAll</methodname> pour spécifier quelle colonne est
    retournée.
   </simpara>
@@ -572,7 +572,7 @@ Array
  <section xml:id="pdo.constants.fetch-func" annotations="chunk:false">
   <title>PDO::FETCH_FUNC (<type>int</type>)</title>
   <simpara>
-   Spécifiez une fonction pour créer la valeur retournée. Ce mode ne peut être utilisé
+   Spécifier une fonction pour créer la valeur retournée. Ce mode ne peut être utilisé
    qu'avec <methodname>PDOStatement::fetchAll</methodname>.
   </simpara>
   <simpara>
@@ -1011,7 +1011,7 @@ $stmt->bindColumn('userid', $userId);
 $stmt->bindColumn('name', $name);
 $stmt->bindColumn('country', $country);
 // Lie par position de colonne pour résoudre le nom de colonne dupliqué
-// Pour éviter que cela ne casse si la requête est modifiée, utilisez un alias SQL à la place
+// Pour éviter que cela ne casse si la requête est modifiée, utiliser un alias SQL à la place
 // Par exemple : referrer.name AS referrer_name
 $stmt->bindColumn(4, $referrerName);
 

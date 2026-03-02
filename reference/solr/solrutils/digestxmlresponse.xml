@@ -39,7 +39,7 @@
      <term><parameter>parse_mode</parameter></term>
      <listitem>
       <para>
-       Utilisez SolrResponse::PARSE_SOLR_OBJ ou SolrResponse::PARSE_SOLR_DOC
+       Utiliser SolrResponse::PARSE_SOLR_OBJ ou SolrResponse::PARSE_SOLR_DOC
       </para>
      </listitem>
     </varlistentry>

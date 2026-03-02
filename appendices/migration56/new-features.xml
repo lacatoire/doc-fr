@@ -223,7 +223,7 @@ Name\Space\f
 
   <para>
    PHP inclut désormais un débogueur interactif appelé phpdbg, implémenté
-   comme module SAPI. Pour plus d'informations, visitez la
+   comme module SAPI. Pour plus d'informations, consulter la
    <link linkend="book.phpdbg">documentation phpdbg</link>.
   </para>
  </sect2>

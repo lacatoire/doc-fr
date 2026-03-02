@@ -69,7 +69,7 @@
      <listitem>
       <para>
        Si <parameter>oneWay</parameter> prend la valeur de &true;,
-       cette méthode ne retourne rien. Utilisez cette valeur
+       cette méthode ne retourne rien. Utiliser cette valeur
        quand une réponse n'est pas attendue.
       </para>
      </listitem>

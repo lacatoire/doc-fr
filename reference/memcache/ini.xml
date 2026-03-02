@@ -270,7 +270,7 @@
   </term>
   <listitem>
    <simpara>
-    Utilisez memcache comme gestionnaire de session en définissant cette valeur à
+    Utiliser memcache comme gestionnaire de session en définissant cette valeur à
     <literal>memcache</literal>.
    </simpara>
   </listitem>

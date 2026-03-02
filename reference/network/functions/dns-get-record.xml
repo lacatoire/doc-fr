@@ -56,7 +56,7 @@
       <para>
        Par défaut, <function>dns_get_record</function> va rechercher toutes les
        ressources associées à <parameter>hostname</parameter>.
-       Pour limiter la requête, utilisez l'une des constantes
+       Pour limiter la requête, utiliser l'une des constantes
        <constant>DNS_<replaceable>*</replaceable></constant>.
       </para>
      </listitem>

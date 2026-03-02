@@ -52,7 +52,7 @@
            <para>
             Configure la cohérence causale dans une session. Si &true;, chaque opération
             dans la session sera ordonnée de manière causale après l'opération de lecture
-            ou d'écriture précédente. Définissez à &false; pour désactiver la cohérence causale.
+            ou d'écriture précédente. Définir à &false; pour désactiver la cohérence causale.
            </para>
            <para>
             Voir

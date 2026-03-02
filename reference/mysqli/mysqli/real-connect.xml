@@ -178,7 +178,7 @@
       <note>
        <para>
         Pour des raisons de sécurité, l'option <constant>MULTI_STATEMENT</constant> n'est
-        pas supportée en PHP. Pour exécuter plusieurs commandes, utilisez
+        pas supportée en PHP. Pour exécuter plusieurs commandes, utiliser
         la fonction <function>mysqli_multi_query</function>.
        </para>
       </note>

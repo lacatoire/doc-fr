@@ -7,7 +7,7 @@
    <title>Des problèmes ?</title>
 
    <sect1 xml:id="install.problems.faq">
-    <title>Lisez la FAQ</title>
+    <title>Lire la FAQ</title>
     <simpara>
      Certains problèmes sont récurrents : les plus communs
      sont listés dans la FAQ PHP, disponible
@@ -55,7 +55,7 @@
      de nouvelles fonctionnalités.
     </simpara>
     <simpara>
-     Lisez le guide <link xlink:href="&url.php.bugs.howtoreport;">Comment rapporter un bogue</link>
+     Lire le guide <link xlink:href="&url.php.bugs.howtoreport;">Comment rapporter un bogue</link>
      (Les bogues : ce qu'il faut faire, et ce qu'il ne faut pas faire)
      avant d'envoyer n'importe quel rapport !
     </simpara>

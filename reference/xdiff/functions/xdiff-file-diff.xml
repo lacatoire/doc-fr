@@ -72,7 +72,7 @@
      <term><parameter>minimal</parameter></term>
      <listitem>
       <para>
-       Configurez <parameter>minimal</parameter> à &true; pour
+       Configurer <parameter>minimal</parameter> à &true; pour
        minimaliser la taille du fichier des différences (peut prendre beaucoup
        de temps).
       </para>
@@ -117,7 +117,7 @@ xdiff_file_diff($old_version, $new_version, 'my_script.diff', 2);
   <note>
    <para>
     Cette fonction ne fonctionne pas correctement avec les fichiers binaires.
-    Pour effectuer un diff sur des fichiers binaires, utilisez la fonction
+    Pour effectuer un diff sur des fichiers binaires, utiliser la fonction
     <function>xdiff_file_bdiff</function>/<function>xdiff_file_rabdiff</function>.
    </para>
   </note>

@@ -678,7 +678,7 @@ class UpperClass implements MongoDB\BSON\Persistable
           <para>
            La fonctionnalité <property>__pclass</property> repose sur le fait
            que la propriété soit partie d'un document MongoDB récupéré. Si l'on
-           utilisez une
+           utiliser une
            <link linkend="mongodb-driver-query.construct-queryOptions">projection</link>
            lors de la recherche de documents, il faut inclure le champ
            <property>__pclass</property> dans la projection pour que cette

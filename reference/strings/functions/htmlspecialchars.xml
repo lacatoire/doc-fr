@@ -22,7 +22,7 @@
    leurs significations. Cette fonction retourne une chaîne de caractères
    avec ces modifications. En cas de besoin que toutes
    les sous-chaînes en entrée qui sont associées à des entités
-   nommées soient transformées, utilisez la fonction
+   nommées soient transformées, utiliser la fonction
    <function>htmlentities</function>.
   </para>
   <para>

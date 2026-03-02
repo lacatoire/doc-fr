@@ -57,7 +57,7 @@
      <term><parameter>mode</parameter></term>
      <listitem>
       <para>
-       Le mode de cadrage des miniatures. Voyez la liste des <link 
+       Le mode de cadrage des miniatures. Voir la liste des <link
        linkend="imagick.constants.montagemode">constantes de mode de montage</link>.
       </para>
      </listitem>

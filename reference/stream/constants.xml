@@ -700,7 +700,7 @@
        ou la résolution a échoué.
       </simpara>
       <simpara>
-       Consultez <parameter>severity</parameter> pour savoir ce qui s'est produit.
+       Consulter <parameter>severity</parameter> pour savoir ce qui s'est produit.
       </simpara>
       <warning>
        <simpara>
@@ -745,7 +745,7 @@
        Le <literal>type MIME</literal> de la ressource a été identifié.
       </simpara>
       <simpara>
-       Consultez <parameter>message</parameter> pour une description du type découvert.
+       Consulter <parameter>message</parameter> pour une description du type découvert.
       </simpara>
      </listitem>
     </varlistentry>
@@ -770,7 +770,7 @@
        La ressource externe a redirigé le flux vers un autre emplacement.
       </simpara>
       <simpara>
-       Consultez <parameter>message</parameter>.
+       Consulter <parameter>message</parameter>.
       </simpara>
      </listitem>
     </varlistentry>
@@ -809,7 +809,7 @@
        Une erreur générique est survenue sur le flux.
       </simpara>
       <simpara>
-       Consultez <parameter>message</parameter> et
+       Consulter <parameter>message</parameter> et
        <parameter>message_code</parameter> pour plus de détails.
       </simpara>
      </listitem>

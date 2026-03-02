@@ -843,7 +843,7 @@ list ($zero, $un, $deux) = petit_nombre();
     </example>
    </para>
    <para>
-    Pour retourner une référence d'une fonction, utilisez
+    Pour retourner une référence d'une fonction, il faut utiliser
     l'opérateur &amp; aussi bien dans la déclaration de la fonction que dans
     l'assignation de la valeur de retour.
    </para>
@@ -1255,7 +1255,7 @@ string(11) "hello world"
    contexte global, qui est le même, quelle que soit la fonction qui
    s'exécute. Le contexte parent d'une fonction anonyme est la fonction
    dans laquelle la fonction a été déclarée (pas nécessairement celle
-   qui appelle). Voyez l'exemple ci-dessous : 
+   qui appelle). Voir l'exemple ci-dessous :
   </simpara>
   
   <example>

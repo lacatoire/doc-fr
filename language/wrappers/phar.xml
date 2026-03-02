@@ -12,7 +12,7 @@
   &reftitle.description;
   <simpara>
    L'enveloppe de flux <filename>phar://</filename>.
-   Voyez <link linkend="phar.using.stream">enveloppe de flux Phar</link>
+   Voir <link linkend="phar.using.stream">enveloppe de flux Phar</link>
    pour une description détaillée.
   </simpara>
  </refsect1><!-- }}} -->

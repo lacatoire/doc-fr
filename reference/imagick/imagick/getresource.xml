@@ -28,7 +28,7 @@
      <term><parameter>type</parameter></term>
      <listitem>
       <para>
-       Voyez la liste des
+       Voir la liste des
        <link linkend="imagick.constants.resourcetypes">constantes de type de ressources</link>.
       </para>
      </listitem>

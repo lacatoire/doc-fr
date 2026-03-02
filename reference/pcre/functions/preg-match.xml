@@ -400,9 +400,9 @@ Array
   &reftitle.notes;
   <tip>
    <para>
-    N'utilisez pas <function>preg_match</function> pour uniquement
+    N'utiliser pas <function>preg_match</function> pour uniquement
     savoir si une chaîne est contenue dans une autre.
-    Utilisez <function>strpos</function> à la place car ça sera plus rapide.
+    Utiliser <function>strpos</function> à la place car ça sera plus rapide.
    </para>
   </tip>
  </refsect1>

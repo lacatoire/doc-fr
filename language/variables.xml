@@ -217,7 +217,7 @@ $unset_array[] = 'valeur'; // Ne génère pas d'avertissement.
    </simpara>
 
    <simpara>
-    Pour plus d'informations sur les fonctions liées aux variables, consultez la
+    Pour plus d'informations sur les fonctions liées aux variables, consulter la
     <link linkend="ref.var">Référence des fonctions sur les variables</link>.
    </simpara>
  </sect1>
@@ -1045,7 +1045,7 @@ if ($_POST) {
     <function>header</function>. Les données contenues dans les cookies
     sont alors disponibles dans les tableaux de cookies appropriés, comme
     <varname>$_COOKIE</varname> mais aussi <varname>$_REQUEST</varname>.
-    Lisez la page de la documentation sur la fonction
+    Consulter la page de la documentation sur la fonction
     <function>setcookie</function> pour plus de détails ainsi que des exemples.
    </simpara>
 
@@ -1077,7 +1077,7 @@ setcookie("MyCookie[bar]", 'Test 2', time()+3600);
    <simpara>
     Cela va créer deux cookies distincts bien que <varname>MyCookie</varname>
     est maintenant un simple tableau dans le script. Si seulement un cookie
-    doit être défini avec plusieurs valeurs, utilisez la fonction
+    doit être défini avec plusieurs valeurs, utiliser la fonction
     <function>serialize</function> ou <function>explode</function>
     sur la première valeur.
    </simpara>
@@ -1154,7 +1154,7 @@ setcookie("Panier[$compte]", $item, time()+3600);
     <function>is_int</function>,
     <function>is_object</function> et
     <function>is_string</function>.
-    Lisez également le chapitre sur les
+    Consulter également le chapitre sur les
     <link linkend="language.types">types</link>.
    </para>
     <para>

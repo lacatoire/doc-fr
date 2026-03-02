@@ -17,7 +17,7 @@
   <simpara>
    Cette méthode met à jour une entrée avec une nouvelle valeur, et retourne si
    l'entrée a été mise à jour. Si des clés en double sont présentes, seul le premier
-   élément trouvé sera mis à jour. Utilisez <constant>QuickHashIntHash::CHECK_FOR_DUPES</constant> lors de la création du hachage
+   élément trouvé sera mis à jour. Utiliser <constant>QuickHashIntHash::CHECK_FOR_DUPES</constant> lors de la création du hachage
    pour empêcher les clés en double de faire partie du hachage.
   </simpara>
  </refsect1>

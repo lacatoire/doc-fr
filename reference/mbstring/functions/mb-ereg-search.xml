@@ -37,7 +37,7 @@
      <term><parameter>options</parameter></term>
      <listitem>
       <para>
-       L'option de recherche. Pour plus d'explications, consultez <function>mb_regex_set_options</function>.
+       L'option de recherche. Pour plus d'explications, consulter <function>mb_regex_set_options</function>.
       </para>
      </listitem>
     </varlistentry>

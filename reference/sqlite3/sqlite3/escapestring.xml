@@ -20,7 +20,7 @@
   &note.not-bin-safe;
   <para>
    Pour correctement gérer les champs BLOB qui contiennent des caractères NUL,
-   utilisez plutôt la fonction <function>SQLite3Stmt::bindParam</function>.
+   utiliser plutôt la fonction <function>SQLite3Stmt::bindParam</function>.
   </para>
  </refsect1>
 

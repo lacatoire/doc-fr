@@ -43,7 +43,7 @@
      <term><parameter>method</parameter></term>
      <listitem>
       <para>
-       La méthode de déformation de l'image. Voyez les <link 
+       La méthode de déformation de l'image. Voir les <link
        linkend="imagick.constants.distortion">constantes de déformation</link>
       </para>
      </listitem>

@@ -41,7 +41,7 @@
        <entry>
         Une chaîne contenant le nom utilisé pour instancier le filtre.
         Les filtres peuvent être enregistrés sous plusieurs noms
-        ou avec des jokers. Utilisez cette propriété pour déterminer
+        ou avec des jokers. Utiliser cette propriété pour déterminer
         quel est le nom qui a été utilisé.
        </entry>
       </row>

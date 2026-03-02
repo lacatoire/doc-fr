@@ -629,7 +629,7 @@ object(DateTimeImmutable)#1 (3) {
     sont définis à la place.
    </para>
    <para>
-    Pour analyser de manière cohérente seulement une année, utilisez
+    Pour analyser de manière cohérente seulement une année, utiliser
     <function>DateTimeImmutable::createFromFormat</function> avec le
     spécificateur <literal>Y</literal>.
    </para>
@@ -857,7 +857,7 @@ object(DateTimeImmutable)#1 (3) {
     est sensible à la casse ; l'on ne peut utiliser que la majuscule "W".
    </para>
    <para>
-    Le "T" dans les formats SOAP, XMRPC et WDDX est sensible à la casse ; utilisez toujours
+    Le "T" dans les formats SOAP, XMRPC et WDDX est sensible à la casse ; utiliser toujours
     la majuscule "T".
    </para>
    <para>

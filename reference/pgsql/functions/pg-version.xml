@@ -21,7 +21,7 @@
    ne sont disponibles que si PHP a été compilé avec PostgreSQL 7.4 ou supérieur.
   </para>
   <para>
-   Pour plus d'informations sur le serveur, utilisez
+   Pour plus d'informations sur le serveur, utiliser
    <function>pg_parameter_status</function>.
   </para>
  </refsect1>

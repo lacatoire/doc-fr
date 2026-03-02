@@ -106,7 +106,7 @@
      </screen>
     </para>
     <para>
-     Pour davantage d'informations, lisez le fichier
+     Pour davantage d'informations, consulter le fichier
      <filename>INSTALL</filename> à la racine du répertoire source
      Apache ou bien <link xlink:href="&url.apachedso;">le manuel des bibliothèques
      DSO</link>.
@@ -207,7 +207,7 @@
    <answer>
     <para>
      Cela signifie que le module PHP n'est pas chargé, pour une raison ou
-     pour une autre. Avant de chercher de l'aide ailleurs, veuillez vérifier
+     pour une autre. Avant de chercher de l'aide ailleurs, il convient de vérifier
      ces quelques points :
      <itemizedlist>
       <listitem>

@@ -142,7 +142,7 @@ B
      Dans les contextes non statiques, la classe appelée sera celle de l'objet.
      Comme <literal>$this-></literal> essayera d'appeler
      des méthodes privées depuis le même contexte, utiliser <literal>static::</literal>
-     pourrait donner des résultats différents. Notez aussi que
+     pourrait donner des résultats différents. Il est aussi à noter que
      <literal>static::</literal> ne peut faire référence qu'à des attributs/méthodes
      statiques.
     </para>

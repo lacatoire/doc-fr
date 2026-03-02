@@ -259,7 +259,7 @@ ArgumentCountError - makeyogurt(): Argument #1 ($container) not passed
    Voir la page <link linkend="mysqli-driver.report-mode">Mode de rapport MySQLi</link>
    pour plus de détails sur ce que cela implique,
    et comment définir explicitement cet attribut.
-   Pour restaurer le comportement précédent, utilisez :
+   Pour restaurer le comportement précédent, utiliser :
    <code>mysqli_report(MYSQLI_REPORT_OFF);</code>
   </para>
 

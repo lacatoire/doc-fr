@@ -90,7 +90,7 @@
 <![CDATA[
 <?php
 // Initialisation de la session.
-// Si vous utilisez un autre nom
+// Si vous utiliser un autre nom
 // session_name("autrenom")
 session_start();
 

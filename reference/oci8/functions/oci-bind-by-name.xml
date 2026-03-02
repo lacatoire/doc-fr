@@ -471,7 +471,7 @@ oci_close($conn);
   </para>
 
   <para>
-   Pour quelques conditions utilisées dans les clauses IN, utilisez
+   Pour quelques conditions utilisées dans les clauses IN, utiliser
    des variables liées individuelles. Les valeurs inconnues au moment
    de l'exécution pourront être définies à NULL.
    Ceci permet d'utiliser une seule requête pour l'ensemble des utilisateurs
@@ -812,7 +812,7 @@ var_dump($output2);  // false
   &reftitle.notes;
   <warning>
    <para>
-    N'utilisez pas la fonction <function>addslashes</function> et
+    N'utiliser pas la fonction <function>addslashes</function> et
     <function>oci_bind_by_name</function> simultanément, car aucun ajout
     de guillemets n'est nécessaire. Si c'est le cas, alors les guillemets ajoutés
     seront écrits dans la base de données ; en effet, la fonction
@@ -851,7 +851,7 @@ foreach ($myarray as $key => $value)  {
     Ceci associe chaque clé à la valeur pointée par $value,
     aussi, toutes les variables associées pointent vers la
     valeur de la dernière itération de la boucle.
-    A la place, utilisez ceci :
+    A la place, utiliser ceci :
    </para>
    <informalexample>
      <programlisting role="php">

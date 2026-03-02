@@ -26,7 +26,7 @@
    ne rien faire, 3 est une valeur typique, 20 est une valeur élevée) ;
    le point du milieu indique où les tons moyens seront dans l'image
    résultante (0 correspond à blanc, 50 correspond à gris, 100 correspond
-   à noir). Définissez le paramètre <parameter>sharpen</parameter>
+   à noir). Définir le paramètre <parameter>sharpen</parameter>
    à &true; pour augmenter le contraste de l'image, sinon, le contraste
    sera réduit.
   </para>

@@ -82,7 +82,7 @@
   &reftitle.returnvalues;
   <para>
    Ce que la fonction retourne, premièrement lors de succès, ensuite lors
-   d'échec. Voyez aussi l'entité &return.success;
+   d'échec. Voir aussi l'entité &return.success;
    <informaltable>
     <tgroup cols="2">
      <thead>

@@ -14,7 +14,7 @@
   détecte que l'instance de base de données est hors service ou injoignable. Elle établit une connexion
   à un autre nœud dans une configuration Oracle <link xlink:href="&url.oracle.taf.rac;">RAC</link>,
   une base de données de secours à chaud, ou la même instance de base de données
-  elle-même. Consultez le <link xlink:href="&url.oracle.taf.ociguide;">Guide du programmeur de l'interface d'appel Oracle</link>
+  elle-même. Consulter le <link xlink:href="&url.oracle.taf.ociguide;">Guide du programmeur de l'interface d'appel Oracle</link>
   pour plus d'informations sur OCI TAF.
  </para>
  <para>
@@ -45,7 +45,7 @@
   <para>
    Configurer TAF dans PHP OCI8 (le côté client) en incluant le
    paramètre FAILOVER_MODE dans la partie CONNECT_DATA d'un
-   descripteur de connexion. Consultez la section
+   descripteur de connexion. Consulter la section
    Configuration de la reprise transparente d'application
    du <link xlink:href="&url.oracle.taf.clientconfig;">
    Guide de l'administrateur Oracle Database Net Services</link>

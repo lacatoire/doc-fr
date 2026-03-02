@@ -67,7 +67,7 @@ try {
     $a->addFromString('chemin/vers/fichier.txt', 'mon fichier simple');
     $b = $a['chemin/vers/fichier.txt']->getContent();
 
-    // pour ajouter du contenu à partir d'un descripteur de flux pour des gros fichiers, utilisez offsetSet()
+    // pour ajouter du contenu à partir d'un descripteur de flux pour des gros fichiers, utiliser offsetSet()
     $c = fopen('/chemin/vers/grosfichier.bin');
     $a['grosfichier.bin'] = $c;
     fclose($c);

@@ -46,7 +46,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Un objet TableSelect; utilisez la méthode execute() pour exécuter la
+   Un objet TableSelect; utiliser la méthode execute() pour exécuter la
    sélection et retourner un objet RowResult.
   </para>
  </refsect1>

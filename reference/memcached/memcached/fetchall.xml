@@ -29,7 +29,7 @@
   &reftitle.returnvalues;
   <para>
    Retourne les résultats&return.falseforfailure;.
-   Utilisez <methodname>Memcached::getResultCode</methodname> si nécessaire.
+   Utiliser <methodname>Memcached::getResultCode</methodname> si nécessaire.
   </para>
  </refsect1>
 

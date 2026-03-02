@@ -47,7 +47,7 @@
     <simpara>
      Le dossier contenant les algorithmes. Par défaut il s'agit du dossier indiqué à la
      compilation de libmcrypt, typiquement il s'agit de
-     <emphasis>/usr/local/lib/libmcrypt</emphasis>. Voyez
+     <emphasis>/usr/local/lib/libmcrypt</emphasis>. Voir
      <function>mcrypt_list_algorithms</function> pour plus de détails.
     </simpara>
    </listitem>
@@ -61,7 +61,7 @@
     <simpara>
      Le dossier contenant les modes. Par défaut il s'agit du dossier indiqué à la
      compilation de libmcrypt, typiquement il s'agit de
-     <emphasis>/usr/local/lib/libmcrypt</emphasis>. Voyez
+     <emphasis>/usr/local/lib/libmcrypt</emphasis>. Voir
      <function>mcrypt_list_modes</function> pour plus de détails.
     </simpara>
    </listitem>

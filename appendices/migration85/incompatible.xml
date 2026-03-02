@@ -328,7 +328,7 @@
    De plus, l'encapsulation automatique pour les arguments par valeur passés à un paramètre par référence
    a été supprimée, et l'habituel <constant>E_WARNING</constant>
    à ce sujet est désormais émis.
-   Pour passer une variable par référence à un argument de constructeur utilisez l'affectation
+   Pour passer une variable par référence à un argument de constructeur, utiliser l'affectation
    de référence de valeur de tableau générale : <code>$ctor_args = [&amp;$valByRef]</code>
   </simpara>
 

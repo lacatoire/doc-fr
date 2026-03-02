@@ -73,7 +73,7 @@
   <para>
    Si <parameter>needle</parameter> est trouvé plus d'une fois dans
    <parameter>haystack</parameter>, la première clé concordante est
-   retournée. Pour trouver toutes les clés correspondantes, utilisez plutôt
+   retournée. Pour trouver toutes les clés correspondantes, utiliser plutôt
    la fonction <function>array_keys</function> avec le paramètre optionnel
    <parameter>filter_value</parameter>.
   </para>

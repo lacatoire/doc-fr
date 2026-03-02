@@ -42,7 +42,7 @@
      À la place, il y a un schéma standard nommé
      <literal>information_schema</literal> dans PostgreSQL 7.4 et supérieure
      contenant les vues du système avec toutes les informations nécessaires, dans
-     un format de requête facile. Voyez la
+     un format de requête facile. Voir la
      <link xlink:href="&url.pgsql.manual;">Documentation PostgreSQL</link> pour tous
      les détails.
     </para>

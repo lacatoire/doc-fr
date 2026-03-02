@@ -24,7 +24,7 @@
    de l'appel de la fonction, c'est-à-dire si le processus est un
    zombie, alors la fonction se termine immédiatement. Toutes les
    ressources système utilisées par le processus fils sont libérées.
-   Lisez le manuel du système à wait(2) pour avoir des
+   Consulter le manuel du système à wait(2) pour avoir des
    détails spécifiques sur le fonctionnement de wait() sur celui-ci.
   </para>
   <note>
