@@ -330,8 +330,8 @@
     </para>
     
     <para>
-     Définissez et gérez l'expiration du timestamp dans la variable
-     globale $_SESSION. Interdisez l'accès aux données de sessions
+     Définir et gérer l'expiration du timestamp dans la variable
+     globale $_SESSION. Interdire l'accès aux données de sessions
      périmées. Lorsqu'un accès à des données de session obsolète est détecté,
      il convient de supprimer toutes les statuts authentifiés des sessions
      utilisateurs et forcer les utilisateurs à s'authentifier de nouveau.

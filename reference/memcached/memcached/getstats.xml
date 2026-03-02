@@ -16,7 +16,7 @@
   </methodsynopsis>
   <para>
    <function>Memcached::getStats</function> retourne un tableau contenant
-   l'état de toutes les machines en fonctionnement. Voir le
+   l'état de toutes les machines en fonctionnement. Voir le  
    <link xlink:href="&url.memcache.protocol;">protocole memcached</link> pour
    plus de détails sur ces statistiques.
   </para>

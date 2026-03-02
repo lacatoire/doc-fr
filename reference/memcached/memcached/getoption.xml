@@ -18,7 +18,7 @@
    Retourne la valeur de l'option Memcached 
    <parameter>option</parameter>. Ces options sont définies par 
    libmemcached, et d'autres sont spécifiques à cette extension.
-   Voir <link linkend="memcached.constants">constantes Memcached</link>
+   Voir <link linkend="memcached.constants">constantes Memcached</link> 
    pour plus d'informations.
   </para>
  </refsect1>

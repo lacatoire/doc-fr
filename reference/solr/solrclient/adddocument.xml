@@ -121,7 +121,7 @@ $doc->addField('cat', 'Lucene');
 
 $updateResponse = $client->addDocument($doc);
 
-// valider ces modifications si $commitWithin n'est pas utilisé
+// vous devriez valider ces modifications si vous n'utiliser pas $commitWithin
 $client->commit();
 
 print_r($updateResponse->getResponse());

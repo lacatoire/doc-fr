@@ -275,7 +275,7 @@ Array
         <parameter>subject</parameter>, car 
         <parameter>pattern</parameter> peut contenir des assertions comme
         <emphasis>^</emphasis>, <emphasis>$</emphasis> ou
-        <emphasis>(?&lt;=x)</emphasis>. Consulter la documentation
+        <emphasis>(?&lt;=x)</emphasis>. Consulter la documentation 
         sur la fonction <function>preg_match</function> pour des exemples.
        </para>
       </note>

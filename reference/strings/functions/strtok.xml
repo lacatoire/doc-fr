@@ -122,7 +122,7 @@
 <![CDATA[
 <?php
 $string = "This is\tan example\nstring";
-// Utiliser aussi les nouvelles lignes et les tabulations
+// Utiliser aussi les nouvelles lignes et les tabulations 
 // comme séparateur de mots
 $tok = strtok($string, " \n\t");
 

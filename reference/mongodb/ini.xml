@@ -44,7 +44,7 @@
        dans l'extension (et libmongoc).
       </para>
       <para>
-       Spécifier une chaîne vide, <literal>"0"</literal>,
+       Spécifierune chaîne vide, <literal>"0"</literal>,
        <literal>"off"</literal>, <literal>"no"</literal>, ou
        <literal>"false"</literal> pour désactiver le journal.
       </para>
@@ -59,7 +59,7 @@
        <function>sys_get_temp_dir</function>).
       </para>
       <para>
-       Spécifier une autre chaîne pour journaliser dans un nouveau fichier temporaire dans ce
+       Spécifierune autre chaîne pour journaliser dans un nouveau fichier temporaire dans ce
        répertoire. Si le répertoire ne peut pas être utilisé, le répertoire temporaire système par défaut
        sera utilisé à la place.
       </para>

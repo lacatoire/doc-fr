@@ -35,7 +35,7 @@
     À partir de PHP 7.0.0 l'extension Mhash a été complètement intégrée dans
     l'extension <link linkend="book.hash">Hash</link>. Par conséquent il n'est 
     plus possible de détecter le support de Mhash grâce à <function>
-    extension_loaded</function> ; utiliser <function>function_exists</function> à
+    extension_loaded</function> ; utiliser <function>function_exists</function> à 
     la place. De plus, Mhash n'est plus signalé par <function>
     get_loaded_extensions</function> et les fonctionnalités liées.
    </para>

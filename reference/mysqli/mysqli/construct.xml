@@ -272,7 +272,7 @@ if (mysqli_errno($mysqli)) {
   <note>
    <para>
     &style.oop; uniquement : si la connexion a échoué, un objet est quand même retourné.
-    Pour vérifier si la connexion a échoué, utiliser soit la fonction
+    Pour vérifier si la connexion a échoué, utiliser soit la fonction 
     <function>mysqli_connect_error</function> ou la propriété 
     <link linkend="mysqli.connect-error">mysqli-&gt;connect_error</link>
     comme dans l'exemple ci-dessus.

@@ -2,7 +2,7 @@
 <!-- EN-Revision: 92e188ab73f99fa0dfe4a4bfcb3a3f363e451d4a Maintainer: Fan2Shrek Status: ready -->
 <!-- Reviewed: yes -->
 <variablelist xml:id="constant.curl-multi.constants" role="constant_list">
- <title>curl_multi_<replaceable>*</replaceable> status constants</title>
+ <title>Constantes de statut curl_multi_<replaceable>*</replaceable></title>
  <varlistentry xml:id="constant.curlm-added-already">
   <term>
    <constant>CURLM_ADDED_ALREADY</constant>

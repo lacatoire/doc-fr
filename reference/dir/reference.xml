@@ -11,7 +11,7 @@
   <para>
    Pour des fonctions connexes telles que <function>dirname</function>,
    <function>is_dir</function>, <function>mkdir</function> et
-   <function>rmdir</function>, voyez donc la section
+   <function>rmdir</function>, se reporter à la section
    <link linkend="ref.filesystem">système de fichiers</link>.
   </para>
  </partintro>
