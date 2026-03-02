@@ -571,8 +571,8 @@
       <listitem>
        <para>
         Spécifier la priorité nice(2) à appliquer au processus de travail
-        (uniquement s'il est défini). La valeur peut varier de -19 (priorité 
-        la plus élevée) à 20 (priorité la plus basse).         Valeur par 
+        (uniquement s'il est défini). La valeur peut varier de -19 (priorité
+        la plus élevée) à 20 (priorité la plus basse). Valeur par
         défaut: non définie.
        </para>
       </listitem>

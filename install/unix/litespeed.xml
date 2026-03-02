@@ -117,7 +117,7 @@ Zend Engine v2.6.0, Copyright (c) 1998-2015 Zend Technologies
    </informalexample>
 
    <para>
-    Remarquez le <literal>litespeed</literal> entre parenthèses. Cela signifie que le binaire PHP a été
+    Remarquer le <literal>litespeed</literal> entre parenthèses. Cela signifie que le binaire PHP a été
     construit avec le support LSAPI.
    </para>
   </listitem>

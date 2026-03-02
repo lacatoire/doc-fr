@@ -28,7 +28,7 @@
    <para>
     <link xlink:href="&url.docean.app.platform;">App Platform</link>:
     Gérer des infrastructures pour construire, déployer et mettre à l'échelle rapidement des applications.
-    Apprenez à
+    Découvrir comment
     <link xlink:href="https://docs.digitalocean.com/products/app-platform/getting-started/sample-apps/php/">
      faire tourner des applications PHP sur la plateforme App
     </link>.
@@ -39,7 +39,7 @@
     <link xlink:href="&url.docean.functions;">Functions</link>:
     Plateforme sans serveur qui permet aux développeurs d'exécuter du code sans provisionner ni gérer de serveurs.
     PHP est supporté nativement.
-    Apprenez à
+    Découvrir comment
     <link xlink:href="https://docs.digitalocean.com/products/functions/reference/runtimes/php/">
      créer des fonctions sans serveur en PHP
     </link>.
