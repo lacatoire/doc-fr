@@ -20,9 +20,9 @@
    <methodparam choice="opt"><type>int</type><parameter>channel</parameter><initializer>Imagick::CHANNEL_DEFAULT</initializer></methodparam>
   </methodsynopsis>
   <para>
-   Compose une image dans une autre, à la position donné. Tout paramètre 
-   supplémentaire nécessaire à l'algorithme de composition doit être passé à 
-   setImageArtifact avec comme premier paramètre 'compose:args' et les données 
+   Compose une image dans une autre, à la position donné. Tout paramètre
+   supplémentaire nécessaire à l'algorithme de composition doit être passé à
+   setImageArtifact avec comme premier paramètre 'compose:args' et les données
    en second paramètre.
   </para>
  </refsect1>
@@ -98,7 +98,7 @@
 <![CDATA[
 <?php
 
-// Equivalent à lancer la commande 
+// Equivalent à lancer la commande
 // convert src1.png src2.png -compose mathematics -define compose:args="1,0,-0.5,0.5" -composite output.png
 
 $src1 = new \Imagick("./src1.png");
@@ -115,7 +115,7 @@ $src1->writeImage("./output.png");
    </example>
   </para>
  </refsect1>
- 
+
  <refsect1 role="seealso">
   &reftitle.seealso;
   <para>

@@ -20,14 +20,14 @@
   <para>
    Déforme une image en utilisant différentes méthodes, en associant
    des couleurs de l'image source à celle d'une image de destination,
-   généralement de la même taille, à moins que l'argument 
+   généralement de la même taille, à moins que l'argument
    <parameter>bestfit</parameter> soit configuré à &true;.
   </para>
   <para>
-   Si <parameter>bestfit</parameter> est activé, et que la déformation le permet, 
+   Si <parameter>bestfit</parameter> est activé, et que la déformation le permet,
    l'image de destination est ajusté pour s'assurer que toute l'image source va
    tenir dans l'image de destination, qui sera redimensionnée et repositionnée
-   en fonction. De plus, dans de nombreux cas, la position virtuelle de 
+   en fonction. De plus, dans de nombreux cas, la position virtuelle de
    l'image sera prise en compte dans l'association.
   </para>
   <para>
@@ -110,7 +110,7 @@ $im->setImageVirtualPixelMethod(Imagick::VIRTUALPIXELMETHOD_TRANSPARENT);
 $im->setImageMatte(true);
 
 /* Contrôle les points de déformation */
-$controlPoints = array( 10, 10, 
+$controlPoints = array( 10, 10,
                         10, 5,
 
                         10, $im->getImageHeight() - 20,
@@ -122,7 +122,7 @@ $controlPoints = array( 10, 10,
                         $im->getImageWidth() - 10, $im->getImageHeight() - 10,
                         $im->getImageWidth() - 10, $im->getImageHeight() - 30);
 
-/* Effectue la déformation */                       
+/* Effectue la déformation */
 $im->distortImage(Imagick::DISTORTION_PERSPECTIVE, $controlPoints, true);
 
 /* Envoie l'image */
