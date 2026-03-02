@@ -24,12 +24,12 @@
    Sérialise les premiers <parameter>size</parameter> octets du buffer,
    les copie ou les bouge comme nécessaire pour assurer qu'ils soient contigus
    et le fait d'occuper la même partie de la mémoire. Si la taille
-   est négative, la fonction linéatise la totalité du buffer.
+   est négative, la fonction linéarise la totalité du buffer.
   </para>
   <warning>
    <para>
     L'appel à la méthode <methodname>EventBuffer::pullup</methodname>
-    avec une taille très grande ralentie l'exécution, sachant qu'elle
+    avec une taille très grande ralentit l'exécution, sachant qu'elle
     peut potentiellement avoir besoin de copier le contenu entier du buffer.
    </para>
   </warning>

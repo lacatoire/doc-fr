@@ -6,7 +6,7 @@
 <refentry xml:id="eventbuffer.freeze" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>EventBuffer::freeze</refname>
-  <refpurpose>Permet d'empécher les appels qui tentent de modifier un
+  <refpurpose>Permet d'empêcher les appels qui tentent de modifier un
    tampon d'événements de réussir</refpurpose>
  </refnamediv>
  <refsect1 role="description">
@@ -21,7 +21,7 @@
    </methodparam>
   </methodsynopsis>
   <para>
-   Permet d'empécher les appels qui tentent de modifier un
+   Permet d'empêcher les appels qui tentent de modifier un
    tampon d'événements de réussir.
   </para>
  </refsect1>
@@ -34,7 +34,7 @@
     </term>
     <listitem>
      <para>
-      Permet de désactiver les modifitications en début ou en
+      Permet de désactiver les modifications en début ou en
       fin de tampon.
      </para>
     </listitem>

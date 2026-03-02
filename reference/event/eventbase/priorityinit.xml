@@ -6,7 +6,7 @@
 <refentry xml:id="eventbase.priorityinit" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>EventBase::priorityInit</refname>
-  <refpurpose>Définit le nombre de propriétés par événement de base</refpurpose>
+  <refpurpose>Définit le nombre de priorités par événement de base</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
@@ -20,7 +20,7 @@
    </methodparam>
   </methodsynopsis>
   <para>
-   Définit le nombre de propriétés par événement de base.
+   Définit le nombre de priorités par événement de base.
   </para>
  </refsect1>
  <refsect1 role="parameters">
@@ -32,7 +32,7 @@
     </term>
     <listitem>
      <para>
-      Le nombre de propriétés par événement de base.
+      Le nombre de priorités par événement de base.
      </para>
     </listitem>
    </varlistentry>

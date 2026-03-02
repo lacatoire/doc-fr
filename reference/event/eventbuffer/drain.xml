@@ -23,7 +23,7 @@
    Fonctionne de la même manière que la méthode
    <methodname>EventBuffer::read</methodname> excepté le fait que
    les données supprimées ne sont pas copiées : elles sont seulement
-   supprimer du début du tampon.
+   supprimées du début du tampon.
   </para>
  </refsect1>
  <refsect1 role="parameters">
