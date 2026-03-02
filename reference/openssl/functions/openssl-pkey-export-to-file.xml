@@ -7,7 +7,7 @@
   <refname>openssl_pkey_export_to_file</refname>
   <refpurpose>Sauve une clé au format ASCII dans un fichier</refpurpose>
  </refnamediv>
- 
+
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
@@ -19,7 +19,7 @@
   </methodsynopsis>
   <para>
    <function>openssl_pkey_export_to_file</function> sauve la clé au format ASCII
-   (<acronym>PEM</acronym>) <parameter>key</parameter> dans le fichier 
+   (<acronym>PEM</acronym>) <parameter>key</parameter> dans le fichier
    <parameter>output_filename</parameter>.
   </para>
   &note.openssl.cnf;

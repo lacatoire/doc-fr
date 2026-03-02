@@ -4113,7 +4113,7 @@
    </term>
    <listitem>
     <para>
-     &true; to use ASCII mode for FTP transfers.
+     &true; pour utiliser le mode ASCII pour les transferts FTP.
      Pour LDAP, il récupère les données en texte brut au lieu de HTML. Sur
      les systèmes Windows, il ne définira pas <constant>STDOUT</constant> en
      mode binaire.
@@ -4449,7 +4449,7 @@
    </term>
    <listitem>
     <para>
-     Spécife le jeton d'accès OAuth 2.0.
+     Spécifie le jeton d'accès OAuth 2.0.
      Définir sur &null; pour désactiver.
      Par défaut, c'est &null;.
      Disponible à partir de PHP 7.0.7 et cURL 7.33.0.

@@ -109,9 +109,9 @@
 <![CDATA[
 <?php
 if ($handle = opendir('/path/to/files')) {
-    echo "Entries:\n";
+    echo "Entrées :\n";
 
-    /* Correctly handling directory entries that may be considered falsy */
+    /* Gestion correcte des entrées de dossier pouvant être évaluées comme fausses */
     while (false !== ($entry = readdir($handle))) {
         if ($entry === '.' || $entry === '..') {
             continue;
@@ -127,7 +127,7 @@ if ($handle = opendir('/path/to/files')) {
    &example.outputs.similar;
    <screen>
 <![CDATA[
-Entries:
+Entrées :
 base
 en
 fr

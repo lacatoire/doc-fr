@@ -260,7 +260,7 @@
  <section xml:id="intl.numberformatter-constants.unumberformatattribute">
   <title>Attributs de format de nombre</title>
   <para>
-   Attributs de formats de nombre utilisés par 
+   Attributs de formats de nombre utilisés par
    <function>numfmt_get_attribute</function>
    et <function>numfmt_set_attribute</function>.
    <variablelist>
@@ -473,7 +473,7 @@
  <section xml:id="intl.numberformatter-constants.unumberformattextattribute">
   <title>Attributs de texte de format de nombre</title>
   <para>
-   Attributs de texte pour les formats de nombres, utilisés par 
+   Attributs de texte pour les formats de nombres, utilisés par
    <function>numfmt_get_text_attribute</function> et
    <function>numfmt_set_text_attribute</function>.
    <variablelist>
@@ -544,7 +544,7 @@
      </term>
      <listitem>
       <simpara>
-       Le jeu de règles par défaut. Il est uniquement utilisable avec 
+       Le jeu de règles par défaut. Il est uniquement utilisable avec
        les formateurs à règles.
       </simpara>
      </listitem>
