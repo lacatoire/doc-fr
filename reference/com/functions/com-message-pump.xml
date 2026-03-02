@@ -41,7 +41,7 @@
       </para>
       <para>
        Si l'on ne spécifie pas de valeur pour le paramètre
-       <parameter>timeout_milliseconds</parameter>, alors il voudra 0.
+       <parameter>timeout_milliseconds</parameter>, alors la valeur 0 sera utilisée.
        Une valeur à 0 signifie que les messages seront traités immédiatement ;
        s'il y a des messages dans la file d'attente, ils seront distribués aussitôt ;
        s'il n'y a aucun message dans la file d'attente, la fonction retourne &false;

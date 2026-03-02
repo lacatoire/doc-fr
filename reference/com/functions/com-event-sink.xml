@@ -57,7 +57,7 @@
        spécifié par la Typelib associée avec l'objet <parameter>variant</parameter>,
        mais il est possible de changer cela en spécifiant dans le paramètre
        <parameter>sink_interface</parameter> le dispinterface que l'on
-       souhaitez utiliser.
+       souhaite utiliser.
       </para>
      </listitem>
     </varlistentry>
