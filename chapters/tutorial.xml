@@ -124,8 +124,8 @@ php -S localhost:8000
      c'est toujours une bonne idée de rendre le HTML aussi joli et proche
      que possible en y ajoutant des retours à la ligne. Un retour à la ligne
      suivant immédiatement une balise de fermeture PHP (<literal>?&gt;</literal>)
-     sera supprimé par PHP. Ceci peut être vraiment très utile lorsque vous
-     insérez plusieurs blocs PHP ou fichiers inclus contenant du PHP qui
+     sera supprimé par PHP. Ceci peut être vraiment très utile lors de
+     l'insertion de plusieurs blocs PHP ou fichiers inclus contenant du PHP qui
      n'est pas supposé afficher quoi que ce soit. En même temps, ce peut
      être confus. Il est possible d'ajouter un espace après la balise fermante
      PHP (<literal>?&gt;</literal>) pour forcer l'espace et un retour à
