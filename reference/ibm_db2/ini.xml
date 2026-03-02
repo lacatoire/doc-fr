@@ -334,8 +334,8 @@
      Normalement, seul un bref message en cas d'échec est envoyé (tel que "l'exécution
      de la déclaration a échoué") dans le journal d'erreurs PHP, car cette option est définie sur
      <literal>0</literal> par défaut.
-     Notez qu'il est possible de toujours et devriez appeler, par exemple,
-     <function>db2_stmt_errormsg</function> manuellement pour vérifier si
+     Il est à noter qu'il est toujours possible, et recommandé, d'appeler
+     manuellement <function>db2_stmt_errormsg</function> pour vérifier si
      les fonctions échouent.
      <itemizedlist>
       <listitem>
