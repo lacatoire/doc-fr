@@ -104,8 +104,8 @@ Test2::$x = &$x;
 $x = 1;
 
 var_dump(Test::$x, Test2::$x);
-// Previously: int(0), int(1)
-// Now:        int(1), int(1)
+// Avant : int(0), int(1)
+// Maintenant : int(1), int(1)
 ?>
 ]]>
      </programlisting>
@@ -131,7 +131,7 @@ var_dump(Test::$x, Test2::$x);
 $arr = [1];
 $ref =& $arr[0];
 var_dump($arr[0] + ($arr[0] = 2));
-// Previously: int(4), Now: int(3)
+// Avant : int(4), Maintenant : int(3)
 ?>
 ]]>
      </programlisting>
@@ -217,7 +217,7 @@ foo(...gen());
  </sect2>
 
  <sect2 xml:id="migration73.incompatible.bc">
-  <title>BCMath Arbitrary Precision Mathematics</title>
+  <title>BCMath Mathématiques à précision arbitraire</title>
 
   <para>
    Tous les avertissements lancés par les <link linkend="ref.bc">fonctions BCMath</link>

@@ -162,7 +162,7 @@ defined('T_FN') || define('T_FN', 10001);
     </row>
     <row xml:id="constant.t-close-tag">
      <entry><constant>T_CLOSE_TAG</constant></entry>
-     <entry>?&gt; or %&gt;</entry>
+     <entry>?&gt; ou %&gt;</entry>
      <entry><link linkend="language.basic-syntax.phpmode">échapper
       depuis le HTML</link></entry>
     </row>
@@ -653,7 +653,7 @@ defined('T_FN') || define('T_FN', 10001);
     </row>
     <row xml:id="constant.t-open-tag">
      <entry><constant>T_OPEN_TAG</constant></entry>
-     <entry>&lt;?php, &lt;? or &lt;%</entry>
+     <entry>&lt;?php, &lt;? ou &lt;%</entry>
      <entry><link linkend="language.basic-syntax.phpmode">sortie du mode HTML</link></entry>
     </row>
     <row xml:id="constant.t-open-tag-with-echo">
@@ -688,7 +688,7 @@ defined('T_FN') || define('T_FN', 10001);
      <entry><constant>T_POW_EQUAL</constant></entry>
      <entry>**=</entry>
      <entry>
-      <link linkend="language.operators.assignment">les opérateurs d'affectation</link>
+      <link linkend="language.operators.assignment">opérateurs d'assignation</link>
      </entry>
     </row>
     <row xml:id="constant.t-print">

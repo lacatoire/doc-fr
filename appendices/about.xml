@@ -348,8 +348,8 @@ Retourne la taille de la chaîne $string.
   <para>
    En contribuant aux notes, il est possible de fournir de nouveaux exemples,
    mettre en lumière des effets de bords et apporter des clarifications pour
-   les autres lecteurs. Mais ne prenez pas le système d'annotation pour
-   un système de soumission de bogues. Il est possible d'en savoir plus sur les
+   les autres lecteurs. Mais il ne faut pas utiliser le système d'annotation
+   comme un système de soumission de bogues. Il est possible d'en savoir plus sur les
    annotations dans la section
    <link linkend="about.notes">'À propos des notes utilisateurs'</link>
   </para>
