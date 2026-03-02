@@ -16,7 +16,7 @@
    <methodparam><type>int</type><parameter>type</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Cette fonction est similaire <function>variant_cast</function> à part que
+   Cette fonction est similaire à <function>variant_cast</function> à part que
    le variant est modifié "sur-place" ; aucun nouveau variant n'est créé. Les
    paramètres de cette fonction ont la même signification que ceux de
    <function>variant_cast</function>.

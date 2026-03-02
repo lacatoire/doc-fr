@@ -50,7 +50,7 @@
      <term><parameter>display_sink</parameter></term>
      <listitem>
       <para>
-       Si le paramètre <parameter>wantsink</parameter> vaut &true;,
+       Si le paramètre <parameter>display_sink</parameter> vaut &true;,
        l'interface d'évier correspondante sera affichée à la place.
       </para>
      </listitem>

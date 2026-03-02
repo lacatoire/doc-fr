@@ -17,8 +17,8 @@
   </methodsynopsis>
   <para>
    <function>com_get_active_object</function> est similaire à la création d'une
-   nouvelle instance <xref linkend="class.com"/>d'un objet COM, excepté qu'elle ne
-   retournera un objet au script uniquement si l'objet est actuellement instancié.
+   nouvelle instance <xref linkend="class.com"/> d'un objet COM, excepté qu'elle ne
+   retournera un objet au script que si l'objet est actuellement en cours d'exécution.
    Les applications OLE utilisent quelque chose de connu en tant que
    "<literal>Running Object Table</literal>" qui permet aux applications connues
    d'être exécutées juste une fois ; cette fonction expose la fonction
