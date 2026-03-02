@@ -45,7 +45,7 @@
    Un tableau numérique en cas de succès.
   </simpara>
    <simpara>
-    &false; lorsqu'il n"y a plus de ligne, NULL si une erreur survient.
+    &false; lorsqu'il n'y a plus de ligne, NULL si une erreur survient.
   </simpara>
  </refsect1>
 

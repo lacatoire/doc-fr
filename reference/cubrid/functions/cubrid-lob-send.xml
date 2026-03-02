@@ -5,7 +5,7 @@
 <refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.cubrid-lob-send">
  <refnamediv>
   <refname>cubrid_lob_send</refname>
-  <refpurpose>Lit les données BLOB/CLOB et les envoye au navigateur</refpurpose>
+  <refpurpose>Lit les données BLOB/CLOB et les envoie au navigateur</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -17,7 +17,7 @@
   </methodsynopsis>
   <simpara>
    La fonction <function>cubrid_lob_send</function> lit des données BLOB/CLOB
-   et les passent au navigateur. Pour utiliser cette fonction, il faut utiliser
+   et les passe au navigateur. Pour utiliser cette fonction, il faut utiliser
    d'abord la fonction <function>cubrid_lob_get</function> pour récupérer les
    informations des BLOB/CLOB depuis CUBRID.
   </simpara>

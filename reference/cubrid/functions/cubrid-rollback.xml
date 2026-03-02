@@ -45,7 +45,7 @@
  <refsect1 role="examples">
   &reftitle.examples;
   <example>
-   <title>Exempe avec <function>cubrid_rollback</function></title>
+   <title>Exemple avec <function>cubrid_rollback</function></title>
    <programlisting role="php">
 <![CDATA[
 <?php

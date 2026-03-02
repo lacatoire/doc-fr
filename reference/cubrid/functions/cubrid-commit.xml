@@ -5,7 +5,7 @@
 <refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="function.cubrid-commit">
  <refnamediv>
   <refname>cubrid_commit</refname>
-  <refpurpose>Commit une transaction</refpurpose>
+  <refpurpose>Valide une transaction</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -18,7 +18,7 @@
    transaction pointée par le paramètre <parameter>conn_identifier</parameter>.
    La connexion au serveur sera fermée après l'appel à la fonction
    <function>cubrid_commit</function> ; cependant, le gestionnaire de connexion
-   resta valide.
+   restera valide.
   </simpara>
   <simpara>
    En CUBRID PHP, le mode auto-commit est désactivé par défaut

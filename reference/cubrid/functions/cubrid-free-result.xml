@@ -15,7 +15,7 @@
    <methodparam><type>resource</type><parameter>req_identifier</parameter></methodparam>
   </methodsynopsis>
   <simpara>
-   Cette fonction libère la mémoire occupées par les données
+   Cette fonction libère la mémoire occupée par les données
    de résultat. Elle retourne &true; en cas de succès, &false; sinon.
    Il est à noter que cette fonction ne libère que le buffer de récupération
    du client, et que si l'on veut libérer toute la mémoire,
