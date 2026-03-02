@@ -30,7 +30,7 @@
   ni de se rendre dans une autre fonction. Il est de même impossible d'entrer
   dans une structure de boucle ou un <literal>switch</literal>.
   Il est néanmoins possible d'en sortir, et l'utilisation courante est alors de se servir de
-  <literal>goto</literal> comme un <literal>break</literal>. 
+  <literal>goto</literal> comme un <literal>break</literal> multi-niveaux.
  </para>
  <para>
   <example>
@@ -71,7 +71,7 @@ for ($i = 0, $j = 50; $i < 100; $i++) {
 }
 echo "i = $i";
 end:
-echo 'j hit 17';
+echo 'j a atteint 17';
 
 ?>
 ]]>
@@ -79,7 +79,7 @@ echo 'j hit 17';
    &example.outputs;
    <screen>
 <![CDATA[
-j hit 17
+j a atteint 17
 ]]>
    </screen>
   </example>

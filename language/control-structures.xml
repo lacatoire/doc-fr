@@ -9,7 +9,7 @@
   <title>Introduction</title>
   <simpara>
    Tous les scripts PHP sont une suite d'instructions. Une instruction
-   peut être une assignation, un appel de fonction, une instruction
+   peut être une assignation, un appel de fonction, une boucle, une instruction
    conditionnelle ou bien une instruction qui ne fait rien (une instruction
    vide). Une instruction se termine habituellement par un point-virgule
    ("<literal>;</literal>"). De plus, plusieurs instructions peuvent être

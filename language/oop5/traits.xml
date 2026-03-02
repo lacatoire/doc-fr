@@ -40,7 +40,7 @@ trait TraitB {
 
 class MyHelloWorld
 {
-    use TraitA, TraitB; // A class can use multiple traits
+    use TraitA, TraitB; // Une classe peut utiliser plusieurs traits
 
     public function sayHelloWorld() {
         $this->sayHello();
@@ -567,9 +567,9 @@ trait PropertiesTrait {
 class PropertiesExample {
     use PropertiesTrait;
     public $same = true;
-    public $different1 = true; // Fatal error
-    public string $different2; // Fatal error
-    readonly protected bool $different3; // Fatal error
+    public $different1 = true; // Erreur fatale
+    public string $different2; // Erreur fatale
+    readonly protected bool $different3; // Erreur fatale
 }
 ?>
 ]]>
@@ -625,7 +625,7 @@ trait ConstantsTrait {
 
 class ConstantsExample {
     use ConstantsTrait;
-    public const FLAG_IMMUTABLE = 5; // Fatal error
+    public const FLAG_IMMUTABLE = 5; // Erreur fatale
 }
 ?>
 ]]>

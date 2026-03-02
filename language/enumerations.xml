@@ -134,7 +134,7 @@ $a instanceof Suit;  // true
 <?php
 
 print Suit::Spades->name;
-// prints "Spades"
+// Affiche "Spades"
 ?>
 ]]>
    </programlisting>
@@ -194,7 +194,7 @@ enum Suit: string
   <para>
    Les valeurs équivalentes peuvent être une expression scalaire constante.
    Avant PHP 8.2.0, les valeurs équivalentes devaient être des littéraux ou des expressions littérales.
-   Cela signifie que les constantes et les expressions constantes n'étaient pas prises en charge.
+   Cela signifie que les constantes et les expressions constantes n'étaient pas supportées.
    Autrement dit, <code>1 + 1</code> était autorisé, mais <code>1 + SOME_CONST</code> ne l'était pas.
   </para>
 
@@ -208,7 +208,7 @@ enum Suit: string
 <?php
 
 print Suit::Clubs->value;
-// Prints "C"
+// Affiche "C"
 ?>
 ]]>
   </programlisting>
@@ -224,7 +224,7 @@ print Suit::Clubs->value;
 
 $suit = Suit::Clubs;
 $ref = &$suit->value;
-// Error: Cannot acquire reference to property Suit::$value
+// Erreur : Impossible d'acquérir une référence à la propriété Suit::$value
 ?>
 ]]>
   </programlisting>
@@ -266,11 +266,11 @@ $record = get_stuff_from_database($id);
 print $record['suit'];
 
 $suit =  Suit::from($record['suit']);
-// Invalid data throws a ValueError: "X" is not a valid scalar value for enum "Suit"
+// Les données invalides lèvent une ValueError : "X" is not a valid scalar value for enum "Suit"
 print $suit->value;
 
 $suit = Suit::tryFrom('A') ?? Suit::Spades;
-// Invalid data returns null, so Suit::Spades is used instead.
+// Les données invalides retournent null, donc Suit::Spades est utilisé à la place.
 print $suit->value;
 ?>
 ]]>
@@ -304,7 +304,7 @@ enum Suit implements Colorful
     case Clubs;
     case Spades;
 
-    // Fulfills the interface contract.
+    // Satisfait le contrat de l'interface.
     public function color(): string
     {
         return match($this) {
@@ -313,7 +313,7 @@ enum Suit implements Colorful
         };
     }
 
-    // Not part of an interface; that's fine.
+    // Ne fait pas partie d'une interface ; pas de problème.
     public function shape(): string
     {
         return "Rectangle";
@@ -325,9 +325,9 @@ function paint(Colorful $c)
    /* ... */
 }
 
-paint(Suit::Clubs);  // Works
+paint(Suit::Clubs);  // Fonctionne
 
-print Suit::Diamonds->shape(); // prints "Rectangle"
+print Suit::Diamonds->shape(); // Affiche "Rectangle"
 ?>
 ]]>
   </programlisting>
@@ -358,7 +358,7 @@ enum Suit: string implements Colorful
     case Clubs = 'C';
     case Spades = 'S';
 
-    // Fulfills the interface contract.
+    // Satisfait le contrat de l'interface.
     public function color(): string
     {
         return match($this) {
@@ -573,7 +573,7 @@ enum Suit implements Colorful
 <![CDATA[
 <?php
 
-// This is an entirely legal Enum definition.
+// Ceci est une définition d'Enum tout à fait valide.
 enum Direction implements ArrayAccess
 {
     case Up;
@@ -602,15 +602,15 @@ enum Direction implements ArrayAccess
 
 class Foo
 {
-    // This is allowed.
+    // Ceci est autorisé.
     const DOWN = Direction::Down;
 
-    // This is disallowed, as it may not be deterministic.
+    // Ceci n'est pas autorisé, car le résultat peut ne pas être déterministe.
     const UP = Direction::Up['short'];
-    // Fatal error: Cannot use [] on enums in constant expression
+    // Erreur fatale : Cannot use [] on enums in constant expression
 }
 
-// This is entirely legal, because it's not a constant expression.
+// Ceci est tout à fait légal, car ce n'est pas une expression constante.
 $x = Direction::Up['short'];
 var_dump("\$x is " . var_export($x, true));
 
@@ -674,9 +674,9 @@ $foo = new Foo();
 <?php
 
 $clovers = new Suit();
-// Error: Cannot instantiate enum Suit
+// Erreur : Cannot instantiate enum Suit
 $horseshoes = (new ReflectionClass(Suit::class))->newInstanceWithoutConstructor()
-// Error: Cannot instantiate enum Suit
+// Erreur : Cannot instantiate enum Suit
 ?>
 ]]>
   </programlisting>
@@ -697,7 +697,7 @@ $horseshoes = (new ReflectionClass(Suit::class))->newInstanceWithoutConstructor(
 <?php
 
 Suit::cases();
-// Produces: [Suit::Hearts, Suit::Diamonds, Suit::Clubs, Suit::Spades]
+// Produit : [Suit::Hearts, Suit::Diamonds, Suit::Clubs, Suit::Spades]
 ?>
 ]]>
   </programlisting>
@@ -756,7 +756,7 @@ enum Baz: int {
 print_r(Foo::Bar);
 print_r(Baz::Beep);
 
-/* Produces
+/* Produit
 
 Foo Enum (
     [name] => Bar

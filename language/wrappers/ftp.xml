@@ -79,9 +79,9 @@
       <row>
        <entry>Support de la fonction <function>stat</function></entry>
        <entry>
-        <function>filesize</function>, <function>filetype</function>,
-        <function>file_exists</function>, <function>is_file</function>,
-        <function>is_dir</function>, et <function>filemtime</function>
+        <function>filesize</function>, <function>filemtime</function>,
+        <function>filetype</function>, <function>file_exists</function>,
+        <function>is_file</function>, et <function>is_dir</function>
         uniquement.
        </entry>
       </row>

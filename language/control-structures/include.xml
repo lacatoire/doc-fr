@@ -27,8 +27,8 @@
  </simpara>
  <simpara>
   Il est à noter que <literal>include</literal> et <literal>require</literal>
-  vont lancer des erreurs de type <constant>E_WARNING</constant>, si le
-  fichier n'est pas accessible, avant de lancer une erreur de type
+  vont lever des erreurs de type <constant>E_WARNING</constant>, si le
+  fichier n'est pas accessible, avant de lever une erreur de type
   <constant>E_WARNING</constant> ou <constant>E_ERROR</constant>, respectivement.
  </simpara>
  <simpara>
@@ -116,14 +116,12 @@ echo "Une $fruit $couleur"; // Une verte
   </example>
  </para>
  <simpara>
-  Il est important de noter que lorsqu'un fichier est
-  <function>include</function> ou <function>require</function>,
-  les erreurs d'analyse apparaîtront en HTML tout
-  au début du fichier, et l'analyse du fichier
-  parent ne sera pas interrompue. Pour cette raison, le code
-  qui est dans le fichier doit être placé entre
-  <link linkend="language.basic-syntax.phpmode">les balises
-  habituelles de PHP</link>.
+  Lorsqu'un fichier est inclus, l'analyse bascule du mode PHP
+  au mode HTML au début du fichier cible, et reprend à la fin
+  de celui-ci. Pour cette raison, tout code du fichier cible devant
+  être exécuté comme du code PHP doit être placé entre
+  <link linkend="language.basic-syntax.phpmode">des balises PHP
+  de début et de fin valides</link>.
  </simpara>
  <simpara>
   Si les <link linkend="ini.allow-url-include">gestionnaires d'inclusion d'URL</link>

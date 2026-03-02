@@ -64,7 +64,7 @@ $a = 1_234_567; // un nombre décimal (à partir de PHP 7.4.0)
   <para>
    Formellement, la structure d'un <type>entier</type> littéral est à partir de PHP 8.1.0
    (auparavant, les préfixes octaux <literal>0o</literal> ou <literal>0O</literal>
-   n'étaient pas autorisés, et avant PHP 7.4.0, les underscores n'étaient pas autorisés.
+   n'étaient pas autorisés, et avant PHP 7.4.0, les underscores n'étaient pas autorisés) :
   </para>
 
   <informalexample>
@@ -111,7 +111,7 @@ integer     : decimal
   </para>
 
   <example>
-   <title>Dépassement d'entier sur un système 32-bit</title>
+   <title>Dépassement d'entier</title>
    <programlisting role="php">
 <![CDATA[
 <?php
@@ -207,7 +207,7 @@ function foo($value): int {
 }
 
 var_dump(foo(8.1)); // "Deprecated: Implicit conversion from float 8.1 to int loses precision" à partir de PHP 8.1.0
-var_dump(foo(8.1)); // Avant PHP 8.1.0
+var_dump(foo(8.1)); // 8 avant PHP 8.1.0
 var_dump(foo(8.0)); // 8 dans les deux cas
 
 var_dump((int) 8.1); // 8 dans les deux cas

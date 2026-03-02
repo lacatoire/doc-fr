@@ -350,7 +350,7 @@ var_dump($bar);
     Le cast <literal>(binary)</literal> et le préfixe <literal>b</literal>
     existent uniquement pour la compatibilité ascendante. Actuellement
     <literal>(binary)</literal> et <literal>(string)</literal> sont identiques,
-    mais ceci peut changer : vous ne devriez pas compter dessus.
+    mais ceci peut changer et il ne faut pas compter dessus.
    </simpara>
   </caution>
 
@@ -402,7 +402,7 @@ $foo = 10;            // $foo est un entier
 $str = "$foo";        // $str est une chaîne
 $fst = (string) $foo; // $fst est également une chaîne
 
-// Ceci afficher "Ils sont les mêmes"
+// Ceci affiche "Ils sont les mêmes"
 if ($fst === $str) {
     echo "Ils sont les mêmes", PHP_EOL;
 }

@@ -147,7 +147,7 @@ Stack trace:
 readonly class Foo {
 }
 
-// Fatal error: Cannot apply #[AllowDynamicProperties] to readonly class Foo
+// Erreur fatale : Cannot apply #[AllowDynamicProperties] to readonly class Foo
 ?>
 ]]>
         </programlisting>
@@ -167,7 +167,7 @@ readonly class Foo
     public $bar;
 }
 
-// Fatal error: Readonly property Foo::$bar must have type
+// Erreur fatale : Readonly property Foo::$bar must have type
 ?>
 ]]>
         </programlisting>
@@ -179,7 +179,7 @@ readonly class Foo
     public static int $bar;
 }
 
-// Fatal error: Readonly class Foo cannot declare static properties
+// Erreur fatale : Readonly class Foo cannot declare static properties
 ?>
 ]]>
         </programlisting>
@@ -330,7 +330,7 @@ NULL
 NULL
 object(SimpleClass)#1 (1) {
    ["var"]=>
-     string(30) "$assigned aura cette valeur"
+     string(27) "$assigned aura cette valeur"
 }
 ]]>
     </screen>
@@ -677,8 +677,8 @@ class B extends A {
     public function test($a, $b) {}
 }
 $obj = new B;
-// Pass parameters according to A::test() contract
-$obj->test(foo: "foo", bar: "bar"); // ERROR!
+// Passe les paramètres selon le contrat de A::test()
+$obj->test(foo: "foo", bar: "bar"); // ERREUR !
 ]]>
       </programlisting>
       &example.outputs.similar;

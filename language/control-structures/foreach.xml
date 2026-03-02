@@ -98,7 +98,7 @@ foreach (range(1, 5) as $value) {
  </example>
  <note>
   <para>
-   <literal>foreach</literal> ne prend pas en charge la possibilité de
+   <literal>foreach</literal> ne supporte pas la possibilité de
    supprimer les messages d'erreur en utilisant le
    <link linkend="language.operators.errorcontrol"><literal>@</literal></link>.
   </para>

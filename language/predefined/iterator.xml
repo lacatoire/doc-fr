@@ -117,7 +117,7 @@ string(17) "myIterator::valid"
 string(19) "myIterator::current"
 string(15) "myIterator::key"
 int(0)
-string(12) "premierelement"
+string(14) "premierelement"
 
 string(16) "myIterator::next"
 string(17) "myIterator::valid"
@@ -131,7 +131,7 @@ string(17) "myIterator::valid"
 string(19) "myIterator::current"
 string(15) "myIterator::key"
 int(2)
-string(11) "dernierelement"
+string(14) "dernierelement"
 
 string(16) "myIterator::next"
 string(17) "myIterator::valid"

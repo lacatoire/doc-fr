@@ -63,7 +63,7 @@ class A {
     public int $prop;
 }
 class B extends A {
-    // Illegal: read-write -> readonly
+    // Illégal : lecture-écriture -> lecture seule
     public readonly int $prop;
 }
 ?>
