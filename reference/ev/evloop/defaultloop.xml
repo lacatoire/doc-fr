@@ -52,7 +52,7 @@
     <listitem>
      <simpara>
       Un des
-      <link linkend="ev.constants.loop-flags">drapeaux de boucle d'évéments</link>
+      <link linkend="ev.constants.loop-flags">drapeaux de boucle d'événements</link>
      </simpara>
     </listitem>
    </varlistentry>

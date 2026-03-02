@@ -5,7 +5,7 @@
 <refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="ev.supportedbackends">
  <refnamediv>
   <refname>Ev::supportedBackends</refname>
-  <refpurpose>Retourne le jeu de backends supportés par la configuration courant de libev</refpurpose>
+  <refpurpose>Retourne le jeu de backends supportés par la configuration courante de libev</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
@@ -18,7 +18,7 @@
    <void/>
   </methodsynopsis>
   <simpara>
-   Retourne le jeu de backends supportés par la configuration courant de libev.
+   Retourne le jeu de backends supportés par la configuration courante de libev.
   </simpara>
  </refsect1>
  <refsect1 role="parameters">
@@ -36,7 +36,7 @@
  <refsect1 role="examples">
   &reftitle.examples;
   <example>
-   <title>Boucle embarqué créé avec le backend kqueue dans la boucle par défaut</title>
+   <title>Boucle embarquée créée avec le backend kqueue dans la boucle par défaut</title>
   <programlisting role="php">
 <![CDATA[
 <?php

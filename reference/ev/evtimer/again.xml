@@ -27,14 +27,14 @@
    </listitem>
    <listitem>
     <simpara>
-     si le Time est commencé, mais ne doit pas re-commencer, alors il sera
+     si le Timer est commencé, mais ne doit pas re-commencer, alors il sera
      stoppé (comme s'il s'était terminé normalement).
     </simpara>
    </listitem>
    <listitem>
     <simpara>
      si le Timer doit re-commencer, soit la méthode le démarre si nécessaire
-     (avec la valeur <varname>repeat</varname>), ou ré-initialise le Time à la
+     (avec la valeur <varname>repeat</varname>), ou ré-initialise le Timer à la
      valeur de la variable <varname>repeat</varname>.
     </simpara>
    </listitem>

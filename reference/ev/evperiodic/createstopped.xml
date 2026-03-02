@@ -56,8 +56,8 @@
     </term>
     <listitem>
      <simpara>
-      See
-      <link linkend="ev.periodic-modes">Periodic watcher operation modes</link>
+      Voir les
+      <link linkend="ev.periodic-modes">modes d'opération du watcher périodique</link>
      </simpara>
     </listitem>
    </varlistentry>

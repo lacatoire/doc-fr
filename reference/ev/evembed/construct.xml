@@ -31,7 +31,7 @@
   <simpara>
    Il s'agit d'un type de watcher avancé qui permet d'intégrer une boucle
    d'événement dans une autre (actuellement, seuls les événements IO sont
-   supportés dans la boucle interne, les autres types de watcher ne doit
+   supportés dans la boucle interne, les autres types de watcher ne doivent
    pas être utilisés).
   </simpara>
   <simpara>
@@ -42,7 +42,7 @@
   <simpara>
    Ce watcher est le plus utile sous les systèmes
    <emphasis>BSD</emphasis> où <literal>kqueue</literal> n'est pas utilisé,
-   pour être capable de gérer un grand nombre de sockers. Voir l'exemple ci-dessous.
+   pour être capable de gérer un grand nombre de sockets. Voir l'exemple ci-dessous.
   </simpara>
  </refsect1>
  <refsect1 role="parameters">
@@ -108,7 +108,7 @@
  * de kqueue. Stocke la boucle d'événement kqueue/socket seulement, dans loop_socket.
  * (optionnellement, utilisation de EVFLAG_NOENV)
  *
- * Exemple issue de
+ * Exemple issu de
  * http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Examples_CONTENT-9
  */
 $loop        = EvLoop::defaultLoop();

@@ -19,7 +19,7 @@
   </methodsynopsis>
   <simpara>
    Retourne un jeu de tous les backends compilés dans ce binaire de
-   <literal>libev</literal>, et également recommandée pour cette
+   <literal>libev</literal>, et également recommandés pour cette
    plateforme, ce qui signifie qu'ils devraient fonctionner pour la
    plupart des types de descripteur de fichiers. Ce jeu est généralement
    plus petit que celui retourné par la fonction
@@ -57,7 +57,7 @@
 * est stockée dans $loop_lo( qui est $loop_hi dans ce cas car aucune boucle interne
 * ne peut être utilisée).
 *
-* Exemple icci de :
+* Exemple issu de :
 * http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Examples_CONTENT-9
 */
 $loop_hi = EvLoop::defaultLoop();

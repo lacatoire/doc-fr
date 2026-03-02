@@ -15,7 +15,7 @@
     <parameter>interval</parameter> = <literal>0</literal>,
     <parameter>reschedule_cb</parameter> = &null;.
     L'appel se fera à l'heure d'horloge <parameter>offset</parameter>
-    et ne sera pas répété. Il ne sera pas ajusté lorsqu'un bon dans le temps
+    et ne sera pas répété. Il ne sera pas ajusté lorsqu'un bond dans le temps
     surviendra, aussi, s'il doit être exécuté à
     <emphasis>January 1st 2014</emphasis>, alors il le sera lorsque l'heure
     système sera atteinte, ou dépassée.
@@ -69,13 +69,13 @@ $hourly = EvPeriodic(0, 3600, NULL, function () {
     Cette fonction de rappel <emphasis>ne doit pas</emphasis> stopper ou détruire
     ce watcher périodique, ni un autre, et <emphasis>ne doit pas</emphasis>
     appeler de fonctions ou de méthodes de boucle d'événements. Pour le stopper,
-    retournez <literal>1e30</literal> et stoppez le après. Un watcher
+    il faut retourner <literal>1e30</literal> et le stopper après. Un watcher
     <classname>EvPrepare</classname> peut être utilisé pour réaliser cette tâche.
    </simpara>
    <simpara>
     Il doit retourner la prochaine heure d'appel, en se basant sur la valeur
     du temps passé (la plus petite valeur de temps doit être supérieure
-    ou égale au second argument). Il sera appelée, habituellement, juste après
+    ou égale au second argument). Il sera appelé, habituellement, juste après
     que la fonction de rappel ne soit lancée, mais possiblement à d'autres moments.
    </simpara>
    <example>
@@ -83,7 +83,7 @@ $hourly = EvPeriodic(0, 3600, NULL, function () {
     <programlisting role="php">
 <![CDATA[
 <?php
-// Chaque 10.5 secondes
+// Toutes les 10,5 secondes
 
 function reschedule_cb ($watcher, $now) {
    return $now + (10.5. - fmod($now, 10.5));

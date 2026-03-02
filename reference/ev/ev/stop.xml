@@ -32,7 +32,7 @@
     </term>
     <listitem>
      <simpara>
-      Une <link linkend="ev.constants.break-flags">constants</link>
+      Une <link linkend="ev.constants.break-flags">constante</link>
       parmi les constantes <emphasis>Ev::BREAK_*</emphasis>.
      </simpara>
     </listitem>

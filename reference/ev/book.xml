@@ -19,7 +19,7 @@
   <simpara>
    <emphasis>Libev</emphasis> est une boucle d'événements : elle enregistre
    un intérêt pour certains événements (comme un descripteur de fichier
-   devenu lisible, ou encore une délai d'attente maximal qui survient),
+   devenu lisible, ou encore un délai d'attente maximal qui survient),
    elle va gérer les sources de ces événements, et fournir le programme
    avec ces événements.
   </simpara>

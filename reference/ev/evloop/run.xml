@@ -65,7 +65,7 @@
           <entry>
            <constant>Ev::RUN_ONCE</constant>
           </entry>
-          <entry>Ne bloquer pas plus d'un événement (attend, mais ne boucle pas)</entry>
+          <entry>Ne pas bloquer plus d'un événement (attend, mais ne boucle pas)</entry>
          </row>
          <row>
           <entry>

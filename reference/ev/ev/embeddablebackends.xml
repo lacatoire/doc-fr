@@ -47,7 +47,7 @@
 * Stocke la boucle d'événement kqueue/socket-uniquement dans loop_socket.
 * (utilisation optionnelle de EVFLAG_NOENV)
 *
-* Exemple issue de :
+* Exemple issu de :
 * http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Examples_CONTENT-9
 */
 $loop        = EvLoop::defaultLoop();
