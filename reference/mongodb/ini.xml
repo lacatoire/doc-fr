@@ -59,7 +59,7 @@
        <function>sys_get_temp_dir</function>).
       </para>
       <para>
-       Spécifierune autre chaîne pour journaliser dans un nouveau fichier temporaire dans ce
+       Spécifier une autre chaîne pour journaliser dans un nouveau fichier temporaire dans ce
        répertoire. Si le répertoire ne peut pas être utilisé, le répertoire temporaire système par défaut
        sera utilisé à la place.
       </para>
