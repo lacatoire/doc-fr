@@ -44,7 +44,7 @@
        dans l'extension (et libmongoc).
       </para>
       <para>
-       Spécifierune chaîne vide, <literal>"0"</literal>,
+       Spécifier une chaîne vide, <literal>"0"</literal>,
        <literal>"off"</literal>, <literal>"no"</literal>, ou
        <literal>"false"</literal> pour désactiver le journal.
       </para>
