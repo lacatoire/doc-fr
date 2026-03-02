@@ -643,7 +643,7 @@ if($tc_conn) {
         $res = db2_set_option ($tc_conn, $parameters, 1);
 
         $userAfter = db2_get_option($tc_conn, "trusted_user");
-        //Do more work as trusted user.
+        //Effectuer d'autres opérations en tant qu'utilisateur de confiance.
 
         if($userBefore != $userAfter) {
             echo "Utilisateur changé." . "\n";
