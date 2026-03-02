@@ -167,7 +167,7 @@ try {
     echo 'Exception reçue : ',  $e->getMessage(), "\n";
 }
 
-// Continue execution
+// On continue l'exécution
 echo "Bonjour le monde !\n";
 ?>
 ]]>
@@ -337,7 +337,7 @@ function test() {
 try {
     test();
 } catch (SpecificException) {
-    print "A SpecificException was thrown, but we don't care about the details.";
+    print "Une SpecificException a été lancée, mais les détails ne nous intéressent pas.";
 }
 ?>
 ]]>
@@ -345,7 +345,7 @@ try {
     &example.outputs;
     <screen>
 <![CDATA[
-A SpecificException was thrown, but we don't care about the details.
+Une SpecificException a été lancée, mais les détails ne nous intéressent pas.
 ]]>
     </screen>
    </example>
@@ -357,7 +357,7 @@ A SpecificException was thrown, but we don't care about the details.
 <?php
 
 function test() {
-    do_something_risky() or throw new Exception('It did not work');
+    do_something_risky() or throw new Exception('Cela n\'a pas fonctionné');
 }
 
 function do_something_risky() {
@@ -375,7 +375,7 @@ try {
     &example.outputs;
     <screen>
 <![CDATA[
-It did not work
+Cela n'a pas fonctionné
 ]]>
     </screen>
    </example>

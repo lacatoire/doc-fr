@@ -224,7 +224,7 @@ class WorkingTemplate implements Template
 }
 
 // Ceci ne fonctionnera pas
-// Fatal error: Class BadTemplate contains 1 abstract methods
+// Erreur fatale : Class BadTemplate contains 1 abstract methods
 // and must therefore be declared abstract (Template::getHtml)
 class BadTemplate implements Template
 {
@@ -360,8 +360,6 @@ interface A
 echo A::B;
 
 
-// Par contre, ceci ne fonctionnera pas, puisqu'il n'est pas permis
-// d'écraser des constantes.
 class B implements A
 {
     const B = 'Constante de classe';

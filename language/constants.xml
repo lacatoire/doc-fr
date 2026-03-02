@@ -126,7 +126,7 @@ define("__FOO__", "something");
 
   <simpara>
    Si une constante indéfinie est utilisée, une <classname>Error</classname> est
-   lancée.
+   levée.
    Avant PHP 8.0.0, les constantes indéfinies étaient interprétées comme un
    mot nu de type &string;, c.-à-d. (CONSTANT vs "CONSTANT").
    Cette solution de repli est dépréciée à partir de PHP 7.2.0, et une erreur de
@@ -138,7 +138,7 @@ define("__FOO__", "something");
    (sauf si <literal>bar</literal> est une constante).
    Ceci ne s'applique pas pour les <link
    linkend="language.namespaces.rules">constantes (complètement) qualifiées</link>,
-   qui lancent toujours une <classname>Error</classname>.
+   qui lèvent toujours une <classname>Error</classname>.
   </simpara>
 
   <note>
@@ -183,8 +183,8 @@ define("__FOO__", "something");
 <?php
   define("CONSTANT", "Bonjour le monde.");
   echo CONSTANT; // affiche "Bonjour le monde."
-  echo Constant; // Lance une Error : Undefined constant "Constant"
-                 // Avant PHP 8.0.0, affiche "Constante" et émet un avertissement.
+  echo Constant; // Lève une Error : Undefined constant "Constant"
+                 // Avant PHP 8.0.0, affiche "Constant" et émet un avertissement.
 ?>
 ]]>
     </programlisting>
@@ -209,7 +209,7 @@ echo ANOTHER_CONST;
 const ANIMALS = array('chien', 'chat', 'oiseaux');
 echo ANIMALS[1]; // affiche "chat"
 
-// Tableaux constant
+// Tableaux constants
 define('ANIMALS', array(
     'chien',
     'chat',

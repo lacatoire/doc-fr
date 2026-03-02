@@ -80,7 +80,8 @@ EXPONENT_DNUM (({LNUM} | {DNUM}) [eE][+-]? {LNUM})
   <para>
    Pour une explication "simple", voir le
    <link xlink:href="&url.floating.point.guide;">guide relatif aux nombres
-    à virgule flottante</link>.
+    à virgule flottante</link> qui est aussi intitulé
+   "Why don't my numbers add up?"
   </para>
   
  </warning>
@@ -136,10 +137,10 @@ EXPONENT_DNUM (({LNUM} | {DNUM}) [eE][+-]? {LNUM})
    et est la différence la plus petite acceptable dans les calculs.
   </para>
 
-  <simpara>
+  <para>
    <varname>$a</varname> et <varname>$b</varname> sont égaux sur 5 nombres
    après la virgule.
-  </simpara>
+  </para>
   
   <example>
    <title>Comparaison de nombres flottants</title>

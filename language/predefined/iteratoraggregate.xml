@@ -80,16 +80,16 @@ foreach($obj as $key => $value) {
     <screen>
 <![CDATA[
 string(9) "property1"
-string(19) "Propriété publique numéro un"
+string(30) "Propriété publique numéro un"
 
 string(9) "property2"
-string(19) "Propriété publique numéro deux"
+string(32) "Propriété publique numéro deux"
 
 string(9) "property3"
-string(21) "Propriété publique numéro trois"
+string(33) "Propriété publique numéro trois"
 
 string(9) "property4"
-string(13) "dernière propriété"
+string(20) "dernière propriété"
 
 ]]>
     </screen>

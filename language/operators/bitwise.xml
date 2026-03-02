@@ -434,7 +434,7 @@ Expression : -2 = -4 >> 1
  Binaire :
   val=11111111111111111111111111111100
   res=11111111111111111111111111111110
- Note : copie du bit de signe à gauche
+ Note : copie du bit de signe maintenant à gauche
 
 Expression : -1 = -4 >> 2
  Décimal :

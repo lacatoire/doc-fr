@@ -223,7 +223,7 @@ var_dump($test->prop); // string(6) "foobar"
 
 // Réaffectation illégale. Ce n'importe pas que la valeur assignée soit identique.
 $test->prop = "foobar";
-// Error: Cannot modify readonly property Test::$prop
+// Erreur : Cannot modify readonly property Test::$prop
 ?>
 ]]>
     </programlisting>
@@ -259,7 +259,7 @@ class Test1 {
 $test1 = new Test1;
 // Initialisation illégale en dehors de la portée privée.
 $test1->prop = "foobar";
-// Error: Cannot initialize readonly property Test1::$prop from global scope
+// Erreur : Cannot initialize readonly property Test1::$prop from global scope
 ?>
 ]]>
     </programlisting>
@@ -277,7 +277,7 @@ $test1->prop = "foobar";
 <?php
 
 class Test {
-    // Fatal error: Readonly property Test::$prop cannot have default value
+    // Erreur fatale : Readonly property Test::$prop cannot have default value
     public readonly int $prop = 42;
 }
 ?>

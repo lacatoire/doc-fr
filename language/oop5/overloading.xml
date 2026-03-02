@@ -209,7 +209,7 @@ echo $obj->hidden . "\n";
     &example.outputs;
     <screen role="php">
 <![CDATA[
-Définition de 'a' à '1'
+Définition de 'a' à la valeur '1'
 Récupération de 'a'
 1
 

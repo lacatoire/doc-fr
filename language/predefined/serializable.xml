@@ -94,8 +94,8 @@ var_dump($newobj->getData());
     &example.outputs.similar;
     <screen>
 <![CDATA[
-string(38) "C:3:"obj":23:{s:19:"Mes données privées";}"
-string(19) "Mes données privées"
+string(44) "C:3:"obj":29:{s:21:"Mes données privées";}"
+string(21) "Mes données privées"
 ]]>
     </screen>
    </example><!-- }}} -->

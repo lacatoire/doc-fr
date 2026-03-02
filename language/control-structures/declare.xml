@@ -110,19 +110,19 @@ declare(ticks=1);
 
 declare(ticks=1);
 
-// A function called on each tick event
+// Une fonction appelée à chaque événement tick
 function tick_handler()
 {
     echo "tick_handler() called\n";
 }
 
-register_tick_function('tick_handler'); // causes a tick event
+register_tick_function('tick_handler'); // provoque un événement tick
 
-$a = 1; // causes a tick event
+$a = 1; // provoque un événement tick
 
 if ($a > 0) {
-    $a += 2; // causes a tick event
-    print $a; // causes a tick event
+    $a += 2; // provoque un événement tick
+    print $a; // provoque un événement tick
 }
 
 ?>

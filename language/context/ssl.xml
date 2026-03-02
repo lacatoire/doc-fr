@@ -220,7 +220,7 @@
      <listitem>
       <para>
        Si défini, la compression TLS sera désactivée.
-       Cela peut aider à mitiger le vecteur d'attaque CRIME.
+       Cela peut aider à atténuer le vecteur d'attaque CRIME.
       </para>
      </listitem>
     </varlistentry>
@@ -231,7 +231,7 @@
      </term>
      <listitem>
       <para>
-       Stop lorsque le certificat digest distant ne correspond pas au hash spécifié.
+       Interrompt la connexion lorsque le condensé du certificat distant ne correspond pas au hachage spécifié.
       </para>
       <para>
        Lorsqu'une &string; est utilisée, la longueur va déterminer l'algorithme

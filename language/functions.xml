@@ -726,7 +726,7 @@ array_fill(value: 50, count: 100, start_index: 0);
 <![CDATA[
 <?php
 htmlspecialchars($string, double_encode: false);
-// Same as
+// Identique à
 htmlspecialchars($string, ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML401, 'UTF-8', false);
 ?>
 ]]>
@@ -1221,7 +1221,7 @@ $example = function ($arg) use ($message) {
 };
 $example("hello");
 
-// Return type declaration comes after the use clause
+// La déclaration du type de retour vient après la clause use
 $example = function () use ($message): string {
     return "hello $message";
 };
@@ -1255,7 +1255,7 @@ string(11) "hello world"
    contexte global, qui est le même, quelle que soit la fonction qui
    s'exécute. Le contexte parent d'une fonction anonyme est la fonction
    dans laquelle la fonction a été déclarée (pas nécessairement celle
-   qui appelle). Voir l'exemple ci-dessous :
+   qui appelle). Voir l'exemple ci-dessous : 
   </simpara>
   
   <example>
@@ -1406,7 +1406,7 @@ NULL
 <?php
 
 $func = static function() {
-    // function body
+    // corps de la fonction
 };
 $func = $func->bindTo(new stdClass);
 $func();
@@ -1513,7 +1513,7 @@ Warning: Cannot bind an instance to a static closure in %s on line %d
 $y = 1;
  
 $fn1 = fn($x) => $x + $y;
-// equivalent to using $y by value:
+// équivalent à utiliser $y par valeur :
 $fn2 = function ($x) use ($y) {
     return $x + $y;
 };
@@ -1542,7 +1542,7 @@ var_export($fn1(3));
 
 $z = 1;
 $fn = fn($x) => fn($y) => $x * $y + $z;
-// Outputs 51
+// Affiche 51
 var_export($fn(5)(10));
 ?>
 ]]>
@@ -1576,7 +1576,7 @@ fn($x, ...$rest) => $rest;
     </example>
    </para>
    <simpara>
-    Les fonctions fléchées lie les variables par valeur.
+    Les fonctions fléchées lient les variables par valeur.
     Ceci est à peu près équivalent à effectuer un <code>use($x)</code> pour
     chaque variable <varname>$x</varname> utilisée à l'intérieur de la fonction
     fléchée.
@@ -1595,9 +1595,9 @@ fn($x, ...$rest) => $rest;
 <?php
 
 $x = 1;
-$fn = fn() => $x++; // Has no effect
+$fn = fn() => $x++; // N'a aucun effet
 $fn();
-var_export($x);  // Outputs 1
+var_export($x);  // Affiche 1
 
 ?>
 ]]>
@@ -1673,12 +1673,12 @@ $classStr = 'Foo';
 $methodStr = 'method';
 $staticmethodStr = 'staticmethod';
 $f1 = strlen(...);
-$f2 = $obj(...);  // invokable object
+$f2 = $obj(...);  // objet invocable
 $f3 = $obj->method(...);
 $f4 = $obj->$methodStr(...);
 $f5 = Foo::staticmethod(...);
 $f6 = $classStr::$staticmethodStr(...);
-// traditional callable using string, array
+// callable traditionnel utilisant une chaîne, un tableau
 $f7 = 'strlen'(...);
 $f8 = [$obj, 'method'](...);
 $f9 = [Foo::class, 'staticmethod'](...);
@@ -1714,12 +1714,12 @@ class Foo {
 $foo = new Foo;
 $privateMethod = $foo->getPrivateMethod();
 $privateMethod();
-// Fatal error: Call to private method Foo::privateMethod() from global scope
-// This is because call is performed outside from Foo and visibility will be checked from this point.
+// Erreur fatale : Call to private method Foo::privateMethod() from global scope
+// Ceci est dû au fait que l'appel est effectué en dehors de Foo et la visibilité sera vérifiée depuis ce point.
 class Foo1 {
     public function getPrivateMethod() {
-        // Uses the scope where the callable is acquired.
-        return $this->privateMethod(...); // identical to Closure::fromCallable([$this, 'privateMethod']);
+        // Utilise la portée où le callable est acquis.
+        return $this->privateMethod(...); // identique à Closure::fromCallable([$this, 'privateMethod']);
     }
     private function privateMethod() {
         echo __METHOD__, "\n";

@@ -157,7 +157,7 @@ class A
 {
     private function foo()
     {
-        echo "success!\n";
+        echo "Success!\n";
     }
     public function test()
     {

@@ -98,7 +98,7 @@ print_r($obj2);
    &example.outputs;
    <screen role="php">
 <![CDATA[
-Object original :
+Objet original :
 MyCloneable Object
 (
     [object1] => SubObject Object
@@ -112,7 +112,7 @@ MyCloneable Object
         )
 
 )
-Object cloné :
+Objet cloné :
 MyCloneable Object
 (
     [object1] => SubObject Object

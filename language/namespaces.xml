@@ -1530,9 +1530,9 @@ $obj = new $a;
       ]]>
      </programlisting>
     </example>
-    Dans une chaîne à double guillemets, la séquence de protection est beaucoup plus
-    sécuritaire à utiliser, mais il est quand même recommandé de toujours protéger
-    les antislashs dans une chaîne qui contient un espace de noms.
+    Dans une chaîne à guillemets simples, la séquence de protection est beaucoup plus
+    sûre à utiliser, mais il est quand même recommandé de toujours protéger
+    les antislashs dans toutes les chaînes comme bonne pratique.
    </para>
   </sect2>
   <sect2 xml:id="language.namespaces.faq.constants">

@@ -33,8 +33,8 @@
   </para>
   <para>
    Une fois suspendue, l'exécution de la fibre peut être reprise avec n'importe quelle valeur en utilisant <methodname>Fiber::resume</methodname>
-   ou en lançant une exception dans la fibre à l'aide de <methodname>Fiber::throw</methodname>. La valeur est renvoyée
-   (ou l'exception lancée) par <methodname>Fiber::suspend</methodname>.
+   ou en levant une exception dans la fibre à l'aide de <methodname>Fiber::throw</methodname>. La valeur est renvoyée
+   (ou l'exception levée) par <methodname>Fiber::suspend</methodname>.
   </para>
   <note>
    <simpara>

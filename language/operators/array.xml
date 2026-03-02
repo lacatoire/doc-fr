@@ -71,7 +71,7 @@ $c = $b + $a; // Union de $b et $a
 echo "Union de \$b et \$a : \n";
 var_dump($c);
 
-$a += $b; // Union de $a += $b est $a and $b
+$a += $b; // Union de $a += $b est $a et $b
 echo "Union de \$a += \$b: \n";
 var_dump($a);
 ?>

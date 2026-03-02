@@ -264,7 +264,7 @@ $unset_array[] = 'valeur'; // Ne génère pas d'avertissement.
    de la ligne où l'inclusion a lieu.
   </simpara>
   <example>
-   <title>Les variables sont locales à la fonction</title>
+   <title>Exemple de portée de variable globale</title>
    <programlisting role="php">
 <![CDATA[
 <?php
