@@ -5,7 +5,7 @@
  <title>Nouvelles Fonctionnalités</title>
 
  <sect2 xml:id="migration81.new-features.core">
-  <title>Cœur de PHP</title>
+  <title>PHP Core</title>
 
   <sect3 xml:id="migration81.new-features.core.octal-literal-prefix">
    <title>Préfixe littéral octal entier</title>

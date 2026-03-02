@@ -151,7 +151,7 @@ echo add(1, ...$operators);
   <para>
    Un opérateur <literal>**</literal> associatif à droite a été ajouté
    pour supporter l'exponentiation, en conjonction de l'opérateur
-   d'affectation <literal>**=</literal>.
+   d'assignation <literal>**=</literal>.
   </para>
 
   <informalexample>

@@ -331,7 +331,7 @@ function test(int $arg = null) {}
        <member>Tentative d'utilisation d'une ressource comme clé de tableau.</member>
        <member>Tentative d'utilisation de null, d'un booléen ou d'un nombre flottant comme index de chaîne.</member>
        <member>Tentative de lecture d'un index de chaîne hors limites.</member>
-       <member>Tentative d'affectation d'une chaîne vide à un index de chaîne.</member>
+       <member>Tentative d'assignation d'une chaîne vide à un index de chaîne.</member>
       </simplelist>
       <!-- RFC: https://wiki.php.net/rfc/engine_warnings -->
      </para>
@@ -430,7 +430,7 @@ trait MyTrait {
 class MyClass {
     use MyTrait;
 
-    // Error, because of return type mismatch.
+    // Erreur, en raison d'une incompatibilité de type de retour.
     private function neededByTrait(): int { return 42; }
 }
 ?>
@@ -474,8 +474,8 @@ class MyClass {
 setlocale(LC_ALL, "de_DE");
 $f = 3.14;
 echo $f, "\n";
-// Previously: 3,14
-// Now:        3.14
+// Avant : 3,14
+// Maintenant : 3.14
 ?>
 ]]>
       </programlisting>

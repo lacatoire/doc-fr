@@ -327,7 +327,7 @@ fclose($fp);
 
    <example>
     <title>
-     <literal>zlib.deflate</literal> and
+     <literal>zlib.deflate</literal> et
      <literal>zlib.inflate</literal>
     </title>
     <programlisting role="php">
@@ -550,7 +550,7 @@ $fp = fopen('encrypted-file.enc', 'rb');
 $iv = fread($fp, $iv_size = mcrypt_get_iv_size(MCRYPT_BLOWFISH, MCRYPT_MODE_CBC));
 $opts = array('mode'=>'cbc','iv'=>$iv, 'key'=>$key);
 stream_filter_append($fp, 'mdecrypt.blowfish', STREAM_FILTER_READ, $opts);
-$data = rtrim(stream_get_contents($fp));//trims off null padding
+$data = rtrim(stream_get_contents($fp));//supprime le remplissage nul
 fclose($fp);
 echo $data;
 ?>

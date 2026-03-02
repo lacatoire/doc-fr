@@ -6,7 +6,7 @@
 
  <!-- TODO: Core features for 8.4 -->
  <sect2 xml:id="migration84.new-features.core">
-  <title>Cœur de PHP</title>
+  <title>PHP Core</title>
 
   <!-- RFC: https://wiki.php.net/rfc/property-hooks -->
   <sect3 xml:id="migration84.new-features.core.property-hooks">
