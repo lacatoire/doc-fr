@@ -56,10 +56,10 @@
 
         // Se détacher du serveur (déconnexion)
         if(ibase_service_detach($service) == FALSE) {
-            echo "Error on service detach.";
+            echo "Erreur lors de la déconnexion du service.";
         }
         else {
-            echo "Successfully detached from service.";
+            echo "Déconnexion du service réussie.";
         }
 
     }

@@ -114,7 +114,7 @@ $service = ibase_service_attach ('10.1.11.200/3050', 'sysdba', 'masterkey');
 // N'utilise pas d'argument spéciaux
 ibase_backup($service, '/srv/firebird/employees.fdb', '/srv/backup/employees.fbk');
 
-// Libère la connexion attaché
+// Libère la connexion attachée
 ibase_service_detach ($service);
 ?>
 ]]>
@@ -135,7 +135,7 @@ $service = ibase_service_attach ('fb-server.contoso.local', 'sysdba', 'masterkey
 // Sauvegarde uniquement les métadonnées. Ne crée pas une sauvegarde transportable.
 ibase_backup($service, 'employees.fdb', '/srv/backup/employees.fbk', IBASE_BKP_METADATA_ONLY | IBASE_BKP_NON_TRANSPORTABLE);
 
-// Libère la connexion attaché
+// Libère la connexion attachée
 ibase_service_detach ($service);
 ?>
 ]]>

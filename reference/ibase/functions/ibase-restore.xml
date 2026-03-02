@@ -117,7 +117,7 @@ $service = ibase_service_attach ('10.1.11.200/3050', 'sysdba', 'masterkey');
 // N'utilise pas d'argument spéciaux
 ibase_restore($service, '/srv/backup/employees.fbk', '/srv/firebird/emps.fdb');
 
-// Libère la connexion attaché
+// Libère la connexion attachée
 ibase_service_detach ($service);
 ?>
 ]]>
@@ -138,7 +138,7 @@ $service = ibase_service_attach ('fb-server.contoso.local', 'sysdba', 'masterkey
 // Restaure sans index, Remplace la base de données existante.
 ibase_restore($service, '/srv/backup/employees.fbk', 'employees.fdb', IBASE_RES_DEACTIVATE_IDX | IBASE_RES_REPLACE);
 
-// Libère la connexion attaché
+// Libère la connexion attachée
 ibase_service_detach ($service);
 ?>
 ]]>
