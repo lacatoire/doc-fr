@@ -218,7 +218,7 @@ LoadModule php7_module modules/libphp7.so
    
    <para>
     Configurer Apache pour analyser certaines extensions comme étant des scripts PHP.
-    Par exemple, laissez Apache passer à PHP les fichiers dont l'extension est
+    Par exemple, laisser Apache passer à PHP les fichiers dont l'extension est
     <literal>.php</literal>.
     Au lieu d'utiliser seulement la directive <literal>AddType</literal> d'Apache,
     nous souhaitons éviter tout risque potentiellement dangereux, lors
@@ -324,7 +324,7 @@ service httpd restart
   En ayant suivi les étapes précédentes, le serveur web est maintenant un
   Apache2 fonctionnel avec le support PHP comme module <literal>SAPI</literal>.
   Bien sûr, il y a une multitude d'autres options de configuration de disponibles
-  avec Apache et PHP. Pour plus d'informations, entrez la commande
+  avec Apache et PHP. Pour plus d'informations, entrer la commande
   <command>./configure --help</command> dans l'arbre source correspondant.
  </para>
  <para>
