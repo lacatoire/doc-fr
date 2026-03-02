@@ -142,7 +142,7 @@
    <para>
     <note>
      <para>
-      Sélectionnez la case à cocher Correspondance de mots similaires pour inclure des variations grammaticales
+      Sélectionner la case à cocher Correspondance de mots similaires pour inclure des variations grammaticales
       mineures pour la phrase recherchée. Cette fonctionnalité ne localise que les variations du mot avec
       des suffixes communs. Par exemple, une recherche sur le mot "add" trouvera "added", mais
       ne trouvera pas "additive". Cette option est indépendante des autres options ou syntaxes.

@@ -63,14 +63,14 @@ echo "Bonjour, je suis un script PHP !";
   <para>
    Le grand avantage de PHP est qu'il est extrêmement simple pour les
    néophytes, mais offre des fonctionnalités avancées pour les
-   experts. Ne craignez pas de lire la longue liste de fonctionnalités
+   experts. Il ne faut pas se laisser effrayer par la longue liste de fonctionnalités
    PHP. Avec PHP, presque tout le monde peut commencer rapidement
    et écrire des scripts simples en un rien de temps.
   </para>
   <para>
    Bien que le développement de PHP soit orienté vers la programmation
    pour les sites web, on peut faire bien plus avec PHP.
-   Lisez donc la section <link linkend="intro-whatcando">Que peut faire PHP ?</link>
+   Consulter la section <link linkend="intro-whatcando">Que peut faire PHP ?</link>
    ou bien le <link linkend="tutorial">tutoriel d'introduction</link> pour passer directement
    à l'apprentissage de la programmation web.
   </para>
