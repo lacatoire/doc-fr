@@ -15,7 +15,7 @@
    &reftitle.intro;
    <para>
     La classe <classname>MongoDB\Driver\Monitoring\CommandStartedEvent</classname>
-    contient les informations sur une commande ayant démarrée.
+    contient les informations sur une commande ayant démarré.
    </para>
   </section>
 <!-- }}} -->

@@ -38,7 +38,7 @@
   &reftitle.returnvalues;
   <para>
    Retournera &false; si cet élément n'existe pas; &null;, si l'élément est &null; chaîne
-   si la colonne est de type chaîne, et nombre si c'est un champs numérique.
+   si la colonne est de type chaîne, et nombre si c'est un champ numérique.
   </para>
  </refsect1>
 

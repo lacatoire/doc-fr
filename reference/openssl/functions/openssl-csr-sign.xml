@@ -21,7 +21,7 @@
    <methodparam choice="opt"><type class="union"><type>string</type><type>null</type></type><parameter>serial_hex</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
   <para>
-   <function>openssl_csr_sign</function> génère un certificat x509 depuis le <acronym>CSR</acronym> donnée.
+   <function>openssl_csr_sign</function> génère un certificat x509 depuis le <acronym>CSR</acronym> donné.
   </para>
   &note.openssl.cnf;
  </refsect1>

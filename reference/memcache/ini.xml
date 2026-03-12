@@ -182,7 +182,7 @@
    <simpara>
     Contrôle la stratégie à appliquer lors du mappage des clés sur les serveurs.
     Définir cette valeur à <literal>consistent</literal> pour activer la cohérence
-    de hachage qui permet aux serveurs d'être ajoutés ou supprimés de la réserver sans
+    de hachage qui permet aux serveurs d'être ajoutés ou supprimés de la réserve sans
     pour autant avoir besoin d'effectuer un nouveau mappage des clés. Définir cette
     valeur à <literal>standard</literal> fera que l'ancienne stratégie sera utilisée.
    </simpara>

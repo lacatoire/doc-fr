@@ -112,7 +112,7 @@
 $memcache_obj = memcache_connect('memcache_host', 11211);
 
 /*
-définie la valeur de l'élément identifié par la clé 'var_key' ;
+définit la valeur de l'élément identifié par la clé 'var_key' ;
 utilisation de la valeur 0 pour le flag ;
 la compression n'est pas utilisée ;
 le délai d'expiration vaut 30 secondes
@@ -138,7 +138,7 @@ $memcache_obj = new Memcache;
 $memcache_obj->connect('memcache_host', 11211);
 
 /*
-définie la valeur de l'élément identifié par la clé 'var_key' ;
+définit la valeur de l'élément identifié par la clé 'var_key' ;
 utilisation de la compression à la volée ;
 le délai d'expiration vaut 50 secondes
 */

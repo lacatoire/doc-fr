@@ -4,7 +4,7 @@
 <refentry xml:id="function.pcntl-waitid" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>pcntl_waitid</refname>
-  <refpurpose>Attends qu'un processus enfant change d'état</refpurpose>
+  <refpurpose>Attend qu'un processus enfant change d'état</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -25,11 +25,11 @@
   <para>
    Sauf si le drapeau <constant>WNOHANG</constant> est passé, le processus appelant
    sera bloqué jusqu'à ce qu'une erreur survienne, ou que des informations de
-   status deviennent disponibles qui satisfont toutes les conditions suivantes :
+   statut deviennent disponibles qui satisfont toutes les conditions suivantes :
    <itemizedlist>
     <listitem>
      <simpara>
-      Le status de l'information provient d'un des processus enfant dans l'ensemble
+      Le statut de l'information provient d'un des processus enfant dans l'ensemble
       des processus enfants spécifiés par les arguments <parameter>idtype</parameter>
       et <parameter>id</parameter>.
      </simpara>

@@ -75,7 +75,7 @@ if (!$conn) {
 }
 
 $stid = oci_parse($conn, "SELECT * FROM mytab");
-oci_execute($stid, OCI_DESCRIBE_ONLY); // Utilisation de  OCI_DESCRIBE_ONLY si aucune ligne n'est récupérée
+oci_execute($stid, OCI_DESCRIBE_ONLY); // Utilisation de OCI_DESCRIBE_ONLY si aucune ligne n'est récupérée
 
 $ncols = oci_num_fields($stid);
 for ($i = 1; $i <= $ncols; $i++) {

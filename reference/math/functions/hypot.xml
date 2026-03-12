@@ -16,7 +16,7 @@
   </methodsynopsis>
   <para>
    <function>hypot</function> retourne la longueur de l'hypoténuse
-   d'un triangle à angle droit qui a des cotés d'une longueur <parameter>x</parameter> et
+   d'un triangle à angle droit qui a des côtés d'une longueur <parameter>x</parameter> et
    <parameter>y</parameter> ou bien la distance du point
    (<parameter>x</parameter>, <parameter>y</parameter>)
    depuis l'origine. Ceci est l'équivalent de <code>sqrt($x*$x + $y*$y)</code>.

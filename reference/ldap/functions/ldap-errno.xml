@@ -72,7 +72,7 @@
 <programlisting role="php">
 <![CDATA[
 <?php
-// Cet exemple contient une erreur, que nous interecepterons.
+// Cet exemple contient une erreur, que nous intercepterons.
 $ld = ldap_connect("localhost");
 $bind = ldap_bind($ld);
 // erreur de syntaxe dans l'expression du filtre (errno 87),

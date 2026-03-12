@@ -111,7 +111,7 @@ Santa Clara (USA)
    <para>
     <classname>mysqli_result</classname> peut être itéré en utilisant un &foreach;.
     Le jeu de résultats sera toujours itéré à partir de la première ligne,
-    quel que soit la position actuelle.
+    quelle que soit la position actuelle.
    </para>
    <programlisting role="php">
 <![CDATA[

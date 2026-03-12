@@ -5,7 +5,7 @@
 <refentry xml:id="mongodb-driver-manager.executebulkwritecommand" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>MongoDB\Driver\Manager::executeBulkWriteCommand</refname>
-  <refpurpose>Execute les opérations d'écriture en utilisant la commande bulkWrite</refpurpose>
+  <refpurpose>Exécute les opérations d'écriture en utilisant la commande bulkWrite</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -85,7 +85,7 @@
   <example>
    <title>Opérations d'écriture mixtes</title>
    <para>
-    Les opérations d'écriture mixées (par exemple, insertion, mise à jour et suppression) seront envoyées
+    Les opérations d'écriture mixtes (par exemple, insertion, mise à jour et suppression) seront envoyées
     au serveur en utilisant une seule
     commande
     <link xlink:href="&url.mongodb.docs.command;bulkWrite">bulkWrite</link>

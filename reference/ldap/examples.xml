@@ -45,7 +45,7 @@ if ($ds) {
 
     for ($i=0; $i<$info["count"]; $i++) {
         echo 'dn est : ' . $info[$i]["dn"] . '<br />';
-        echo 'premiere entree cn : ' . $info[$i]["cn"][0] . '<br />';
+        echo 'première entrée cn : ' . $info[$i]["cn"][0] . '<br />';
         echo 'premier email : ' . $info[$i]["mail"][0] . '<br />';
     }
 

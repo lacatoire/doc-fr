@@ -16,7 +16,7 @@
    <methodparam><type class="union"><type>string</type><type>int</type></type><parameter>column</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Retourne la taille du champ <parameter>column</parameter> Oracle .
+   Retourne la taille du champ <parameter>column</parameter> Oracle.
   </para>
  </refsect1>
 

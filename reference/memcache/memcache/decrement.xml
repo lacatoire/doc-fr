@@ -82,7 +82,7 @@
 <![CDATA[
 <?php
 
-/* API proécédurale */
+/* API procédurale */
 $memcache_obj = memcache_connect('memcache_host', 11211);
 /* décrémentation de l'élément par 2 */
 $new_value = memcache_decrement($memcache_obj, 'test_item', 2);
