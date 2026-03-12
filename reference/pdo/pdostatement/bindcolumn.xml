@@ -21,7 +21,7 @@
 
    <para>
     <methodname>PDOStatement::bindColumn</methodname> fait en sorte qu'une
-    variable PHP soit liée à une colonne données dans le jeu de résultats
+    variable PHP soit liée à une colonne donnée dans le jeu de résultats
     dans une requête. Chaque appel à la fonction 
     <methodname>PDOStatement::fetch</methodname> ou 
     <methodname>PDOStatement::fetchAll</methodname> met à jour toutes les variables

@@ -32,7 +32,7 @@
    <para>
     Cette méthode retourne toujours "0" (zéro) avec le pilote PostgreSQL,
     quand l'attribut de déclaration
-    <constant>PDO::ATTR_CURSOR</constant> est définie à
+    <constant>PDO::ATTR_CURSOR</constant> est défini à
     <constant>PDO::CURSOR_SCROLL</constant>.
    </para>
   </note>
