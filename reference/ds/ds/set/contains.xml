@@ -54,7 +54,7 @@
   &reftitle.returnvalues;
   <para>
     &false; si l'une des <parameter>valeurs</parameter> fournies n'est pas dans
-    la séquence, sinon &true;.
+    l'ensemble, sinon &true;.
   </para>
  </refsect1>
 
