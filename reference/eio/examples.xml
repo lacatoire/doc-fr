@@ -246,7 +246,7 @@ string(10) "mkdir data"
 $base = new EventBase();
 
 // Retourne le flux d'interrogation eio.
-// Notez que cette variable doit être active tant que la boucle d'événements est en cours d'exécution.
+// Il est à noter que cette variable doit être active tant que la boucle d'événements est en cours d'exécution.
 $eio_stream = eio_get_event_stream();
 
 // Lie le flux d'interrogation eio à la boucle d'événement.

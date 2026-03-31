@@ -6,7 +6,7 @@
  &extension.constants;
  <para>
   <variablelist xml:id="constants.fann-train">
-   <title>Training algorithms</title>
+   <title>Algorithmes d'entraînement</title>
    <varlistentry xml:id="constant.fann-train-incremental">
     <term>
      <constant>FANN_TRAIN_INCREMENTAL</constant>
@@ -79,7 +79,7 @@
    </varlistentry>
   </variablelist>
   <variablelist xml:id="constants.fann-activation-funcs">
-   <title>Activation functions</title>
+   <title>Fonctions d'activation</title>
    <varlistentry xml:id="constant.fann-linear">
     <term>
      <constant>FANN_LINEAR</constant>
@@ -359,7 +359,7 @@
    </varlistentry>
    </variablelist>
   <variablelist xml:id="constants.fann-e">
-   <title>Errors</title>
+   <title>Erreurs</title>
    <varlistentry xml:id="constant.fann-e-no-error">
     <term>
      <constant>FANN_E_NO_ERROR</constant>
