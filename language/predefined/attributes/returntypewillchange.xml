@@ -12,7 +12,7 @@
    <para>
     La plupart des méthodes internes non finales exigent désormais que les méthodes de surcharge déclarent
     un type de retour compatible, sinon un avis d'obsolescence est émis lors de la validation de l'héritage.
-    Dans le cas où le type de retour ne peut pas être déclaré pour une méthode de surcharge en raison de 
+    Dans le cas où le type de retour ne peut pas être déclaré pour une méthode de surcharge en raison de
     problèmes de compatibilité entre les versions de PHP,
     un attribut <code>#[\ReturnTypeWillChange]</code> peut être ajouté pour taire
     l'avis d'obsolescence.
