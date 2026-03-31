@@ -69,7 +69,7 @@
         les adresses IPv4 séparément alors qu'il existe une liaison sur <literal>[::]</literal>.
        </para>
        <para>
-        Ceci n'est applicable qu'à la fonction  <function>stream_socket_server</function>.
+        Ceci n'est applicable qu'à la fonction <function>stream_socket_server</function>.
        </para>
       </note>
      </listitem>
@@ -95,7 +95,7 @@
       </para>
       <note>
        <para>
-        Ceci n'est applicable qu'à la fonction  <function>stream_socket_server</function>.
+        Ceci n'est applicable qu'à la fonction <function>stream_socket_server</function>.
        </para>
       </note>
      </listitem>
