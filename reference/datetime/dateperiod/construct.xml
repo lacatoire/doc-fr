@@ -244,7 +244,7 @@ $period = new DatePeriod($start, $interval, $end,
 
 // En parcourant l'objet DatePeriod,
 // toutes les dates de récursion pour la période sont affichées.
-// Notez que, dans ce cas, 2012-07-01 ne sera pas affiché.
+// Il est à noter que, dans ce cas, 2012-07-01 ne sera pas affiché.
 foreach ($period as $date) {
     echo $date->format('Y-m-d')."\n";
 }
