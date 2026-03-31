@@ -10,7 +10,7 @@
 <!-- {{{ InternalIterator intro -->
   <section xml:id="internaliterator.intro">
    &reftitle.intro;
-   <para>
+   <para> 
     Classe facilitant l'implémentation de <interfacename>IteratorAggregate</interfacename>
     pour les classes <emphasis>internes</emphasis>.
    </para>

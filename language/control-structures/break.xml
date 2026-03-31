@@ -24,7 +24,7 @@
 <![CDATA[
 <?php
 $arr = array('un', 'deux', 'trois', 'quatre', 'stop', 'cinq');
-foreach ($arr as $val) {
+foreach ($arr as $val) { 
     if ($val == 'stop') {
         break;    /* Vous pourriez aussi utiliser 'break 1;' ici. */
     }

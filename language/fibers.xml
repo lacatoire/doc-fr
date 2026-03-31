@@ -45,7 +45,7 @@
   </note>
 
   <example xml:id="language.fiber.example.basic"><!-- {{{ -->
-   <title>Utilisation de base</title>
+  <title>Utilisation de base</title>
    <programlisting role="php">
     <![CDATA[
 <?php

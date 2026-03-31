@@ -46,7 +46,7 @@
   &reftitle.examples;
   <example>
    <title>Utilisation de base</title>
-   <para>
+   <para> 
     L'exemple suivant illustre la façon dont les cas d'énumération sont renvoyés.
    </para>
    <programlisting role="php">

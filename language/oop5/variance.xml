@@ -21,13 +21,13 @@
    <listitem>
     <simpara>
      Un type est retiré d'un
-     <link linkend="language.types.type-system.composite.union">type union</link>
+    <link linkend="language.types.type-system.composite.union">type union</link>
     </simpara>
    </listitem>
    <listitem>
     <simpara>
      Un type est ajouté à un
-     <link linkend="language.types.type-system.composite.intersection">type d'intersection</link>
+    <link linkend="language.types.type-system.composite.intersection">type d'intersection</link>
     </simpara>
    </listitem>
    <listitem>
@@ -37,7 +37,7 @@
    </listitem>
    <listitem>
     <simpara>
-     <type>iterable</type> est remplacé par <type>array</type> ou <classname>Traversable</classname>
+    <type>iterable</type> est remplacé par <type>array</type> ou <classname>Traversable</classname>
     </simpara>
    </listitem>
   </itemizedlist>
@@ -51,7 +51,7 @@
   <para>
    Pour illustrer le fonctionnement de la covariance, une simple classe parente abstraite, <varname>Animal</varname>
    est créée. <varname>Animal</varname> sera étendu par des classes enfants,
-   <varname>Cat</varname> et <varname>Dog</varname>.
+  <varname>Cat</varname> et <varname>Dog</varname>.
   </para>
 
   <informalexample>
@@ -93,7 +93,7 @@ class Cat extends Animal
   <para>
    Il est à noter qu'il n'y a pas de méthodes qui renvoient des valeurs dans cet exemple. Quelques fabriques
    seront ajoutées et renverront un nouvel objet de classe de type <varname>Animal</varname>,
-   <varname>Cat</varname>, ou <varname>Dog</varname>.
+  <varname>Cat</varname>, ou <varname>Dog</varname>.
   </para>
 
   <informalexample>
@@ -148,7 +148,7 @@ Mavrick barks
    <varname>Cat</varname> et <varname>Dog</varname>, une classe appelée
    <varname>Food</varname> et <varname>AnimalFood</varname> seront incluses, et
    une méthode <varname>eat(AnimalFood $food)</varname> est ajoutée à la classe abstraite
-   <varname>Animal</varname>.
+   <varname>Animal</varname> .
   </para>
 
   <informalexample>
@@ -226,10 +226,10 @@ Mavrick eats Food
 ]]>
    </screen>
 
-   <para>
-    Mais que se passe-t-il si <varname>$kitty</varname> essaie de manger (<methodname>eat</methodname>) la
-    banane (<varname>$banana</varname>) ?
-   </para>
+  <para>
+   Mais que se passe-t-il si <varname>$kitty</varname> essaie de manger (<methodname>eat</methodname>) la
+   banane (<varname>$banana</varname>) ?
+  </para>
 
    <programlisting role="php">
 <![CDATA[
