@@ -49,9 +49,9 @@
   &reftitle.notes;
   <note>
     <para>
-     Il est possible aux implémentations de cette méthode de retourner par référence.
-     Ceci permet les modifications indirectes des dimensions
-     de l'objet <classname>ArrayAccess</classname>.
+      Il est possible aux implémentations de cette méthode de retourner par référence.
+      Ceci permet les modifications indirectes des dimensions
+      de l'objet <classname>ArrayAccess</classname>.
     </para>
     <para>
       Une modification directe remplace complètement la valeur dans la dimension du tableau
