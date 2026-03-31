@@ -61,7 +61,7 @@
 <![CDATA[
 <?php
 $a = array("a" => "pomme", "b" => "banane");
-$b = array("a" =>"poire", "b" => "fraise", "c" => "cerise");
+$b = array("a" => "poire", "b" => "fraise", "c" => "cerise");
 
 $c = $a + $b; // Union de $a et $b
 echo "Union de \$a et \$b : \n";
