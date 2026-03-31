@@ -28,7 +28,7 @@
   &reftitle.returnvalues;
   <para>
    Une instance d'un objet implémentant <classname>Iterator</classname> ou
-  <classname>Traversable</classname>
+   <classname>Traversable</classname>
   </para>
  </refsect1>
 
