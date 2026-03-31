@@ -15,7 +15,7 @@
     pour les protéger contre une exposition accidentelle.
    </para>
    <para>
-    Les valeurs des paramètres ayant l'attribut <classname>SensitiveParameter</classname> 
+    Les valeurs des paramètres ayant l'attribut <classname>SensitiveParameter</classname>
     seront automatiquement enveloppées dans un objet <classname>SensitiveParameterValue</classname>
     dans les traces de pile.
    </para>
