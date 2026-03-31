@@ -254,7 +254,7 @@ $stream = fopen("ssh2.tunnel://$session/remote.example.com:1234", 'r');
     la variable de ressource <varname>$session</varname> doit être conservée. 
     Le code ci-dessous n'aura pas l'effet escompté :
    </simpara>
-      <programlisting role="php">
+   <programlisting role="php">
 <![CDATA[
 <?php
 $session = ssh2_connect('example.com', 22);

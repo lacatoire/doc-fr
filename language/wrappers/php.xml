@@ -267,7 +267,7 @@
        <entry>Support de la fonction <function>stream_select</function></entry>
        <entry>
         <literal>php://stdin</literal>,
-        <literal>php://stdout</literal>, 
+        <literal>php://stdout</literal>,
         <literal>php://stderr</literal>,
         <literal>php://fd</literal> et
         <literal>php://temp</literal> uniquement.
