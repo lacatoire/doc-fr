@@ -46,7 +46,7 @@
     <term><parameter>height</parameter></term>
     <listitem>
      <para>
-      La hauteur à utiliser pour la mise à l'échelle de l'image. Si omis ou 
+      La hauteur à utiliser pour la mise à l'échelle de l'image. Si omise ou
       négative, le ratio de l'image sera préservé.
      </para>
     </listitem>
