@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 7f5d646f3ee39231150e767fb876b56610f56c2b Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 7f5d646f3ee39231150e767fb876b56610f56c2b Maintainer: lacatoire Status: ready -->
 <!-- Reviewed: yes -->
 <appendix xml:id="image.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
@@ -13,11 +13,11 @@
    </term>
    <listitem>
     <simpara>
-     La version GD de PHP.
+     La version GD avec laquelle PHP a été compilé.
     </simpara>
    </listitem>
   </varlistentry>
-  
+
   <varlistentry xml:id="constant.gd-major-version">
    <term>
     <constant>GD_MAJOR_VERSION</constant>
@@ -25,11 +25,11 @@
    </term>
    <listitem>
     <simpara>
-     La version majeure GD de PHP.
+     La version majeure de GD avec laquelle PHP a été compilé.
     </simpara>
    </listitem>
   </varlistentry>
-  
+
   <varlistentry xml:id="constant.gd-minor-version">
    <term>
     <constant>GD_MINOR_VERSION</constant>
@@ -37,11 +37,11 @@
    </term>
    <listitem>
     <simpara>
-     La version mineure GD de PHP.
+     La version mineure de GD avec laquelle PHP a été compilé.
     </simpara>
    </listitem>
   </varlistentry>
-  
+
   <varlistentry xml:id="constant.gd-release-version">
    <term>
     <constant>GD_RELEASE_VERSION</constant>
@@ -49,11 +49,11 @@
    </term>
    <listitem>
     <simpara>
-     La version GD fournie avec PHP.
+     La version de publication de GD avec laquelle PHP a été compilé.
     </simpara>
    </listitem>
   </varlistentry>
-  
+
   <varlistentry xml:id="constant.gd-extra-version">
    <term>
     <constant>GD_EXTRA_VERSION</constant>
@@ -61,7 +61,7 @@
    </term>
    <listitem>
     <simpara>
-     La version "extra" GD (beta/rc..) de PHP.
+     La version "extra" de GD (beta/rc..) avec laquelle PHP a été compilé.
     </simpara>
    </listitem>
   </varlistentry>
@@ -73,11 +73,12 @@
    </term>
    <listitem>
     <simpara>
-     Lorsque la version interne de GD est utilisée, cette constante vaut 1,
+     Lorsque la version intégrée de GD est utilisée, cette constante vaut 1,
      sinon, elle vaut 0.
     </simpara>
    </listitem>
   </varlistentry>
+
   <varlistentry xml:id="constant.img-avif">
    <term>
     <constant>IMG_AVIF</constant>
