@@ -270,7 +270,7 @@ db2set DB2COMM=TCPIP</literallayout>
            <simpara>
             La directive du &php.ini; <parameter>ibm_db2.i5_allow_commit</parameter>==0
             ou <literal>DB2_I5_TXN_NO_COMMIT</literal> est la valeur par défaut, mais peut
-            être remplacé par l'option <parameter>i5_commit</parameter>.
+            être remplacée par l'option <parameter>i5_commit</parameter>.
            </simpara>
           </note>
          </para>
@@ -334,7 +334,7 @@ db2set DB2COMM=TCPIP</literallayout>
            <simpara>
             La directive du &php.ini; <parameter>ibm_db2.i5_dbcs_alloc</parameter>==0
             ou <literal>DB2_I5_DBCS_ALLOC_OFF</literal> est la valeur par défaut, mais peut
-            être remplacé par l'option <parameter>i5_dbcs_alloc</parameter>.
+            être remplacée par l'option <parameter>i5_dbcs_alloc</parameter>.
            </simpara>
           </note>
           </para>
@@ -349,7 +349,7 @@ db2set DB2COMM=TCPIP</literallayout>
           utilisé : <literal>yyyy-mm-dd</literal>. C'est le format par défaut.
          </simpara>
          <simpara>
-          <literal>DB2_I5_FMT_USA</literal> : le format des États Unis d'Amérique
+          <literal>DB2_I5_FMT_USA</literal> : le format des États-Unis d'Amérique
           est utilisé : <literal>mm/dd/yyyy</literal>.
          </simpara>
          <simpara>
@@ -373,7 +373,7 @@ db2set DB2COMM=TCPIP</literallayout>
           <literal>yy/mm/dd</literal> est utilisé.
          </simpara>
          <simpara>
-          <literal>DB2_I5_FMT_JUL</literal> : Le format de date julien
+          <literal>DB2_I5_FMT_JUL</literal> : le format de date julien
           <literal>yy/ddd</literal> est utilisé.
          </simpara>
          <simpara>
