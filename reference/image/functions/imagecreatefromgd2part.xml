@@ -108,7 +108,7 @@ $image = getimagesize('./test.gd2');
 // Création de l'instance d'image maintenant que nous avons les dimensions
 $im = imagecreatefromgd2part('./test.gd2', 4, 4, ($image[0] / 2) - 6, ($image[1] / 2) - 6);
 
-// Opération sur l'image : ici, nous imprimons l'image
+// Opération sur l'image : ici, nous appliquons un effet de relief
 if(function_exists('imagefilter'))
 {
     imagefilter($im, IMG_FILTER_EMBOSS);
