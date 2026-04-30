@@ -29,7 +29,7 @@
      <term><parameter>noise_type</parameter></term>
      <listitem>
       <para>
-       Le type de bruit, dans la liste des 
+       Le type de bruit, dans la liste des
        <link linkend="imagick.constants.noise">constantes de bruit</link>.
       </para>
      </listitem>
