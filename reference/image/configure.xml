@@ -5,7 +5,7 @@
 <section xml:id="image.installation" xmlns="http://docbook.org/ns/docbook">
  &reftitle.install;
  <para>
-  Pour activer le support de GD, il faut compiler PHP avec
+  Pour activer la prise en charge de GD, il faut compiler PHP avec
   l'option <option role="configure">--with-gd[=DIR]</option>, où DIR est le
   dossier d'installation de GD. Il est recommandé d'utiliser la version
   de GD qui est distribuée avec PHP, en utilisant simplement l'option
@@ -29,7 +29,7 @@
   il est possible de spécifier les options <literal>--with-XXXX</literal>
   de compilation suivantes :
   <table>
-   <title>Formats d'image supportés</title>
+   <title>Formats d'image pris en charge</title>
    <tgroup cols="2">
     <thead>
      <row>
@@ -41,7 +41,7 @@
      <row>
       <entry><literal>avif</literal></entry>
       <entry>
-       Pour activer le support de la bibliothèque avif, ajouter l'option
+       Pour activer la prise en charge de la bibliothèque avif, ajouter l'option
        <option role="configure">--with-avif</option>.
        Disponible à partir de PHP 8.1.0.
       </entry>
@@ -49,9 +49,9 @@
      <row>
       <entry><literal>jpeg</literal></entry>
       <entry>
-       Pour activer le support de la bibliothèque JPEG, ajouter l'option
+       Pour activer la prise en charge de la bibliothèque JPEG, ajouter l'option
        <option role="configure">--with-jpeg-dir=DIR</option>. Jpeg 6b, 7 ou 8
-       est supporté.
+       sont pris en charge.
        À partir de PHP 7.4.0, utiliser à la place
        <option role="configure">--with-jpeg</option>
       </entry>
@@ -59,7 +59,7 @@
      <row>
       <entry><literal>png</literal></entry>
       <entry>
-       Pour activer le support de la bibliothèque PNG, ajouter l'option
+       Pour activer la prise en charge de la bibliothèque PNG, ajouter l'option
        <option role="configure">--with-png-dir=DIR</option>. Il est à noter que libpng
        requiert la bibliothèque <link linkend="zlib.requirements">zlib</link>
        et, donc, il faudra ajouter aussi 
@@ -74,7 +74,7 @@
      <row>
       <entry><literal>xpm</literal></entry>
       <entry>
-       Pour activer le support de la bibliothèque XPM, ajouter l'option
+       Pour activer la prise en charge de la bibliothèque XPM, ajouter l'option
        <option role="configure">--with-xpm-dir=DIR</option>. Si le script
        de compilation n'est pas capable de trouver les bibliothèques
        nécessaires, il faudra ajouter le chemin vers les bibliothèques X11.
@@ -106,7 +106,7 @@
   de polices de caractères, il est possible d'ajouter les options
   <literal>--with-XXXX</literal> de compilation suivantes :
   <table>
-   <title>Bibliothèques des polices de caractères supportées</title>
+   <title>Bibliothèques des polices de caractères prises en charge</title>
    <tgroup cols="2">
     <thead>
      <row>
@@ -118,7 +118,7 @@
      <row>
       <entry><literal>FreeType 2</literal></entry>
       <entry>
-       Pour activer le support de FreeType 2, ajouter l'option
+       Pour activer la prise en charge de FreeType 2, ajouter l'option
        <option role="configure">--with-freetype-dir=DIR</option>.
        À partir de PHP 7.4.0 utiliser <option role="configure">--with-freetype</option>
        à la place, qui dépend de <productname>pkg-config</productname>.
@@ -127,7 +127,7 @@
      <row>
       <entry><literal>Chaînes TrueType</literal></entry>
       <entry>
-       Pour activer le support des chaînes de caractères TrueType,
+       Pour activer la prise en charge des chaînes de caractères TrueType,
        ajouter l'option
        <option role="configure">--enable-gd-native-ttf</option>.
        (Cette option n'a aucun effet et a été supprimée à partir de PHP 7.2.0.)

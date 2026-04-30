@@ -73,7 +73,7 @@ imagepng($im);
    Cet exemple montre un moyen courant d'appliquer un tatouage numérique
    et un cachet aux photos et aux images sous licence.
    Il est à noter la présence d'un canal Alpha dans le cachet ainsi que du texte
-   anti-aliasé. Ces 2 éléments seront préservés lors de la copie.
+   anti-aliasé. Ces deux éléments seront préservés lors de la copie.
   </para>
  </section>
  <section xml:id="image.examples.merged-watermark">

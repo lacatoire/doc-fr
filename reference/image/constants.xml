@@ -1046,7 +1046,7 @@
    <listitem>
     <simpara>
      Identique à <constant>IMG_CROP_TRANSPARENT</constant>.
-     Avant PHP 7.4.0, la libgd incluse revenait à <constant>IMG_CROP_SIDES</constant>
+     Antérieurement à PHP 7.4.0, la libgd incluse se rabattait sur <constant>IMG_CROP_SIDES</constant>,
      si l'image n'avait pas de couleur transparente.
     </simpara>
    </listitem>
