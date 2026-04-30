@@ -16,7 +16,7 @@
   </methodsynopsis>
   <para>
    <function>getimagesize</function> détermine la taille de toute image supportée
-   fournie et en retourne les dimensions, le type d'image et une chaîne type
+   fournie et en retourne les dimensions, le type d'image et une chaîne de texte de type
    <literal>height/width</literal> à placer dans une balise
    <acronym>HTML</acronym> <tag>IMG</tag> normale
    et le type de contenu <acronym>HTTP</acronym> correspondant.
@@ -88,10 +88,11 @@
        supplémentaires du fichier image. Actuellement, cette option
        va retourner différents marqueurs <acronym>JPG</acronym>
        APP dans un tableau associatif. Certains programmes utilisent
-       ces marqueurs APP pour préciser les informations dans les balises
-       HTML. Un marqueur commun est le marqueur APP13, décrit
-       à <link xlink:href="&url.iptc;">IPTC</link>. Il est possible d'utiliser
-       la fonction <function>iptcparse</function> pour analyser ce marqueur,
+       ces marqueurs APP pour intégrer des informations textuelles dans les
+       images. Un cas très répandu consiste à intégrer des informations
+       <link xlink:href="&url.iptc;">IPTC</link> dans le marqueur APP13.
+       Il est possible d'utiliser
+       la fonction <function>iptcparse</function> pour analyser ce marqueur APP13 binaire,
        et obtenir des informations intelligibles.
       </para>
       <note>
