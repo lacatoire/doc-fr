@@ -17,9 +17,8 @@
    <methodparam choice="opt"><type>array</type><parameter>options</parameter><initializer>[]</initializer></methodparam>
   </methodsynopsis>
   <para>
-   <function>imageftbbox</function> calcule le rectangle d'encadrement
-   pour le texte <parameter>text</parameter>, en utilisant la police
-   courante et freetype2.
+   Cette fonction calcule et retourne le rectangle d'encadrement
+   en pixels pour un texte FreeType.
   </para>
   <note>
    <para>
