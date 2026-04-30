@@ -48,8 +48,8 @@
       <para>
        Si <parameter>offset</parameter> est négatif,
        <function>iconv_substr</function> retourne le segment en commençant à la
-       position <parameter>offset</parameter> caractères et en allant vers la
-       fin de la &string; <parameter>string</parameter>.
+       position située à <parameter>offset</parameter> caractères de la fin
+       de <parameter>string</parameter>.
       </para>
      </listitem>
     </varlistentry>
@@ -100,10 +100,10 @@
    <parameter>offset</parameter> et <parameter>length</parameter>.
   </para>
   <para>
-   Si <parameter>string</parameter> est plus petit que <parameter>offset</parameter>,
-   &false; est retourné.
-   Si <parameter>string</parameter> est égal à <parameter>offset</parameter>
-   caractères long, une &string; vide est retournée.
+   Si <parameter>string</parameter> est plus court que <parameter>offset</parameter>
+   caractères, &false; est retourné.
+   Si <parameter>string</parameter> fait exactement <parameter>offset</parameter>
+   caractères de long, une &string; vide est retournée.
   </para>
  </refsect1>
  
