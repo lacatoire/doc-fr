@@ -24,7 +24,7 @@
     <tgroup cols="3">
      <thead>
       <row>
-       <entry>Nom Propriété</entry>
+       <entry>Nom de la propriété</entry>
        <entry>Type de retour</entry>
        <entry>Description</entry>
       </row>
@@ -100,7 +100,7 @@
           <listitem>
            <simpara>
             Lecture répétée (<literal>Repeatable read</literal>) : les données affectées par les
-            transaction en attente ne sont pas disponibles aux autres
+            transactions en attente ne sont pas disponibles aux autres
             transactions.
            </simpara>
           </listitem>
