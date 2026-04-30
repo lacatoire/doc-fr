@@ -165,7 +165,7 @@
       <entry>7.4.0</entry>
       <entry>
        La valeur par défaut de <parameter>mode</parameter> a été modifiée en
-       <constant>IMG_CROP_AUTO</constant>. Auparavant, la valeur par défaut était
+       <constant>IMG_CROP_AUTO</constant>. Antérieurement, la valeur par défaut était
        <literal>-1</literal> qui correspond à <constant>IMG_CROP_DEFAULT</constant>,
        mais passer <literal>-1</literal> est désormais obsolète.
       </entry>
