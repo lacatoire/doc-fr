@@ -21,7 +21,7 @@
   <para>
    Affecte la couleur spécifiée à l'index spécifié dans la palette.
    Cela est utile pour créer des effets similaires à un remplissage
-   par diffusion dans les images à palette, sans le coût d'effectuer
+   par diffusion dans les images à palette, sans le surcoût d'effectuer
    le remplissage réel.
   </para>
  </refsect1>
