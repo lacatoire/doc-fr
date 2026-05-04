@@ -22,7 +22,7 @@
   &reftitle.parameters;
   <para>
    <variablelist>
-     &gd.image.description;
+    &gd.image.description;
    </variablelist>
   </para>
  </refsect1>

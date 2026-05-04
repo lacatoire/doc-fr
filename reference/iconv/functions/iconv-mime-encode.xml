@@ -136,7 +136,7 @@ Subject: =?ISO-8859-1?Q?Pr=FCfung_f=FCr?= Entwerfen von einer MIME kopfzeile
             Spécifie les caractères de fin de ligne. S'il est omis, la valeur par défaut sera <literal>"\r\n"</literal>
             (<literal>CR</literal> <literal>LF</literal>). Il est à noter que ce paramètre est toujours
             représenté comme une chaîne ASCII au regard de la valeur du paramètre
-          <literal>input-charset</literal>.
+            <literal>input-charset</literal>.
            </entry>
            <entry>\r\n</entry>
            <entry>\n</entry>

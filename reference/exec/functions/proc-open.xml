@@ -281,7 +281,7 @@ if (is_resource($process)) {
 <![CDATA[
 Array
 (
-    [some_option] => aeiou
+    [quelques_options] => aeiou
     [PWD] => /tmp
     [SHLVL] => 1
     [_] => /usr/local/bin/php

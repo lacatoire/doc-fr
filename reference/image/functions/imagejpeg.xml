@@ -145,7 +145,7 @@ $im = imagecreatetruecolor(120, 20);
 $text_color = imagecolorallocate($im, 233, 14, 91);
 imagestring($im, 1, 5, 5,  'Un texte simple', $text_color);
 
-// Définit le contenu de l'en-tête - dans ce cas,  image/jpeg
+// Définit le contenu de l'en-tête - dans ce cas, image/jpeg
 header('Content-Type: image/jpeg');
 
 // On ne fournit pas le nom du fichier (utilisation de la valeur NULL),

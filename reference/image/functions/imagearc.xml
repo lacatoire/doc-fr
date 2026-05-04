@@ -33,7 +33,7 @@
      <term><parameter>center_x</parameter></term>
      <listitem>
       <para>
-       X : coordonnée du centre.
+       Coordonnée x du centre.
       </para>
      </listitem>
     </varlistentry>
@@ -41,7 +41,7 @@
      <term><parameter>center_y</parameter></term>
      <listitem>
       <para>
-       Y : coordonnée du centre.
+       Coordonnée y du centre.
       </para>
      </listitem>
     </varlistentry>

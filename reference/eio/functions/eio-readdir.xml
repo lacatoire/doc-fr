@@ -338,7 +338,7 @@
    <programlisting role="php">
 <![CDATA[
 <?php
-/* Is called when eio_readdir() finishes */
+/* Sera appelé lorsque la fonction eio_readdir() aura terminé */
 function my_readdir_callback($data, $result) {
     echo __FUNCTION__, " called\n";
     echo "donnée : "; var_dump($data);
