@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 476ab39857fb032076f280fa5397ed483bf7e28d Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 963af75faf771d12d38a74d1c3449586ac0a966a Maintainer: lacatoire Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="ziparchive.registercancelcallback" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -13,10 +13,10 @@
    <modifier>public</modifier> <type>bool</type><methodname>ZipArchive::registerCancelCallback</methodname>
    <methodparam><type>callable</type><parameter>callback</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Enregistre une fonction de rappel <parameter>callback</parameter> permettant
-   l'annulation pendant la clôture d'une archive. 
-  </para>
+   l'annulation pendant la clôture d'une archive.
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -26,9 +26,9 @@
     <varlistentry>
      <term><parameter>callback</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Si la fonction retourne 0, l'opération continue, sinon, elle sera annulée.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -37,18 +37,18 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
   &reftitle.examples;
-    <para>
+    <simpara>
      Cet exemple crée un fichier ZIP
      <filename>php.zip</filename> et annule
      l'opération sous certaines conditions.
-    </para>
+    </simpara>
     <example>
      <title>Archivage d'un fichier</title>
      <programlisting role="php">
@@ -70,10 +70,10 @@ if ($zip->open('php.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE)) {
  <refsect1 role="notes">
   &reftitle.notes;
   <note>
-   <para>
+   <simpara>
     Cette fonction est uniquement disponible si l'extension a été
     compilée avec libzip ≥ 1.6.0.
-   </para>
+   </simpara>
   </note>
  </refsect1>
 

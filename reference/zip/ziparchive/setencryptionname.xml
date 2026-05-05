@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: d76a7fe17dd2488e47d664a8ab38e161b13ac843 Maintainer: jbnahan Status: ready -->
+<!-- EN-Revision: 963af75faf771d12d38a74d1c3449586ac0a966a Maintainer: lacatoire Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="ziparchive.setencryptionname" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -14,9 +14,9 @@
    <methodparam><type>int</type><parameter>method</parameter></methodparam>
    <methodparam choice="opt"><modifier role="attribute">#[\SensitiveParameter]</modifier><type class="union"><type>string</type><type>null</type></type><parameter>password</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Définit la méthode de chiffrement d'une entrée définie par son nom.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -25,25 +25,25 @@
     <varlistentry>
      <term><parameter>name</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Nom de l'entrée.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>method</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        La méthode de chiffrement définie par l'une des constantes ZipArchive::EM_.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>password</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Mot de passe optionnel, valeur par défaut utilisée si absent.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -51,9 +51,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">
@@ -80,12 +80,12 @@
 
  <refsect1 role="examples">
   &reftitle.examples;
-    <para>
+    <simpara>
      Cet exemple crée un fichier d'archive ZIP
      <filename>test.zip</filename> et ajoute
      le fichier <filename>test.txt</filename>
      chiffré grâce à la méthode AES 256.
-    </para>
+    </simpara>
     <example>
      <title>Archiver et chiffrer un fichier</title>
      <programlisting role="php">
@@ -110,9 +110,9 @@ if ($zip->open('test.zip', ZipArchive::CREATE) === TRUE) {
  <refsect1 role="notes">
   &reftitle.notes;
   <note>
-   <para>
+   <simpara>
     Cette fonction est seulement disponible quand compilé contre libzip ≥ 1.2.0.
-   </para>
+   </simpara>
   </note>
  </refsect1>
 

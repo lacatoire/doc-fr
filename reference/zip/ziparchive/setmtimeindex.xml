@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 476ab39857fb032076f280fa5397ed483bf7e28d Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 963af75faf771d12d38a74d1c3449586ac0a966a Maintainer: lacatoire Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="ziparchive.setmtimeindex" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -14,9 +14,9 @@
    <methodparam><type>int</type><parameter>timestamp</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Définit la date de modification d'une entrée définie par son index.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -25,25 +25,25 @@
     <varlistentry>
      <term><parameter>index</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Index de l'entrée.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>timestamp</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        La date de modification (unix timestamp) du fichier.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>flags</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Drapeaux optionnels, non utilisés quant à présent.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -51,19 +51,19 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">
   &reftitle.examples;
-    <para>
+    <simpara>
      Cet exemple crée un fichier archive ZIP
      <filename>test.zip</filename> et ajoute le fichier
      <filename>test.txt</filename> avec les modifications
      quant à la date de modification.
-    </para>
+    </simpara>
     <example>
      <title>Archive un fichier</title>
      <programlisting role="php">
@@ -87,10 +87,10 @@ if ($zip->open('test.zip', ZipArchive::CREATE) === TRUE) {
  <refsect1 role="notes">
   &reftitle.notes;
   <note>
-   <para>
+   <simpara>
     Cette fonction n'est disponible que si l'extension a été
     compilée avec libzip ≥ 1.0.0.
-   </para>
+   </simpara>
   </note>
  </refsect1>
 

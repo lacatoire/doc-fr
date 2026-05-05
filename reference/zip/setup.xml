@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 765b2d6eec7dfbaeed900b32aa91a1360d73df42 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 963af75faf771d12d38a74d1c3449586ac0a966a Maintainer: lacatoire Status: ready -->
 <!-- Reviewed: no Maintainer: yannick -->
 
 <chapter xml:id="zip.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -9,13 +9,13 @@
  <!-- {{{ Requirements -->
  <section xml:id="zip.requirements">
   &reftitle.required;
-  <para>
+  <simpara>
    Cette extension requiert <link xlink:href="&url.libzip;">libzip</link>.
    Version 1.1.2 était fournie avec PHP jusqu'à la version 7.3.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    La version minimale supportée est 0.11, mais une version ultérieure est vivement recommandée.
-  </para>
+  </simpara>
   <para>
      <simplelist>
       <member>Version 1.2 requise pour le support du chiffrement, voir <methodname>ZipArchive::setEncryptionIndex</methodname></member>
@@ -33,11 +33,11 @@
  <!-- {{{ Resources -->
  <section xml:id="zip.resources">
   &reftitle.resources;
-  <para>
+  <simpara>
    Il y a deux types de ressources utilisées par le module Zip.
    La première est le dossier Zip d'une archive Zip, et la seconde,
    l'entrée Zip de l'archive.
-  </para>
+  </simpara>
  </section>
  <!-- }}} -->
 
