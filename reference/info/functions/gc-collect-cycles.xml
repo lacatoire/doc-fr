@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 3dee475a90f49a8b755b741e892723eb68e68993 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: eec7af8395621ed03c2f4ffe8e7d784da6641739 Maintainer: lacatoire Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.gc-collect-cycles" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -30,6 +30,29 @@
   <para>
    Retourne le nombre de cycles collectés.
   </para>
+ </refsect1>
+
+ <refsect1 role="changelog">
+  &reftitle.changelog;
+  <informaltable>
+   <tgroup cols="2">
+    <thead>
+     <row>
+      <entry>&Version;</entry>
+      <entry>&Description;</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>8.5.0</entry>
+      <entry>
+       La valeur de retour n'inclut plus les chaînes et les ressources qui
+       ont été collectées indirectement à travers les cycles.
+      </entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </informaltable>
  </refsect1>
 
  <refsect1 role="seealso">
