@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 476ab39857fb032076f280fa5397ed483bf7e28d Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 963af75faf771d12d38a74d1c3449586ac0a966a Maintainer: lacatoire Status: ready -->
 <!-- Reviewed: yes -->
 <refentry xml:id="ziparchive.statindex" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -13,9 +13,9 @@
    <methodparam><type>int</type><parameter>index</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Cette fonction obtient des informations d'une entrée définie par son index.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -24,19 +24,19 @@
     <varlistentry>
      <term><parameter>index</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Index de l'entrée
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>flags</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        <constant>ZipArchive::FL_UNCHANGED</constant>
        permet d'obtenir les informations du fichier original de l'archive,
        ignorant toutes les modifications effectuées
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -44,9 +44,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Retourne un tableau contenant les détails de l'entrée&return.falseforfailure;.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="examples">
   &reftitle.examples;

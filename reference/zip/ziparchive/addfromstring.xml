@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: c142be811735a5542c8a2e4c4ed2f81e8cc3acc6 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 963af75faf771d12d38a74d1c3449586ac0a966a Maintainer: lacatoire Status: ready -->
 <!-- Reviewed: yes -->
 <refentry xml:id="ziparchive.addfromstring" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -14,9 +14,9 @@
    <methodparam><type>string</type><parameter>content</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter><initializer><constant>ZipArchive::FL_OVERWRITE</constant></initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Ajoute un fichier à une archive ZIP en utilisant son contenu.
-  </para>
+  </simpara>
   &zip.filename.separator;
  </refsect1>
  <refsect1 role="parameters">
@@ -26,24 +26,24 @@
     <varlistentry>
      <term><parameter>name</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Le nom de l'entrée à créer
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>content</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Le contenu à utiliser pour créer l'entrée. Ceci est utilisé dans un
        mode binaire sécurisé.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>flags</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Masque de bit consistant de
        <constant>ZipArchive::FL_OVERWRITE</constant>,
        <constant>ZipArchive::FL_ENC_GUESS</constant>,
@@ -51,7 +51,7 @@
        <constant>ZipArchive::FL_ENC_CP437</constant>.
        Le comportement de ces constantes est décrit sur la page des
        <link linkend="zip.constants">constantes ZIP</link>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -59,9 +59,9 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">

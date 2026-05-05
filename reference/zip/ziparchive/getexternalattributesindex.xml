@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: b61758269e3619194047cb5d6d4962734372c0a6 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 963af75faf771d12d38a74d1c3449586ac0a966a Maintainer: lacatoire Status: ready -->
 <!-- Reviewed: yes -->
 <refentry xml:id="ziparchive.getexternalattributesindex" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -16,9 +16,9 @@
    <methodparam><type>int</type><parameter role="reference">attr</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Récupére les attributs externes d'une entrée définie par son index.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -27,34 +27,34 @@
     <varlistentry>
      <term><parameter>index</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Index de l'entrée.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>opsys</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        En cas de succès, récupère le code du système d'exploitation défini par une des constantes ZipArchive::OPSYS_.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>attr</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        En cas de succès, récupère les attributs externes, la valeur dépend du système d'exploitation.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>flags</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Si ce drapeau est positionné à <constant>ZipArchive::FL_UNCHANGED</constant>,
        les attributs originaux inchangé sont retournées.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -62,17 +62,17 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="examples">
   &reftitle.examples;
-    <para>
+    <simpara>
       Cet exemple extrait toutes les entrées de
       l'archive ZIP <filename>test.zip</filename> et définit
       les droits Unix à partir des attributs externes.
-    </para>
+    </simpara>
     <example xml:id="ziparchive.getexternalattributesindex.examples.perms">
      <title>Extrait toutes les entrées avec leurs droits Unix</title>
      <programlisting role="php">

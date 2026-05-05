@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: c0e48705eb88453af785e0e4a6cbd526085dfe3a Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 963af75faf771d12d38a74d1c3449586ac0a966a Maintainer: lacatoire Status: ready -->
 <!-- Reviewed: yes -->
 <!-- CREDITS: DavidA -->
 <reference xml:id="class.ziparchive" role="class" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude">
@@ -12,9 +12,9 @@
 <!-- {{{ ZipArchive intro -->
   <section xml:id="ziparchive.intro">
    &reftitle.intro;
-   <para>
+   <simpara>
     Un fichier d'archive, compressé avec Zip.
-   </para>
+   </simpara>
   </section>
 <!-- }}} -->
  
@@ -747,46 +747,46 @@
     <varlistentry xml:id="ziparchive.props.lastid">
      <term><varname>lastId</varname></term>
      <listitem>
-      <para>
+      <simpara>
        Valeur de l'index de la dernière entrée (fichier ou dossier)
        Disponible à partir de PHP 8.0.0 et PECL zip 1.18.0.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ziparchive.props.status">
      <term><varname>status</varname></term>
      <listitem>
-      <para>
+      <simpara>
        Le statut de l'archive Zip.
        Disponible pour les archives fermées, à partir de PHP 8.0.0 et PECL zip 1.18.0.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ziparchive.props.statussys">
      <term><varname>statusSys</varname></term>
      <listitem>
-      <para>
+      <simpara>
        Le statut système de l'archive Zip.
        Disponible pour les archives fermées, à partir de PHP 8.0.0 et PECL zip 1.18.0.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ziparchive.props.numfiles">
      <term><varname>numFiles</varname></term>
      <listitem>
-      <para>Le nombre de fichiers dans l'archive</para>
+      <simpara>Le nombre de fichiers dans l'archive</simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ziparchive.props.filename">
      <term><varname>filename</varname></term>
      <listitem>
-      <para>Le nom du fichier dans le système de fichiers</para>
+      <simpara>Le nom du fichier dans le système de fichiers</simpara>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="ziparchive.props.comment">
      <term><varname>comment</varname></term>
      <listitem>
-      <para>Commentaire pour l'archive</para>
+      <simpara>Commentaire pour l'archive</simpara>
      </listitem>
     </varlistentry>
    </variablelist>

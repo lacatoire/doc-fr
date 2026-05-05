@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 8afee82662753fe5ed0c3b8003b14118f00547ef Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 963af75faf771d12d38a74d1c3449586ac0a966a Maintainer: lacatoire Status: ready -->
 <!-- Reviewed: no Maintainer: yannick -->
 
 <appendix xml:id="zip.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
 
-  <para>
+  <simpara>
    <classname>ZipArchive</classname> utilise des constantes de classe.
    Il existe différents types de constantes, dont les principaux sont les suivants :
    Les drapeaux globaux (préfixés par <literal>AFL_</literal>),
    les options (préfixées par <literal>FL_</literal>),
    les erreurs (préfixées par <literal>ER_</literal>)
    ou les modes (sans préfixe).
-  </para>
+  </simpara>
 
  <variablelist xml:id="ziparchive.constants.mode">
   <title>Modes d'ouverture de l'archive</title>

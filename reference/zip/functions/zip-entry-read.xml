@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 9b1673cf114a1e10c4563ab9223cb56aed552b89 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 963af75faf771d12d38a74d1c3449586ac0a966a Maintainer: lacatoire Status: ready -->
 <!-- Reviewed: yes -->
 <refentry xml:id="function.zip-entry-read" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -20,9 +20,9 @@
    <methodparam><type>resource</type><parameter>zip_entry</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>len</parameter><initializer>1024</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    <function>zip_entry_read</function> lit dans un dossier d'archives ouvert.
-  </para>
+  </simpara>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
@@ -31,22 +31,22 @@
     <varlistentry>
      <term><parameter>zip_entry</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Un dossier d'archives retourné par la fonction
        <function>zip_read</function>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>len</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Le nombre d'octets à retourner.
-      </para>
+      </simpara>
       <note>
-       <para>
+       <simpara>
         Ceci doit être la taille non-compressée qu'on souhaite lire.
-       </para>
+       </simpara>
       </note>
      </listitem>
     </varlistentry>
@@ -55,10 +55,10 @@
  </refsect1>
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Retourne les données lues, une chaîne vide si l'on est à la
    fin du fichier, ou &false; si une erreur survient.
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">

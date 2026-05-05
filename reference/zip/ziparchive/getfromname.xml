@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 476ab39857fb032076f280fa5397ed483bf7e28d Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 963af75faf771d12d38a74d1c3449586ac0a966a Maintainer: lacatoire Status: ready -->
 <!-- Reviewed: yes -->
 <refentry xml:id="ziparchive.getfromname" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -15,9 +15,9 @@
    <methodparam choice="opt"><type>int</type><parameter>len</parameter><initializer>0</initializer></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Retourne le contenu de l'entrée en utilisant son nom.
-  </para>
+  </simpara>
  </refsect1>
  
  <refsect1 role="parameters">
@@ -27,18 +27,18 @@
     <varlistentry>
      <term><parameter>name</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Nom de l'entrée
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>len</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        La longueur à lire depuis l'entrée. Si vaut <literal>0</literal>,
        alors toute l'entrée sera lue.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
@@ -49,19 +49,19 @@
        peuvent être utilisées.
        <itemizedlist>
         <listitem>
-         <para>
+         <simpara>
           <constant>ZipArchive::FL_UNCHANGED</constant>
-         </para>
+         </simpara>
         </listitem>
         <listitem>
-         <para>
+         <simpara>
           <constant>ZipArchive::FL_COMPRESSED</constant>
-         </para>
+         </simpara>
         </listitem>
         <listitem>
-         <para>
+         <simpara>
           <constant>ZipArchive::FL_NOCASE</constant>
-         </para>
+         </simpara>
         </listitem>
        </itemizedlist>
       </para>
@@ -73,9 +73,9 @@
  
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    Retourne le contenu de l'entrée en cas de succès&return.falseforfailure;.
-  </para>
+  </simpara>
  </refsect1>
  
  <refsect1 role="examples">

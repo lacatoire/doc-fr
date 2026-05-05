@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: b61758269e3619194047cb5d6d4962734372c0a6 Maintainer: jpauli Status: ready -->
+<!-- EN-Revision: 963af75faf771d12d38a74d1c3449586ac0a966a Maintainer: lacatoire Status: ready -->
 <!-- Reviewed: yes -->
 <refentry xml:id="ziparchive.extractto" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -14,22 +14,22 @@
    <methodparam><type>string</type><parameter>pathto</parameter></methodparam>
    <methodparam choice="opt"><type class="union"><type>array</type><type>string</type><type>null</type></type><parameter>files</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Extrait l'archive complète ou les fichiers fournis vers un chemin spécifié.
-  </para>
+  </simpara>
   <warning>
-   <para>
+   <simpara>
     Les permissions par défaut pour les fichiers et dossiers extraits
     donnent le plus large accès possible. Ceci peut être restreint en
     définissant le umask courant, qui peut être changé en utilisant
     <function>umask</function>.
-   </para>
-   <para>
+   </simpara>
+   <simpara>
     Pour des raisons de sécurité, les permissions d'origine ne sont pas restaurées.
     Pour un exemple de comment les restaurer, consulter l'échantillon de code sur la
     <link linkend="ziparchive.getexternalattributesindex.examples.perms">page d'exemple</link>
     de la méthode <methodname>ZipArchive::getExternalAttributesIndex</methodname>.
-   </para>
+   </simpara>
   </warning>
  </refsect1>
 
@@ -40,18 +40,18 @@
     <varlistentry>
      <term><parameter>pathto</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Endroit où l'on doit extraire les fichiers
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>files</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Les entrées à extraire. Ce peut être soit le nom d'une entrée ou un
        tableau de noms
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -60,9 +60,9 @@
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="examples">

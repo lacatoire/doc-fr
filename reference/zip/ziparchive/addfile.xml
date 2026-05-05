@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: c142be811735a5542c8a2e4c4ed2f81e8cc3acc6 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 963af75faf771d12d38a74d1c3449586ac0a966a Maintainer: lacatoire Status: ready -->
 <!-- Reviewed: yes -->
 <refentry xml:id="ziparchive.addfile" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -16,9 +16,9 @@
    <methodparam choice="opt"><type>int</type><parameter>length</parameter><initializer><constant>ZipArchive::LENGTH_TO_END</constant></initializer></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter><initializer><constant>ZipArchive::FL_OVERWRITE</constant></initializer></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Ajoute un fichier à une archive ZIP depuis le chemin fourni.
-  </para>
+  </simpara>
   &zip.filename.separator;
  </refsect1>
 
@@ -29,43 +29,43 @@
     <varlistentry>
      <term><parameter>filepath</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Le chemin vers le fichier à ajouter
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>entryname</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Si fourni, ce sera le nom local dans l'archive ZIP qui écrasera
        le contenu du paramètre <parameter>filepath</parameter>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>start</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Pour copie partielle, position de départ.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>length</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Pour copie partielle, longueur à copier,
        Si <constant>ZipArchive::LENGTH_TO_END</constant> (0) est spécifié, la taille du fichier est utilisée.
        Si <constant>ZipArchive::LENGTH_UNCHECKED</constant> est spécifié, la totalité du fichier est utilisée
        (à partir de <parameter>start</parameter>).
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>flags</parameter></term>
      <listitem>
-      <para>
+      <simpara>
        Masque de bit consistant de
        <constant>ZipArchive::FL_OVERWRITE</constant>,
        <constant>ZipArchive::FL_ENC_GUESS</constant>,
@@ -74,7 +74,7 @@
        <constant>ZipArchive::FL_OPEN_FILE_NOW</constant>.
        Le comportement de ces constantes est décrit sur la page des
        <link linkend="zip.constants">constantes ZIP</link>.
-      </para>
+      </simpara>
      </listitem>
     </varlistentry>
    </variablelist>
@@ -83,9 +83,9 @@
  
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
-  <para>
+  <simpara>
    &return.success;
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="changelog">
@@ -126,11 +126,11 @@
 
  <refsect1 role="examples">
   &reftitle.examples;
-    <para>
+    <simpara>
      Cet exemple ouvre l'archive ZIP <filename>test.zip</filename>
      et ajoute le fichier <filename>/path/to/index.txt</filename>,
      en tant que <filename>newname.txt</filename>.
-    </para>
+    </simpara>
     <example>
      <title>Ouverture et ajout</title>
      <programlisting role="php">
@@ -152,7 +152,7 @@ if ($zip->open('test.zip') === TRUE) {
  <refsect1 role="notes">
   &reftitle.notes;
   <note>
-   <para>
+   <simpara>
     Lorsqu'un fichier est marqué comme étant à ajouter à l'archive, PHP va 
     verrouiller ce fichier. Le verrou sera relâché uniquement lorsque l'objet
     <classname>ZipArchive</classname> sera fermé, soit via
@@ -160,7 +160,7 @@ if ($zip->open('test.zip') === TRUE) {
     <classname>ZipArchive</classname>. Ceci peut empêcher de supprimer le
     fichier en cours d'ajout même après que le verrou soit
     relâché.       
-   </para>
+   </simpara>
   </note>
  </refsect1>
 

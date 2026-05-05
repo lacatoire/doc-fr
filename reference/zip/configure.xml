@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 7747acdc55fe497b9e920d6edcbe70c71e03ea30 Maintainer: yannick Status: ready -->
+<!-- EN-Revision: 963af75faf771d12d38a74d1c3449586ac0a966a Maintainer: lacatoire Status: ready -->
 <!-- Reviewed: no -->
 <section xml:id="zip.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.install;
 
  <section xml:id="zip.installation.linux">
   <title>Systèmes Linux</title>
-  <para>
+  <simpara>
    Pour utiliser ces fonctions, PHP doit être compilé avec le support ZIP
    en utilisant l'option de configuration <option role="configure">--with-zip</option>.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    Avant PHP 7.4.0, libzip était inclus avec PHP,
    et pour compiler l'extension, il fallait utiliser l'option de
    configuration <option role="configure">--enable-zip</option>.
    À partir de PHP 7.3.0, il était déconseillé de construire avec la version incluse de libzip, mais cela restait possible en utilisant l'option de configuration <option role="configure">--without-libzip</option>.
-  </para>
-  <para>
+  </simpara>
+  <simpara>
    Une option de configuration
    <option role="configure">--with-libzip=DIR</option>
    a été ajoutée pour utiliser une installation système de libzip.
    La version 0.11 de libzip est requise, avec la recommandation d'utiliser la version 0.11.2 ou ultérieure.
-  </para>
+  </simpara>
  </section>
 
  <section xml:id="zip.installation.new.windows">
   <title>Windows</title>
-  <para>
+  <simpara>
    À partir de PHP 8.2.0, la DLL <filename>php_zip.dll</filename> doit être
    <link linkend="install.pecl.windows.loading">activée</link> dans
    &php.ini;.
    Précédemment, cette extension était intégrée.
-  </para>
+  </simpara>
  </section>
 
  <section xml:id="zip.pecl.installation">
   <title>Installation via PECL</title>
-  <para>
+  <simpara>
    &pecl.info;
    <link xlink:href="&url.pecl.package;zip">&url.pecl.package;zip</link>.
-  </para>
+  </simpara>
  </section>
 
 </section>
