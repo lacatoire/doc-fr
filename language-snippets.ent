@@ -56,21 +56,21 @@ de nombres aléatoires est initialisé automatiquement.</entry></row>'>
  <para>
   Étant donné que le moteur Mt19937 ("Mersenne Twister") prend un seul entier de 32 bits en tant que
   graine, le nombre de séquences aléatoires possibles est limité à seulement 2<superscript>32</superscript>
-  (par exemple 4 294 967 296), malgré la période énorme de Mt19937 de 2<superscript>19937</superscript>-1.
+  (soit 4 294 967 296), malgré la période énorme de Mt19937 de 2<superscript>19937</superscript>-1.
  </para>
  <para>
   Quand on se fie à une graine aléatoire implicite ou explicite, les duplications apparaîtront
   beaucoup plus tôt. Les graines dupliquées sont attendues avec une probabilité de 50&#37; après moins de
-  80 000 graines générées aléatoirement selon le problème d anniversaire. Une probabilité de 10&#37;
-  d une graine dupliquée se produit après avoir généré environ 30 000 graines de manière aléatoire.
+  80 000 graines générées aléatoirement selon le problème d&apos;anniversaire. Une probabilité de 10&#37;
+  d&apos;une graine dupliquée se produit après avoir généré environ 30 000 graines de manière aléatoire.
  </para>
  <para>
   Cela rend Mt19937 inadapté aux applications où les séquences dupliquées ne doivent pas se produire avec
-  plus qu une probabilité négligeable. Si une graine reproductible est requise, à la fois le
-  moteur <classname>Random\Engine\Xoshiro256StarStar</classname> et <classname>Random\Engine\PcgOneseq128XslRr64</classname>
-  supportent des graines beaucoup plus grandes qui sont peu susceptibles de se heurter de manière aléatoire. Si la reproductibilité
-  n&apos;est pas requise, le moteur <classname>Random\Engine\Secure</classname> fournit des données aléatoires cryptographiquement
-  sécurisées.
+  plus qu&apos;une probabilité négligeable. Si une graine reproductible est requise, les moteurs
+  <classname>Random\Engine\Xoshiro256StarStar</classname> et <classname>Random\Engine\PcgOneseq128XslRr64</classname>
+  acceptent tous deux des graines beaucoup plus grandes qui ont peu de chances d&apos;entrer en
+  collision aléatoirement. Si la reproductibilité n&apos;est pas requise, le moteur
+  <classname>Random\Engine\Secure</classname> fournit un aléa cryptographiquement sûr.
  </para>
 </caution>'>
 
@@ -115,7 +115,7 @@ de nombres aléatoires est initialisé automatiquement.</entry></row>'>
 </simpara></note>'>
 
 <!ENTITY note.func-callback-exceptions '<note xmlns="http://docbook.org/ns/docbook"><para>
- Notez que les fonctions de rappel enregistrées avec des fonctions comme <function>call_user_func</function> et
+ Il est à noter que les fonctions de rappel enregistrées avec des fonctions comme <function>call_user_func</function> et
  <function>call_user_func_array</function> ne seront pas appelées si une exception n&#39;est pas interceptée alors
  qu&#39;elle a été lancée dans une précédente fonction de rappel.
 </para></note>'>
@@ -2407,7 +2407,7 @@ des extensions PECL</link>. D&#39;autres informations comme les notes sur les no
 
 <!ENTITY pgsql.parameter.connection-with-unspecified-default '<para xmlns="http://docbook.org/ns/docbook">
  Une instance <classname>PgSql\Connection</classname>.
- Quand <parameter>connection</parameter> est pas spécifié, la connexion par défaut est utilisé.
+ Quand <parameter>connection</parameter> n&apos;est pas spécifiée, la connexion par défaut est utilisée.
  La connexion par défaut est la dernière connexion faite par
  <function>pg_connect</function> ou <function>pg_pconnect</function>
  <warning><simpara>À partir de PHP 8.1.0, utiliser la connexion par défaut est obsolète.</simpara></warning>
@@ -2415,7 +2415,7 @@ des extensions PECL</link>. D&#39;autres informations comme les notes sur les no
 
 <!ENTITY pgsql.parameter.connection-with-nullable-default '<para xmlns="http://docbook.org/ns/docbook">
  Une instance <classname>PgSql\Connection</classname>.
- Quand <parameter>connection</parameter> est &null;, la connexion par défaut est utilisé.
+ Quand <parameter>connection</parameter> est &null;, la connexion par défaut est utilisée.
  La connexion par défaut est la dernière connexion faite par
  <function>pg_connect</function> ou <function>pg_pconnect</function>
  <warning><simpara>À partir de PHP 8.1.0, utiliser la connexion par défaut est obsolète.</simpara></warning>
