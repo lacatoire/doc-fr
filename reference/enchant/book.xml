@@ -15,7 +15,7 @@
    <link xlink:href="&url.enchant;">bibliothèque Enchant</link>. Enchant
    fournit une uniformité et une conformité pour toutes les bibliothèques
    d'orthographe, et implémente certaines fonctionnalités qui peuvent
-   faire défaut dans une bibliothèque. Tout doit "juste fonctionner".
+   faire défaut dans une bibliothèque. Tout devrait "juste fonctionner".
   </simpara>
   <para>
    Enchant supporte les bibliothèques suivantes :
