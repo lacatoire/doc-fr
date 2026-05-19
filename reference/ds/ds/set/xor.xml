@@ -16,6 +16,7 @@
   <para>
     Crée un nouvel ensemble qui contient les valeurs de l'instance actuelle
     ou d'un autre <parameter>set</parameter>,
+    mais pas des deux.
   </para>
   <para>
     <code>A ⊖ B = {x : x ∈ (A \ B) ∪ (B \ A)}</code>
