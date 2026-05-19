@@ -46,7 +46,7 @@
   <note>
    <simpara>
     Si aucun paramètre n'est fourni, alors les parenthèses doivent être
-    omises et &null; sera retourné. L'appel de 
+    omises et &null; sera retourné. L'appel de
     <literal>return</literal> avec des parenthèses mais sans argument
     résultera en une alerte d'analyse.
    </simpara>
