@@ -37,7 +37,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Renvoie l'URI du namespace associé, ou &null; s'il n'en est pas trouvé.
+   Renvoie l'URI du namespace associé, ou &null; si aucun n'est trouvé.
   </para>
  </refsect1>
  <refsect1 role="seealso">
