@@ -15,7 +15,7 @@
    <methodparam><type>mixed</type><parameter>value</parameter></methodparam>
   </methodsynopsis>
   <para>
-    Associe une <parameter>clé</parameter> à une <parameter>valeur</parameter>,
+    Associe une clé (<parameter>key</parameter>) à une valeur (<parameter>value</parameter>),
     en écrasant une association précédente si elle existe.
   </para>
 
