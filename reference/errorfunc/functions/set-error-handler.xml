@@ -54,7 +54,7 @@
   </para>
   <para>
    Si une erreur survient avant que le script ne soit exécuté (par exemple
-   un téléchargement de fichier), le gestionnaire d'erreurs personnalisé ne pourra
+   un téléversement de fichier), le gestionnaire d'erreurs personnalisé ne pourra
    pas être appelé, car il n'est pas encore enregistré.
   </para>
  </refsect1>
