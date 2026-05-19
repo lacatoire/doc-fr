@@ -39,7 +39,7 @@
    <simpara>
     Il est recommandé de fournir une priorité haute à <classname>EvCheck</classname>
     (<constant>Ev::MAXPRI</constant>) afin de s'assurer qu'il sera exécuté
-    avant tout autre observateur de la file (à contrario, peu importe pour
+    avant tout autre observateur de la file (a contrario, peu importe pour
     l'observateur <classname>EvPrepare</classname>).
    </simpara>
    <simpara>
