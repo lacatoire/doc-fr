@@ -38,7 +38,7 @@
         </para>
 
         <para>
-            La fonction de rappel doit retourner la valeur par laquelle elle doit être remplacée.
+            La fonction de rappel devrait retourner la valeur par laquelle elle doit être remplacée.
         </para>
     </listitem>
 
