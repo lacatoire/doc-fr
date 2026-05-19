@@ -115,7 +115,7 @@ $query = '//book/chapter/para/informaltable/tgroup/tbody/row/entry[. = "en"]';
 $entries = $xpath->query($query);
 
 foreach ($entries as $entry) {
-    echo "Livre trouvé : {$entry->previousSibling->previousSibling->nodeValue}," .
+    echo "Livre trouvé {$entry->previousSibling->previousSibling->nodeValue}," .
          " par {$entry->previousSibling->nodeValue}\n";
 }
 ?>

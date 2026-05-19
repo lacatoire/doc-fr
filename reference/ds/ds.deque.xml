@@ -19,7 +19,7 @@
    <para>
     Deux pointeurs sont utilisés pour garder une trace d'une tête et d'une queue. Les pointeurs peuvent
     “enrouler” la fin du tampon, ce qui évite de déplacer d'autres valeurs pour
-    faire de la place. Cela rend shift et unshift très rapides :
+    faire de la place. Cela rend shift et unshift très rapides —
     quelque chose qu'un <classname>Ds\Vector</classname> ne peut pas concurrencer.
    </para>
    <para>
