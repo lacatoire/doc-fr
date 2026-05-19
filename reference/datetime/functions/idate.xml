@@ -98,7 +98,7 @@
           </row>
           <row>
            <entry><literal>t</literal></entry>
-           <entry>Jour du mois courant</entry>
+           <entry>Nombre de jours dans le mois courant</entry>
           </row>
           <row>
            <entry><literal>U</literal></entry>

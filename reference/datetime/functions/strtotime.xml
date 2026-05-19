@@ -15,7 +15,7 @@
   </methodsynopsis>
   <simpara>
    La fonction <function>strtotime</function> essaye de lire une
-   date au format anglais fournie par le paramètre <parameter>time</parameter>,
+   date au format anglais fournie par le paramètre <parameter>datetime</parameter>,
    et de la transformer en timestamp Unix (le nombre de secondes depuis
    le 1er Janvier 1970 à 00:00:00 UTC), relativement au timestamp
    <parameter>baseTimestamp</parameter>, ou à la date courante si ce dernier

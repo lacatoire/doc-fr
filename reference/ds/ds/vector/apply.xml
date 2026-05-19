@@ -34,7 +34,7 @@
              </methodsynopsis>
         </para>
         <para>
-            Un <type>callable</type> à appliquer à chaque valeur de la carte.
+            Un <type>callable</type> à appliquer à chaque valeur du vecteur.
         </para>
 
         <para>

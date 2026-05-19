@@ -125,7 +125,7 @@
         fonctions <function>dba_firstkey</function> et <function>dba_nextkey</function>
         retournent une chaîne de caractères représentant la clé, il y a une
         nouvelle fonction, <function>dba_key_split</function>,
-        qui permet de convertir les clés en tableaux sans déperdition.
+        qui permet de convertir les clés en tableaux sans perdre &false;.
        </entry>
       </row>
 

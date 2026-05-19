@@ -1263,7 +1263,7 @@
    </term>
    <listitem>
     <para>
-     Définir sur &true; pour réinitialiser la méthode de requête HTTP à <literal>GET</literal>. Comme <literal>GET</literal> est la valeur par défaut, cela n'est nécessaire que si la requête
+     Définir sur &true; pour réinitialiser la méthode de requête HTTP à <literal>GET</literal>. Comme <literal>GET</literal> est la valeur par défaut, cela n'est nécessaire que si la méthode
      de requête a été changée.
      Disponible à partir de cURL 7.8.1.
     </para>
@@ -2140,7 +2140,7 @@
      se connecter au proxy HTTP(S) spécifié dans l'option
      <constant>CURLOPT_PROXY</constant> pour la prochaine requête.
      Le préproxy ne peut être qu'un proxy SOCKS et il doit être préfixé par
-     <literal>[scheme]://</literal> pour spécifier quel type de chaussettes est utilisé.
+     <literal>[scheme]://</literal> pour spécifier quel type de SOCKS est utilisé.
      Une adresse IP numérique IPv6 doit être écrite entre [crochets].
      Définir le préproxy sur un <type>string</type> vide désactive explicitement l'utilisation d'un préproxy.
      Pour spécifier le numéro de port dans ce <type>string</type>, ajoutez <literal>:[port]</literal>

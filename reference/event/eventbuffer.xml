@@ -194,8 +194,8 @@
        Identique à <constant>EventBuffer::PTR_SET</constant>,
        sauf que ce drapeau fait que la méthode
        <methodname>EventBuffer::setPosition</methodname>
-       se déplace à une position en arrière par rapport au numéro
-       d'octets spécifié (au lieu de définir une position absolue).
+       se déplace en avant jusqu'au nombre d'octets spécifié
+       (au lieu de définir une position absolue).
       </para>
      </listitem>
     </varlistentry>
