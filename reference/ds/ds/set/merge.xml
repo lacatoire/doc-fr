@@ -4,7 +4,7 @@
 <refentry xml:id="ds-set.merge" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Ds\Set::merge</refname>
-  <refpurpose>Renvoie le résultat de l'ajout de toutes les valeurs de l'ensemble</refpurpose>
+  <refpurpose>Renvoie le résultat de l'ajout de toutes les valeurs données à l'ensemble</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -14,7 +14,7 @@
    <methodparam><type>mixed</type><parameter>values</parameter></methodparam>
   </methodsynopsis>
   <para>
-    Renvoie le résultat de l'ajout de toutes les valeurs de l'ensemble.
+    Renvoie le résultat de l'ajout de toutes les valeurs données à l'ensemble.
   </para>
 
  </refsect1>
