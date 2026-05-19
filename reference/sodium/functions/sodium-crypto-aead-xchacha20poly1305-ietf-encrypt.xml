@@ -68,7 +68,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <simpara>
-   Renvoie la clé de chiffrement et l'étiquette en cas de succès, &return.falseforfailure;.
+   Renvoie le texte chiffré et l'étiquette en cas de succès, &return.falseforfailure;.
   </simpara>
  </refsect1>
 

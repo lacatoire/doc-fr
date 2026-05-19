@@ -222,7 +222,7 @@ echo preg_replace($patterns, $replacements, $string);
     &example.outputs;
     <screen>
 <![CDATA[
-Le grizzly brun lent saute par dessus le chien paresseux.
+Le grizzly noir lent saute par dessus le chien paresseux.
 ]]>
     </screen>
    </example>

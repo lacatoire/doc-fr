@@ -50,7 +50,7 @@
        Item-ID a la clé item-id,ISBN.
       </para>
       <para>
-       Les paramètres de requête IIL sont :
+       Les paramètres de requête ILL sont :
       </para>
       <literallayout>
 protocol-version-num

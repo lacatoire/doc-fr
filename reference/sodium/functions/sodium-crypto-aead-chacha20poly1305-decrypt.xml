@@ -30,7 +30,7 @@
     <listitem>
      <simpara>
       Doit être au format fourni par <function>sodium_crypto_aead_chacha20poly1305_encrypt</function>
-      (chiffrer et étiqueter, concaténés).
+      (texte chiffré et étiquette, concaténés).
      </simpara>
     </listitem>
    </varlistentry>

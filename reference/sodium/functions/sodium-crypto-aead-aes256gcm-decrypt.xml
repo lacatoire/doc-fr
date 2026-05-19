@@ -31,7 +31,7 @@
     <listitem>
      <simpara>
       Doit être au format fourni par <function>sodium_crypto_aead_aes256gcm_encrypt</function>
-      (chiffrer et étiqueter, concaténés).
+      (texte chiffré et étiquette, concaténés).
      </simpara>
     </listitem>
    </varlistentry>

@@ -54,7 +54,7 @@
      <parameter>md</parameter>
     </term>
     <listitem>
-     <simpara>Ressource de message (MQMD).</simpara>
+     <simpara>Descripteur de message (MQMD).</simpara>
     </listitem>
    </varlistentry>
    <varlistentry>

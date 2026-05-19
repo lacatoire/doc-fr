@@ -126,7 +126,7 @@
      </row>
      <row>
       <entry>start since</entry>
-      <entry>Temps en secondes écoulées depuis le dernier démarrage du pool de processus.</entry>
+      <entry>Temps en secondes écoulé depuis le dernier démarrage du pool de processus.</entry>
      </row>
      <row>
       <entry>accepted conn</entry>

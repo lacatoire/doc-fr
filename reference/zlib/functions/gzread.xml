@@ -39,7 +39,7 @@
      <term><parameter>length</parameter></term>
      <listitem>
       <para>
-       Le nombre d'octets lus.
+       Le nombre d'octets à lire.
       </para>
      </listitem>
     </varlistentry>

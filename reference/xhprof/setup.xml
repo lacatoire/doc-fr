@@ -13,7 +13,7 @@
    Elle est utilisée pour sauvegarder et afficher les données de profilage
    de manière exploitable, où la lecture s'effectue directement via un navigateur
    web. Ainsi, un serveur web PHP rendra probablement l'utilisation de xhprof
-   plus conviviale.
+   plus exploitable.
   </para>
   <para>
    Il existe également un fork de l'interface GUI sur

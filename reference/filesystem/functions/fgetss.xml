@@ -69,7 +69,7 @@
   <para>
    Retourne une chaîne de taille <parameter>length</parameter> - 1 octet
    lu depuis le fichier pointé par <parameter>handle</parameter>,
-   dont les balises HTML et PHP ont été échappées.
+   dont les balises HTML et PHP ont été supprimées.
   </para>
   <para>
    Si une erreur survient, la fonction retourne &false;.

@@ -12,7 +12,7 @@
   &reftitle.intro;
   <warning>
    <simpara>
-    Cette extension est <emphasis>SÉPARÉE</emphasis> à partir de PHP 8.4.0.
+    Cette extension est <emphasis>DÉGROUPÉE</emphasis> à partir de PHP 8.4.0.
    </simpara>
   </warning>
   <para>

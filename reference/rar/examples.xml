@@ -136,7 +136,7 @@ $entries = rar_list($rar_file);
 
 foreach ($entries as $entry) {
     echo 'Nom du fichier : ' . $entry->getName() . "\n";
-    echo 'Taille de l'archive : ' . $entry->getPackedSize() . "\n";
+    echo 'Taille compressée : ' . $entry->getPackedSize() . "\n";
     echo 'Taille après décompression : ' . $entry->getUnpackedSize() . "\n";
 
     $entry->extract('/dir/extract/to/');

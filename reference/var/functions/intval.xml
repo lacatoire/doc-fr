@@ -208,7 +208,7 @@ echo intval(true), PHP_EOL;                    // 1
     <member><function>strval</function></member>
     <member><function>settype</function></member>
     <member><function>is_numeric</function></member>
-    <member><link linkend="language.types.type-juggling">Définition du type</link></member>
+    <member><link linkend="language.types.type-juggling">Transtypage</link></member>
     <member><link linkend="ref.bc">Nombres de grande taille BCMath</link></member>
    </simplelist>
   </para>

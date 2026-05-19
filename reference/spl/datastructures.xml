@@ -86,8 +86,8 @@
 
    <para>
     Une carte est une structure de données qui stocke des paires clé/valeur.
-    Les tableaux PHP peuvent très bien servir de cartes entre des chaînes ou 
-    entiers et des valeurs. SPL fournit un objet de type carte pour les données.
+    Les tableaux PHP peuvent très bien servir de cartes entre des chaînes ou
+    entiers et des valeurs. SPL fournit une carte allant des objets vers des données.
     Cette carte peut aussi servir d'ensemble d'objets.
    </para>
 

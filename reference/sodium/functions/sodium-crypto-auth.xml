@@ -15,7 +15,7 @@
    <methodparam><modifier role="attribute">#[\SensitiveParameter]</modifier><type>string</type><parameter>key</parameter></methodparam>
   </methodsynopsis>
   <simpara>
-   Le message symétrique d'authentification via <function>sodium_crypto_auth</function> fournit
+   L'authentification symétrique de message via <function>sodium_crypto_auth</function> fournit
    l'intégrité, mais pas la confidentialité.
   </simpara>
   <simpara>

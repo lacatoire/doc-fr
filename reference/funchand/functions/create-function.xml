@@ -274,7 +274,7 @@ Array
     <programlisting role="php">
 <![CDATA[
 <?php
-$sv = array("petite", "une longue chaîne", "longue", "une phrase toute entière");
+$sv = array("petite", "une longue chaîne", "longue", "une phrase tout entière");
 echo "Original :\n";
 print_r($sv);
 echo "Trié :\n";
@@ -289,7 +289,7 @@ print_r($sv);
     <programlisting role="php">
 <![CDATA[
 <?php
-$sv = array("petite", "une longue chaîne", "longue", "une phrase toute entière");
+$sv = array("petite", "une longue chaîne", "longue", "une phrase tout entière");
 echo "Original :\n";
 print_r($sv);
 echo "Trié :\n";
@@ -307,12 +307,12 @@ Array
   [0] => petite
   [1] => une longue chaîne
   [2] => longue
-  [3] => une phrase toute entière
+  [3] => une phrase tout entière
 )
 Trié :
 Array
 (
-  [0] => une phrase toute entière
+  [0] => une phrase tout entière
   [1] => une longue chaîne
   [2] => longue
   [3] => petite

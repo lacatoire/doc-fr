@@ -40,8 +40,8 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Cette fonction retourne le message courant du domaine en cas de succès,
-   après une possible modification.
+   Cette fonction retourne le domaine de messages courant en cas de succès,
+   après une éventuelle modification.
   </para>
  </refsect1>
 

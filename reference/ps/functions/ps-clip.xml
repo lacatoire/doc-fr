@@ -6,7 +6,7 @@
 <refentry xml:id="function.ps-clip" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ps_clip</refname>
-  <refpurpose>Attache le dessin au chemin courant</refpurpose>
+  <refpurpose>Découpe le dessin selon le chemin courant</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">

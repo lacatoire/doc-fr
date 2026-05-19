@@ -87,7 +87,7 @@
       <para>
        Il est possible de spécifier un nom de fichier avec le paramètre
        <parameter>content</parameter> qui peut être rempli avec les données vérifiées,
-       mais avec les informations de signature.
+       sans les informations de signature.
       </para>
      </listitem>
     </varlistentry>

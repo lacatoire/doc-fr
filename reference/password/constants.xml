@@ -15,7 +15,7 @@
     <listitem>
      <para>
       La constante <constant>PASSWORD_BCRYPT</constant> est utilisée pour
-      créer une nouvelle table de hachage de mot de passe en utilisant
+      créer de nouveaux hachages de mot de passe en utilisant
       l'algorithme <constant>CRYPT_BLOWFISH</constant>.
      </para>
      <para>
@@ -36,7 +36,7 @@
        <para>
         Si omis, un salt aléatoire sera généré par la fonction 
         <function>password_hash</function> pour chaque mot de passe haché.
-        C'est bien le but de l'opération et à partir de PHP 7.0.0 l'option salt a été désapprouvée.
+        C'est bien le but de l'opération et à partir de PHP 7.0.0 l'option salt est devenue obsolète.
        </para>
       </listitem>
       <listitem>

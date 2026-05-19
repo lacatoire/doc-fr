@@ -48,8 +48,8 @@
     <term><parameter>value</parameter></term>
     <listitem>
      <simpara>
-      Ce paramètre devra être stocké comme une chaîne de caractères
-      même si c'est un tableau. Dans ce cas, tous les éléments du tableau
+      Ce paramètre sera stocké comme une chaîne de caractères
+      sauf si c'est un tableau. Dans ce cas, tous les éléments du tableau
       seront stockés comme un tableau de valeurs.
      </simpara>
     </listitem>
