@@ -42,7 +42,7 @@
     <term><parameter>mode</parameter></term>
     <listitem>
      <simpara>
-      Les nouvelles permissions, c.-à-d. <literal>0644</literal>.
+      Les nouvelles permissions, par exemple <literal>0644</literal>.
      </simpara>
     </listitem>
    </varlistentry>
