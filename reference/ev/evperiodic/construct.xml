@@ -88,7 +88,7 @@
     <listitem>
      <simpara>
       Voir les
-      <link linkend="ev.watcher-callbacks">fonctions de rappel des Watchers</link> .
+      <link linkend="ev.watcher-callbacks">fonctions de rappel des Watchers</link>.
      </simpara>
     </listitem>
    </varlistentry>
