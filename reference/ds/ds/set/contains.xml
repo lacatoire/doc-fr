@@ -53,7 +53,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-    &false; si l'une des <parameter>valeurs</parameter> fournies n'est pas dans
+    &false; si l'une des <parameter>values</parameter> fournies n'est pas dans
     l'ensemble, sinon &true;.
   </para>
  </refsect1>
