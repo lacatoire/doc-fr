@@ -67,7 +67,7 @@
      <row>
       <entry>7.4.0</entry>
       <entry>
-       Cette fonction retourne désormais &false; en cas d'échec; auparavant
+       Cette fonction retourne désormais &false; en cas d'échec ; auparavant
        <literal>0</literal> était retourné.
       </entry>
      </row>
