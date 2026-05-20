@@ -171,7 +171,7 @@
       <para>
        Le fait de définir ce drapeau rend le code plus rapide, mais il peut
        déclencher un bogue Linux : il n'est pas sécurisé d'utiliser ce drapeau
-       en la présence d'un fds cloné par dup() ou une de ces variantes.
+       en présence d'un fds cloné par dup() ou une de ces variantes.
        Ceci produirait un comportement étrange et très difficile à diagnostiquer.
       </para>
       <simpara>
