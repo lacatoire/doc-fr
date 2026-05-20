@@ -39,7 +39,7 @@
     <listitem>
      <para>
       Fonction de rappel appelée avec le chemin demandé.
-      Doit correspondre au prototype suivant :
+      Devrait correspondre au prototype suivant :
      </para>
      <methodsynopsis>
       <type>void</type>
