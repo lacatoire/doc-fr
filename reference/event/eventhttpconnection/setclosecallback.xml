@@ -36,7 +36,7 @@
     <listitem>
      <para>
       Fonction de rappel à appeler lors de la fermeture de la connexion.
-      Doit correspondre au prototype suivant :
+      Devrait correspondre au prototype suivant :
      </para>
      <methodsynopsis>
       <type>void</type>
