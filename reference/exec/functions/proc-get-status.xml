@@ -77,7 +77,7 @@
        <entry>signaled</entry>
        <entry>&boolean;</entry>
        <entry>
-        &true; si le processus fils a été terminé par un signal inconnu.
+        &true; si le processus fils a été terminé par un signal non intercepté.
         Toujours défini à &false; sous Windows.
        </entry>
       </row>
