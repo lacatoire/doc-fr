@@ -129,9 +129,10 @@
      </term>
      <listitem>
       <para>
-       La fin de ligne est une séquence de nombres représentant un retour chariot
-       et une nouvelle ligne. Ce format n'est pas très utile ; il existe encore
-       seulement pour des raisons de compatibilité ascendante.
+       La fin de ligne est une séquence quelconque d'un nombre quelconque de
+       caractères de retour chariot et de saut de ligne. Ce format n'est pas
+       très utile ; il existe principalement pour des raisons de compatibilité
+       ascendante.
       </para>
      </listitem>
     </varlistentry>
