@@ -96,7 +96,7 @@
     <listitem>
      <para>
       Données personnalisées. Si spécifié, elles seront passées à la fonction
-      de rappel lorsque l'événement aura lancé les triggers.
+      de rappel lorsque l'événement se déclenchera.
      </para>
     </listitem>
    </varlistentry>
