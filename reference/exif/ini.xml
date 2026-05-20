@@ -114,7 +114,7 @@
      <literal>exif.decode_unicode_intel</literal> définit
      le jeu de caractères de remplacement pour les commentaires
      utilisateurs écrits en Unicode, si l'ordre des bits
-     est celui de Intel (little-endian). Cette directive ne
+     est celui d'Intel (little-endian). Cette directive ne
      peut être laissée vide, et doit être un des jeux de
      caractères supportés par l'extension mbstring. La valeur
      par défaut est <literal>UCS-2LE</literal>.
@@ -162,7 +162,7 @@
      <literal>exif.decode_jis_intel</literal> définit
      le jeu de caractères de remplacement pour les commentaires
      utilisateurs écrits en JIS, si l'ordre des bits
-     est celui de Intel (little-endian). Cette directive ne
+     est celui d'Intel (little-endian). Cette directive ne
      peut être laissée vide, et doit être un des jeux de
      caractères supportés par l'extension mbstring. La valeur
      par défaut est <literal>JIS</literal>.
