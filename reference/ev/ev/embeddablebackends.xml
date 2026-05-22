@@ -30,7 +30,7 @@
   <simpara>
    Retourne un masque de bits qui peut contenir les
    <link linkend="ev.constants.watcher-backends">drapeaux de backend</link>
-   combinés en utilisant l'opérateur <emphasis>OR</emphasis> bit à bit.
+   combinés avec l'opérateur <emphasis>OR</emphasis> bit à bit.
   </simpara>
  </refsect1>
  <refsect1 role="examples">

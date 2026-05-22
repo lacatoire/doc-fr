@@ -166,7 +166,7 @@
         <listitem>
          <simpara>
           Passer la valeur <constant>DB2_FORWARD_ONLY</constant> spécifie un curseur
-          unidirectionnel pour une ressource de requête. C'est le type de curseur
+          uniquement suivant pour une ressource de requête. C'est le type de curseur
           par défaut et est supporté sur tous les serveurs de base de données.
          </simpara>
          <simpara>
@@ -188,8 +188,8 @@
         <listitem>
          <simpara>
           Le fait de passer la valeur DB2_TRUSTED_CONTEXT_ENABLE active le contexte
-          de confiance pour ce gestionnaire de connexion. Ce paramètre ne peut pas
-          être défini en utilisant la fonction <function>db2_set_option</function>.
+          de confiance pour ce gestionnaire de connexion. Ce paramètre ne peut
+          être défini avec la fonction <function>db2_set_option</function>.
          </simpara>
          <simpara>
           Cette clé fonctionne uniquement si la base de données est cataloguée
@@ -244,7 +244,7 @@ db2set DB2COMM=TCPIP</literallayout>
         <term><parameter>i5_commit</parameter></term>
         <listitem>
          <para>
-          L'attribut <parameter>i5_commit</parameter> devrait être défini avant
+          L'attribut <parameter>i5_commit</parameter> devrait être fixé avant
           l'appel à <function>db2_connect</function>. Si la valeur est
           changée après que la connexion a été établie et que la connexion
           est à une source de données distante, le changement ne prendra

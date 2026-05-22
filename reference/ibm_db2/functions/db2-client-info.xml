@@ -54,7 +54,7 @@
       <row>
        <entry>DRIVER_ODBC_VER</entry>
        <entry>&string;</entry>
-       <entry>La version d'ODBC supportée par le client DB2. Ceci retourne une
+       <entry>La version d'ODBC que le client DB2 supporte. Ceci retourne une
         &string; <literal>"MM.mm"</literal> où <varname>MM</varname> est la version majeure et
         <varname>mm</varname> est la version mineure. Le client DB2 retourne
         toujours <literal>"03.51"</literal>.
@@ -107,7 +107,7 @@
       <row>
        <entry>ODBC_VER</entry>
        <entry>&string;</entry>
-       <entry>La version d'ODBC supportée par le gestionnaire de pilote ODBC.
+       <entry>La version d'ODBC que le gestionnaire de pilote ODBC supporte.
         Cela retourne une &string; <literal>"MM.mm.rrrr"</literal> où <varname>MM</varname> est la
         version majeure, <varname>mm</varname> est la version mineure et
         <varname>rrrr</varname> est la mise à jour. Le client DB2 retourne
