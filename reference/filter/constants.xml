@@ -1169,7 +1169,7 @@ string(5) "12.34"
        </para>
        <note>
         <simpara>
-         La valeur retournée par le callback sera la valeur retournée par la
+         La valeur retournée par la fonction de rappel sera la valeur retournée par la
          fonction de filtre invoquée.
         </simpara>
        </note>
