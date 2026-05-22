@@ -61,7 +61,7 @@
   &reftitle.returnvalues;
   <simpara>
    (Uniquement en mode procédural)
-   Retourne une instance de <classname>finfo</classname> en cas de succès, &return.falseforfailure;.
+   Retourne une instance de <classname>finfo</classname> en cas de succès,&return.falseforfailure;.
   </simpara>
  </refsect1>
 
