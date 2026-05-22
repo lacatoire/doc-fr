@@ -54,7 +54,7 @@
       <row>
        <entry>DRIVER_ODBC_VER</entry>
        <entry>&string;</entry>
-       <entry>La version d'ODBC prise en charge par le client DB2. Ceci retourne une
+       <entry>La version d'ODBC supportée par le client DB2. Ceci retourne une
         &string; <literal>"MM.mm"</literal> où <varname>MM</varname> est la version majeure et
         <varname>mm</varname> est la version mineure. Le client DB2 retourne
         toujours <literal>"03.51"</literal>.
@@ -74,13 +74,13 @@
        <entry>ODBC_SQL_CONFORMANCE</entry>
        <entry>&string;</entry>
        <entry>
-        <para>Le niveau de grammaire SQL ODBC pris en charge par le client :
+        <para>Le niveau de grammaire SQL ODBC supporté par le client :
          <variablelist>
           <varlistentry>
            <term>MINIMUM</term>
            <listitem>
             <simpara>
-             Prend en charge le minimum de grammaire SQL d'ODBC.
+             Supporte le minimum de grammaire SQL d'ODBC.
             </simpara>
            </listitem>
           </varlistentry>
@@ -88,7 +88,7 @@
            <term>CORE</term>
            <listitem>
             <simpara>
-             Prend en charge le noyau de grammaire SQL d'ODBC.
+             Supporte le noyau de grammaire SQL d'ODBC.
             </simpara>
            </listitem>
           </varlistentry>
@@ -96,7 +96,7 @@
            <term>EXTENDED</term>
            <listitem>
             <simpara>
-             Prend en charge la grammaire étendue SQL d'ODBC.
+             Supporte la grammaire étendue SQL d'ODBC.
             </simpara>
            </listitem>
           </varlistentry>
@@ -107,7 +107,7 @@
       <row>
        <entry>ODBC_VER</entry>
        <entry>&string;</entry>
-       <entry>La version d'ODBC prise en charge par le gestionnaire de pilote ODBC.
+       <entry>La version d'ODBC supportée par le gestionnaire de pilote ODBC.
         Cela retourne une &string; <literal>"MM.mm.rrrr"</literal> où <varname>MM</varname> est la
         version majeure, <varname>mm</varname> est la version mineure et
         <varname>rrrr</varname> est la mise à jour. Le client DB2 retourne

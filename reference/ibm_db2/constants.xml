@@ -51,7 +51,7 @@
     <simpara>
      Spécifie un curseur de défilement pour une ressource de requête. Ce
      mode permet un accès aléatoire aux lignes d'un jeu de résultats, mais
-     n'est actuellement pris en charge que par IBM DB2 Universal Database.
+     n'est actuellement supporté que par IBM DB2 Universal Database.
     </simpara>
    </listitem>
   </varlistentry>
@@ -63,7 +63,7 @@
    <listitem>
     <simpara>
      Spécifie un curseur unidirectionnel pour une ressource de requête.
-     Il s'agit du type de curseur par défaut, pris en charge sur tous les
+     Il s'agit du type de curseur par défaut, supporté sur tous les
      serveurs de base de données.
     </simpara>
    </listitem>

@@ -112,7 +112,7 @@
      <row>
       <entry>7.1.0</entry>
       <entry>
-       La prise en charge des <parameter>offset</parameter>s négatifs a été ajoutée.
+       Support pour les <parameter>offset</parameter>s négatifs a été ajouté.
       </entry>
      </row>
     </tbody>

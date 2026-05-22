@@ -34,7 +34,7 @@ echo $image;
   </para>
 
   <para>
-   En utilisant SPL ou toute autre fonctionnalité orientée objet prise en charge
+   En utilisant SPL ou toute autre fonctionnalité orientée objet supportée
    par Imagick, il devient simple de redimensionner tous les fichiers
    d'un dossier (utile pour des scripts batch redimensionnant des images
    issues d'un appareil photo numérique afin de les rendre lisibles sur le
