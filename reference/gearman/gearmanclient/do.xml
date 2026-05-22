@@ -136,10 +136,10 @@ Succès : !olleH
     <title>Soumission d'un travail et récupération incrémentale du statut</title>
     <simpara>
      Un travail est soumis et le script boucle pour récupérer les informations
-     de statut. L'agent a un délai artificiel pour récupérer les résultats
-     lors d'une exécution longue d'un travail mais aussi l'envoi des statuts
-     et des données. Chaque sous-séquence appelle la méthode
-     <methodname>GearmanClient::do</methodname> permettant de produire des
+     de statut. L'agent a un délai artificiel qui résulte en un travail
+     de longue durée et envoie le statut et les données au fur et à mesure
+     du traitement. Chaque appel suivant à la méthode
+     <methodname>GearmanClient::do</methodname> produit des
      informations de statut sur le travail en cours.
     </simpara>
     <programlisting role="php">
