@@ -35,7 +35,7 @@
   <para>
    Lors d'un entraînement sur des réseaux neuronaux, où les valeurs de sortie doivent
    être aux extrêmes (habituellement, 0 et 1, suivant la fonction d'activation),
-   une fonction de pente d'activation peut être utilisée (c.-à-d. 1.0).
+   une fonction de pente d'activation peut être utilisée (par exemple 1.0).
   </para>
   <para>
    La pente d'activation par défaut est 0.5.
