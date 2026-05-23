@@ -27,7 +27,7 @@
   <para>
    Renvoie le plus petit maximum local pour un champ. Cela devrait être une valeur
    plus petite ou égale à celle retournée par
-   <function>IntlCalendar::getActualMaxmimum</function>, qui est à son tour
+   <function>IntlCalendar::getActualMaximum</function>, qui est à son tour
    plus petite ou égale à celle retournée par
    <function>IntlCalendar::getMaximum</function>.
   </para>
