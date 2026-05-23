@@ -16,8 +16,8 @@
    <methodparam><type>resource</type><parameter>psdoc</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Prend le chemin courant et l'utilise pour définir la bordure du secteur à
-   attacher. Tout ce qui est dessiné à l'extérieur de ce secteur ne sera pas
+   Prend le chemin courant et l'utilise pour définir la bordure du secteur de
+   découpe. Tout ce qui est dessiné à l'extérieur de ce secteur ne sera pas
    visible.
   </para>
  </refsect1>
