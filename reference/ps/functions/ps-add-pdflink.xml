@@ -44,7 +44,8 @@
      <term><parameter>psdoc</parameter></term>
      <listitem>
       <para>
-
+       Identifiant d'un fichier postscript retourné par
+       <function>ps_new</function>.
       </para>
      </listitem>
     </varlistentry>
