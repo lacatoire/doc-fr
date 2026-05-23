@@ -95,7 +95,7 @@ if (!$link) {
    die('Impossible de se connecter : ' . mysql_error());
 }
 if (!mysql_select_db('database_name')) {
-    die('Impossible de sélectionner la table : ' . mysql_error());
+    die('Impossible de sélectionner la base de données : ' . mysql_error());
 }
 $result = mysql_query('SELECT name FROM work.employee');
 if (!$result) {
