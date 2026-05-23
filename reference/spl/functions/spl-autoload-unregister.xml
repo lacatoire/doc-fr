@@ -21,7 +21,7 @@
    alors elle sera désactivée.
   </para>
   <para>
-   Lorsque cette fonction active une pile autoload,
+   Lorsque cette fonction désactive la pile autoload,
    toutes les fonctions __autoload existantes ne seront pas réactivées.
   </para>
  </refsect1>
