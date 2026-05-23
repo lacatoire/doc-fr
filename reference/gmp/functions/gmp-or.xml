@@ -31,8 +31,7 @@
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><parameter>num2
-     </parameter></term>
+     <term><parameter>num2</parameter></term>
      <listitem>
       &gmp.parameter;
      </listitem>
