@@ -152,9 +152,9 @@ imagepng($image);
    <programlisting role="php">
 <![CDATA[
 <?php
-$alpha8 = 0; // fully transparent
+$alpha8 = 0; // totalement transparent
 var_dump(127 - ($alpha8 >> 1));
-$alpha8 = 255; // fully opaque
+$alpha8 = 255; // totalement opaque
 var_dump(127 - ($alpha8 >> 1));
 ?>
 ]]>
