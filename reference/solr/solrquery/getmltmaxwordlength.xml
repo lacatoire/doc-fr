@@ -16,7 +16,7 @@
    <void />
   </methodsynopsis>
   <para>
-   Retourne la longueur minimale des mots en deçà de laquelle ils seront ignorés.
+   Retourne la longueur maximale des mots au-delà de laquelle ils seront ignorés.
   </para>
 
  </refsect1>
