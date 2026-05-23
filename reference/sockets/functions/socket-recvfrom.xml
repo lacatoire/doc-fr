@@ -198,7 +198,7 @@ $from = '';
 $port = 0;
 socket_recvfrom($socket, $buf, 12, 0, $from, $port);
 
-echo "Réception de $buf depuis l'adresse distant $from et du port distant $port" . PHP_EOL;
+echo "Réception de $buf depuis l'adresse distante $from et du port distant $port" . PHP_EOL;
 ?>
 ]]>
     </programlisting>
