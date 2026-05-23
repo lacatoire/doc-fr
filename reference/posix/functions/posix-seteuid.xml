@@ -17,7 +17,7 @@
   </methodsynopsis>
   <para>
    Définit l'identifiant de l'utilisateur effectif du processus courant.
-   C'est une fonction de haut niveau, et on aura besoin des
+   C'est une fonction privilégiée, et on aura besoin des
    droits appropriés (généralement ceux du super utilisateur),
    sur le système, pour l'utiliser.
   </para>
