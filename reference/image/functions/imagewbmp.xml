@@ -91,7 +91,7 @@ $text_color = imagecolorallocate($im, 233, 14, 91);
 imagestring($im, 1, 5, 5,  'Un texte simple', $text_color);
 
 // Définit le contenu de l'en-tête - dans ce cas, image/vnd.wap.wbmp
-// Hint: see image_type_to_mime_type() for content-types
+// Astuce : voir la fonction image_type_to_mime_type() pour les types de contenu
 header('Content-Type: image/vnd.wap.wbmp');
 
 // Affichage de l'image
