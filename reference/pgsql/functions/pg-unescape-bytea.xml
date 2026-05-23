@@ -17,7 +17,7 @@
   </methodsynopsis>
   <para>
    <function>pg_unescape_bytea</function> supprime la protection des
-   caractères de type bytea. Elle retourne la &string; protégée, pouvant
+   caractères de type bytea. Elle retourne la &string; déprotégée, pouvant
    contenir des données binaires.
   </para>
   <note>
