@@ -101,7 +101,7 @@ if ($im !== false) {
     imagepng($im);
 }
 else {
-    echo 'An error occurred.';
+    echo 'Une erreur est survenue.';
 }
 ?>
 ]]>

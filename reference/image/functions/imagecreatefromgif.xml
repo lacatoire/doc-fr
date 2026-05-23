@@ -94,7 +94,7 @@ function LoadGif($imgname)
         imagefilledrectangle ($im, 0, 0, 150, 30, $bgc);
 
         /* Affiche un message d'erreur dans l'image */
-        imagestring ($im, 1, 5, 5, 'Error loading ' . $imgname, $tc);
+        imagestring ($im, 1, 5, 5, 'Erreur de chargement ' . $imgname, $tc);
     }
 
     return $im;
