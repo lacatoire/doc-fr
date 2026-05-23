@@ -390,7 +390,6 @@
     Si le <constant>PHP_OUTPUT_HANDLER_DISABLED</constant> d'un gestionnaire est défini,
     le gestionnaire ne sera pas invoqué en appelant
     <function>ob_end_clean</function>, <function>ob_end_flush</function>,
-    <function>ob_get_clean</function>, <function>ob_get_flush</function>
     <function>ob_get_clean</function>, <function>ob_get_flush</function>,
     <function>ob_clean</function>,
     <function>ob_flush</function>
@@ -600,7 +599,6 @@
     Si <constant>PHP_OUTPUT_HANDLER_DISABLED</constant> d'un gestionnaire est défini,
     le gestionnaire ne sera pas invoqué en appelant
     <function>ob_end_clean</function>, <function>ob_end_flush</function>,
-    <function>ob_get_clean</function>, <function>ob_get_flush</function>
     <function>ob_get_clean</function>, <function>ob_get_flush</function>,
     <function>ob_clean</function>,
     <function>ob_flush</function>
