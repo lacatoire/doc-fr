@@ -288,7 +288,7 @@ var_Dump($ret);
    &reftitle.notes;
    <note>
     <simpara>
-     Lorsque l'on établissez la connexion à CUBRID, il faut fournir le nom de
+     Lorsque l'on établit la connexion à CUBRID, il faut fournir le nom de
      l'utilisateur et le mot de passe, mais pas le DSN.
     </simpara>
    </note>
