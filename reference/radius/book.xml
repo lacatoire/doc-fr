@@ -13,7 +13,7 @@
    Ce paquet est basé sur la bibliothèque libradius
    (<literal>Remote Authentication Dial In User Service</literal>)
    de FreeBSD. Il permet aux clients d'effectuer des identifications
-   et représentations par le biais de requêtes réseau
+   et de la comptabilité par le biais de requêtes réseau
    sur des serveurs distants.
   </simpara>
   <simpara>
