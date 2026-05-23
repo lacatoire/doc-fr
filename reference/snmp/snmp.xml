@@ -220,7 +220,7 @@
       </simpara>
       <simpara>
        Permet d'indiquer à walk/get etc. s'ils doivent automatiquement
-       chercher les valeurs enum dans le MIIB et les retourner en plus de leurs
+       chercher les valeurs enum dans le MIB et les retourner en plus de leurs
        chaînes humainement lisibles.
       </simpara>
      </listitem>
