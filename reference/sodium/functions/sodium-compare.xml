@@ -27,7 +27,7 @@
     <term><parameter>string1</parameter></term>
     <listitem>
      <simpara>
-      Left operand
+      Opérande de gauche
      </simpara>
     </listitem>
    </varlistentry>
@@ -35,7 +35,7 @@
     <term><parameter>string2</parameter></term>
     <listitem>
      <simpara>
-      Right operand
+      Opérande de droite
      </simpara>
     </listitem>
    </varlistentry>
