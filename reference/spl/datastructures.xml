@@ -11,11 +11,11 @@
   </para>
 
   <section>
-   <title>Liste doublement chaînées</title>
+   <title>Listes doublement chaînées</title>
 
    <para>
     Une liste doublement chaînée (<literal>Doubly Linked List</literal> ou DLL) 
-    est une liste de nœud liés dans les deux sens aux autres nœuds. Les opérations
+    est une liste de nœuds liés dans les deux sens aux autres nœuds. Les opérations
     d'itérateurs peuvent se faire dans les deux sens, en addition ou en suppression,
     avec un coût de O(1) lorsque la structure sous-jacente est une DLL.
     Elle fournit également un support pratique pour les piles et les queues.
