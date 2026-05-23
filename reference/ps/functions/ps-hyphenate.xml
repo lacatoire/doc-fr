@@ -18,7 +18,7 @@
   <para>
    Effectue la césure du mot passé. <function>ps_hyphenate</function> évalue la valeur
    hyphenminchars (fixé par <function>ps_set_value</function>) et le paramètre
-   hyphendic (fixé par <function>ps_set_parameter</function>). hyphendict doit
+   hyphendict (fixé par <function>ps_set_parameter</function>). hyphendict doit
    être fixé avant d'appeler cette fonction.
   </para>
   <para>
