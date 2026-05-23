@@ -52,9 +52,9 @@
     <term><parameter>schema</parameter></term>
     <listitem>
      <simpara>
-      Le schéma qui contient les tables. Le paramètre accepte les formes
-      contenant <literal>_</literal> et <literal>%</literal> en tant que mot
-      clé.
+      Le schéma qui contient les tables. Ce paramètre accepte un motif de recherche
+      contenant <literal>_</literal> et <literal>%</literal> en tant que
+      caractères génériques.
      </simpara>
     </listitem>
    </varlistentry>
@@ -62,9 +62,9 @@
     <term><parameter>table_name</parameter></term>
     <listitem>
      <simpara>
-      Le nom de la table. Le paramètre accepte les formes
-      contenant <literal>_</literal> et <literal>%</literal> en tant que mot
-      clé.
+      Le nom de la table. Ce paramètre accepte un motif de recherche
+      contenant <literal>_</literal> et <literal>%</literal> en tant que
+      caractères génériques.
      </simpara>
     </listitem>
    </varlistentry>
