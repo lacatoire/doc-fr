@@ -15,8 +15,8 @@
   </methodsynopsis>
   <para>
    Retourne le numéro d'erreur standard, généré par la dernière commande
-   LDAP, pour la connexion <parameter>link_identifier</parameter>. Ce numéro
-   peut être converti en message textuel avec <function>ldap_err2str</function>.
+   LDAP. Ce numéro peut être converti en message textuel avec
+   <function>ldap_err2str</function>.
   </para>
  </refsect1>
 
