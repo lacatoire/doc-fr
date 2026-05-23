@@ -120,8 +120,8 @@ while (!feof($fp)) {
   </programlisting>
  </example>
  <simpara>
-  Cet exemple ouvre l'archive RAR et extrait chacune des entrées dans
-  un dossier spécifié.
+  Cet exemple ouvre un fichier RAR et présente le fichier demandé contenu
+  dans l'archive RAR pour téléchargement par le client.
  </simpara>
 
  <example>
@@ -130,7 +130,7 @@ while (!feof($fp)) {
 <![CDATA[
 <?php
 
-$rar_file = rar_open('example.rar') or die("Can't open Rar archive");
+$rar_file = rar_open('example.rar') or die("Impossible d'ouvrir l'archive Rar");
 
 $entries = rar_list($rar_file);
 
