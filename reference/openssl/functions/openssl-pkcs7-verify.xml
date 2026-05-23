@@ -22,7 +22,7 @@
   </methodsynopsis>
   <para>
    <function>openssl_pkcs7_verify</function> lit le message S/MIME contenu
-   dans le fichier <parameter>filename</parameter> et examine la signature
+   dans le fichier <parameter>input_filename</parameter> et examine la signature
    numérique.
   </para>
  </refsect1>
