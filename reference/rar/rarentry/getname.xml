@@ -70,7 +70,7 @@ $rar_file = rar_open('example.rar') or die("Erreur lors de l'ouverture de l'arch
 
 $entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Entrée non trouvée");
 
-echo "Entry name: " . mb_convert_encoding(
+echo "Nom de l'entrée : " . mb_convert_encoding(
     htmlentities(
         $entry->getName(),
         ENT_COMPAT,
