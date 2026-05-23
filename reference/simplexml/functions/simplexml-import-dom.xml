@@ -99,7 +99,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>Import un <classname>DOMDocument</classname></title>
+    <title>Import d'un <classname>DOMDocument</classname></title>
     <programlisting role="php">
 <![CDATA[
 <?php
