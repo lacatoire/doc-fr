@@ -86,7 +86,7 @@
      <term><parameter>controls</parameter></term>
      <listitem>
       <para>
-       Tableau de <link linkend="ldap.controls">Contrôles LDAP</link> à envoyer avec la requête.
+       Un <type>array</type> de Contrôles LDAP qui ont été envoyés avec la réponse.
       </para>
      </listitem>
     </varlistentry>
