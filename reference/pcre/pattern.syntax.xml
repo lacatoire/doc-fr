@@ -2411,17 +2411,17 @@
 
 $subject = 'test';
 
-/* (?# can be used to add comments without enabling PCRE_EXTENDED */
-$match = preg_match('/te(?# this is a comment)st/', $subject);
+/* (?# peut être utilisé pour ajouter des commentaires sans activer PCRE_EXTENDED */
+$match = preg_match('/te(?# ceci est un commentaire)st/', $subject);
 var_dump($match);
 
-/* Whitespace and # is treated as part of the pattern unless PCRE_EXTENDED is enabled */
+/* Les espaces et # sont traités comme faisant partie du masque sauf si PCRE_EXTENDED est activé */
 $match = preg_match('/te   #~~~~
 st/', $subject);
 var_dump($match);
 
-/* When PCRE_EXTENDED is enabled, all whitespace data characters and anything
-   that follows an unescaped # on the same line is ignored */
+/* Quand PCRE_EXTENDED est activé, tous les caractères d'espacement et tout ce
+   qui suit un # non échappé sur la même ligne sont ignorés */
 $match = preg_match('/te    #~~~~
 st/x', $subject);
 var_dump($match);
