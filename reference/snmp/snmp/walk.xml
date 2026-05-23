@@ -73,8 +73,8 @@
   <simpara>
    Retourne un tableau associatif d'identifiants d'objets <acronym>SNMP</acronym>
    ainsi que leurs valeurs en cas de succès ou &false; si une erreur survient.
-   Lorsqu'une erreur <acronym>SNMP</acronym> survient, <methodname>SNMP::get_errno</methodname> et
-   <methodname>SNMP::get_error</methodname> peuvent être utilisées pour récupérer
+   Lorsqu'une erreur <acronym>SNMP</acronym> survient, <methodname>SNMP::getErrno</methodname> et
+   <methodname>SNMP::getError</methodname> peuvent être utilisées pour récupérer
    respectivement le numéro de l'erreur (spécifique à l'extension SNMP, voir les constantes de la
    classe) ainsi que le message d'erreur.
   </simpara>
