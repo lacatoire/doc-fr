@@ -170,7 +170,7 @@ if (openssl_pkcs7_sign("msg.txt", "signed.txt", "file://mycert.pem",
           "From: HQ <ceo@example.com>", // syntaxe indexée
           "Subject" => "Eyes only")
     )) {
-    // message signée - envoyez-le !
+    // message signé - envoyez-le !
     exec(ini_get("sendmail_path") . " < signed.txt");
 }
 ?>
