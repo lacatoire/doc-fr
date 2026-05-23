@@ -95,7 +95,7 @@ $im = @imagecreate(110, 20)
     or die("Impossible d'initialiser le nouveau flux d'image GD");
 $background_color = imagecolorallocate($im, 0, 0, 0);
 $text_color = imagecolorallocate($im, 233, 14, 91);
-imagestring($im, 1, 5, 5,  "A Simple Text String", $text_color);
+imagestring($im, 1, 5, 5,  "Une simple chaîne de texte", $text_color);
 imagepng($im);
 ?>
 ]]>
