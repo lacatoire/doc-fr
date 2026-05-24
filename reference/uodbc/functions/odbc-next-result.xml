@@ -81,7 +81,7 @@ $a_Row2 = odbc_fetch_array($r_Results);
 echo "Affiche le premier jeu de résultats : ";
 var_dump($a_Row1, $a_Row2);
 
-echo "Récupération du deuxième jeu de résultats : ";
+echo "Récupération du second jeu de résultats : ";
 var_dump(odbc_next_result($r_Results));
 
 $a_Row1 = odbc_fetch_array($r_Results);
