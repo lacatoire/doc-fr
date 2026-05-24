@@ -24,7 +24,7 @@
      <term><parameter>prefix</parameter></term>
      <listitem>
       <para>
-       Chaînes de caractères contenant le préfixe.
+       Chaîne de caractères contenant le préfixe.
       </para>
      </listitem>
     </varlistentry>
