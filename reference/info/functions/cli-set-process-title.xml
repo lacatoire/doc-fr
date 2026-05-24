@@ -48,7 +48,7 @@
 
  <refsect1 role="errors">
   &reftitle.errors;
-   
+
   <para>
    Une alerte de niveau <constant>E_WARNING</constant> sera générée si le système
    sous-jacent n'est pas supporté.
@@ -79,7 +79,7 @@ if (!cli_set_process_title($title)) {
    </example>
   </para>
  </refsect1>
- 
+
  <refsect1 role="seealso">
   &reftitle.seealso;
   <para>
