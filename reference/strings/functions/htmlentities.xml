@@ -211,9 +211,9 @@ echo htmlentities($str, ENT_COMPAT);
     &example.outputs;
     <screen>
 <![CDATA[
-Un &#039;apostrophee&#039; est &lt;b&gt;gras&lt;/b&gt;
+Un &#039;apostrophe&#039; en &lt;b&gt;gras&lt;/b&gt;
 
-Un 'apostrophe' est &lt;b&gt;gras&lt;/b&gt
+Un 'apostrophe' en &lt;b&gt;gras&lt;/b&gt
 ]]>
     </screen>
    </example>
