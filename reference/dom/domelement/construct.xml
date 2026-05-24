@@ -33,7 +33,7 @@
      <term><parameter>qualifiedName</parameter></term>
      <listitem>
       <para>
-       Le nom de l'élément. Lorsque l'URI de l'espace de noms est également fournie,
+       Le nom de l'élément. Lorsque l'URI de l'espace de noms est également fourni,
        le nom de l'élément doit comporter un préfixe pour être associé à l'URI.
       </para>
      </listitem>

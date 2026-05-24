@@ -84,7 +84,7 @@
      <term><constant>DOM_WRONG_DOCUMENT_ERR</constant></term>
      <listitem>
       <para>
-       Levé si <parameter>node</parameter> a été créé depuis un document
+       Levé si <parameter>node</parameter> a été créé à partir d'un document
        différent de celui qui a créé ce nœud.
       </para>
      </listitem>
