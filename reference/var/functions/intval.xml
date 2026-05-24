@@ -18,7 +18,7 @@
   </methodsynopsis>
   <para>
    Retourne la valeur &integer; de <parameter>value</parameter> en utilisant
-   la <parameter>base</parameter> fourni pour la conversion (par défaut en
+   la <parameter>base</parameter> fournie pour la conversion (par défaut en
    base 10). <function>intval</function> ne devrait pas être utilisée
    sur des objets, dans ces cas, une erreur de niveau <constant>E_WARNING</constant>
    sera émise et la fonction retournera 1.
