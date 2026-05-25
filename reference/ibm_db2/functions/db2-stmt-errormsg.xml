@@ -22,7 +22,7 @@
   <simpara>
    Si aucune ressource d'instruction n'est passée en argument à
    <function>db2_stmt_errormsg</function>, le pilote retourne le message
-   d'erreur associé à la dernière tentative de retour d'une ressource
+   d'erreur associé avec la dernière tentative de retour d'une ressource
    d'instruction, par exemple, provenant de <function>db2_prepare</function>
    ou <function>db2_exec</function>.
   </simpara>

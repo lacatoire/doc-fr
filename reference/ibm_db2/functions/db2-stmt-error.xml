@@ -23,7 +23,7 @@
   <simpara>
    Si aucune ressource d'instruction n'est passée en argument à la fonction
    <function>db2_stmt_error</function>, le pilote retourne la valeur de
-   SQLSTATE associée à la dernière tentative de retour d'une ressource
+   SQLSTATE associée avec la dernière tentative de retour d'une ressource
    d'instruction, par exemple, provenant de <function>db2_prepare</function>
    ou <function>db2_exec</function>.
   </simpara>

@@ -42,7 +42,7 @@
   &reftitle.returnvalues;
   <simpara>
    Retourne un entier représentant le nombre de champs dans le jeu de
-   résultats associé à la ressource d'instruction spécifiée. Retourne &false;
+   résultats associé avec la ressource d'instruction spécifiée. Retourne &false;
    si la ressource d'instruction n'est pas une valeur d'entrée valide.
   </simpara>
  </refsect1>

@@ -44,7 +44,7 @@
    <link linkend="language.types.string.syntax.single">guillemets simples</link>.
    Si des <link linkend="language.types.string.syntax.double">guillemets doubles</link>
    sont utilisés, les noms de variables dans le code doivent être échappés avec soin,
-   par exemple <literal>\$somevar</literal>.
+   c.-à-d. <literal>\$somevar</literal>.
    <variablelist>
     <varlistentry>
      <term><parameter>args</parameter></term>

@@ -118,10 +118,10 @@
    &odbc.result.driver-specific;
   </para>
   <simpara>
-   Si les clés étrangères associées à une clé primaire sont demandées, le jeu
+   Si les clés étrangères associées avec une clé primaire sont demandées, le jeu
    de résultat est ordonné par <literal>FKTABLE_CAT</literal>, <literal>FKTABLE_SCHEM</literal>,
    <literal>FKTABLE_NAME</literal> et <literal>KEY_SEQ</literal>.
-   Si les clés primaires associées à une clé étrangère sont demandées, le jeu
+   Si les clés primaires associées avec une clé étrangère sont demandées, le jeu
    de résultat est ordonné par <literal>PKTABLE_CAT</literal>, <literal>PKTABLE_SCHEM</literal>,
    <literal>PKTABLE_NAME</literal> et <literal>KEY_SEQ</literal>.
   </simpara>

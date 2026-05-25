@@ -21,7 +21,7 @@ Ev::run(Ev::RUN_ONCE);
  </para>
  <simpara>
   Tous les constructeurs des watchers démarrent automatiquement les watchers.
-  Les méthodes <literal>createStopped</literal> créent des watchers stoppés (par exemple
+  Les méthodes <literal>createStopped</literal> créent des watchers stoppés (c.-à-d.
   <methodname>EvIo::createStopped</methodname>).
  </simpara>
  <simpara>
