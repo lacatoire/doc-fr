@@ -48,12 +48,7 @@
   </para>
  </refsect1>
 
- <refsect1 role="returnvalues">
-  &reftitle.returnvalues;
-  <para>
-   Retourne la chaîne en minuscule.
-  </para>
- </refsect1>
+ 
 
  <refsect1 role="changelog">
   &reftitle.changelog;

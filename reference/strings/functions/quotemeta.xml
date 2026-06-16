@@ -14,12 +14,12 @@
    <type>string</type><methodname>quotemeta</methodname>
    <methodparam><type>string</type><parameter>string</parameter></methodparam>
   </methodsynopsis>
-  <para>
+  <simpara>
    Retourne la chaîne <parameter>string</parameter>
    après avoir introduit un antislash (<literal>\</literal>)
    devant tous les caractères suivants :
    <screen>. \ + * ? [ ^ ] ( $ )</screen>
-  </para>
+  </simpara>
  </refsect1>
 
  <refsect1 role="parameters">

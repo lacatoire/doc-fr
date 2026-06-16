@@ -7,7 +7,7 @@
   <refpurpose>Comparaison binaire de chaînes</refpurpose>
  </refnamediv>
 
- <refsect1 role="description">
+ <refsect1 role="resultat">
   &reftitle.description;
   <methodsynopsis>
    <type>int</type><methodname>strcmp</methodname>

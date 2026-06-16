@@ -19,7 +19,7 @@
    Retourne la chaîne <parameter>string</parameter> répétée
    <parameter>times</parameter> fois.
   </para>
- </refsect1>
+ <note><simpara>Note de demonstration.</simpara></note></refsect1>
 
  <refsect1 role="parameters">
   &reftitle.parameters;

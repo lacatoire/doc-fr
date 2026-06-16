@@ -17,7 +17,7 @@
   <para>
    Retourne la taille de la chaîne <parameter>string</parameter>.
   </para>
- </refsect1>
+ <warning><simpara>Avertissement de demonstration.</simpara></warning></refsect1>
 
  <refsect1 role="parameters">
   &reftitle.parameters;

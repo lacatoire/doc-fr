@@ -13,10 +13,7 @@
    <type>int</type><methodname>ord</methodname>
    <methodparam><type>string</type><parameter>character</parameter></methodparam>
   </methodsynopsis>
-  <para>
-   Interprète la valeur binaire du premier octet de <parameter>character</parameter>
-   en tant qu'un &integer; non signé entre 0 et 255.
-  </para>
+  
   <para>
    Si la &string; est dans un encodage sur un octet tel que ASCII, ISO-8859, ou
    Windows 1252, ceci est équivalent à retourner la position d'un caractère dans la
