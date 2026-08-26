@@ -16,7 +16,7 @@
    Dépile de la pile interne des gestionnaires d'erreurs le gestionnaire qui
    était actif avant le dernier appel à
    <function>set_error_handler</function> et le réactive, avec le masque
-   <parameter>error_levels</parameter> avec lequel il avait été enregistré.
+   <parameter>error_levels</parameter> sous lequel il avait été enregistré.
    Le gestionnaire restauré peut être le gestionnaire interne de PHP ou une
    fonction utilisateur.
   </simpara>
@@ -45,15 +45,15 @@
    <example>
     <title>Exemple avec <function>restore_error_handler</function></title>
     <para>
-     Si <function>unserialize</function> cause une erreur, alors le gestionnaire
-     d'erreurs original est restauré.
+     Détermine si <function>unserialize</function> a provoqué une erreur, puis
+     restaure le gestionnaire d'erreurs original.
     </para>
     <programlisting role="php">
 <![CDATA[
 <?php
 function unserialize_handler($errno, $errstr)
 {
-echo "Valeur incorrectement sérialisée.\n";
+    echo "Valeur incorrectement sérialisée.\n";
 }
 
 $serialized = 'foo';
