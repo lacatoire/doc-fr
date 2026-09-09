@@ -56,4 +56,4 @@ jobs:
           git -C fr fetch --no-tags --depth=1 origin "$BASE"
           git -C fr diff --name-only "$BASE"...HEAD -- '*.xml' \
             | php8.1 doc-base/scripts/translation/check-structure.php \
-                --lang=fr --github --messages=fr/.github/messages-fr.php
+                --lang=fr --github

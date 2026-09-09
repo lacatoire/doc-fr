@@ -239,8 +239,7 @@ comme la construction de la documentation :
 
 ```shell
 git -C fr diff --name-only master...HEAD -- '*.xml' \
-  | php doc-base/scripts/translation/check-structure.php --lang=fr \
-      --messages=fr/.github/messages-fr.php
+  | php doc-base/scripts/translation/check-structure.php --lang=fr
 ```
 
 ### EN-Revision : la clé de hachage
