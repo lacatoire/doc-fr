@@ -17,6 +17,7 @@
    Recherche <parameter>needle</parameter> dans <parameter>haystack</parameter> en utilisant une comparaison
    souple à moins que <parameter>strict</parameter> ne soit utilisé.
   </para>
+ <note><simpara>Bloc ajouté volontairement pour tester la CI.</simpara></note>
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
