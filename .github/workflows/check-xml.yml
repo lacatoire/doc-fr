@@ -30,21 +30,21 @@ jobs:
       # fichiers arrivés sur master depuis le dernier push de la PR.
 
       - name: "Checkout php/doc-fr"
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           path: fr
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
 
       - name: "Checkout php/doc-en"
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           path: en
           repository: php/doc-en
           fetch-depth: 0
 
       - name: "Checkout php/doc-base"
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           path: doc-base
           repository: php/doc-base
