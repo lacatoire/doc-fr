@@ -31,7 +31,7 @@
  <simpara>
   Une extension PECL permet de surcharger certains opérateurs pour les objets.
   Pour plus d'informations, voir la section
-  <link linkend="book.operator">Surcharge d'opérateurs pour les objets</link>.
+  <link xlink:href="../extensions/book.operator.php">Surcharge d'opérateurs pour les objets</link>.
  </simpara>
 
  &language.operators.precedence;

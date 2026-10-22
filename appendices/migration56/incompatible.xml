@@ -108,7 +108,7 @@ array(3) {
  </sect2>
 
  <sect2 xml:id="migration56.incompatible.mcrypt">
-  <title>Les fonctions <link linkend="book.mcrypt">Mcrypt</link> requièrent maintenant des clés ou IV valides</title>
+  <title>Les fonctions <link xlink:href="../extensions/book.mcrypt.php">Mcrypt</link> requièrent maintenant des clés ou IV valides</title>
 
   <para>
    <function>mcrypt_encrypt</function>, <function>mcrypt_decrypt</function>,
