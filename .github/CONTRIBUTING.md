@@ -126,22 +126,8 @@ De plus la soft-limit du nombre de caractères par ligne est de 80.
 
 ### Exemple PHP
 
-Officiellement le groupe de documentation PHP a choisi d'utiliser les coding standards de PEAR,
-vous les trouverez ici : http://pear.php.net/manual/en/standards.php
-
-> En pratique néanmoins le coding style est un mélange entre PEAR et PSR-2/12,
-> essayez donc de suivre le style dans lequel la page a été écrite, ou celui de la documentation anglaise.
-
-Le code source PHP commence à la colonne zéro de l'exemple :
-```php
-<?php
-ca_commence_ici(); // bien
-  ca_commence_ici(); // pas bien
-?>
-```
-
-On notera aussi qu'on privilégie les `echo` à `print` (`echo` sans parenthèses).
-Tout le code est censé être compatible avec `error_reporting(E_ALL)`
+Les exemples suivent le guide officiel de la documentation PHP, commun à toutes les
+langues : https://doc.php.net/guide/cs-for-examples.md
 
 ## 5: Traduction, relectures et orthographe
 
