@@ -37,12 +37,14 @@ imposées sont dans [TRADUCTIONS.txt](TRADUCTIONS.txt).
 > [php/doc-en](https://github.com/php/doc-en) qu'il faut corriger, la traduction
 > française suivra.
 
-État de la traduction
----------------------
+<h2 align="center">État de la traduction</h2>
 
 <p align="center"><a href="https://doc.php.net/revcheck.php?lang=fr">
     <img src="https://doc.php.net/img-status-lang.php?lang=fr" alt="État de la traduction française" width="800">
 </a></p>
 
-- [Synthèse](https://doc.php.net/revcheck.php?p=filesummary&lang=fr)
-- [Fichiers à mettre à jour](https://doc.php.net/revcheck.php?p=files&lang=fr)
+<p align="center">
+  <a href="https://doc.php.net/revcheck.php?p=filesummary&lang=fr">Synthèse</a>
+  <span> | </span>
+  <a href="https://doc.php.net/revcheck.php?p=files&lang=fr">Fichiers à mettre à jour</a>
+</p>
