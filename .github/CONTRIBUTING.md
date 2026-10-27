@@ -22,23 +22,6 @@ https://www.php.net/manual/fr/
 5. Poussez la branche sur votre fork et ouvrez une pull request contre `php/doc-fr`
    ([Workflow git](#6-workflow-git)), avec des messages de commit en anglais.
 
-| Je veux... | Voir |
-|---|---|
-| Corriger une faute ou une erreur | [Coding style](#4-coding-style), [Traduction](#5-traduction-relectures-et-orthographe) |
-| Mettre à jour une page périmée | [Revision Tracking](#3-revision-tracking), [issues `[Sync EN]`](#issues-sync-en-automatiques) |
-| Traduire une nouvelle page | [Traduire une nouvelle page](#traduire-une-nouvelle-page) |
-
-## Sommaire
-
- 1. [Installation](#1-installation)
- 2. [Construire la documentation](#2-construire-la-documentation)
- 3. [Revision Tracking](#3-revision-tracking)
- 4. [Coding style](#4-coding-style)
- 5. [Traduction, relectures et orthographe](#5-traduction-relectures-et-orthographe)
- 6. [Workflow git](#6-workflow-git)
- 7. [Vérifier ses changements avant de pousser](#7-vérifier-ses-changements-avant-de-pousser)
- 8. [Commandes utiles](#8-commandes-utiles)
-
 ## 1: Installation
 
 Pour construire la documentation il faut posséder à minima les trois repository suivant :
@@ -114,19 +97,13 @@ amène à : http://doc.php.net/revcheck.php?p=files&lang=fr
 
 ### Issues `[Sync EN]` automatiques
 
-Un workflow (`track-en-changes`) tourne chaque jour à 6h UTC. Pour chaque commit
-récent de `php/doc-en` (branche `master`) qui touche un fichier déjà traduit ou
-un nouveau fichier XML, il ouvre une issue :
+Chaque jour, un workflow ouvre une issue `[Sync EN]` (label `sync-en`) pour chaque
+commit de `php/doc-en` qui touche un fichier traduit ou ajoute un fichier XML. Le corps
+liste les fichiers FR à mettre à jour et les nouveaux fichiers EN. Les commits dont le
+message contient `[skip-revcheck]` sont ignorés.
 
-- le titre est `[Sync EN]` suivi du message du commit anglais, le label est `sync-en` ;
-- le corps donne le commit (et la PR d'origine s'il y en a une), puis deux listes :
-  **Fichiers FR à mettre à jour** et **Nouveaux fichiers EN (pas encore traduits)** ;
-- un commit ne produit jamais deux issues, et `versions.xml` est ignoré ;
-- un commit anglais dont le message contient `[skip-revcheck]` ne génère pas d'issue.
-
-Pour traiter une de ces issues, reportez les changements du commit anglais dans
-les fichiers listés, mettez à jour `EN-Revision` (voir ci-dessus), puis écrivez
-`Fixes: #numéro` dans la description de la pull request pour refermer l'issue au merge.
+Pour en traiter une : reportez les changements, mettez à jour `EN-Revision`, puis
+écrivez `Fixes: #numéro` dans la pull request.
 
 ## 4: Coding style
 ### Fichier XML
@@ -235,13 +212,6 @@ Ne créez et pushez pas des branches différentes de ``master`` sur le repo git 
 
 Quatre vérifications automatiques tournent sur chaque pull request. Elles se
 rejouent en local, ce qui évite un aller-retour avec la CI.
-
-| Vérification | Ce qu'elle contrôle |
-|---|---|
-| [Style](#style--les-termes-proscrits) | termes proscrits de `TRADUCTIONS.txt` |
-| [Structure](#structure--lossature-des-blocs) | ossature des blocs comparée à l'anglais |
-| [EN-Revision](#en-revision--la-clé-de-hachage) | clé de hachage du dernier commit anglais |
-| [Espaces](#espaces) | fin de ligne, tabulations, lignes vides |
 
 Deux d'entre elles comparent les fichiers à la documentation anglaise, mais
 pas avec la même disposition. La vérification de structure se lance depuis le
