@@ -40,5 +40,9 @@ imposées sont dans [TRADUCTIONS.txt](TRADUCTIONS.txt).
 État de la traduction
 ---------------------
 
+<p align="center"><a href="https://doc.php.net/revcheck.php?lang=fr">
+    <img src="https://doc.php.net/img-status-lang.php?lang=fr" alt="État de la traduction française" width="420">
+</a></p>
+
 - [Synthèse](https://doc.php.net/revcheck.php?p=filesummary&lang=fr)
 - [Fichiers à mettre à jour](https://doc.php.net/revcheck.php?p=files&lang=fr)
