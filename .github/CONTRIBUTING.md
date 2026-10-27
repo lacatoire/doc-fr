@@ -211,17 +211,9 @@ suffit :
 ln -s ../en en
 ```
 
-### Style : les termes proscrits
+### Style
 
-Les lignes `INTERDIT : "X" → "Y"` de `TRADUCTIONS.txt` sont vérifiées
-automatiquement. Le script lit ces lignes dynamiquement : c'est bien
-`TRADUCTIONS.txt` qui fait foi, aucune règle n'est codée en dur.
-
-```shell
-node .github/scripts/check-style-fr.mjs fichier1.xml fichier2.xml
-```
-
-Sans argument, il vérifie tous les fichiers `.xml` du dépôt.
+Les termes proscrits sont listés dans `TRADUCTIONS.txt` (lignes `INTERDIT`), qui fait foi.
 
 ### Structure : l'ossature des blocs
 
