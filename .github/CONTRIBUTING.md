@@ -3,24 +3,41 @@
 Ce document a pour but d'expliquer comment participer à la rédaction de la
 documentation française de PHP.
 
-Si vous voulez lire la documentation et non la rédiger, allez voir le site PHP.net :
+Pour **lire** la documentation et non la rédiger, allez sur
 https://www.php.net/manual/fr/
 
-De plus, si une erreur est présente dans la documentation, vérifiez qu'elle ne se
-trouve pas non plus dans la documentation anglaise, si oui, corrigez celle-ci d'abord.
-La traduction française suivra la modification faite dans la documentation anglaise.
+> [!NOTE]
+> Si une erreur est présente dans la documentation, vérifiez qu'elle ne se
+> trouve pas aussi dans la documentation anglaise. Si oui, corrigez celle-ci
+> d'abord : la traduction française suivra.
 
-# Sommaire
+## Démarrage rapide
 
- 1. Installation
- 2. Construire la documentation
- 3. Revision Tracking
- 4. Coding Standard
- 5. Traduction, relectures et orthographe
- 6. Workflow git
- 7. Vérifier ses changements avant de pousser
- 8. Commandes utiles
+1. Faites un fork de `php/doc-fr` et clonez-le (voir [Installation](#1-installation)).
+2. Créez une branche à partir de `master`.
+3. Modifiez le fichier XML en respectant le [coding style](#4-coding-style). Pour
+   une mise à jour, changez aussi la clé de hachage `EN-Revision`
+   ([Revision Tracking](#3-revision-tracking)).
+4. [Vérifiez vos changements](#7-vérifier-ses-changements-avant-de-pousser).
+5. Poussez la branche sur votre fork et ouvrez une pull request contre `php/doc-fr`
+   ([Workflow git](#6-workflow-git)), avec des messages de commit en anglais.
 
+| Je veux... | Voir |
+|---|---|
+| Corriger une faute ou une erreur | [Coding style](#4-coding-style), [Traduction](#5-traduction-relectures-et-orthographe) |
+| Mettre à jour une page périmée | [Revision Tracking](#3-revision-tracking) |
+| Traduire une nouvelle page | [Traduire une nouvelle page](#traduire-une-nouvelle-page) |
+
+## Sommaire
+
+ 1. [Installation](#1-installation)
+ 2. [Construire la documentation](#2-construire-la-documentation)
+ 3. [Revision Tracking](#3-revision-tracking)
+ 4. [Coding style](#4-coding-style)
+ 5. [Traduction, relectures et orthographe](#5-traduction-relectures-et-orthographe)
+ 6. [Workflow git](#6-workflow-git)
+ 7. [Vérifier ses changements avant de pousser](#7-vérifier-ses-changements-avant-de-pousser)
+ 8. [Commandes utiles](#8-commandes-utiles)
 
 ## 1: Installation
 
@@ -202,6 +219,13 @@ Ne créez et pushez pas des branches différentes de ``master`` sur le repo git 
 
 Quatre vérifications automatiques tournent sur chaque pull request. Elles se
 rejouent en local, ce qui évite un aller-retour avec la CI.
+
+| Vérification | Ce qu'elle contrôle |
+|---|---|
+| [Style](#style--les-termes-proscrits) | termes proscrits de `TRADUCTIONS.txt` |
+| [Structure](#structure--lossature-des-blocs) | ossature des blocs comparée à l'anglais |
+| [EN-Revision](#en-revision--la-clé-de-hachage) | clé de hachage du dernier commit anglais |
+| [Espaces](#espaces) | fin de ligne, tabulations, lignes vides |
 
 Deux d'entre elles comparent les fichiers à la documentation anglaise, mais
 pas avec la même disposition. La vérification de structure se lance depuis le
