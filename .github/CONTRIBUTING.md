@@ -25,7 +25,7 @@ https://www.php.net/manual/fr/
 | Je veux... | Voir |
 |---|---|
 | Corriger une faute ou une erreur | [Coding style](#4-coding-style), [Traduction](#5-traduction-relectures-et-orthographe) |
-| Mettre à jour une page périmée | [Revision Tracking](#3-revision-tracking) |
+| Mettre à jour une page périmée | [Revision Tracking](#3-revision-tracking), [issues `[Sync EN]`](#issues-sync-en-automatiques) |
 | Traduire une nouvelle page | [Traduire une nouvelle page](#traduire-une-nouvelle-page) |
 
 ## Sommaire
@@ -111,6 +111,22 @@ de PHP : http://doc.php.net/revcheck.php?p=filesummary&lang=fr
 
 Pour voir les fichiers qui doivent être mise à jour, allez sur le lien "Outdated Files" qui
 amène à : http://doc.php.net/revcheck.php?p=files&lang=fr
+
+### Issues `[Sync EN]` automatiques
+
+Un workflow (`track-en-changes`) tourne chaque jour à 6h UTC. Pour chaque commit
+récent de `php/doc-en` (branche `master`) qui touche un fichier déjà traduit ou
+un nouveau fichier XML, il ouvre une issue :
+
+- le titre est `[Sync EN]` suivi du message du commit anglais, le label est `sync-en` ;
+- le corps donne le commit (et la PR d'origine s'il y en a une), puis deux listes :
+  **Fichiers FR à mettre à jour** et **Nouveaux fichiers EN (pas encore traduits)** ;
+- un commit ne produit jamais deux issues, et `versions.xml` est ignoré ;
+- un commit anglais dont le message contient `[skip-revcheck]` ne génère pas d'issue.
+
+Pour traiter une de ces issues, reportez les changements du commit anglais dans
+les fichiers listés, mettez à jour `EN-Revision` (voir ci-dessus), puis écrivez
+`Fixes: #numéro` dans la description de la pull request pour refermer l'issue au merge.
 
 ## 4: Coding style
 ### Fichier XML
