@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://www.php.net/manual/fr/">Lire le manuel</a>
   <span> | </span>
-  <a href="CONTRIBUTING.md">Contribuer</a>
+  <a href=".github/CONTRIBUTING.md">Contribuer</a>
   <span> | </span>
   <a href="TRADUCTIONS.txt">Terminologie</a>
   <span> | </span>
@@ -28,7 +28,7 @@ Contribuer
 ----------
 
 Les contributions sont les bienvenues. Le guide du contributeur est dans
-[CONTRIBUTING.md](CONTRIBUTING.md). La terminologie et les règles de style
+[CONTRIBUTING.md](.github/CONTRIBUTING.md). La terminologie et les règles de style
 imposées sont dans [TRADUCTIONS.txt](TRADUCTIONS.txt).
 
 > [!NOTE]
